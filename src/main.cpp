@@ -1,6 +1,8 @@
 #include "config/system_config.h"
 #include "acquisition/acquisition.h"
 #include "drivers/i2c_bus.h"
+#include "processing/sample_stream.h"
+#include "processing/inference.h"
 
 #include "esp_chip_info.h"
 #include "esp_err.h"
@@ -85,5 +87,18 @@ extern "C" void app_main(void)
     ESP_LOGI(TAG, "Sistema em execucao. Heap livre: %lu bytes",
              (unsigned long)esp_get_free_heap_size());
 
-    // app_main pode retornar: as tarefas do FreeRTOS continuam rodando.
+    if (!sampleStreamInit())
+    {
+        fatalError("falha ao criar a fila de amostras");
+    }
+
+    if (!inferenceStart())
+    {
+        fatalError("falha ao iniciar a inferencia");
+    }
+
+    if (!acquisitionStart())
+    {
+        fatalError("falha ao iniciar a aquisicao");
+    }
 }

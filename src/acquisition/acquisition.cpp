@@ -8,6 +8,10 @@
 #include "esp_timer.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
+#include "../processing/sample_stream.h"
+
+// Mude para 9.80665f se o dataset do Edge Impulse estiver em m/s2
+static constexpr float ACCEL_UNIT_SCALE = 1.0f;
 
 static const char* TAG = "ACQ";
 
@@ -51,7 +55,13 @@ static void acquisitionTask(void* parameter)
 
         samples++;
 
-        // Futuramente: enviar ina/adxl para o buffer circular
+        const SampleFrame frame{
+            adxl.x * ACCEL_UNIT_SCALE,
+            adxl.y * ACCEL_UNIT_SCALE,
+            adxl.z * ACCEL_UNIT_SCALE,
+            ina.current
+        };
+        sampleStreamPush(frame);
 
         const int64_t now = esp_timer_get_time();
         if (now - lastReport >= REPORT_INTERVAL_US)
