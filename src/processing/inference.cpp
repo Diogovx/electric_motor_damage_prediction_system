@@ -8,11 +8,11 @@
 
 #include <string.h>
 
-// Ative so na Parte B, depois de integrar a biblioteca do Edge Impulse:
-// #define ENABLE_INFERENCE 1
+#define ENABLE_INFERENCE 1
 
 #ifdef ENABLE_INFERENCE
-#include "NOME_DO_PROJETO_inferencing.h"   // troque pelo nome do header exportado
+#include "edge-impulse-sdk/classifier/ei_run_classifier.h"
+using namespace ei;
 #endif
 
 namespace

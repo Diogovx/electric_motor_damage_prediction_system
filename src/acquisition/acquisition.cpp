@@ -10,7 +10,6 @@
 #include "freertos/task.h"
 #include "../processing/sample_stream.h"
 
-// Mude para 9.80665f se o dataset do Edge Impulse estiver em m/s2
 static constexpr float ACCEL_UNIT_SCALE = 1.0f;
 
 static const char* TAG = "ACQ";
@@ -122,13 +121,21 @@ bool acquisitionInit()
 
 bool acquisitionStart()
 {
-    // Nucleo 1: deixa o nucleo 0 para o sistema (e depois para a inferencia)
+    static TaskHandle_t handle = nullptr;
+
+    if (handle != nullptr)
+    {
+        ESP_LOGW(TAG, "Aquisicao ja iniciada, ignorando");
+        return true;
+    }
+
     const BaseType_t result = xTaskCreatePinnedToCore(
-        acquisitionTask, "acquisition", 4096, nullptr, 5, nullptr, 1);
+        acquisitionTask, "acquisition", 4096, nullptr, 5, &handle, 1);
 
     if (result != pdPASS)
     {
         ESP_LOGE(TAG, "Falha ao criar a tarefa de aquisicao");
+        handle = nullptr;
         return false;
     }
 
