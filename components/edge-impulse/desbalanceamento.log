@@ -1,0 +1,1 @@
+UserSideException: `pio device monitor` requires an interactive terminal on stdin and cannot run with piped or redirected input. If you're scripting device I/O, talk to the serial port directly instead (e.g., with pyserial) rather than through `pio device monitor`.

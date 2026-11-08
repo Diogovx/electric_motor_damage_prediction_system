@@ -3,6 +3,7 @@
 #include "drivers/i2c_bus.h"
 #include "processing/sample_stream.h"
 #include "processing/inference.h"
+#include "model/model_store.h"
 
 #include "esp_chip_info.h"
 #include "esp_err.h"
@@ -15,9 +16,9 @@ static const char* TAG = "MAIN";
 
 // Apenas durante o desenvolvimento: espera o monitor reconectar apos o reset
 // da USB nativa. Coloque 0 na versao final.
-static constexpr uint32_t BOOT_LOG_DELAY_MS = 5000;
+static constexpr uint32_t BOOT_LOG_DELAY_MS = 10000;
 
-static constexpr uint8_t ADXL345_ADDR = 0x53;  // SDO em GND (0x1D se SDO em 3V3)
+static constexpr uint8_t ADXL345_ADDR = 0x53;
 static constexpr uint8_t INA219_ADDR = 0x40;
 
 [[noreturn]] static void fatalError(const char* message)
@@ -65,6 +66,11 @@ extern "C" void app_main(void)
     const auto& config = getSensorConfiguration();
 
     const esp_err_t err = i2cBusInit();
+    ModelInfo model{};
+    if (!modelStoreOpen(0, model))
+    {
+        ESP_LOGW(TAG, "Sem modelo valido no slot A: a aquisicao continua, sem inferencia");
+    }
     if (err != ESP_OK)
     {
         ESP_LOGE(TAG, "I2C: %s", esp_err_to_name(err));
@@ -97,8 +103,5 @@ extern "C" void app_main(void)
         fatalError("falha ao iniciar a inferencia");
     }
 
-    if (!acquisitionStart())
-    {
-        fatalError("falha ao iniciar a aquisicao");
-    }
+    
 }

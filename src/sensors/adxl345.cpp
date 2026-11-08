@@ -9,7 +9,7 @@ namespace
 {
     constexpr char TAG[] = "ADXL345";
 
-    constexpr uint8_t ADDR = 0x53;  // SDO em GND (use 0x1D se SDO em 3V3)
+    constexpr uint8_t ADDR = 0x53;
 
     constexpr uint8_t REG_DEVID       = 0x00;
     constexpr uint8_t REG_BW_RATE     = 0x2C;
@@ -17,7 +17,7 @@ namespace
     constexpr uint8_t REG_DATA_FORMAT = 0x31;
     constexpr uint8_t REG_DATAX0      = 0x32;
 
-    constexpr float G_PER_LSB = 0.0039f;  // full resolution: 3,9 mg/LSB
+    constexpr float G_PER_LSB = 0.004f;
     constexpr int TIMEOUT_MS = 20;
 
     i2c_master_dev_handle_t dev = nullptr;
@@ -75,7 +75,7 @@ bool adxl345Init()
 
     bool ok = true;
     ok &= writeReg(REG_BW_RATE, 0x0A);      // 100 Hz
-    ok &= writeReg(REG_DATA_FORMAT, 0x08);  // full resolution, +-2 g
+    ok &= writeReg(REG_DATA_FORMAT, 0x0B);
     ok &= writeReg(REG_POWER_CTL, 0x08);    // modo medicao
 
     if (!ok)

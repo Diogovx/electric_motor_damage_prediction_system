@@ -10,7 +10,7 @@
 #include "freertos/task.h"
 #include "../processing/sample_stream.h"
 
-static constexpr float ACCEL_UNIT_SCALE = 1.0f;
+static constexpr float ACCEL_UNIT_SCALE = 9.80665f;
 
 static const char* TAG = "ACQ";
 

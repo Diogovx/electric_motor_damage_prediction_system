@@ -112,7 +112,7 @@
 
 #ifndef EIDSP_USE_ESP_DSP
 #if defined(ESP32) || defined(CONFIG_IDF_TARGET_ESP32) || defined(CONFIG_IDF_TARGET_ESP32S3) || defined(CONFIG_IDF_TARGET_ESP32P4) || defined(CONFIG_IDF_TARGET_ESP32C3)
-#define EIDSP_USE_ESP_DSP 1
+#define EIDSP_USE_ESP_DSP 0
 #else
 #define EIDSP_USE_ESP_DSP 0
 #endif
