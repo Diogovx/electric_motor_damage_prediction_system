@@ -1,0 +1,19 @@
+{
+  "version": 3,
+  "motor": "jgb37-520",
+  "sensors": [
+    { "type": "ADXL345", "address": "0x53", "range_g": 16 },
+    { "type": "INA219",  "address": "0x40", "gain": 3 }
+  ],
+  "window": { "sampling_hz": 100, "size_ms": 2560, "stride_ms": 128 },
+  "dsp": {
+    "fft_length": 16, "peaks": 3, "peaks_threshold": 0.1,
+    "power_edges": [0.1, 0.5, 1.0, 2.0, 5.0], "do_log": true, "filter": "none"
+  },
+  "model": {
+    "path": "/model.tflite",
+    "arena_bytes": 8192,
+    "sha256": "a28b4c43318b7315f7f75ae2cba5df2252b9994b9750b2ad639f1950db7f75bb",
+    "labels": ["Desbalanceamento", "Falha de Engrenagem", "Saudavel"]
+  }
+}

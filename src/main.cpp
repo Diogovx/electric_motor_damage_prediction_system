@@ -3,12 +3,14 @@
 #include "drivers/i2c_bus.h"
 #include "processing/sample_stream.h"
 #include "processing/inference.h"
-#include "model/model_store.h"
+#include "storage/storage.h"
+#include "model/model_manager.h"
 
 #include "esp_chip_info.h"
 #include "esp_err.h"
 #include "esp_log.h"
 #include "esp_system.h"
+#include "esp_timer.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 
@@ -66,11 +68,6 @@ extern "C" void app_main(void)
     const auto& config = getSensorConfiguration();
 
     const esp_err_t err = i2cBusInit();
-    ModelInfo model{};
-    if (!modelStoreOpen(0, model))
-    {
-        ESP_LOGW(TAG, "Sem modelo valido no slot A: a aquisicao continua, sem inferencia");
-    }
     if (err != ESP_OK)
     {
         ESP_LOGE(TAG, "I2C: %s", esp_err_to_name(err));
@@ -79,6 +76,33 @@ extern "C" void app_main(void)
 
     checkDevice("ADXL345", ADXL345_ADDR, config.adxl345Enabled);
     checkDevice("INA219", INA219_ADDR, config.ina219Enabled);
+
+    // TESTE TEMPORARIO do ModelManager: sera movido para o SystemController
+    if (storageInit() == ESP_OK)
+    {
+        static ModelManager modelManager;
+        if (modelManager.loadModelFromFS("/storage/model_a.tflite"))
+        {
+            float features[52] = {0};
+            const int cls = modelManager.runInterference(features);
+            ESP_LOGI(TAG, "Teste do modelo (entrada zerada): classe %d", cls);
+        }
+    }
+    else
+    {
+        ESP_LOGW(TAG, "Sem sistema de arquivos: seguindo sem o ModelManager");
+    }
+
+    // Ordem importa: fila -> consumidor (inferencia) -> produtor (aquisicao)
+    if (!sampleStreamInit())
+    {
+        fatalError("falha ao criar a fila de amostras");
+    }
+
+    if (!inferenceStart())
+    {
+        fatalError("falha ao iniciar a inferencia");
+    }
 
     if (!acquisitionInit())
     {
@@ -92,16 +116,4 @@ extern "C" void app_main(void)
 
     ESP_LOGI(TAG, "Sistema em execucao. Heap livre: %lu bytes",
              (unsigned long)esp_get_free_heap_size());
-
-    if (!sampleStreamInit())
-    {
-        fatalError("falha ao criar a fila de amostras");
-    }
-
-    if (!inferenceStart())
-    {
-        fatalError("falha ao iniciar a inferencia");
-    }
-
-    
 }
