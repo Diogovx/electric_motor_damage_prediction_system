@@ -1,3 +1,5 @@
 #pragma once
 
-bool inferenceStart();
+class ModelManager;
+
+bool inferenceStart(ModelManager* model);

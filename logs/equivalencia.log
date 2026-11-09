@@ -1,0 +1,760 @@
+rst:0x15 (USB_UART_CHIP_RESET),boot:0xa (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4202878e
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x14f0
+load:0x403c8700,len:0xda0
+load:0x403cb700,len:0x2f58
+entry 0x403c8900
+I (24) boot: ESP-IDF 6.0.1 2nd stage bootloader
+I (24) boot: compile time Nov  8 2026 20:12:13
+I (25) boot: Multicore bootloader
+I (26) boot: chip revision: v0.2
+I (27) boot: efuse block revision: v1.3
+I (31) boot.esp32s3: Boot SPI Speed : 80MHz
+I (35) boot.esp32s3: SPI Mode       : DIO
+I (39) boot.esp32s3: SPI Flash Size : 8MB
+I (42) boot: Enabling RNG early entropy source...
+I (47) boot: Partition Table:
+I (49) boot: ## Label            Usage          Type ST Offset   Length
+I (56) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (62) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+I (69) boot:  2 factory          factory app      00 00 00010000 00200000
+I (75) boot:  3 storage          Unknown data     01 82 00210000 00100000
+I (82) boot: End of partition table
+I (85) esp_image: segment 0: paddr=00010020 vaddr=3c040020 size=12d3ch ( 77116) map
+I (106) esp_image: segment 1: paddr=00022d64 vaddr=3fc90e00 size=03484h ( 13444) load
+I (110) esp_image: segment 2: paddr=000261f0 vaddr=40374000 size=09e28h ( 40488) load
+I (119) esp_image: segment 3: paddr=00030020 vaddr=42000020 size=304c4h (197828) map
+I (155) esp_image: segment 4: paddr=000604ec vaddr=4037de28 size=02f34h ( 12084) load
+I (159) esp_image: segment 5: paddr=00063428 vaddr=50000000 size=00024h (    36) load
+I (165) boot: Loaded app from partition at offset 0x10000
+I (165) boot: Disabling RNG early entropy source...
+I (181) cpu_start: Multicore app
+I (189) cpu_start: GPIO 44 and 43 are used as console UART I/O pins
+I (190) cpu_start: Pro cpu start user code
+I (190) cpu_start: cpu freq: 160000000 Hz
+I (192) app_init: Application information:
+I (195) app_init: Project name:     tcc_monitoramento2
+I (200) app_init: App version:      318fa63-dirty
+I (205) app_init: Compile time:     Nov  8 2026 20:12:00
+I (210) app_init: ELF file SHA256:  66d96cf7d...
+I (214) app_init: ESP-IDF:          6.0.1
+I (218) efuse_init: Min chip rev:     v0.0
+I (222) efuse_init: Max chip rev:     v0.99 
+I (226) efuse_init: Chip rev:         v0.2
+I (229) heap_init: Initializing. RAM available for dynamic allocation:
+I (236) heap_init: At 3FC974C0 len 00052250 (328 KiB): RAM
+I (241) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM
+I (246) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM
+I (251) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM
+I (257) spi_flash: detected chip: boya
+I (260) spi_flash: flash io: dio
+W (263) spi_flash: Detected size(16384k) larger than the size in the binary image header(8192k). Using the size in the binary image header.
+I (276) sleep_gpio: Configure to isolate all GPIO pins in sleep state
+I (282) sleep_gpio: Enable automatic switching of GPIO sleep configuration
+I (289) main_task: Started on CPU0
+I (299) main_task: Calling app_main()
+I (10299) MAIN: === Diagnostico de falhas em motores (TinyML) ===
+I (10299) MAIN: ESP32-S3 | 2 nucleos | IDF 6.0.1
+I (10299) MAIN: Heap livre: 382980 bytes
+I (10299) I2C_BUS: Barramento I2C inicializado
+I (10299) I2C_BUS: SDA: GPIO 8
+I (10299) I2C_BUS: SCL: GPIO 9
+I (10309) MAIN: ADXL345 respondeu em 0x53
+I (10309) MAIN: INA219 respondeu em 0x40
+I (10319) STORAGE: LittleFS montado em /storage: 16384 de 1048576 bytes usados
+I (10329) MODEL_MGR: Modelo lido de /storage/model_a.tflite (3776 bytes)
+I (10329) MODEL_MGR: Pronto: entrada 52 valores (int8, scale=0.685444, zp=-124), saida 3 classes
+I (10339) INFER: Tarefa de inferencia em execucao (nucleo 0)
+I (10339) INA219: OK (endereco 0x40, config 0x399F, shunt 0.100 ohm)
+I (10349) ADXL345: OK (endereco 0x53, 100 Hz, +-16 g)
+I (10349) ACQ: Tarefa de aquisicao em execucao (nucleo 1)
+I (10349) MAIN: Sistema em execucao. Heap livre: 343908 bytes
+I (10359) main_task: Returned from app_main()
+I (11359) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=1
+I (11359) ACQ: ultima: I=141.3 mA | a=(4.354, 6.825, 12.121) m/s2
+I (12359) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (12359) ACQ: ultima: I=144.2 mA | a=(3.570, 5.688, 10.866) m/s2
+I (12969) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (12969) INFER: 1 janelas/s | amostras perdidas=0
+I (13099) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (13229) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (13359) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (13359) ACQ: ultima: I=203.7 mA | a=(0.941, 2.040, 12.043) m/s2
+I (13359) INFER: Saudavel (99.6%) | DSP 59 ms, NN 4 ms
+I (13429) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (13429) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 796 us
+I (13489) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (13619) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (13749) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (13879) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (13939) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (13949) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 757 us
+I (14009) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (14009) INFER: 8 janelas/s | amostras perdidas=0
+I (14139) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (14269) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (14369) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (14369) ACQ: ultima: I=116.2 mA | a=(2.001, 0.353, 10.199) m/s2
+I (14399) INFER: Saudavel (99.6%) | DSP 60 ms, NN 3 ms
+I (14459) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (14469) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 799 us
+I (14529) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (14659) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (14789) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (14919) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (14979) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (14989) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 809 us
+I (15049) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (15049) INFER: 8 janelas/s | amostras perdidas=0
+I (15179) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (15309) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (15379) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (15379) ACQ: ultima: I=121.2 mA | a=(2.197, 0.549, 10.513) m/s2
+I (15439) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (15499) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (15509) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 809 us
+I (15569) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (15699) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (15829) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (15959) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (16019) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (16029) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 809 us
+I (16089) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (16089) INFER: 8 janelas/s | amostras perdidas=0
+I (16219) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (16349) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (16379) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (16379) ACQ: ultima: I=143.1 mA | a=(-0.353, -4.354, 11.886) m/s2
+I (16479) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (16539) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (16549) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 811 us
+I (16609) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (16739) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (16869) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (16999) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (17059) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (17069) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 811 us
+I (17129) INFER: Saudavel (98.0%) | DSP 59 ms, NN 3 ms
+I (17129) INFER: 8 janelas/s | amostras perdidas=0
+I (17259) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (17379) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (17379) ACQ: ultima: I=78.1 mA | a=(-1.059, -4.511, 11.062) m/s2
+I (17389) INFER: Saudavel (99.6%) | DSP 60 ms, NN 3 ms
+I (17519) INFER: Saudavel (98.4%) | DSP 59 ms, NN 3 ms
+I (17579) INFER: EQ ref: 0.0000 0.0156 0.9844
+I (17589) MODEL_MGR: probs: 0.000 0.016 0.984 | classe 2 | invoke 810 us
+I (17649) INFER: Saudavel (99.2%) | DSP 59 ms, NN 3 ms
+I (17779) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (17909) INFER: Saudavel (98.4%) | DSP 59 ms, NN 3 ms
+I (18039) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (18099) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (18109) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 810 us
+I (18169) INFER: Saudavel (94.5%) | DSP 59 ms, NN 3 ms
+I (18169) INFER: 8 janelas/s | amostras perdidas=0
+I (18299) INFER: Saudavel (97.3%) | DSP 59 ms, NN 3 ms
+I (18379) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (18379) ACQ: ultima: I=93.7 mA | a=(2.824, 0.353, 10.591) m/s2
+I (18429) INFER: Saudavel (99.6%) | DSP 60 ms, NN 3 ms
+I (18559) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (18619) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (18629) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 811 us
+I (18689) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (18819) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (18949) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (19079) INFER: Saudavel (98.8%) | DSP 59 ms, NN 3 ms
+I (19139) INFER: EQ ref: 0.0000 0.0117 0.9883
+I (19149) MODEL_MGR: probs: 0.000 0.012 0.988 | classe 2 | invoke 810 us
+I (19209) INFER: Saudavel (74.2%) | DSP 59 ms, NN 3 ms
+I (19209) INFER: 8 janelas/s | amostras perdidas=0
+I (19339) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (19389) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (19389) ACQ: ultima: I=116.2 mA | a=(-0.902, -7.885, 11.023) m/s2
+I (19469) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (19599) INFER: Saudavel (66.8%) | DSP 59 ms, NN 3 ms
+I (19659) INFER: EQ ref: 0.0000 0.3320 0.6680
+I (19669) MODEL_MGR: probs: 0.000 0.332 0.668 | classe 2 | invoke 810 us
+I (19729) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (19859) INFER: Saudavel (96.1%) | DSP 59 ms, NN 3 ms
+I (19989) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (20119) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (20179) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (20189) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 810 us
+I (20249) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (20249) INFER: 8 janelas/s | amostras perdidas=0
+I (20379) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (20389) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (20389) ACQ: ultima: I=184.2 mA | a=(4.276, -2.785, 9.611) m/s2
+I (20509) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (20639) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (20699) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (20709) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 811 us
+I (20769) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (20899) INFER: Saudavel (98.0%) | DSP 59 ms, NN 3 ms
+I (21029) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (21159) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (21219) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (21229) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 809 us
+I (21289) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (21289) INFER: 8 janelas/s | amostras perdidas=0
+I (21399) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (21399) ACQ: ultima: I=103.0 mA | a=(2.236, 4.903, 11.533) m/s2
+I (21419) INFER: Saudavel (99.6%) | DSP 60 ms, NN 3 ms
+I (21549) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (21679) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (21739) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (21749) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 811 us
+I (21809) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (21939) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (22069) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (22199) INFER: Saudavel (99.2%) | DSP 59 ms, NN 3 ms
+I (22259) INFER: EQ ref: 0.0000 0.0078 0.9922
+I (22269) MODEL_MGR: probs: 0.000 0.008 0.992 | classe 2 | invoke 807 us
+I (22329) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (22329) INFER: 8 janelas/s | amostras perdidas=0
+I (22409) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (22409) ACQ: ultima: I=106.5 mA | a=(3.491, 5.845, 9.807) m/s2
+I (22459) INFER: Saudavel (99.6%) | DSP 60 ms, NN 3 ms
+I (22589) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (22719) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (22779) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (22789) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 810 us
+I (22849) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (22979) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (23109) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (23239) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (23299) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (23309) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 810 us
+I (23369) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (23369) INFER: 8 janelas/s | amostras perdidas=0
+I (23419) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (23419) ACQ: ultima: I=177.0 mA | a=(-1.020, -7.375, 10.474) m/s2
+I (23499) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (23629) INFER: Saudavel (98.8%) | DSP 59 ms, NN 3 ms
+I (23759) INFER: Saudavel (98.4%) | DSP 59 ms, NN 3 ms
+I (23819) INFER: EQ ref: 0.0000 0.0156 0.9844
+I (23829) MODEL_MGR: probs: 0.000 0.016 0.984 | classe 2 | invoke 807 us
+I (23889) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (24019) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (24149) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (24279) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (24339) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (24349) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 810 us
+I (24409) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (24409) INFER: 8 janelas/s | amostras perdidas=0
+I (24419) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (24419) ACQ: ultima: I=104.1 mA | a=(-1.569, -5.492, 11.140) m/s2
+I (24539) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (24669) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (24799) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (24859) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (24869) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 812 us
+I (24929) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (25059) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (25189) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (25319) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (25379) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (25389) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 811 us
+I (25429) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (25429) ACQ: ultima: I=221.6 mA | a=(4.707, 1.687, 11.493) m/s2
+I (25449) INFER: Saudavel (96.1%) | DSP 60 ms, NN 3 ms
+I (25459) INFER: 8 janelas/s | amostras perdidas=0
+I (25579) INFER: Saudavel (96.1%) | DSP 59 ms, NN 3 ms
+I (25709) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (25839) INFER: Saudavel (99.2%) | DSP 59 ms, NN 3 ms
+I (25899) INFER: EQ ref: 0.0000 0.0078 0.9922
+I (25909) MODEL_MGR: probs: 0.000 0.008 0.992 | classe 2 | invoke 808 us
+I (25969) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (26099) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (26229) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (26359) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (26419) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (26429) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 811 us
+I (26439) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (26439) ACQ: ultima: I=211.8 mA | a=(-0.078, -8.944, 10.277) m/s2
+I (26489) INFER: Saudavel (98.8%) | DSP 60 ms, NN 3 ms
+I (26499) INFER: 8 janelas/s | amostras perdidas=0
+I (26619) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (26749) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (26879) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (26939) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (26949) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 810 us
+I (27009) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (27139) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (27269) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (27399) INFER: Saudavel (92.2%) | DSP 59 ms, NN 3 ms
+I (27449) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (27449) ACQ: ultima: I=177.4 mA | a=(1.020, -4.472, 11.729) m/s2
+I (27459) INFER: EQ ref: 0.0000 0.0781 0.9219
+I (27469) MODEL_MGR: probs: 0.000 0.078 0.922 | classe 2 | invoke 797 us
+I (27529) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (27529) INFER: 8 janelas/s | amostras perdidas=0
+I (27659) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (27789) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (27919) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (27979) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (27989) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 811 us
+I (28049) INFER: Saudavel (98.0%) | DSP 59 ms, NN 3 ms
+I (28179) INFER: Saudavel (97.3%) | DSP 59 ms, NN 3 ms
+I (28309) INFER: Saudavel (92.2%) | DSP 59 ms, NN 3 ms
+I (28439) INFER: Saudavel (85.5%) | DSP 59 ms, NN 3 ms
+I (28449) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (28449) ACQ: ultima: I=216.4 mA | a=(-1.530, -7.806, 12.121) m/s2
+I (28499) INFER: EQ ref: 0.0000 0.1445 0.8555
+I (28509) MODEL_MGR: probs: 0.000 0.145 0.855 | classe 2 | invoke 798 us
+I (28569) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (28569) INFER: 8 janelas/s | amostras perdidas=0
+I (28699) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (28829) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (28959) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (29019) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (29029) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 811 us
+I (29089) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (29219) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (29349) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (29459) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (29459) ACQ: ultima: I=117.3 mA | a=(6.002, 11.297, 11.376) m/s2
+I (29479) INFER: Saudavel (99.6%) | DSP 60 ms, NN 3 ms
+I (29539) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (29549) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 798 us
+I (29609) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (29609) INFER: 8 janelas/s | amostras perdidas=0
+I (29739) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (29869) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (29999) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (30059) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (30069) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 811 us
+I (30129) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (30259) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (30389) INFER: Saudavel (98.8%) | DSP 59 ms, NN 3 ms
+I (30469) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (30469) ACQ: ultima: I=178.8 mA | a=(1.491, 2.236, 11.533) m/s2
+I (30519) INFER: Saudavel (99.2%) | DSP 60 ms, NN 3 ms
+I (30579) INFER: EQ ref: 0.0000 0.0078 0.9922
+I (30589) MODEL_MGR: probs: 0.000 0.008 0.992 | classe 2 | invoke 801 us
+I (30649) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (30649) INFER: 8 janelas/s | amostras perdidas=0
+I (30779) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (30909) INFER: Saudavel (97.3%) | DSP 59 ms, NN 3 ms
+I (31039) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (31099) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (31109) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 810 us
+I (31169) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (31299) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (31429) INFER: Saudavel (99.2%) | DSP 59 ms, NN 3 ms
+I (31479) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (31479) ACQ: ultima: I=154.7 mA | a=(1.883, -4.707, 10.630) m/s2
+I (31559) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (31619) INFER: EQ ref: 0.0000 0.0039 0.9961
+I (31629) MODEL_MGR: probs: 0.000 0.004 0.996 | classe 2 | invoke 809 us
+I (31689) INFER: Saudavel (98.8%) | DSP 59 ms, NN 3 ms
+I (31689) INFER: 8 janelas/s | amostras perdidas=0
+I (31819) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (31949) INFER: Saudavel (99.2%) | DSP 59 ms, NN 3 ms
+I (32079) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (32139) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (32149) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 810 us
+I (32209) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (32339) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (32469) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (32479) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (32479) ACQ: ultima: I=125.8 mA | a=(0.314, -4.393, 11.846) m/s2
+I (32599) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (32659) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (32669) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 811 us
+I (32729) INFER: Saudavel (98.4%) | DSP 59 ms, NN 3 ms
+I (32729) INFER: 8 janelas/s | amostras perdidas=0
+I (32859) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (32989) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (33119) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (33179) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (33189) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 757 us
+I (33249) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (33379) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (33489) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (33489) ACQ: ultima: I=177.6 mA | a=(-3.217, -7.649, 11.964) m/s2
+I (33509) INFER: Saudavel (99.2%) | DSP 60 ms, NN 3 ms
+I (33639) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (33699) INFER: EQ ref: 0.0000 0.0039 0.9961
+I (33709) MODEL_MGR: probs: 0.000 0.004 0.996 | classe 2 | invoke 811 us
+I (33769) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (33769) INFER: 8 janelas/s | amostras perdidas=0
+I (33899) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (34029) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (34159) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (34219) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (34229) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 757 us
+I (34289) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (34419) INFER: Saudavel (99.2%) | DSP 59 ms, NN 3 ms
+I (34499) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (34499) ACQ: ultima: I=200.4 mA | a=(1.726, 1.451, 10.552) m/s2
+I (34549) INFER: Saudavel (98.4%) | DSP 60 ms, NN 3 ms
+I (34679) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (34739) INFER: EQ ref: 0.0000 0.0039 0.9961
+I (34749) MODEL_MGR: probs: 0.000 0.004 0.996 | classe 2 | invoke 811 us
+I (34809) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (34809) INFER: 8 janelas/s | amostras perdidas=0
+I (34939) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (35069) INFER: Saudavel (99.2%) | DSP 59 ms, NN 3 ms
+I (35199) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (35259) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (35269) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 812 us
+I (35329) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (35459) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (35509) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (35509) ACQ: ultima: I=139.2 mA | a=(1.726, -7.885, 9.767) m/s2
+I (35589) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (35719) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (35779) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (35789) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 810 us
+I (35849) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (35849) INFER: 8 janelas/s | amostras perdidas=0
+I (35979) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (36109) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (36239) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (36299) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (36309) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 810 us
+I (36369) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (36499) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (36509) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (36509) ACQ: ultima: I=193.2 mA | a=(-2.275, -10.356, 10.513) m/s2
+I (36629) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (36759) INFER: Saudavel (97.3%) | DSP 59 ms, NN 3 ms
+I (36819) INFER: EQ ref: 0.0000 0.0273 0.9727
+I (36829) MODEL_MGR: probs: 0.000 0.027 0.973 | classe 2 | invoke 808 us
+I (36889) INFER: Saudavel (92.2%) | DSP 59 ms, NN 3 ms
+I (36889) INFER: 8 janelas/s | amostras perdidas=0
+I (37019) INFER: Saudavel (98.8%) | DSP 59 ms, NN 3 ms
+I (37149) INFER: Saudavel (89.5%) | DSP 59 ms, NN 3 ms
+I (37279) INFER: Saudavel (85.5%) | DSP 59 ms, NN 3 ms
+I (37339) INFER: EQ ref: 0.0000 0.1445 0.8555
+I (37349) MODEL_MGR: probs: 0.000 0.145 0.855 | classe 2 | invoke 810 us
+I (37409) INFER: Saudavel (98.0%) | DSP 59 ms, NN 3 ms
+I (37519) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (37519) ACQ: ultima: I=110.9 mA | a=(-3.413, -11.611, 11.964) m/s2
+I (37539) INFER: Saudavel (98.4%) | DSP 60 ms, NN 3 ms
+I (37669) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (37799) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (37859) INFER: EQ ref: 0.0000 0.0039 0.9961
+I (37869) MODEL_MGR: probs: 0.000 0.004 0.996 | classe 2 | invoke 810 us
+I (37929) INFER: Saudavel (89.5%) | DSP 59 ms, NN 3 ms
+I (37929) INFER: 8 janelas/s | amostras perdidas=0
+I (38059) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (38189) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (38319) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (38379) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (38389) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 810 us
+I (38449) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (38529) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (38529) ACQ: ultima: I=90.4 mA | a=(1.569, 4.433, 12.239) m/s2
+I (38579) INFER: Saudavel (99.6%) | DSP 60 ms, NN 3 ms
+I (38709) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (38839) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (38899) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (38909) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 756 us
+I (38969) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (38969) INFER: 8 janelas/s | amostras perdidas=0
+I (39099) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (39229) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (39359) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (39419) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (39429) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 810 us
+I (39489) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (39539) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (39539) ACQ: ultima: I=91.4 mA | a=(7.414, 9.650, 10.748) m/s2
+I (39619) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (39749) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (39879) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (39939) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (39949) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 809 us
+I (40009) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (40009) INFER: 8 janelas/s | amostras perdidas=0
+I (40139) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (40269) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (40399) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (40459) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (40469) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 756 us
+I (40529) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (40539) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (40539) ACQ: ultima: I=162.8 mA | a=(0.275, -7.728, 11.062) m/s2
+I (40659) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (40789) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (40919) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (40979) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (40989) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 810 us
+I (41049) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (41049) INFER: 8 janelas/s | amostras perdidas=0
+I (41179) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (41309) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (41439) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (41499) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (41509) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 757 us
+I (41549) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (41549) ACQ: ultima: I=112.2 mA | a=(-3.138, -7.453, 10.513) m/s2
+I (41569) INFER: Saudavel (99.6%) | DSP 60 ms, NN 3 ms
+I (41699) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (41829) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (41959) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (42019) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (42029) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 811 us
+I (42089) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (42089) INFER: 8 janelas/s | amostras perdidas=0
+I (42219) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (42349) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (42479) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (42539) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (42549) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 810 us
+I (42559) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (42559) ACQ: ultima: I=199.8 mA | a=(-0.824, 4.197, 12.788) m/s2
+I (42609) INFER: Saudavel (99.6%) | DSP 60 ms, NN 3 ms
+I (42739) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (42869) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (42999) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (43059) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (43069) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 810 us
+I (43129) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (43129) INFER: 8 janelas/s | amostras perdidas=0
+I (43259) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (43389) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (43519) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (43569) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (43569) ACQ: ultima: I=59.1 mA | a=(-1.294, -3.138, 11.180) m/s2
+I (43579) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (43589) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 744 us
+I (43649) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (43779) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (43909) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (44039) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (44099) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (44109) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 757 us
+I (44169) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (44169) INFER: 8 janelas/s | amostras perdidas=0
+I (44299) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (44429) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (44559) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (44569) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (44569) ACQ: ultima: I=120.6 mA | a=(2.981, 5.570, 10.199) m/s2
+I (44619) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (44629) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 746 us
+I (44689) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (44819) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (44949) INFER: Saudavel (98.8%) | DSP 59 ms, NN 3 ms
+I (45079) INFER: Saudavel (97.3%) | DSP 59 ms, NN 3 ms
+I (45139) INFER: EQ ref: 0.0000 0.0273 0.9727
+I (45149) MODEL_MGR: probs: 0.000 0.027 0.973 | classe 2 | invoke 810 us
+I (45209) INFER: Saudavel (58.6%) | DSP 59 ms, NN 3 ms
+I (45209) INFER: 8 janelas/s | amostras perdidas=0
+I (45339) INFER: Saudavel (80.5%) | DSP 59 ms, NN 3 ms
+I (45469) INFER: Saudavel (98.0%) | DSP 59 ms, NN 3 ms
+I (45579) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (45579) ACQ: ultima: I=128.2 mA | a=(8.159, 10.199, 10.160) m/s2
+I (45599) INFER: Falha de Engrenagem (73.8%) | DSP 60 ms, NN 3 ms
+I (45659) INFER: EQ ref: 0.0078 0.7383 0.2539
+I (45669) MODEL_MGR: probs: 0.008 0.738 0.254 | classe 1 | invoke 798 us
+I (45729) INFER: Saudavel (98.0%) | DSP 59 ms, NN 3 ms
+I (45859) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (45989) INFER: Falha de Engrenagem (50.0%) | DSP 59 ms, NN 3 ms
+I (46119) INFER: Falha de Engrenagem (94.1%) | DSP 59 ms, NN 3 ms
+I (46179) INFER: EQ ref: 0.0195 0.9414 0.0391
+I (46189) MODEL_MGR: probs: 0.020 0.941 0.039 | classe 1 | invoke 800 us
+I (46249) INFER: Falha de Engrenagem (50.0%) | DSP 59 ms, NN 3 ms
+I (46259) INFER: 8 janelas/s | amostras perdidas=0
+I (46379) INFER: Saudavel (74.2%) | DSP 59 ms, NN 3 ms
+I (46509) INFER: Saudavel (98.4%) | DSP 59 ms, NN 3 ms
+I (46589) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (46589) ACQ: ultima: I=176.6 mA | a=(4.668, 6.433, 10.905) m/s2
+I (46639) INFER: Saudavel (89.1%) | DSP 60 ms, NN 3 ms
+I (46699) INFER: EQ ref: 0.0000 0.1055 0.8906
+I (46709) MODEL_MGR: probs: 0.000 0.105 0.891 | classe 2 | invoke 799 us
+I (46769) INFER: Saudavel (98.8%) | DSP 59 ms, NN 3 ms
+I (46899) INFER: Saudavel (98.0%) | DSP 59 ms, NN 3 ms
+I (47029) INFER: Saudavel (89.1%) | DSP 59 ms, NN 3 ms
+I (47159) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (47219) INFER: EQ ref: 0.0000 0.0039 0.9961
+I (47229) MODEL_MGR: probs: 0.000 0.004 0.996 | classe 2 | invoke 809 us
+I (47289) INFER: Saudavel (74.2%) | DSP 59 ms, NN 3 ms
+I (47289) INFER: 8 janelas/s | amostras perdidas=0
+I (47419) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (47549) INFER: Saudavel (99.2%) | DSP 59 ms, NN 3 ms
+I (47599) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (47599) ACQ: ultima: I=164.1 mA | a=(0.628, -12.709, 10.827) m/s2
+I (47679) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (47739) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (47749) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 810 us
+I (47809) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (47939) INFER: Saudavel (85.2%) | DSP 59 ms, NN 3 ms
+I (48069) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (48199) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (48259) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (48269) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 809 us
+I (48329) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (48329) INFER: 8 janelas/s | amostras perdidas=0
+I (48459) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (48589) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (48599) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (48599) ACQ: ultima: I=123.2 mA | a=(0.000, 4.354, 12.278) m/s2
+I (48719) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (48779) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (48789) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 809 us
+I (48849) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (48979) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (49109) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (49239) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (49299) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (49309) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 810 us
+I (49369) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (49369) INFER: 8 janelas/s | amostras perdidas=0
+I (49499) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (49609) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (49609) ACQ: ultima: I=199.7 mA | a=(6.315, 11.768, 10.552) m/s2
+I (49629) INFER: Saudavel (99.6%) | DSP 60 ms, NN 3 ms
+I (49759) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (49819) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (49829) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 810 us
+I (49889) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (50019) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (50149) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (50279) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (50339) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (50349) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 810 us
+I (50409) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (50409) INFER: 8 janelas/s | amostras perdidas=0
+I (50539) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (50619) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (50619) ACQ: ultima: I=155.8 mA | a=(-2.157, -12.082, 12.003) m/s2
+I (50669) INFER: Saudavel (99.6%) | DSP 60 ms, NN 3 ms
+I (50799) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (50859) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (50869) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 811 us
+I (50929) INFER: Saudavel (74.2%) | DSP 59 ms, NN 3 ms
+I (51059) INFER: Saudavel (74.2%) | DSP 59 ms, NN 3 ms
+I (51189) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (51319) INFER: Saudavel (98.0%) | DSP 59 ms, NN 3 ms
+I (51379) INFER: EQ ref: 0.0000 0.0195 0.9805
+I (51389) MODEL_MGR: probs: 0.000 0.020 0.980 | classe 2 | invoke 811 us
+I (51449) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (51449) INFER: 8 janelas/s | amostras perdidas=0
+I (51579) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (51629) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (51629) ACQ: ultima: I=198.9 mA | a=(5.178, 9.846, 11.219) m/s2
+I (51709) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (51839) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (51899) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (51909) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 811 us
+I (51969) INFER: Saudavel (85.5%) | DSP 59 ms, NN 3 ms
+I (52099) INFER: Saudavel (74.2%) | DSP 59 ms, NN 3 ms
+I (52229) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (52359) INFER: Saudavel (92.2%) | DSP 59 ms, NN 3 ms
+I (52419) INFER: EQ ref: 0.0000 0.0781 0.9219
+I (52429) MODEL_MGR: probs: 0.000 0.078 0.922 | classe 2 | invoke 809 us
+I (52489) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (52489) INFER: 8 janelas/s | amostras perdidas=0
+I (52619) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (52629) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (52629) ACQ: ultima: I=207.9 mA | a=(2.471, -5.609, 10.003) m/s2
+I (52749) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (52879) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (52939) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (52949) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 757 us
+I (53009) INFER: Saudavel (92.2%) | DSP 59 ms, NN 3 ms
+I (53139) INFER: Falha de Engrenagem (58.6%) | DSP 59 ms, NN 3 ms
+I (53269) INFER: Saudavel (74.2%) | DSP 59 ms, NN 3 ms
+I (53399) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (53459) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (53469) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 809 us
+I (53529) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (53529) INFER: 8 janelas/s | amostras perdidas=0
+I (53639) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (53639) ACQ: ultima: I=98.5 mA | a=(2.314, 4.511, 10.120) m/s2
+I (53659) INFER: Saudavel (58.2%) | DSP 60 ms, NN 3 ms
+I (53789) INFER: Falha de Engrenagem (49.6%) | DSP 59 ms, NN 3 ms
+I (53919) INFER: Saudavel (85.5%) | DSP 59 ms, NN 3 ms
+I (53979) INFER: EQ ref: 0.0000 0.1445 0.8555
+I (53989) MODEL_MGR: probs: 0.000 0.145 0.855 | classe 2 | invoke 810 us
+I (54049) INFER: Falha de Engrenagem (50.0%) | DSP 59 ms, NN 3 ms
+I (54179) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (54309) INFER: Falha de Engrenagem (77.0%) | DSP 59 ms, NN 3 ms
+I (54439) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (54499) INFER: EQ ref: 0.0000 0.0000 0.9961
+I (54509) MODEL_MGR: probs: 0.000 0.000 0.996 | classe 2 | invoke 809 us
+I (54569) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (54569) INFER: 8 janelas/s | amostras perdidas=0
+I (54649) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (54649) ACQ: ultima: I=207.2 mA | a=(2.981, 3.295, 9.964) m/s2
+I (54699) INFER: Saudavel (73.4%) | DSP 60 ms, NN 3 ms
+I (54829) INFER: Falha de Engrenagem (81.2%) | DSP 59 ms, NN 3 ms
+I (54959) INFER: Falha de Engrenagem (58.6%) | DSP 59 ms, NN 3 ms
+I (55019) INFER: EQ ref: 0.0039 0.5859 0.4102
+I (55029) MODEL_MGR: probs: 0.004 0.586 0.410 | classe 1 | invoke 799 us
+I (55089) INFER: Falha de Engrenagem (74.2%) | DSP 59 ms, NN 3 ms
+I (55219) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (55349) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (55479) INFER: Saudavel (92.2%) | DSP 59 ms, NN 3 ms
+I (55539) INFER: EQ ref: 0.0000 0.0781 0.9219
+I (55549) MODEL_MGR: probs: 0.000 0.078 0.922 | classe 2 | invoke 808 us
+I (55609) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (55609) INFER: 8 janelas/s | amostras perdidas=0
+I (55659) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (55659) ACQ: ultima: I=147.7 mA | a=(-0.431, -5.060, 11.925) m/s2
+I (55739) INFER: Saudavel (58.6%) | DSP 59 ms, NN 3 ms
+I (55869) INFER: Saudavel (58.6%) | DSP 59 ms, NN 3 ms
+I (55999) INFER: Saudavel (99.6%) | DSP 59 ms, NN 3 ms
+I (56059) INFER: EQ ref: 0.0000 0.0039 0.9961
+I (56069) MODEL_MGR: probs: 0.000 0.004 0.996 | classe 2 | invoke 809 us
+I (56129) INFER: Saudavel (74.2%) | DSP 59 ms, NN 3 ms
+I (56259) INFER: Saudavel (94.5%) | DSP 59 ms, NN 3 ms
+I (56389) INFER: Falha de Engrenagem (58.6%) | DSP 59 ms, NN 3 ms
+I (56519) INFER: Falha de Engrenagem (66.8%) | DSP 59 ms, NN 3 ms
+I (56579) INFER: EQ ref: 0.0039 0.6680 0.3281
+I (56589) MODEL_MGR: probs: 0.004 0.668 0.328 | classe 1 | invoke 809 us
+I (56649) INFER: Saudavel (58.6%) | DSP 59 ms, NN 3 ms
+I (56649) INFER: 8 janelas/s | amostras perdidas=0
+I (56659) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (56659) ACQ: ultima: I=70.2 mA | a=(3.687, -0.118, 11.297) m/s2
+I (56779) INFER: Falha de Engrenagem (74.2%) | DSP 59 ms, NN 3 ms
+I (56909) INFER: Desbalanceamento (57.4%) | DSP 59 ms, NN 3 ms
+I (57039) INFER: Saudavel (80.5%) | DSP 59 ms, NN 3 ms
+I (57099) INFER: EQ ref: 0.0000 0.1953 0.8047
+I (57109) MODEL_MGR: probs: 0.000 0.195 0.805 | classe 2 | invoke 811 us
+I (57169) INFER: Falha de Engrenagem (60.2%) | DSP 59 ms, NN 3 ms
+I (57299) INFER: Saudavel (85.5%) | DSP 59 ms, NN 3 ms
+I (57429) INFER: Saudavel (74.2%) | DSP 59 ms, NN 3 ms
+I (57559) INFER: Desbalanceamento (99.6%) | DSP 59 ms, NN 3 ms
+I (57619) INFER: EQ ref: 0.9961 0.0000 0.0000
+I (57629) MODEL_MGR: probs: 0.996 0.000 0.000 | classe 0 | invoke 811 us
+I (57669) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (57669) ACQ: ultima: I=99.8 mA | a=(-2.197, -9.807, 12.239) m/s2
+I (57689) INFER: Saudavel (54.7%) | DSP 60 ms, NN 3 ms
+I (57699) INFER: 8 janelas/s | amostras perdidas=0
+I (57819) INFER: Desbalanceamento (83.2%) | DSP 59 ms, NN 3 ms
+I (57949) INFER: Saudavel (62.1%) | DSP 59 ms, NN 3 ms
+I (58079) INFER: Falha de Engrenagem (40.2%) | DSP 59 ms, NN 3 ms
+I (58139) INFER: EQ ref: 0.1992 0.4023 0.4023
+I (58149) MODEL_MGR: probs: 0.199 0.402 0.402 | classe 1 | invoke 800 us
+I (58209) INFER: Desbalanceamento (84.8%) | DSP 59 ms, NN 3 ms
+I (58339) INFER: Saudavel (89.1%) | DSP 59 ms, NN 3 ms
+I (58469) INFER: Desbalanceamento (62.1%) | DSP 59 ms, NN 3 ms
+I (58599) INFER: Falha de Engrenagem (48.8%) | DSP 59 ms, NN 3 ms
+I (58659) INFER: EQ ref: 0.0195 0.4883 0.4883
+I (58669) MODEL_MGR: probs: 0.020 0.488 0.488 | classe 1 | invoke 799 us
+I (58679) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (58679) ACQ: ultima: I=109.2 mA | a=(4.080, 2.197, 9.493) m/s2
+I (58729) INFER: Saudavel (57.4%) | DSP 60 ms, NN 3 ms
+I (58739) INFER: 8 janelas/s | amostras perdidas=0
+I (58859) INFER: Saudavel (92.2%) | DSP 59 ms, NN 3 ms
+I (58989) INFER: Falha de Engrenagem (50.0%) | DSP 59 ms, NN 3 ms
+I (59119) INFER: Saudavel (58.6%) | DSP 59 ms, NN 3 ms
+I (59179) INFER: EQ ref: 0.0000 0.4141 0.5859
+I (59189) MODEL_MGR: probs: 0.000 0.414 0.586 | classe 2 | invoke 809 us
+I (59249) INFER: Falha de Engrenagem (66.4%) | DSP 59 ms, NN 3 ms
+I (59379) INFER: Saudavel (66.8%) | DSP 59 ms, NN 3 ms
+I (59509) INFER: Saudavel (74.2%) | DSP 59 ms, NN 3 ms
+I (59639) INFER: Saudavel (85.5%) | DSP 59 ms, NN 3 ms
+I (59689) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (59689) ACQ: ultima: I=136.3 mA | a=(-1.491, -4.001, 12.003) m/s2
+I (59699) INFER: EQ ref: 0.0000 0.1445 0.8555
+I (59709) MODEL_MGR: probs: 0.000 0.145 0.855 | classe 2 | invoke 796 us
+I (59769) INFER: Falha de Engrenagem (50.0%) | DSP 59 ms, NN 3 ms
+I (59779) INFER: 8 janelas/s | amostras perdidas=0
+I (59899) INFER: Saudavel (80.5%) | DSP 59 ms, NN 3 ms

@@ -1,5 +1,6 @@
 #include "inference.h"
 #include "sample_stream.h"
+#include "../model/model_manager.h"
 
 #include "esp_log.h"
 #include "esp_timer.h"
@@ -8,36 +9,59 @@
 
 #include <string.h>
 
-#define ENABLE_INFERENCE 1
-
-#ifdef ENABLE_INFERENCE
+// Este e o UNICO arquivo que inclui o SDK completo: ele define as variaveis do modelo embutido
 #include "edge-impulse-sdk/classifier/ei_run_classifier.h"
 using namespace ei;
-#endif
+
+// 1 = compara o modelo embutido com o modelo carregado do arquivo
+#define EQUIVALENCE_TEST 1
 
 namespace
 {
     constexpr char TAG[] = "INFER";
 
-    constexpr size_t AXES = 4;             // ax, ay, az, current_mA (ordem do impulso)
-    constexpr size_t STRIDE_FRAMES = 13;   // ~128 ms a 100 Hz
-
-#ifdef ENABLE_INFERENCE
+    constexpr size_t AXES = 4;               // ax, ay, az, current_mA
+    constexpr size_t STRIDE_FRAMES = 13;     // ~128 ms a 100 Hz
     constexpr size_t WINDOW_FRAMES = EI_CLASSIFIER_RAW_SAMPLE_COUNT;
-    static_assert(EI_CLASSIFIER_RAW_SAMPLES_PER_FRAME == AXES,
-                  "O impulso precisa ter 4 eixos");
-#else
-    constexpr size_t WINDOW_FRAMES = 256;  // 2560 ms a 100 Hz
+    constexpr size_t NN_FEATURES = EI_CLASSIFIER_NN_INPUT_FRAME_SIZE;
+    constexpr uint32_t EQ_EVERY_N_WINDOWS = 4;   // o DSP roda a mais nessas janelas
+
+    static_assert(EI_CLASSIFIER_RAW_SAMPLES_PER_FRAME == AXES, "O impulso precisa ter 4 eixos");
+    static_assert(EI_CLASSIFIER_LABEL_COUNT == 3, "O log do teste assume 3 classes");
+
+    ModelManager* dynamicModel = nullptr;
+
+    float ring[WINDOW_FRAMES * AXES];        // buffer circular
+    float window[WINDOW_FRAMES * AXES];      // janela linearizada (mais antiga primeiro)
+    float nnFeatures[NN_FEATURES];           // as 52 features do DSP
+
+#if EQUIVALENCE_TEST
+    void compareWithDynamicModel(signal_t& signal, const ei_impulse_result_t& result)
+    {
+        // Mesmo bloco de DSP que o classificador embutido usa
+        const ei_model_dsp_t& block = ei_dsp_blocks_1135680_1[0];
+        matrix_t out(1, NN_FEATURES, nnFeatures);
+
+        if (block.extract_fn(&signal, &out, block.config, EI_CLASSIFIER_FREQUENCY) != 0)
+        {
+            ESP_LOGE(TAG, "DSP falhou na comparacao");
+            return;
+        }
+
+        ESP_LOGI(TAG, "EQ ref: %.4f %.4f %.4f",
+                 result.classification[0].value,
+                 result.classification[1].value,
+                 result.classification[2].value);
+
+        // O ModelManager registra a linha "probs: ..." logo em seguida
+        dynamicModel->runInterference(nnFeatures);
+    }
 #endif
 
-    float ring[WINDOW_FRAMES * AXES];      // buffer circular
-    float features[WINDOW_FRAMES * AXES];  // janela linearizada (mais antiga primeiro)
-
-    void runWindow()
+    void runWindow(uint32_t windowIndex)
     {
-#ifdef ENABLE_INFERENCE
         signal_t signal;
-        if (numpy::signal_from_buffer(features, WINDOW_FRAMES * AXES, &signal) != 0)
+        if (numpy::signal_from_buffer(window, WINDOW_FRAMES * AXES, &signal) != 0)
         {
             ESP_LOGE(TAG, "Falha ao criar o signal");
             return;
@@ -65,16 +89,23 @@ namespace
                  result.classification[best].value * 100.0f,
                  static_cast<int>(result.timing.dsp),
                  static_cast<int>(result.timing.classification));
+
+#if EQUIVALENCE_TEST
+        if (dynamicModel != nullptr && windowIndex % EQ_EVERY_N_WINDOWS == 0)
+        {
+            compareWithDynamicModel(signal, result);
+        }
 #endif
     }
 
     void inferenceTask(void*)
     {
-        size_t head = 0;        // proxima posicao a escrever (= amostra mais antiga)
+        size_t head = 0;                 // proxima posicao a escrever (= amostra mais antiga)
         size_t filled = 0;
         size_t sinceLast = 0;
 
-        uint32_t windows = 0;
+        uint32_t windowCounter = 0;
+        uint32_t windowsPerSecond = 0;
         int64_t lastReport = esp_timer_get_time();
 
         ESP_LOGI(TAG, "Tarefa de inferencia em execucao (nucleo %d)", xPortGetCoreID());
@@ -106,28 +137,30 @@ namespace
 
             // Linearizar: da amostra mais antiga (head) ate a mais nova
             const size_t firstPart = (WINDOW_FRAMES - head) * AXES;
-            memcpy(features, &ring[head * AXES], firstPart * sizeof(float));
-            memcpy(features + firstPart, ring, head * AXES * sizeof(float));
+            memcpy(window, &ring[head * AXES], firstPart * sizeof(float));
+            memcpy(window + firstPart, ring, head * AXES * sizeof(float));
 
-            windows++;
-            runWindow();
+            windowCounter++;
+            windowsPerSecond++;
+            runWindow(windowCounter);
 
             const int64_t now = esp_timer_get_time();
             if (now - lastReport >= 1000000)
             {
                 ESP_LOGI(TAG, "%lu janelas/s | amostras perdidas=%lu",
-                         (unsigned long)windows,
+                         (unsigned long)windowsPerSecond,
                          (unsigned long)sampleStreamDropped());
-                windows = 0;
+                windowsPerSecond = 0;
                 lastReport = now;
             }
         }
     }
 }
 
-bool inferenceStart()
+bool inferenceStart(ModelManager* model)
 {
-    // Pilha grande: o DSP espectral e o TFLite usam bastante pilha
+    dynamicModel = model;
+
     const BaseType_t ok = xTaskCreatePinnedToCore(
         inferenceTask, "inference", 16384, nullptr, 4, nullptr, 0);
 

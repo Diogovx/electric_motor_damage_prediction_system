@@ -77,29 +77,25 @@ extern "C" void app_main(void)
     checkDevice("ADXL345", ADXL345_ADDR, config.adxl345Enabled);
     checkDevice("INA219", INA219_ADDR, config.ina219Enabled);
 
-    // TESTE TEMPORARIO do ModelManager: sera movido para o SystemController
+    // Modelo carregado do arquivo (provisorio: passa para o SystemController)
+    static ModelManager modelManager;
+    bool modelLoaded = false;
+
     if (storageInit() == ESP_OK)
     {
-        static ModelManager modelManager;
-        if (modelManager.loadModelFromFS("/storage/model_a.tflite"))
-        {
-            float features[52] = {0};
-            const int cls = modelManager.runInterference(features);
-            ESP_LOGI(TAG, "Teste do modelo (entrada zerada): classe %d", cls);
-        }
+        modelLoaded = modelManager.loadModelFromFS("/storage/model_a.tflite");
     }
     else
     {
         ESP_LOGW(TAG, "Sem sistema de arquivos: seguindo sem o ModelManager");
     }
-
     // Ordem importa: fila -> consumidor (inferencia) -> produtor (aquisicao)
     if (!sampleStreamInit())
     {
         fatalError("falha ao criar a fila de amostras");
     }
 
-    if (!inferenceStart())
+    if (!inferenceStart(modelLoaded ? &modelManager : nullptr))
     {
         fatalError("falha ao iniciar a inferencia");
     }
