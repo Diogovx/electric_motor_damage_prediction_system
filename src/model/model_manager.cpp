@@ -19,8 +19,7 @@
 #define TFLITE_SCHEMA_VERSION 3
 #endif
 
-#define MODEL_MANAGER_LOG_PROBS 1   // so durante os testes
-
+#define MODEL_MANAGER_LOG_PROBS 0
 namespace
 {
     constexpr char TAG[] = "MODEL_MGR";

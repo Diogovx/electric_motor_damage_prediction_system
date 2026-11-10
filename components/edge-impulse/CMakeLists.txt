@@ -3,7 +3,6 @@ set(EI_SDK  ${EI_ROOT}/edge-impulse-sdk)
 set(EI_TFM  ${EI_SDK}/tensorflow/lite/micro)
 
 file(GLOB EI_SRCS
-    ${EI_ROOT}/tflite-model/*.cpp
     ${EI_SDK}/dsp/kissfft/*.cpp
     ${EI_SDK}/dsp/dct/*.cpp
     ${EI_SDK}/dsp/memory.cpp
