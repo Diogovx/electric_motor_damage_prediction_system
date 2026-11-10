@@ -1,0 +1,1 @@
+NotPlatformIOProjectError: Not a PlatformIO project. `platformio.ini` file has not been found in current working directory (/home/diogo/Documentos/PlatformIO/Projects/tcc_monitoramento2/components/edge-impulse/edge-impulse-sdk). To initialize new project please use `platformio project init` command

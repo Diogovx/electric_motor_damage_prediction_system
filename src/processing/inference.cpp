@@ -2,6 +2,8 @@
 #include "sample_stream.h"
 #include "../model/model_manager.h"
 
+#include <math.h>
+#include <string>
 #include "esp_log.h"
 #include "esp_timer.h"
 #include "freertos/FreeRTOS.h"
@@ -24,7 +26,7 @@ namespace
     constexpr size_t STRIDE_FRAMES = 13;     // ~128 ms a 100 Hz
     constexpr size_t WINDOW_FRAMES = EI_CLASSIFIER_RAW_SAMPLE_COUNT;
     constexpr size_t NN_FEATURES = EI_CLASSIFIER_NN_INPUT_FRAME_SIZE;
-    constexpr uint32_t EQ_EVERY_N_WINDOWS = 4;   // o DSP roda a mais nessas janelas
+    constexpr uint32_t EQ_EVERY_N_WINDOWS = 8;   // o DSP roda a mais nessas janelas
 
     static_assert(EI_CLASSIFIER_RAW_SAMPLES_PER_FRAME == AXES, "O impulso precisa ter 4 eixos");
     static_assert(EI_CLASSIFIER_LABEL_COUNT == 3, "O log do teste assume 3 classes");
@@ -35,25 +37,88 @@ namespace
     float window[WINDOW_FRAMES * AXES];      // janela linearizada (mais antiga primeiro)
     float nnFeatures[NN_FEATURES];           // as 52 features do DSP
 
+        float refFeatures[NN_FEATURES];          // features do bloco embutido (so no teste)
+
+    // Parametros do DSP espectral. Os padroes sao os do impulso exportado;
+    // no sistema final virao do config.json (secao "dsp")
+    struct DspParams
+    {
+        int fftLength = 16;
+        int peaks = 3;
+        float peaksThreshold = 0.1f;
+        std::string powerEdges = "0.1, 0.5, 1.0, 2.0, 5.0";
+        bool doLog = true;
+        bool fftOverlap = true;
+        std::string filterType = "none";
+        float filterCutoff = 3.0f;
+        int filterOrder = 6;
+        float scaleAxes = 1.0f;
+        int decimation = 1;
+    };
+
+    DspParams dspParams;
+
+    bool extractWithParams(signal_t& signal, const DspParams& p, float* out)
+    {
+        // A ordem dos campos e a do ei_dsp_config_1135680_2 em model_variables.h
+        ei_dsp_config_spectral_analysis_t cfg = {
+            2,                          // blockId
+            4,                          // implementation version
+            static_cast<int>(AXES),     // numero de eixos
+            p.scaleAxes,
+            p.decimation,
+            p.filterType.c_str(),
+            p.filterCutoff,
+            p.filterOrder,
+            "FFT",                      // tipo de analise
+            p.fftLength,
+            p.peaks,
+            p.peaksThreshold,
+            p.powerEdges.c_str(),
+            p.doLog,
+            p.fftOverlap,
+            1,                          // wavelet level (nao usado)
+            "db4",                      // wavelet (nao usado)
+            false                       // extra low freq
+        };
+
+        matrix_t m(1, NN_FEATURES, out);
+        return extract_spectral_analysis_features(&signal, &m, &cfg, EI_CLASSIFIER_FREQUENCY) == 0;
+    }
+
 #if EQUIVALENCE_TEST
     void compareWithDynamicModel(signal_t& signal, const ei_impulse_result_t& result)
     {
-        // Mesmo bloco de DSP que o classificador embutido usa
+        // (1) features do bloco embutido: a referencia
         const ei_model_dsp_t& block = ei_dsp_blocks_1135680_1[0];
-        matrix_t out(1, NN_FEATURES, nnFeatures);
+        matrix_t refOut(1, NN_FEATURES, refFeatures);
 
-        if (block.extract_fn(&signal, &out, block.config, EI_CLASSIFIER_FREQUENCY) != 0)
+        if (block.extract_fn(&signal, &refOut, block.config, EI_CLASSIFIER_FREQUENCY) != 0)
         {
-            ESP_LOGE(TAG, "DSP falhou na comparacao");
+            ESP_LOGE(TAG, "DSP embutido falhou na comparacao");
             return;
         }
 
+        // (2) features com os parametros em runtime
+        if (!extractWithParams(signal, dspParams, nnFeatures))
+        {
+            ESP_LOGE(TAG, "DSP com parametros em runtime falhou");
+            return;
+        }
+
+        float maxDiff = 0.0f;
+        for (size_t i = 0; i < NN_FEATURES; i++)
+        {
+            maxDiff = fmaxf(maxDiff, fabsf(refFeatures[i] - nnFeatures[i]));
+        }
+        ESP_LOGI(TAG, "DSPCHK max_diff=%.6g", maxDiff);
+
+        // (3) cadeia dinamica completa contra o run_classifier embutido
         ESP_LOGI(TAG, "EQ ref: %.4f %.4f %.4f",
                  result.classification[0].value,
                  result.classification[1].value,
                  result.classification[2].value);
 
-        // O ModelManager registra a linha "probs: ..." logo em seguida
         dynamicModel->runInterference(nnFeatures);
     }
 #endif
