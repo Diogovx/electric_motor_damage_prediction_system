@@ -1,5 +1,4 @@
-rst:0x15 (USB_UART_CHIP_RESET),boot:0x8 (SPI_FAST_FLASH_BOOT)
-Saved PC:0x40378f66
+Saved PC:0x4037ada3
 SPIWP:0xee
 mode:DIO, clock div:1
 load:0x3fce2820,len:0x14f0
@@ -7,7 +6,7 @@ load:0x403c8700,len:0xda0
 load:0x403cb700,len:0x2f58
 entry 0x403c8900
 I (24) boot: ESP-IDF 6.0.1 2nd stage bootloader
-I (24) boot: compile time Nov  7 2026 20:27:02
+I (24) boot: compile time Nov 13 2026 20:28:18
 I (25) boot: Multicore bootloader
 I (26) boot: chip revision: v0.2
 I (27) boot: efuse block revision: v1.3
@@ -20,562 +19,543 @@ I (49) boot: ## Label            Usage          Type ST Offset   Length
 I (56) boot:  0 nvs              WiFi data        01 02 00009000 00006000
 I (62) boot:  1 phy_init         RF data          01 01 0000f000 00001000
 I (69) boot:  2 factory          factory app      00 00 00010000 00200000
-I (75) boot:  3 model_a          Unknown data     01 40 00210000 00010000
-I (82) boot:  4 model_b          Unknown data     01 41 00220000 00010000
-I (88) boot: End of partition table
-I (92) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=1055ch ( 66908) map
-I (111) esp_image: segment 1: paddr=00020584 vaddr=3fc90600 size=0332ch ( 13100) load
-I (115) esp_image: segment 2: paddr=000238b8 vaddr=40374000 size=0c568h ( 50536) load
-I (126) esp_image: segment 3: paddr=0002fe28 vaddr=50000000 size=00024h (    36) load
-I (127) esp_image: segment 4: paddr=0002fe54 vaddr=00000000 size=001c4h (   452) 
-I (130) esp_image: segment 5: paddr=00030020 vaddr=42000020 size=26b84h (158596) map
-I (171) boot: Loaded app from partition at offset 0x10000
-I (171) boot: Disabling RNG early entropy source...
-I (181) cpu_start: Multicore app
-I (190) cpu_start: GPIO 44 and 43 are used as console UART I/O pins
-I (191) cpu_start: Pro cpu start user code
-I (191) cpu_start: cpu freq: 160000000 Hz
-I (192) app_init: Application information:
-I (196) app_init: Project name:     tcc_monitoramento2
-I (201) app_init: App version:      b2bbb53-dirty
-I (205) app_init: Compile time:     Nov  7 2026 20:26:49
-I (210) app_init: ELF file SHA256:  c0fa70500...
-I (215) app_init: ESP-IDF:          6.0.1
-I (218) efuse_init: Min chip rev:     v0.0
-I (222) efuse_init: Max chip rev:     v0.99 
-I (226) efuse_init: Chip rev:         v0.2
-I (230) heap_init: Initializing. RAM available for dynamic allocation:
-I (236) heap_init: At 3FC96980 len 00052D90 (331 KiB): RAM
-I (242) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM
-I (247) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM
-I (252) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM
-I (258) spi_flash: detected chip: boya
-I (261) spi_flash: flash io: dio
-W (264) spi_flash: Detected size(16384k) larger than the size in the binary image header(8192k). Using the size in the binary image header.
-I (276) sleep_gpio: Configure to isolate all GPIO pins in sleep state
-I (282) sleep_gpio: Enable automatic switching of GPIO sleep configuration
-I (289) main_task: Started on CPU0
-I (299) main_task: Calling app_main()
-I (10299) MAIN: === Diagnostico de falhas em motores (TinyML) ===
-I (10299) MAIN: ESP32-S3 | 2 nucleos | IDF 6.0.1
-I (10299) MAIN: Heap livre: 385860 bytes
-I (10299) I2C_BUS: Barramento I2C inicializado
-I (10299) I2C_BUS: SDA: GPIO 8
-I (10299) I2C_BUS: SCL: GPIO 9
-I (10309) MODEL: Slot 0: versao 1, 3776 bytes, CRC32 0x94ac788e OK
-I (10309) MAIN: ADXL345 respondeu em 0x53
-I (10319) MAIN: INA219 respondeu em 0x40
-I (10319) INA219: OK (config 0x399F, shunt 0.100 ohm)
-I (10329) ACQ: INA219 inicializado
-I (10329) ADXL345: OK (DEVID 0xE5, 100 Hz, +-2 g)
-I (10329) ACQ: ADXL345 inicializado
-I (10339) ACQ: Tarefa de aquisicao em execucao (nucleo 1)
-I (10339) MAIN: Sistema em execucao. Heap livre: 379664 bytes
-I (10349) INFER: Tarefa de inferencia em execucao (nucleo 0)
-I (10349) main_task: Returned from app_main()
-I (11339) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (11339) ACQ: ultima: I=-24.7 mA | a=(-0.068, -0.872, 1.324)
-I (12339) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (12339) ACQ: ultima: I=270.7 mA | a=(0.060, 1.404, 0.816)
-I (12959) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (12969) INFER: 1 janelas/s | amostras perdidas=0
-I (13089) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (13219) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (13339) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (13339) ACQ: ultima: I=296.2 mA | a=(0.032, -0.952, 1.064)
-I (13359) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (13479) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (13609) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (13739) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (13869) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (13999) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (14009) INFER: 8 janelas/s | amostras perdidas=0
-I (14129) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (14259) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (14339) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (14339) ACQ: ultima: I=-75.7 mA | a=(-0.192, -1.620, 0.688)
-I (14399) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (14519) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (14649) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (14779) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (14909) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (15039) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (15049) INFER: 8 janelas/s | amostras perdidas=0
-I (15169) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (15299) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (15349) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (15349) ACQ: ultima: I=262.8 mA | a=(-0.068, -0.176, 1.212)
-I (15429) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (15559) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (15689) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (15819) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (15949) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (16079) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (16089) INFER: 8 janelas/s | amostras perdidas=0
-I (16209) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (16339) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (16349) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (16349) ACQ: ultima: I=291.4 mA | a=(-0.108, 0.656, 1.124)
-I (16469) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (16599) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (16729) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (16859) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (16989) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (17119) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (17129) INFER: 8 janelas/s | amostras perdidas=0
-I (17249) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (17359) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (17359) ACQ: ultima: I=307.8 mA | a=(0.348, 0.284, 1.100)
-I (17389) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (17509) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (17639) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (17769) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (17899) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (18029) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (18159) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (18169) INFER: 8 janelas/s | amostras perdidas=0
-I (18289) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (18369) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (18369) ACQ: ultima: I=242.2 mA | a=(-0.492, -3.232, 1.240)
-I (18429) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (18549) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (18679) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (18809) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (18939) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (19069) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (19199) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (19209) INFER: 8 janelas/s | amostras perdidas=0
-I (19329) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (19379) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (19379) ACQ: ultima: I=267.2 mA | a=(0.276, 2.420, 1.540)
-I (19459) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (19589) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (19719) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (19849) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (19979) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (20109) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (20239) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (20249) INFER: 8 janelas/s | amostras perdidas=0
-I (20369) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (20379) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (20379) ACQ: ultima: I=319.2 mA | a=(0.632, 1.092, 1.124)
-I (20499) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (20629) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (20759) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (20889) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (21019) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (21149) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (21279) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (21289) INFER: 8 janelas/s | amostras perdidas=0
-I (21389) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (21389) ACQ: ultima: I=-107.7 mA | a=(-0.100, -0.328, 0.972)
-I (21419) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (21539) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (21669) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (21799) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (21929) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (22059) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (22189) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (22319) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (22329) INFER: 8 janelas/s | amostras perdidas=0
-I (22399) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (22399) ACQ: ultima: I=180.1 mA | a=(-0.196, 0.112, 1.172)
-I (22459) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (22579) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (22709) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (22839) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (22969) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (23099) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (23229) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (23359) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (23369) INFER: 8 janelas/s | amostras perdidas=0
-I (23409) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (23409) ACQ: ultima: I=286.8 mA | a=(-0.440, -1.240, 1.456)
-I (23489) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (23619) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (23749) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (23879) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (24009) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (24139) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (24269) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (24399) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (24409) INFER: 8 janelas/s | amostras perdidas=0
-I (24409) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (24409) ACQ: ultima: I=372.6 mA | a=(0.100, -0.376, 1.352)
-I (24529) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (24659) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (24789) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (24919) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (25049) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (25179) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (25309) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (25419) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=1
-I (25419) ACQ: ultima: I=238.0 mA | a=(-0.340, -2.144, 0.944)
-I (25449) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (25449) INFER: 8 janelas/s | amostras perdidas=0
-I (25569) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (25699) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (25829) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (25959) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (26089) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (26219) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (26349) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (26429) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (26429) ACQ: ultima: I=169.1 mA | a=(-0.476, -1.216, 1.364)
-I (26489) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (26489) INFER: 8 janelas/s | amostras perdidas=0
-I (26609) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (26739) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (26869) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (26999) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (27129) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (27259) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (27389) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (27439) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (27439) ACQ: ultima: I=300.6 mA | a=(-0.064, 0.352, 1.212)
-I (27519) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (27529) INFER: 8 janelas/s | amostras perdidas=0
-I (27649) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (27779) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (27909) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (28039) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (28169) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (28299) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (28429) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (28439) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (28439) ACQ: ultima: I=-51.6 mA | a=(0.036, 0.720, 1.188)
-I (28559) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (28569) INFER: 8 janelas/s | amostras perdidas=0
-I (28689) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (28819) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (28949) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (29079) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (29209) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (29339) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (29449) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (29449) ACQ: ultima: I=212.9 mA | a=(-0.428, -1.652, 1.176)
-I (29479) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (29599) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (29609) INFER: 8 janelas/s | amostras perdidas=0
-I (29729) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (29859) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (29989) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (30119) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (30249) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (30379) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (30459) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (30459) ACQ: ultima: I=211.3 mA | a=(0.764, 2.696, 1.108)
-I (30519) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (30639) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (30649) INFER: 8 janelas/s | amostras perdidas=0
-I (30769) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (30899) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (31029) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (31159) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (31289) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (31419) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (31469) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (31469) ACQ: ultima: I=342.8 mA | a=(0.184, -0.052, 1.176)
-I (31549) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (31679) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (31689) INFER: 8 janelas/s | amostras perdidas=0
-I (31809) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (31939) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (32069) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (32199) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (32329) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (32459) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (32469) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (32469) ACQ: ultima: I=237.0 mA | a=(-0.044, -1.720, 1.244)
-I (32589) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (32719) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (32729) INFER: 8 janelas/s | amostras perdidas=0
-I (32849) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (32979) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (33109) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (33239) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (33369) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (33479) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (33479) ACQ: ultima: I=230.2 mA | a=(0.284, 1.056, 1.404)
-I (33509) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (33629) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (33759) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (33769) INFER: 8 janelas/s | amostras perdidas=0
-I (33889) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (34019) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (34149) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (34279) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (34409) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (34489) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (34489) ACQ: ultima: I=239.4 mA | a=(0.172, -1.004, 1.056)
-I (34549) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (34669) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (34799) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (34809) INFER: 8 janelas/s | amostras perdidas=0
-I (34929) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (35059) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (35189) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (35319) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (35449) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (35499) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (35499) ACQ: ultima: I=485.5 mA | a=(-0.184, -1.132, 1.024)
-I (35579) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (35709) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (35839) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (35849) INFER: 8 janelas/s | amostras perdidas=0
-I (35969) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (36099) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (36229) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (36359) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (36489) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (36499) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (36499) ACQ: ultima: I=254.5 mA | a=(-0.284, -1.712, 1.324)
-I (36619) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (36749) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (36879) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (36889) INFER: 8 janelas/s | amostras perdidas=0
-I (37009) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (37139) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (37269) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (37399) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (37509) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (37509) ACQ: ultima: I=289.0 mA | a=(0.124, 0.040, 1.412)
-I (37539) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (37659) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (37789) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (37919) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (37929) INFER: 8 janelas/s | amostras perdidas=0
-I (38049) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (38179) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (38309) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (38439) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (38519) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (38519) ACQ: ultima: I=278.1 mA | a=(0.028, -0.932, 1.272)
-I (38579) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (38699) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (38829) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (38959) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (38969) INFER: 8 janelas/s | amostras perdidas=0
-I (39089) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (39219) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (39349) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (39479) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (39529) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (39529) ACQ: ultima: I=228.9 mA | a=(0.208, 0.464, 0.916)
-I (39609) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (39739) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (39869) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (39999) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (40009) INFER: 8 janelas/s | amostras perdidas=0
-I (40129) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (40259) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (40389) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (40519) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (40529) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (40529) ACQ: ultima: I=259.3 mA | a=(-0.144, -2.192, 0.808)
-I (40649) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (40779) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (40909) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (41039) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (41049) INFER: 8 janelas/s | amostras perdidas=0
-I (41169) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (41299) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (41429) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (41539) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (41539) ACQ: ultima: I=222.5 mA | a=(-0.240, -0.872, 1.172)
-I (41569) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (41689) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (41819) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (41949) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (42079) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (42089) INFER: 8 janelas/s | amostras perdidas=0
-I (42209) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (42339) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (42469) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (42549) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (42549) ACQ: ultima: I=481.3 mA | a=(0.260, -0.428, 1.224)
-I (42609) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (42729) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (42859) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (42989) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (43119) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (43129) INFER: 8 janelas/s | amostras perdidas=0
-I (43249) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (43379) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (43509) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (43559) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (43559) ACQ: ultima: I=209.6 mA | a=(0.080, 1.064, 1.260)
-I (43639) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (43769) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (43899) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (44029) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (44159) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (44169) INFER: 8 janelas/s | amostras perdidas=0
-I (44289) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (44419) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (44549) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (44559) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (44559) ACQ: ultima: I=230.8 mA | a=(-0.236, -1.656, 1.072)
-I (44679) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (44809) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (44939) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (45069) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (45199) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (45209) INFER: 8 janelas/s | amostras perdidas=0
-I (45329) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (45459) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (45569) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (45569) ACQ: ultima: I=356.6 mA | a=(-0.164, -2.604, 0.948)
-I (45599) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (45719) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (45849) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (45979) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (46109) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (46239) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (46249) INFER: 8 janelas/s | amostras perdidas=0
-I (46369) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (46499) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (46579) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (46579) ACQ: ultima: I=128.0 mA | a=(0.036, 2.344, 1.284)
-I (46639) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (46759) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (46889) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (47019) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (47149) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (47279) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (47289) INFER: 8 janelas/s | amostras perdidas=0
-I (47409) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (47539) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (47589) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (47589) ACQ: ultima: I=286.6 mA | a=(0.072, -1.128, 0.992)
-I (47669) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (47799) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (47929) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (48059) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (48189) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (48319) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (48329) INFER: 8 janelas/s | amostras perdidas=0
-I (48449) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (48579) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (48589) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (48589) ACQ: ultima: I=307.0 mA | a=(-0.300, -1.092, 0.984)
-I (48709) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (48839) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (48969) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (49099) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (49229) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (49359) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (49369) INFER: 8 janelas/s | amostras perdidas=0
-I (49489) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (49599) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (49599) ACQ: ultima: I=503.0 mA | a=(0.204, -0.524, 1.044)
-I (49629) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (49749) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (49879) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (50009) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (50139) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (50269) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (50399) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (50409) INFER: 8 janelas/s | amostras perdidas=0
-I (50529) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (50609) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (50609) ACQ: ultima: I=226.2 mA | a=(0.332, -0.132, 0.828)
-I (50669) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (50789) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (50919) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (51049) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (51179) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (51309) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (51439) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (51449) INFER: 8 janelas/s | amostras perdidas=0
-I (51569) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (51619) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (51619) ACQ: ultima: I=232.8 mA | a=(0.020, 0.520, 0.824)
-I (51699) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (51829) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (51959) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (52089) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (52219) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (52349) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (52479) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (52489) INFER: 8 janelas/s | amostras perdidas=0
-I (52609) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (52619) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (52619) ACQ: ultima: I=343.1 mA | a=(-0.072, -0.024, 0.904)
-I (52739) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (52869) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (52999) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (53129) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (53259) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (53389) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (53519) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (53529) INFER: 8 janelas/s | amostras perdidas=0
-I (53629) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (53629) ACQ: ultima: I=270.9 mA | a=(0.216, -0.472, 1.056)
-I (53659) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (53779) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (53909) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (54039) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (54169) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (54299) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (54429) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (54559) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (54569) INFER: 8 janelas/s | amostras perdidas=0
-I (54639) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (54639) ACQ: ultima: I=204.3 mA | a=(-0.348, -1.420, 0.924)
-I (54699) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (54819) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (54949) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (55079) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (55209) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (55339) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (55469) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (55599) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (55609) INFER: 8 janelas/s | amostras perdidas=0
-I (55649) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (55649) ACQ: ultima: I=294.7 mA | a=(0.304, 1.884, 1.164)
-I (55729) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (55859) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (55989) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (56119) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (56249) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (56379) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (56509) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (56639) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (56649) INFER: 8 janelas/s | amostras perdidas=0
-I (56649) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (56649) ACQ: ultima: I=440.9 mA | a=(0.060, 1.020, 1.264)
-I (56769) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (56899) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (57029) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (57159) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (57289) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (57419) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (57549) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (57659) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=1
-I (57659) ACQ: ultima: I=266.5 mA | a=(0.160, 1.284, 1.432)
-I (57689) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (57689) INFER: 8 janelas/s | amostras perdidas=0
-I (57809) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (57939) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (58069) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (58199) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (58329) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (58459) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (58589) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (58669) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (58669) ACQ: ultima: I=151.0 mA | a=(0.232, 0.756, 1.548)
-I (58729) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (58729) INFER: 8 janelas/s | amostras perdidas=0
-I (58849) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (58979) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 3 ms
-I (59109) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (59239) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (59369) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (59499) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (59629) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (59679) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
-I (59679) ACQ: ultima: I=314.2 mA | a=(-0.568, -2.188, 1.120)
-I (59759) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
-I (59769) INFER: 8 janelas/s | amostras perdidas=0
-I (59889) INFER: Falha de Engrenagem (99.6%) | DSP 60 ms, NN 2 ms
+I (75) boot:  3 storage          Unknown data     01 82 00210000 00100000
+I (82) boot: End of partition table
+I (85) esp_image: segment 0: paddr=00010020 vaddr=3c040020 size=1275ch ( 75612) map
+I (106) esp_image: segment 1: paddr=00022784 vaddr=3fc90e00 size=03384h ( 13188) load
+I (109) esp_image: segment 2: paddr=00025b10 vaddr=40374000 size=0a508h ( 42248) load
+I (119) esp_image: segment 3: paddr=00030020 vaddr=42000020 size=35810h (219152) map
+I (159) esp_image: segment 4: paddr=00065838 vaddr=4037e508 size=02854h ( 10324) load
+I (162) esp_image: segment 5: paddr=00068094 vaddr=50000000 size=00024h (    36) load
+I (169) boot: Loaded app from partition at offset 0x10000
+I (169) boot: Disabling RNG early entropy source...
+I (185) cpu_start: Multicore app
+I (193) cpu_start: GPIO 44 and 43 are used as console UART I/O pins
+I (194) cpu_start: Pro cpu start user code
+I (194) cpu_start: cpu freq: 160000000 Hz
+I (195) app_init: Application information:
+I (199) app_init: Project name:     tcc_monitoramento2
+I (204) app_init: App version:      e31911d-dirty
+I (209) app_init: Compile time:     Nov 13 2026 20:28:06
+I (214) app_init: ELF file SHA256:  f50f7b220...
+I (218) app_init: ESP-IDF:          6.0.1
+I (222) efuse_init: Min chip rev:     v0.0
+I (225) efuse_init: Max chip rev:     v0.99 
+I (229) efuse_init: Chip rev:         v0.2
+I (233) heap_init: Initializing. RAM available for dynamic allocation:
+I (240) heap_init: At 3FC9D790 len 0004BF80 (303 KiB): RAM
+I (245) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM
+I (250) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM
+I (255) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM
+I (261) spi_flash: detected chip: boya
+I (264) spi_flash: flash io: dio
+W (267) spi_flash: Detected size(16384k) larger than the size in the binary image header(8192k). Using the size in the binary image header.
+I (280) sleep_gpio: Configure to isolate all GPIO pins in sleep state
+I (285) sleep_gpio: Enable automatic switching of GPIO sleep configuration
+I (293) main_task: Started on CPU0
+I (303) main_task: Calling app_main()
+I (10303) MAIN: === Diagnostico de falhas em motores (TinyML) ===
+I (10303) MAIN: ESP32-S3 | 2 nucleos | IDF 6.0.1 | heap livre 357644
+I (10303) I2C_BUS: Barramento I2C inicializado
+I (10303) I2C_BUS: SDA: GPIO 8
+I (10303) I2C_BUS: SCL: GPIO 9
+I (10323) STORAGE: LittleFS montado em /storage: 40960 de 1048576 bytes usados
+I (10353) RECONF: ev=reconf_begin t_us=10090228
+I (10353) RECONF: ev=last_inference_old t_us=0
+I (10353) main_task: Returned from app_main()
+I (10363) RECONF: ev=old_released t_us=10102151
+I (10363) ADXL345: OK (endereco 0x53, 100 Hz, +-16 g)
+I (10363) INA219: OK (endereco 0x40, config 0x399F, shunt 0.100 ohm)
+I (10373) RECONF: ev=sensors_ready t_us=10107353
+I (10383) MODEL_MGR: Modelo lido de /storage/model.tflite (3776 bytes)
+I (10383) MODEL_MGR: Pronto: entrada 52 valores (int8, scale=0.324740, zp=-121), saida 3 classes
+I (10383) RECONF: ev=model_ready t_us=10126370
+I (10453) RECONF: ev=selftest_ok t_us=10191514
+I (10453) CTRL: STATUS {"state":"running","version":1,"motor":"jgb37-520","trial":0,"detail":"configuracao aplicada"}
+I (10463) RECONF: ev=first_sample t_us=10203932
+I (11453) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (12453) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (13073) RECONF: ev=first_inference_valid t_us=12813850
+I (13073) INFER: Falha de engrenagem | DSP 59 ms, NN 1130 us
+I (13073) INFER: 1 janelas/s
+I (13193) INFER: Falha de engrenagem | DSP 59 ms, NN 1117 us
+I (13313) INFER: Falha de engrenagem | DSP 59 ms, NN 1139 us
+I (13433) INFER: Falha de engrenagem | DSP 59 ms, NN 1090 us
+I (13453) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (13553) INFER: Falha de engrenagem | DSP 59 ms, NN 1152 us
+I (13673) INFER: Falha de engrenagem | DSP 59 ms, NN 1101 us
+I (13793) INFER: Falha de engrenagem | DSP 58 ms, NN 1217 us
+I (13913) INFER: Falha de engrenagem | DSP 58 ms, NN 1173 us
+I (14033) INFER: Falha de engrenagem | DSP 58 ms, NN 1207 us
+I (14153) INFER: Falha de engrenagem | DSP 59 ms, NN 1107 us
+I (14153) INFER: 9 janelas/s
+I (14273) INFER: Falha de engrenagem | DSP 59 ms, NN 1135 us
+I (14393) INFER: Falha de engrenagem | DSP 59 ms, NN 1101 us
+I (14463) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (14513) INFER: Falha de engrenagem | DSP 59 ms, NN 1220 us
+I (14633) INFER: Falha de engrenagem | DSP 59 ms, NN 1126 us
+I (14753) INFER: Falha de engrenagem | DSP 59 ms, NN 1123 us
+I (14873) INFER: Falha de engrenagem | DSP 58 ms, NN 1189 us
+I (14993) INFER: Falha de engrenagem | DSP 59 ms, NN 1137 us
+I (15113) INFER: Falha de engrenagem | DSP 59 ms, NN 1133 us
+I (15233) INFER: Falha de engrenagem | DSP 59 ms, NN 1078 us
+I (15233) INFER: 9 janelas/s
+I (15353) INFER: Falha de engrenagem | DSP 59 ms, NN 1179 us
+I (15473) INFER: Falha de engrenagem | DSP 59 ms, NN 1141 us
+I (15473) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (15593) INFER: Falha de engrenagem | DSP 59 ms, NN 1170 us
+I (15713) INFER: Falha de engrenagem | DSP 59 ms, NN 1124 us
+I (15833) INFER: Falha de engrenagem | DSP 59 ms, NN 1139 us
+I (15953) INFER: Falha de engrenagem | DSP 59 ms, NN 1093 us
+I (16073) INFER: Falha de engrenagem | DSP 59 ms, NN 1176 us
+I (16193) INFER: Falha de engrenagem | DSP 58 ms, NN 1163 us
+I (16313) INFER: Falha de engrenagem | DSP 58 ms, NN 1177 us
+I (16313) INFER: 9 janelas/s
+I (16433) INFER: Falha de engrenagem | DSP 58 ms, NN 1171 us
+I (16483) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (16553) INFER: Falha de engrenagem | DSP 59 ms, NN 1109 us
+I (16673) INFER: Falha de engrenagem | DSP 59 ms, NN 1099 us
+I (16793) INFER: Falha de engrenagem | DSP 59 ms, NN 1164 us
+I (16913) INFER: Falha de engrenagem | DSP 59 ms, NN 1118 us
+I (17033) INFER: Falha de engrenagem | DSP 59 ms, NN 1133 us
+I (17153) INFER: Falha de engrenagem | DSP 59 ms, NN 1121 us
+I (17273) INFER: Falha de engrenagem | DSP 58 ms, NN 1178 us
+I (17393) INFER: Falha de engrenagem | DSP 58 ms, NN 1154 us
+I (17393) INFER: 9 janelas/s
+I (17483) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (17513) INFER: Falha de engrenagem | DSP 59 ms, NN 1186 us
+I (17633) INFER: Falha de engrenagem | DSP 59 ms, NN 1127 us
+I (17753) INFER: Falha de engrenagem | DSP 59 ms, NN 1080 us
+I (17873) INFER: Falha de engrenagem | DSP 59 ms, NN 1160 us
+I (17993) INFER: Falha de engrenagem | DSP 59 ms, NN 1097 us
+I (18113) INFER: Falha de engrenagem | DSP 58 ms, NN 1192 us
+I (18233) INFER: Falha de engrenagem | DSP 59 ms, NN 1120 us
+I (18353) INFER: Falha de engrenagem | DSP 59 ms, NN 1141 us
+I (18473) INFER: Falha de engrenagem | DSP 59 ms, NN 1085 us
+I (18473) INFER: 9 janelas/s
+I (18493) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (18593) INFER: Falha de engrenagem | DSP 58 ms, NN 1179 us
+I (18713) INFER: Falha de engrenagem | DSP 58 ms, NN 1164 us
+I (18833) INFER: Falha de engrenagem | DSP 58 ms, NN 1202 us
+I (18953) INFER: Falha de engrenagem | DSP 58 ms, NN 1177 us
+I (19073) INFER: Falha de engrenagem | DSP 59 ms, NN 1179 us
+I (19193) INFER: Falha de engrenagem | DSP 58 ms, NN 1179 us
+I (19313) INFER: Falha de engrenagem | DSP 58 ms, NN 1180 us
+I (19433) INFER: Falha de engrenagem | DSP 58 ms, NN 1172 us
+I (19503) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (19553) INFER: Falha de engrenagem | DSP 59 ms, NN 1201 us
+I (19553) INFER: 9 janelas/s
+I (19673) INFER: Falha de engrenagem | DSP 59 ms, NN 1139 us
+I (19793) INFER: Falha de engrenagem | DSP 59 ms, NN 1100 us
+I (19913) INFER: Falha de engrenagem | DSP 59 ms, NN 1174 us
+I (20033) INFER: Falha de engrenagem | DSP 58 ms, NN 1163 us
+I (20153) INFER: Falha de engrenagem | DSP 58 ms, NN 1182 us
+I (20273) INFER: Falha de engrenagem | DSP 59 ms, NN 1132 us
+I (20393) INFER: Falha de engrenagem | DSP 59 ms, NN 1126 us
+I (20513) INFER: Falha de engrenagem | DSP 59 ms, NN 1152 us
+I (20513) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (20633) INFER: Falha de engrenagem | DSP 59 ms, NN 1141 us
+I (20633) INFER: 9 janelas/s
+I (20753) INFER: Falha de engrenagem | DSP 59 ms, NN 1127 us
+I (20873) INFER: Falha de engrenagem | DSP 58 ms, NN 1179 us
+I (20993) INFER: Falha de engrenagem | DSP 58 ms, NN 1161 us
+I (21113) INFER: Falha de engrenagem | DSP 58 ms, NN 1201 us
+I (21233) INFER: Falha de engrenagem | DSP 59 ms, NN 1125 us
+I (21353) INFER: Falha de engrenagem | DSP 59 ms, NN 1130 us
+I (21473) INFER: Falha de engrenagem | DSP 59 ms, NN 1092 us
+I (21523) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (21593) INFER: Falha de engrenagem | DSP 59 ms, NN 1086 us
+I (21713) INFER: Falha de engrenagem | DSP 59 ms, NN 1117 us
+I (21713) INFER: 9 janelas/s
+I (21833) INFER: Falha de engrenagem | DSP 59 ms, NN 1164 us
+I (21953) INFER: Falha de engrenagem | DSP 59 ms, NN 1094 us
+I (22073) INFER: Falha de engrenagem | DSP 58 ms, NN 1180 us
+I (22193) INFER: Falha de engrenagem | DSP 58 ms, NN 1163 us
+I (22313) INFER: Falha de engrenagem | DSP 58 ms, NN 1204 us
+I (22433) INFER: Falha de engrenagem | DSP 59 ms, NN 1117 us
+I (22523) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (22553) INFER: Falha de engrenagem | DSP 59 ms, NN 1214 us
+I (22673) INFER: Falha de engrenagem | DSP 59 ms, NN 1129 us
+I (22793) INFER: Falha de engrenagem | DSP 59 ms, NN 1103 us
+I (22793) INFER: 9 janelas/s
+I (22913) INFER: Falha de engrenagem | DSP 58 ms, NN 1181 us
+I (23033) INFER: Falha de engrenagem | DSP 58 ms, NN 1169 us
+I (23153) INFER: Falha de engrenagem | DSP 58 ms, NN 1188 us
+I (23273) INFER: Falha de engrenagem | DSP 59 ms, NN 1127 us
+I (23393) INFER: Falha de engrenagem | DSP 59 ms, NN 1179 us
+I (23513) INFER: Falha de engrenagem | DSP 59 ms, NN 1087 us
+I (23533) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (23633) INFER: Falha de engrenagem | DSP 59 ms, NN 1139 us
+I (23753) INFER: Falha de engrenagem | DSP 59 ms, NN 1083 us
+I (23873) INFER: Falha de engrenagem | DSP 59 ms, NN 1170 us
+I (23873) INFER: 9 janelas/s
+I (23993) INFER: Falha de engrenagem | DSP 59 ms, NN 1114 us
+I (24113) INFER: Falha de engrenagem | DSP 59 ms, NN 1108 us
+I (24233) INFER: Falha de engrenagem | DSP 59 ms, NN 1092 us
+I (24353) INFER: Falha de engrenagem | DSP 59 ms, NN 1131 us
+I (24473) INFER: Falha de engrenagem | DSP 59 ms, NN 1117 us
+I (24543) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (24593) INFER: Falha de engrenagem | DSP 59 ms, NN 1226 us
+I (24713) INFER: Falha de engrenagem | DSP 59 ms, NN 1145 us
+I (24833) INFER: Falha de engrenagem | DSP 59 ms, NN 1084 us
+I (24953) INFER: Falha de engrenagem | DSP 59 ms, NN 1179 us
+I (24953) INFER: 9 janelas/s
+I (25073) INFER: Falha de engrenagem | DSP 58 ms, NN 1153 us
+I (25193) INFER: Falha de engrenagem | DSP 58 ms, NN 1164 us
+I (25313) INFER: Falha de engrenagem | DSP 59 ms, NN 1121 us
+I (25433) INFER: Falha de engrenagem | DSP 59 ms, NN 1131 us
+I (25553) INFER: Falha de engrenagem | DSP 59 ms, NN 1085 us
+I (25553) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (25673) INFER: Falha de engrenagem | DSP 59 ms, NN 1129 us
+I (25793) INFER: Falha de engrenagem | DSP 59 ms, NN 1073 us
+I (25913) INFER: Falha de engrenagem | DSP 59 ms, NN 1115 us
+I (26033) INFER: Falha de engrenagem | DSP 59 ms, NN 1122 us
+I (26033) INFER: 9 janelas/s
+I (26153) INFER: Falha de engrenagem | DSP 59 ms, NN 1128 us
+I (26273) INFER: Falha de engrenagem | DSP 59 ms, NN 1099 us
+I (26393) INFER: Falha de engrenagem | DSP 59 ms, NN 1139 us
+I (26513) INFER: Falha de engrenagem | DSP 59 ms, NN 1093 us
+I (26563) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (26633) INFER: Falha de engrenagem | DSP 59 ms, NN 1103 us
+I (26753) INFER: Falha de engrenagem | DSP 59 ms, NN 1083 us
+I (26873) INFER: Falha de engrenagem | DSP 59 ms, NN 1156 us
+I (26993) INFER: Falha de engrenagem | DSP 59 ms, NN 1125 us
+I (27113) INFER: Falha de engrenagem | DSP 59 ms, NN 1134 us
+I (27113) INFER: 9 janelas/s
+I (27233) INFER: Falha de engrenagem | DSP 59 ms, NN 1123 us
+I (27353) INFER: Falha de engrenagem | DSP 59 ms, NN 1137 us
+I (27473) INFER: Falha de engrenagem | DSP 59 ms, NN 1124 us
+I (27563) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (27593) INFER: Falha de engrenagem | DSP 59 ms, NN 1191 us
+I (27713) INFER: Falha de engrenagem | DSP 59 ms, NN 1124 us
+I (27833) INFER: Falha de engrenagem | DSP 59 ms, NN 1118 us
+I (27953) INFER: Falha de engrenagem | DSP 59 ms, NN 1137 us
+I (28073) INFER: Falha de engrenagem | DSP 59 ms, NN 1112 us
+I (28193) INFER: Falha de engrenagem | DSP 58 ms, NN 1202 us
+I (28193) INFER: 9 janelas/s
+I (28313) INFER: Falha de engrenagem | DSP 59 ms, NN 1131 us
+I (28433) INFER: Falha de engrenagem | DSP 59 ms, NN 1113 us
+I (28553) INFER: Falha de engrenagem | DSP 59 ms, NN 1120 us
+I (28573) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (28673) INFER: Falha de engrenagem | DSP 59 ms, NN 1162 us
+I (28793) INFER: Falha de engrenagem | DSP 59 ms, NN 1111 us
+I (28913) INFER: Falha de engrenagem | DSP 58 ms, NN 1207 us
+I (29033) INFER: Falha de engrenagem | DSP 58 ms, NN 1174 us
+I (29153) INFER: Falha de engrenagem | DSP 59 ms, NN 1170 us
+I (29273) INFER: Falha de engrenagem | DSP 59 ms, NN 1116 us
+I (29273) INFER: 9 janelas/s
+I (29393) INFER: Falha de engrenagem | DSP 59 ms, NN 1132 us
+I (29513) INFER: Falha de engrenagem | DSP 59 ms, NN 1077 us
+I (29573) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (29633) INFER: Falha de engrenagem | DSP 59 ms, NN 1179 us
+I (29753) INFER: Falha de engrenagem | DSP 58 ms, NN 1169 us
+I (29873) INFER: Falha de engrenagem | DSP 59 ms, NN 1144 us
+I (29993) INFER: Falha de engrenagem | DSP 59 ms, NN 1125 us
+I (30113) INFER: Falha de engrenagem | DSP 59 ms, NN 1132 us
+I (30233) INFER: Falha de engrenagem | DSP 59 ms, NN 1128 us
+I (30353) INFER: Falha de engrenagem | DSP 59 ms, NN 1083 us
+I (30353) INFER: 9 janelas/s
+I (30473) INFER: Falha de engrenagem | DSP 59 ms, NN 1165 us
+I (30573) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (30593) INFER: Falha de engrenagem | DSP 59 ms, NN 1180 us
+I (30713) INFER: Falha de engrenagem | DSP 58 ms, NN 1192 us
+I (30833) INFER: Falha de engrenagem | DSP 59 ms, NN 1143 us
+I (30953) INFER: Falha de engrenagem | DSP 59 ms, NN 1143 us
+I (31073) INFER: Falha de engrenagem | DSP 59 ms, NN 1112 us
+I (31193) INFER: Falha de engrenagem | DSP 58 ms, NN 1174 us
+I (31313) INFER: Falha de engrenagem | DSP 59 ms, NN 1131 us
+I (31433) INFER: Falha de engrenagem | DSP 59 ms, NN 1171 us
+I (31433) INFER: 9 janelas/s
+I (31553) INFER: Falha de engrenagem | DSP 59 ms, NN 1117 us
+I (31583) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (31673) INFER: Falha de engrenagem | DSP 59 ms, NN 1141 us
+I (31793) INFER: Falha de engrenagem | DSP 59 ms, NN 1115 us
+I (31913) INFER: Falha de engrenagem | DSP 59 ms, NN 1142 us
+I (32033) INFER: Falha de engrenagem | DSP 59 ms, NN 1078 us
+I (32153) INFER: Falha de engrenagem | DSP 58 ms, NN 1193 us
+I (32273) INFER: Falha de engrenagem | DSP 58 ms, NN 1167 us
+I (32393) INFER: Falha de engrenagem | DSP 58 ms, NN 1191 us
+I (32513) INFER: Falha de engrenagem | DSP 59 ms, NN 1085 us
+I (32513) INFER: 9 janelas/s
+I (32583) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (32633) INFER: Falha de engrenagem | DSP 59 ms, NN 1189 us
+I (32753) INFER: Falha de engrenagem | DSP 59 ms, NN 1141 us
+I (32873) INFER: Falha de engrenagem | DSP 59 ms, NN 1105 us
+I (32993) INFER: Falha de engrenagem | DSP 59 ms, NN 1175 us
+I (33113) INFER: Falha de engrenagem | DSP 58 ms, NN 1166 us
+I (33233) INFER: Falha de engrenagem | DSP 58 ms, NN 1193 us
+I (33353) INFER: Falha de engrenagem | DSP 59 ms, NN 1130 us
+I (33473) INFER: Falha de engrenagem | DSP 59 ms, NN 1134 us
+I (33593) INFER: Falha de engrenagem | DSP 59 ms, NN 1080 us
+I (33593) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (33593) INFER: 9 janelas/s
+I (33713) INFER: Falha de engrenagem | DSP 58 ms, NN 1185 us
+I (33833) INFER: Falha de engrenagem | DSP 58 ms, NN 1158 us
+I (33953) INFER: Falha de engrenagem | DSP 58 ms, NN 1196 us
+I (34073) INFER: Falha de engrenagem | DSP 58 ms, NN 1160 us
+I (34193) INFER: Falha de engrenagem | DSP 59 ms, NN 1178 us
+I (34313) INFER: Falha de engrenagem | DSP 59 ms, NN 1157 us
+I (34433) INFER: Falha de engrenagem | DSP 58 ms, NN 1193 us
+I (34553) INFER: Falha de engrenagem | DSP 59 ms, NN 1160 us
+I (34603) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (34673) INFER: Falha de engrenagem | DSP 59 ms, NN 1101 us
+I (34673) INFER: 9 janelas/s
+I (34793) INFER: Falha de engrenagem | DSP 59 ms, NN 1137 us
+I (34913) INFER: Falha de engrenagem | DSP 59 ms, NN 1096 us
+I (35033) INFER: Falha de engrenagem | DSP 59 ms, NN 1118 us
+I (35153) INFER: Falha de engrenagem | DSP 59 ms, NN 1090 us
+I (35273) INFER: Falha de engrenagem | DSP 59 ms, NN 1127 us
+I (35393) INFER: Falha de engrenagem | DSP 59 ms, NN 1139 us
+I (35513) INFER: Falha de engrenagem | DSP 59 ms, NN 1102 us
+I (35603) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (35633) INFER: Falha de engrenagem | DSP 59 ms, NN 1201 us
+I (35753) INFER: Falha de engrenagem | DSP 59 ms, NN 1185 us
+I (35753) INFER: 9 janelas/s
+I (35873) INFER: Falha de engrenagem | DSP 59 ms, NN 1125 us
+I (35993) INFER: Falha de engrenagem | DSP 59 ms, NN 1128 us
+I (36113) INFER: Falha de engrenagem | DSP 59 ms, NN 1080 us
+I (36233) INFER: Falha de engrenagem | DSP 58 ms, NN 1205 us
+I (36353) INFER: Falha de engrenagem | DSP 59 ms, NN 1149 us
+I (36473) INFER: Falha de engrenagem | DSP 59 ms, NN 1121 us
+I (36593) INFER: Falha de engrenagem | DSP 59 ms, NN 1118 us
+I (36613) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (36713) INFER: Falha de engrenagem | DSP 59 ms, NN 1133 us
+I (36833) INFER: Falha de engrenagem | DSP 59 ms, NN 1129 us
+I (36833) INFER: 9 janelas/s
+I (36953) INFER: Falha de engrenagem | DSP 59 ms, NN 1167 us
+I (37073) INFER: Falha de engrenagem | DSP 59 ms, NN 1120 us
+I (37193) INFER: Falha de engrenagem | DSP 59 ms, NN 1147 us
+I (37313) INFER: Falha de engrenagem | DSP 59 ms, NN 1110 us
+I (37433) INFER: Falha de engrenagem | DSP 59 ms, NN 1137 us
+I (37553) INFER: Falha de engrenagem | DSP 59 ms, NN 1102 us
+I (37613) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (37673) INFER: Falha de engrenagem | DSP 59 ms, NN 1168 us
+I (37793) INFER: Falha de engrenagem | DSP 58 ms, NN 1166 us
+I (37913) INFER: Falha de engrenagem | DSP 59 ms, NN 1109 us
+I (37913) INFER: 9 janelas/s
+I (38033) INFER: Falha de engrenagem | DSP 59 ms, NN 1154 us
+I (38153) INFER: Falha de engrenagem | DSP 59 ms, NN 1127 us
+I (38273) INFER: Falha de engrenagem | DSP 59 ms, NN 1167 us
+I (38393) INFER: Falha de engrenagem | DSP 58 ms, NN 1176 us
+I (38513) INFER: Falha de engrenagem | DSP 58 ms, NN 1180 us
+I (38613) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (38633) INFER: Falha de engrenagem | DSP 59 ms, NN 1192 us
+I (38753) INFER: Falha de engrenagem | DSP 59 ms, NN 1136 us
+I (38873) INFER: Falha de engrenagem | DSP 59 ms, NN 1105 us
+I (38993) INFER: Falha de engrenagem | DSP 58 ms, NN 1184 us
+I (38993) INFER: 9 janelas/s
+I (39113) INFER: Falha de engrenagem | DSP 58 ms, NN 1146 us
+I (39233) INFER: Falha de engrenagem | DSP 58 ms, NN 1182 us
+I (39353) INFER: Falha de engrenagem | DSP 59 ms, NN 1120 us
+I (39473) INFER: Falha de engrenagem | DSP 59 ms, NN 1152 us
+I (39593) INFER: Falha de engrenagem | DSP 59 ms, NN 1115 us
+I (39623) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (39713) INFER: Falha de engrenagem | DSP 59 ms, NN 1150 us
+I (39833) INFER: Falha de engrenagem | DSP 59 ms, NN 1093 us
+I (39953) INFER: Falha de engrenagem | DSP 58 ms, NN 1181 us
+I (40073) INFER: Falha de engrenagem | DSP 58 ms, NN 1164 us
+I (40073) INFER: 9 janelas/s
+I (40193) INFER: Falha de engrenagem | DSP 58 ms, NN 1240 us
+I (40313) INFER: Falha de engrenagem | DSP 59 ms, NN 1116 us
+I (40433) INFER: Falha de engrenagem | DSP 59 ms, NN 1134 us
+I (40553) INFER: Falha de engrenagem | DSP 59 ms, NN 1120 us
+I (40623) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (40673) INFER: Falha de engrenagem | DSP 59 ms, NN 1210 us
+I (40793) INFER: Falha de engrenagem | DSP 59 ms, NN 1133 us
+I (40913) INFER: Falha de engrenagem | DSP 59 ms, NN 1101 us
+I (41033) INFER: Falha de engrenagem | DSP 59 ms, NN 1142 us
+I (41153) INFER: Falha de engrenagem | DSP 59 ms, NN 1085 us
+I (41153) INFER: 9 janelas/s
+I (41273) INFER: Falha de engrenagem | DSP 58 ms, NN 1192 us
+I (41393) INFER: Falha de engrenagem | DSP 58 ms, NN 1179 us
+I (41513) INFER: Falha de engrenagem | DSP 59 ms, NN 1177 us
+I (41633) INFER: Falha de engrenagem | DSP 58 ms, NN 1173 us
+I (41633) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (41753) INFER: Falha de engrenagem | DSP 58 ms, NN 1179 us
+I (41873) INFER: Falha de engrenagem | DSP 59 ms, NN 1120 us
+I (41993) INFER: Falha de engrenagem | DSP 59 ms, NN 1169 us
+I (42113) INFER: Falha de engrenagem | DSP 59 ms, NN 1114 us
+I (42233) INFER: Falha de engrenagem | DSP 59 ms, NN 1141 us
+I (42233) INFER: 9 janelas/s
+I (42353) INFER: Falha de engrenagem | DSP 59 ms, NN 1072 us
+I (42473) INFER: Falha de engrenagem | DSP 58 ms, NN 1183 us
+I (42593) INFER: Falha de engrenagem | DSP 58 ms, NN 1165 us
+I (42643) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (42713) INFER: Falha de engrenagem | DSP 58 ms, NN 1134 us
+I (42833) INFER: Falha de engrenagem | DSP 59 ms, NN 1087 us
+I (42953) INFER: Falha de engrenagem | DSP 59 ms, NN 1172 us
+I (43073) INFER: Falha de engrenagem | DSP 58 ms, NN 1158 us
+I (43193) INFER: Falha de engrenagem | DSP 59 ms, NN 1168 us
+I (43313) INFER: Falha de engrenagem | DSP 59 ms, NN 1125 us
+I (43313) INFER: 9 janelas/s
+I (43433) INFER: Falha de engrenagem | DSP 58 ms, NN 1180 us
+I (43553) INFER: Falha de engrenagem | DSP 58 ms, NN 1167 us
+I (43643) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (43673) INFER: Falha de engrenagem | DSP 59 ms, NN 1193 us
+I (43793) INFER: Falha de engrenagem | DSP 59 ms, NN 1101 us
+I (43913) INFER: Falha de engrenagem | DSP 59 ms, NN 1081 us
+I (44033) INFER: Falha de engrenagem | DSP 59 ms, NN 1181 us
+I (44153) INFER: Falha de engrenagem | DSP 58 ms, NN 1163 us
+I (44273) INFER: Falha de engrenagem | DSP 58 ms, NN 1210 us
+I (44393) INFER: Falha de engrenagem | DSP 59 ms, NN 1162 us
+I (44393) INFER: 9 janelas/s
+I (44513) INFER: Falha de engrenagem | DSP 58 ms, NN 1184 us
+I (44633) INFER: Falha de engrenagem | DSP 59 ms, NN 1113 us
+I (44653) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (44753) INFER: Falha de engrenagem | DSP 58 ms, NN 1189 us
+I (44873) INFER: Falha de engrenagem | DSP 59 ms, NN 1131 us
+I (44993) INFER: Falha de engrenagem | DSP 59 ms, NN 1132 us
+I (45113) INFER: Falha de engrenagem | DSP 59 ms, NN 1075 us
+I (45233) INFER: Falha de engrenagem | DSP 59 ms, NN 1181 us
+I (45353) INFER: Falha de engrenagem | DSP 58 ms, NN 1169 us
+I (45473) INFER: Falha de engrenagem | DSP 58 ms, NN 1206 us
+I (45473) INFER: 9 janelas/s
+I (45593) INFER: Falha de engrenagem | DSP 59 ms, NN 1155 us
+I (45663) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (45713) INFER: Falha de engrenagem | DSP 59 ms, NN 1192 us
+I (45833) INFER: Falha de engrenagem | DSP 59 ms, NN 1158 us
+I (45953) INFER: Falha de engrenagem | DSP 59 ms, NN 1100 us
+I (46073) INFER: Falha de engrenagem | DSP 59 ms, NN 1167 us
+I (46193) INFER: Falha de engrenagem | DSP 59 ms, NN 1079 us
+I (46313) INFER: Falha de engrenagem | DSP 58 ms, NN 1204 us
+I (46433) INFER: Falha de engrenagem | DSP 59 ms, NN 1092 us
+I (46553) INFER: Falha de engrenagem | DSP 59 ms, NN 1131 us
+I (46553) INFER: 9 janelas/s
+I (46673) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (46673) INFER: Falha de engrenagem | DSP 59 ms, NN 1083 us
+I (46793) INFER: Falha de engrenagem | DSP 59 ms, NN 1143 us
+I (46913) INFER: Falha de engrenagem | DSP 59 ms, NN 1123 us
+I (47033) INFER: Falha de engrenagem | DSP 58 ms, NN 1187 us
+I (47153) INFER: Falha de engrenagem | DSP 58 ms, NN 1154 us
+I (47273) INFER: Falha de engrenagem | DSP 59 ms, NN 1147 us
+I (47393) INFER: Falha de engrenagem | DSP 59 ms, NN 1106 us
+I (47513) INFER: Falha de engrenagem | DSP 58 ms, NN 1204 us
+I (47633) INFER: Falha de engrenagem | DSP 59 ms, NN 1128 us
+I (47633) INFER: 9 janelas/s
+I (47683) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (47753) INFER: Falha de engrenagem | DSP 59 ms, NN 1083 us
+I (47873) INFER: Falha de engrenagem | DSP 59 ms, NN 1121 us
+I (47993) INFER: Falha de engrenagem | DSP 59 ms, NN 1157 us
+I (48113) INFER: Falha de engrenagem | DSP 59 ms, NN 1088 us
+I (48233) INFER: Falha de engrenagem | DSP 58 ms, NN 1208 us
+I (48353) INFER: Falha de engrenagem | DSP 59 ms, NN 1125 us
+I (48473) INFER: Falha de engrenagem | DSP 59 ms, NN 1147 us
+I (48593) INFER: Falha de engrenagem | DSP 59 ms, NN 1073 us
+I (48683) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (48713) INFER: Falha de engrenagem | DSP 59 ms, NN 1205 us
+I (48713) INFER: 9 janelas/s
+I (48833) INFER: Falha de engrenagem | DSP 59 ms, NN 1127 us
+I (48953) INFER: Falha de engrenagem | DSP 59 ms, NN 1106 us
+I (49073) INFER: Falha de engrenagem | DSP 58 ms, NN 1200 us
+I (49193) INFER: Falha de engrenagem | DSP 58 ms, NN 1163 us
+I (49313) INFER: Falha de engrenagem | DSP 58 ms, NN 1207 us
+I (49433) INFER: Falha de engrenagem | DSP 59 ms, NN 1117 us
+I (49553) INFER: Falha de engrenagem | DSP 59 ms, NN 1146 us
+I (49673) INFER: Falha de engrenagem | DSP 59 ms, NN 1090 us
+I (49693) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (49793) INFER: Falha de engrenagem | DSP 58 ms, NN 1187 us
+I (49793) INFER: 9 janelas/s
+I (49913) INFER: Falha de engrenagem | DSP 59 ms, NN 1139 us
+I (50033) INFER: Falha de engrenagem | DSP 59 ms, NN 1170 us
+I (50153) INFER: Falha de engrenagem | DSP 59 ms, NN 1131 us
+I (50273) INFER: Falha de engrenagem | DSP 59 ms, NN 1117 us
+I (50393) INFER: Falha de engrenagem | DSP 59 ms, NN 1114 us
+I (50513) INFER: Falha de engrenagem | DSP 59 ms, NN 1140 us
+I (50633) INFER: Falha de engrenagem | DSP 59 ms, NN 1098 us
+I (50703) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (50753) INFER: Falha de engrenagem | DSP 59 ms, NN 1187 us
+I (50873) INFER: Falha de engrenagem | DSP 59 ms, NN 1173 us
+I (50873) INFER: 9 janelas/s
+I (50993) INFER: Falha de engrenagem | DSP 59 ms, NN 1078 us
+I (51113) INFER: Falha de engrenagem | DSP 58 ms, NN 1202 us
+I (51233) INFER: Falha de engrenagem | DSP 59 ms, NN 1122 us
+I (51353) INFER: Falha de engrenagem | DSP 59 ms, NN 1160 us
+I (51473) INFER: Falha de engrenagem | DSP 59 ms, NN 1072 us
+I (51593) INFER: Falha de engrenagem | DSP 58 ms, NN 1197 us
+I (51713) INFER: Falha de engrenagem | DSP 59 ms, NN 1126 us
+I (51713) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (51833) INFER: Falha de engrenagem | DSP 58 ms, NN 1185 us
+I (51953) INFER: Falha de engrenagem | DSP 59 ms, NN 1119 us
+I (51953) INFER: 9 janelas/s
+I (52073) INFER: Falha de engrenagem | DSP 59 ms, NN 1118 us
+I (52193) INFER: Falha de engrenagem | DSP 59 ms, NN 1106 us
+I (52313) INFER: Falha de engrenagem | DSP 58 ms, NN 1179 us
+I (52433) INFER: Falha de engrenagem | DSP 59 ms, NN 1117 us
+I (52553) INFER: Falha de engrenagem | DSP 59 ms, NN 1139 us
+I (52673) INFER: Falha de engrenagem | DSP 59 ms, NN 1116 us
+I (52723) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (52793) INFER: Falha de engrenagem | DSP 59 ms, NN 1109 us
+I (52913) INFER: Falha de engrenagem | DSP 59 ms, NN 1091 us
+I (53033) INFER: Falha de engrenagem | DSP 58 ms, NN 1212 us
+I (53033) INFER: 9 janelas/s
+I (53153) INFER: Falha de engrenagem | DSP 59 ms, NN 1082 us
+I (53273) INFER: Falha de engrenagem | DSP 59 ms, NN 1137 us
+I (53393) INFER: Falha de engrenagem | DSP 59 ms, NN 1090 us
+I (53513) INFER: Falha de engrenagem | DSP 58 ms, NN 1209 us
+I (53633) INFER: Falha de engrenagem | DSP 59 ms, NN 1144 us
+I (53723) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (53753) INFER: Falha de engrenagem | DSP 59 ms, NN 1220 us
+I (53873) INFER: Falha de engrenagem | DSP 59 ms, NN 1144 us
+I (53993) INFER: Falha de engrenagem | DSP 59 ms, NN 1118 us
+I (54113) INFER: Falha de engrenagem | DSP 58 ms, NN 1209 us
+I (54113) INFER: 9 janelas/s
+I (54233) INFER: Falha de engrenagem | DSP 59 ms, NN 1119 us
+I (54353) INFER: Falha de engrenagem | DSP 59 ms, NN 1167 us
+I (54473) INFER: Falha de engrenagem | DSP 59 ms, NN 1072 us
+I (54593) INFER: Falha de engrenagem | DSP 59 ms, NN 1178 us
+I (54713) INFER: Falha de engrenagem | DSP 59 ms, NN 1139 us
+I (54733) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (54833) INFER: Falha de engrenagem | DSP 59 ms, NN 1091 us
+I (54953) INFER: Falha de engrenagem | DSP 58 ms, NN 1173 us
+I (55073) INFER: Falha de engrenagem | DSP 58 ms, NN 1189 us
+I (55193) INFER: Falha de engrenagem | DSP 59 ms, NN 1155 us
+I (55193) INFER: 9 janelas/s
+I (55313) INFER: Falha de engrenagem | DSP 59 ms, NN 1083 us
+I (55433) INFER: Falha de engrenagem | DSP 58 ms, NN 1168 us
+I (55553) INFER: Falha de engrenagem | DSP 58 ms, NN 1187 us
+I (55673) INFER: Falha de engrenagem | DSP 59 ms, NN 1129 us
+I (55733) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (55793) INFER: Falha de engrenagem | DSP 59 ms, NN 1175 us
+I (55913) INFER: Falha de engrenagem | DSP 59 ms, NN 1122 us
+I (56033) INFER: Falha de engrenagem | DSP 59 ms, NN 1094 us
+I (56153) INFER: Falha de engrenagem | DSP 58 ms, NN 1169 us
+I (56273) INFER: Falha de engrenagem | DSP 59 ms, NN 1128 us
+I (56273) INFER: 9 janelas/s
+I (56393) INFER: Falha de engrenagem | DSP 59 ms, NN 1120 us
+I (56513) INFER: Falha de engrenagem | DSP 59 ms, NN 1131 us
+I (56633) INFER: Falha de engrenagem | DSP 59 ms, NN 1120 us
+I (56733) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (56753) INFER: Falha de engrenagem | DSP 59 ms, NN 1189 us
+I (56873) INFER: Falha de engrenagem | DSP 59 ms, NN 1134 us
+I (56993) INFER: Falha de engrenagem | DSP 59 ms, NN 1071 us
+I (57113) INFER: Falha de engrenagem | DSP 58 ms, NN 1177 us
+I (57233) INFER: Falha de engrenagem | DSP 58 ms, NN 1162 us
+I (57353) INFER: Falha de engrenagem | DSP 59 ms, NN 1174 us
+I (57353) INFER: 9 janelas/s
+I (57473) INFER: Falha de engrenagem | DSP 58 ms, NN 1166 us
+I (57593) INFER: Falha de engrenagem | DSP 58 ms, NN 1217 us
+I (57713) INFER: Falha de engrenagem | DSP 59 ms, NN 1118 us
+I (57743) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (57833) INFER: Falha de engrenagem | DSP 59 ms, NN 1139 us
+I (57953) INFER: Falha de engrenagem | DSP 59 ms, NN 1116 us
+I (58073) INFER: Falha de engrenagem | DSP 58 ms, NN 1185 us
+I (58193) INFER: Falha de engrenagem | DSP 58 ms, NN 1164 us
+I (58313) INFER: Falha de engrenagem | DSP 58 ms, NN 1184 us
+I (58433) INFER: Falha de engrenagem | DSP 58 ms, NN 1157 us
+I (58433) INFER: 9 janelas/s
+I (58553) INFER: Falha de engrenagem | DSP 59 ms, NN 1150 us
+I (58673) INFER: Falha de engrenagem | DSP 59 ms, NN 1073 us
+I (58743) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (58793) INFER: Falha de engrenagem | DSP 59 ms, NN 1189 us
+I (58913) INFER: Falha de engrenagem | DSP 59 ms, NN 1125 us
+I (59033) INFER: Falha de engrenagem | DSP 59 ms, NN 1102 us
+I (59153) INFER: Falha de engrenagem | DSP 58 ms, NN 1206 us
+I (59273) INFER: Falha de engrenagem | DSP 59 ms, NN 1142 us
+I (59393) INFER: Falha de engrenagem | DSP 59 ms, NN 1173 us
+I (59513) INFER: Falha de engrenagem | DSP 59 ms, NN 1138 us
+I (59513) INFER: 9 janelas/s
+I (59633) INFER: Falha de engrenagem | DSP 59 ms, NN 1158 us
+I (59753) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (59753) INFER: Falha de engrenagem | DSP 59 ms, NN 1073 us
+I (59873) INFER: Falha de engrenagem | DSP 58 ms, NN 1190 us
+I (59993) INFER: Falha de engrenagem | DSP 58 ms, NN 1159 us

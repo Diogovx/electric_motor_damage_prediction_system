@@ -154,3 +154,11 @@ void ADXL345Adapter::setRange(uint8_t range)
         ESP_LOGE(TAG, "Falha ao gravar a nova faixa");
     }
 }
+ADXL345Adapter::~ADXL345Adapter()
+{
+    if (dev != nullptr)
+    {
+        i2c_master_bus_rm_device(dev);
+        dev = nullptr;
+    }
+}

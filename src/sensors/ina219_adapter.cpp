@@ -120,3 +120,11 @@ uint32_t INA219Adapter::getSamplingRate()
 {
     return SAMPLING_RATE_HZ;
 }
+INA219Adapter::~INA219Adapter()
+{
+    if (dev != nullptr)
+    {
+        i2c_master_bus_rm_device(dev);
+        dev = nullptr;
+    }
+}

@@ -1,27 +1,22 @@
-#include "config/system_config.h"
-#include "acquisition/acquisition.h"
 #include "drivers/i2c_bus.h"
-#include "processing/sample_stream.h"
-#include "processing/inference.h"
 #include "storage/storage.h"
-#include "model/model_manager.h"
+#include "system/net_link.h"
+#include "system/system_controller.h"
 
 #include "esp_chip_info.h"
 #include "esp_err.h"
 #include "esp_log.h"
 #include "esp_system.h"
-#include "esp_timer.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 
 static const char* TAG = "MAIN";
 
 // Apenas durante o desenvolvimento: espera o monitor reconectar apos o reset
-// da USB nativa. Coloque 0 na versao final.
+// da USB nativa. Coloque 0 na versao final e nas medicoes de tempo.
 static constexpr uint32_t BOOT_LOG_DELAY_MS = 10000;
 
-static constexpr uint8_t ADXL345_ADDR = 0x53;
-static constexpr uint8_t INA219_ADDR = 0x40;
+static SystemController controller;      // objeto grande: fica fora da pilha
 
 [[noreturn]] static void fatalError(const char* message)
 {
@@ -31,23 +26,10 @@ static constexpr uint8_t INA219_ADDR = 0x40;
     esp_restart();
 }
 
-static void checkDevice(const char* name, uint8_t address, bool enabled)
+static void controllerTask(void*)
 {
-    if (!enabled)
-    {
-        ESP_LOGI(TAG, "%s desabilitado na configuracao", name);
-        return;
-    }
-
-    if (i2cBusProbe(address))
-    {
-        ESP_LOGI(TAG, "%s respondeu em 0x%02X", name, address);
-    }
-    else
-    {
-        ESP_LOGW(TAG, "%s NAO respondeu em 0x%02X (fiacao, endereco ou pull-up?)",
-                 name, address);
-    }
+    controller.mainLoop();
+    vTaskDelete(nullptr);
 }
 
 extern "C" void app_main(void)
@@ -59,57 +41,22 @@ extern "C" void app_main(void)
 
     esp_chip_info_t chip;
     esp_chip_info(&chip);
-
     ESP_LOGI(TAG, "=== Diagnostico de falhas em motores (TinyML) ===");
-    ESP_LOGI(TAG, "ESP32-S3 | %d nucleos | IDF %s", chip.cores, esp_get_idf_version());
-    ESP_LOGI(TAG, "Heap livre: %lu bytes", (unsigned long)esp_get_free_heap_size());
+    ESP_LOGI(TAG, "ESP32-S3 | %d nucleos | IDF %s | heap livre %lu",
+             chip.cores, esp_get_idf_version(), static_cast<unsigned long>(esp_get_free_heap_size()));
 
-    initSystemConfiguration();
-    const auto& config = getSensorConfiguration();
-
-    const esp_err_t err = i2cBusInit();
-    if (err != ESP_OK)
+    if (i2cBusInit() != ESP_OK)
     {
-        ESP_LOGE(TAG, "I2C: %s", esp_err_to_name(err));
         fatalError("falha ao inicializar o barramento I2C");
     }
-
-    checkDevice("ADXL345", ADXL345_ADDR, config.adxl345Enabled);
-    checkDevice("INA219", INA219_ADDR, config.ina219Enabled);
-
-    // Modelo carregado do arquivo (provisorio: passa para o SystemController)
-    static ModelManager modelManager;
-    bool modelLoaded = false;
-
-    if (storageInit() == ESP_OK)
+    if (storageInit() != ESP_OK)
     {
-        modelLoaded = modelManager.loadModelFromFS("/storage/model_a.tflite");
-    }
-    else
-    {
-        ESP_LOGW(TAG, "Sem sistema de arquivos: seguindo sem o ModelManager");
-    }
-    // Ordem importa: fila -> consumidor (inferencia) -> produtor (aquisicao)
-    if (!sampleStreamInit())
-    {
-        fatalError("falha ao criar a fila de amostras");
+        fatalError("falha ao montar o sistema de arquivos");
     }
 
-    if (!inferenceStart(modelLoaded ? &modelManager : nullptr))
-    {
-        fatalError("falha ao iniciar a inferencia");
-    }
+    // O controlador roda numa tarefa propria (pilha maior que a da main)
+    xTaskCreate(controllerTask, "controller", 12288, nullptr, 3, nullptr);
 
-    if (!acquisitionInit())
-    {
-        fatalError("falha ao inicializar os sensores");
-    }
-
-    if (!acquisitionStart())
-    {
-        fatalError("falha ao iniciar a aquisicao");
-    }
-
-    ESP_LOGI(TAG, "Sistema em execucao. Heap livre: %lu bytes",
-             (unsigned long)esp_get_free_heap_size());
+    // Wi-Fi e MQTT (entrega os payloads de reconfiguracao ao controlador)
+    netLinkStart();
 }
