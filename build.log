@@ -1,16 +1,5 @@
-********************************************************************************
-Obsolete PIO Core v6.1.19 is used (previous was 6.2.0)
-Please remove multiple PIO Cores from a system:
-https://docs.platformio.org/en/latest/core/installation/troubleshooting.html
-********************************************************************************
 Processing esp32-s3-devkitm-1 (platform: espressif32; board: esp32-s3-devkitm-1; framework: espidf)
 --------------------------------------------------------------------------------
-Tool Manager: Installing platformio/tool-scons @ ~4.40801.0
-Downloading 0% 10% 20% 30% 40%
-Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
-Tool Manager: tool-scons@4.40801.0 has been installed!
-Tool Manager: Removing tool-scons @ 4.41101.0
-Tool Manager: tool-scons@4.41101.0 has been removed!
 Verbose mode can be enabled via `-v, --verbose` option
 CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32-s3-devkitm-1.html
 PLATFORM: Espressif 32 (7.0.1) > Espressif ESP32-S3-DevKitM-1
@@ -49,6 +38,8 @@ Compiling .pio/build/esp32-s3-devkitm-1/src/sensors/ina219_adapter.cpp.o
 Compiling .pio/build/esp32-s3-devkitm-1/src/sensors/sensor_factory.cpp.o
 Compiling .pio/build/esp32-s3-devkitm-1/src/storage/storage.cpp.o
 Compiling .pio/build/esp32-s3-devkitm-1/src/system/net_link.cpp.o
+Compiling .pio/build/esp32-s3-devkitm-1/src/system/net_portal.cpp.o
+Compiling .pio/build/esp32-s3-devkitm-1/src/system/netcfg.cpp.o
 Compiling .pio/build/esp32-s3-devkitm-1/src/system/runtime_config.cpp.o
 Compiling .pio/build/esp32-s3-devkitm-1/src/system/system_controller.cpp.o
 Preprocessing linker script .pio/build/esp32-s3-devkitm-1/memory.ld
@@ -56,7 +47,35 @@ Preprocessing linker script .pio/build/esp32-s3-devkitm-1/esp-idf/esp_system/ld/
 Compiling .pio/build/esp32-s3-devkitm-1/__pio_env/__dummy.S.o
 Compiling .pio/build/esp32-s3-devkitm-1/__pio_env/__dummy.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/__pio_env/__dummy.cpp.o
+Compiling .pio/build/esp32-s3-devkitm-1/app_update/esp_ota_ops.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/__pio_env/lib__pio_env.a
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/__pio_env/lib__pio_env.a
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/src/bootloader_common.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/src/bootloader_common_loader.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/src/bootloader_clock_init.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/src/bootloader_mem.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/src/bootloader_random.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/src/bootloader_efuse.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/src/flash_encrypt.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/src/secure_boot.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/src/bootloader_random_esp32s3.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/bootloader_flash/src/bootloader_flash.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/bootloader_flash/src/flash_qio_mode.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/app_update/libapp_update.a
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/bootloader_flash/src/bootloader_flash_config_esp32s3.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/app_update/libapp_update.a
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/src/bootloader_utility.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/src/flash_partitions.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/src/esp_image_format.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/src/bootloader_sha.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/src/esp32s3/secure_boot_secure_features.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/cmock/CMock/src/cmock.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/console/commands.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/console/esp_console_common.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/cmock/libcmock.a
+Compiling .pio/build/esp32-s3-devkitm-1/console/esp_console_repl_internal.c.o
 In file included from components/edge-impulse/edge-impulse-sdk/dsp/speechpy/speechpy.hpp:35,
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/cmock/libcmock.a
                  from components/edge-impulse/edge-impulse-sdk/classifier/ei_run_dsp.h:40,
                  from src/dsp/feature_extractor.cpp:6:
 components/edge-impulse/edge-impulse-sdk/dsp/speechpy/feature.hpp: In static member function 'static int ei::speechpy::feature::mfe(ei::matrix_t*, ei::matrix_t*, ei::signal_t*, uint32_t, float, float, uint16_t, uint16_t, uint32_t, uint32_t, uint16_t)':
@@ -69,65 +88,20 @@ components/edge-impulse/edge-impulse-sdk/dsp/speechpy/feature.hpp:436:52: warnin
   436 |         stack_frames_info_t stack_frame_info = { 0 };
       |                                                    ^
 components/edge-impulse/edge-impulse-sdk/dsp/speechpy/feature.hpp:436:52: warning: missing initializer for member 'ei::speechpy::ei_stack_frames_info::frame_length' [-Wmissing-field-initializers]
+Compiling .pio/build/esp32-s3-devkitm-1/console/split_argv.c.o
 components/edge-impulse/edge-impulse-sdk/dsp/speechpy/feature.hpp: In static member function 'static int ei::speechpy::feature::spectrogram(ei::matrix_t*, ei::signal_t*, float, float, float, uint16_t, uint16_t)':
 components/edge-impulse/edge-impulse-sdk/dsp/speechpy/feature.hpp:576:52: warning: missing initializer for member 'ei::speechpy::ei_stack_frames_info::frame_ixs' [-Wmissing-field-initializers]
   576 |         stack_frames_info_t stack_frame_info = { 0 };
       |                                                    ^
 components/edge-impulse/edge-impulse-sdk/dsp/speechpy/feature.hpp:576:52: warning: missing initializer for member 'ei::speechpy::ei_stack_frames_info::frame_length' [-Wmissing-field-initializers]
-Compiling .pio/build/esp32-s3-devkitm-1/app_update/esp_ota_ops.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/__pio_env/lib__pio_env.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/__pio_env/lib__pio_env.a
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/src/bootloader_common.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/src/bootloader_common_loader.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/src/bootloader_clock_init.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/src/bootloader_mem.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/src/bootloader_random.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/src/bootloader_efuse.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/src/flash_encrypt.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/src/secure_boot.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/app_update/libapp_update.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/app_update/libapp_update.a
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/src/bootloader_random_esp32s3.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/bootloader_flash/src/bootloader_flash.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/bootloader_flash/src/flash_qio_mode.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/bootloader_flash/src/bootloader_flash_config_esp32s3.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/src/bootloader_utility.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/src/flash_partitions.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/src/esp_image_format.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/src/bootloader_sha.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader_support/src/esp32s3/secure_boot_secure_features.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/cmock/CMock/src/cmock.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/console/commands.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/console/esp_console_common.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/cmock/libcmock.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/cmock/libcmock.a
-Compiling .pio/build/esp32-s3-devkitm-1/console/esp_console_repl_internal.c.o
-In file included from components/edge-impulse/edge-impulse-sdk/tensorflow/lite/micro/flatbuffer_conversions_bridge.h:19,
-                 from components/edge-impulse/edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.h:26,
-                 from components/edge-impulse/edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.h:26,
-                 from src/model/model_manager.cpp:6:
-components/edge-impulse/edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.h: In member function 'T* tflite::BuiltinDataAllocator::AllocatePOD()':
-components/edge-impulse/edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.h:46:24: warning: 'template<class _Tp> struct std::is_pod' is deprecated: use 'is_standard_layout && is_trivial' instead [-Wdeprecated-declarations]
-   46 |     static_assert(std::is_pod<T>::value, "Builtin data structure must be POD.");
-      |                        ^~~~~~
-In file included from /home/diogo/.platformio/packages/toolchain-xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/bits/stl_pair.h:60,
-                 from /home/diogo/.platformio/packages/toolchain-xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/utility:71,
-                 from components/edge-impulse/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/fb_base.h:48,
-                 from components/edge-impulse/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/fb_array.h:20,
-                 from components/edge-impulse/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/flatbuffers.h:22,
-                 from components/edge-impulse/edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.h:21:
-/home/diogo/.platformio/packages/toolchain-xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/type_traits:931:5: note: declared here
-  931 |     is_pod
-      |     ^~~~~~
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/bootloader_support/libbootloader_support.a
-Compiling .pio/build/esp32-s3-devkitm-1/console/split_argv.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/console/linenoise/linenoise.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/bootloader_support/libbootloader_support.a
 Compiling .pio/build/esp32-s3-devkitm-1/console/esp_console_repl_chip.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/console/argtable3/arg_cmd.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/console/argtable3/arg_date.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/bootloader_support/libbootloader_support.a
 Compiling .pio/build/esp32-s3-devkitm-1/console/argtable3/arg_dbl.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/console/argtable3/arg_dstr.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/bootloader_support/libbootloader_support.a
 Compiling .pio/build/esp32-s3-devkitm-1/console/argtable3/arg_end.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/console/argtable3/arg_file.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/console/argtable3/arg_hashtable.c.o
@@ -147,8 +121,8 @@ Compiling .pio/build/esp32-s3-devkitm-1/driver/touch_sensor/esp32s3/touch_sensor
 Compiling .pio/build/esp32-s3-devkitm-1/driver/twai/twai.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/console/libconsole.a
 Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/console/libconsole.a
 Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/console/libconsole.a
 Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp.o
 Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/dsp/memory.cpp.o
 Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/porting/espressif/debug_log.cpp.o
@@ -157,21 +131,38 @@ Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk
 Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cc.o
 Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cc.o
 Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cc.o
+In file included from components/edge-impulse/edge-impulse-sdk/tensorflow/lite/micro/flatbuffer_conversions_bridge.h:19,
 Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cc.o
+                 from components/edge-impulse/edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.h:26,
+                 from components/edge-impulse/edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.h:26,
+                 from src/model/model_manager.cpp:6:
+components/edge-impulse/edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.h: In member function 'T* tflite::BuiltinDataAllocator::AllocatePOD()':
+components/edge-impulse/edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.h:46:24: warning: 'template<class _Tp> struct std::is_pod' is deprecated: use 'is_standard_layout && is_trivial' instead [-Wdeprecated-declarations]
+   46 |     static_assert(std::is_pod<T>::value, "Builtin data structure must be POD.");
+      |                        ^~~~~~
+In file included from /home/diogo/.platformio/packages/toolchain-xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/bits/stl_pair.h:60,
+                 from /home/diogo/.platformio/packages/toolchain-xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/utility:71,
+                 from components/edge-impulse/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/fb_base.h:48,
+                 from components/edge-impulse/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/fb_array.h:20,
+                 from components/edge-impulse/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/flatbuffers.h:22,
+                 from components/edge-impulse/edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.h:21:
+/home/diogo/.platformio/packages/toolchain-xtensa-esp-elf/xtensa-esp-elf/include/c++/15.2.0/type_traits:931:5: note: declared here
+  931 |     is_pod
+      |     ^~~~~~
 Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/portable_tensor_utils.cc.o
 Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cc.o
 Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference_portable_tensor_utils.cc.o
-Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/tensor_utils.cc.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/cxx/libcxx.a
+Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/tensorflow/lite/kernels/internal/tensor_utils.cc.o
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/cxx/libcxx.a
 Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cc.o
 Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/tensorflow/lite/micro/fake_micro_context.cc.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/driver/libdriver.a
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/driver/libdriver.a
 Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/tensorflow/lite/micro/flatbuffer_conversions_bridge.cc.o
 Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/tensorflow/lite/micro/flatbuffer_utils.cc.o
 Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cc.o
 Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/driver/libdriver.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/driver/libdriver.a
 Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc.o
 Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/non_persistent_buffer_planner_shim.cc.o
 Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/tensorflow/lite/micro/micro_allocation_info.cc.o
@@ -190,6 +181,8 @@ Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk
 Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/tensorflow/lite/micro/non_persistent_arena_buffer_allocator.cc.o
 Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/tensorflow/lite/micro/op_resolver_bridge.cc.o
 Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/tensorflow/lite/micro/persistent_arena_buffer_allocator.cc.o
+Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc.o
+Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/tensorflow/lite/micro/recording_single_arena_buffer_allocator.cc.o
 src/model/model_manager.cpp: In member function 'int ModelManager::runInterference(float*)':
 src/model/model_manager.cpp:242:19: warning: unused variable 'elapsed' [-Wunused-variable]
   242 |     const int64_t elapsed = esp_timer_get_time() - t0;
@@ -197,8 +190,6 @@ src/model/model_manager.cpp:242:19: warning: unused variable 'elapsed' [-Wunused
 src/model/model_manager.cpp:248:11: warning: variable 'probs' set but not used [-Wunused-but-set-variable]
   248 |     float probs[8] = {0};
       |           ^~~~~
-Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cc.o
-Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/tensorflow/lite/micro/recording_single_arena_buffer_allocator.cc.o
 Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/tensorflow/lite/micro/schema_utils.cc.o
 Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/tensorflow/lite/micro/single_arena_buffer_allocator.cc.o
 Compiling .pio/build/esp32-s3-devkitm-1/components/edge-impulse/edge-impulse-sdk/tensorflow/lite/micro/system_setup.cc.o
@@ -229,9 +220,9 @@ Compiling .pio/build/esp32-s3-devkitm-1/efuse/src/esp_efuse_startup.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp-tls/esp_tls.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/efuse/libefuse.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp-tls/esp-tls-crypto/esp_tls_crypto.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/efuse/libefuse.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp-tls/esp_tls_error_capture.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp-tls/esp_tls_platform_port.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/efuse/libefuse.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp-tls/esp_tls_mbedtls.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_adc/adc_oneshot.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_adc/adc_common.c.o
@@ -241,24 +232,24 @@ Compiling .pio/build/esp32-s3-devkitm-1/esp_adc/adc_continuous.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_adc/adc_monitor.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_adc/gdma/adc_dma.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_adc/adc_filter.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp-tls/libesp-tls.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_adc/esp32s3/curve_fitting_coefficients.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp-tls/libesp-tls.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_app_format/esp_app_desc.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_blockdev_util/generic_partition.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp-tls/libesp-tls.a
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp-tls/libesp-tls.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_blockdev_util/memory.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_bootloader_format/esp_bootloader_desc.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_adc/libesp_adc.a
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_adc/libesp_adc.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_coex/esp32s3/esp_coex_adapter.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_bootloader_format/libesp_bootloader_format.a
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_blockdev_util/libesp_blockdev_util.a
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_adc/libesp_adc.a
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_app_format/libesp_app_format.a
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_bootloader_format/libesp_bootloader_format.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_blockdev_util/libesp_blockdev_util.a
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_app_format/libesp_app_format.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_coex/src/coexist_debug_diagram.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_adc/libesp_adc.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_coex/src/coexist_debug.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_blockdev_util/libesp_blockdev_util.a
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_blockdev_util/libesp_blockdev_util.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_common/src/esp_err_to_name.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_coex/libesp_coex.a
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_coex/libesp_coex.a
@@ -273,27 +264,27 @@ Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_dma/src/esp_async_memcpy.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_dma/src/async_memcpy_gdma.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_gpio/src/gpio.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_gpio/src/gpio_glitch_filter_ops.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_common/libesp_common.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_gpio/src/rtc_io.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_common/libesp_common.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_gpio/src/dedic_gpio.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_cam/libesp_driver_cam.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_gpio/src/gpio_pin_glitch_filter.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_cam/libesp_driver_cam.a
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_common/libesp_common.a
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_common/libesp_common.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_gptimer/src/gptimer.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_cam/libesp_driver_cam.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_gptimer/src/gptimer_common.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_cam/libesp_driver_cam.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_i2c/i2c_master.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_dma/libesp_driver_dma.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_dma/libesp_driver_dma.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_i2c/i2c_common.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_dma/libesp_driver_dma.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_i2c/i2c_slave.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_dma/libesp_driver_dma.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_i2s/i2s_common.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_i2s/i2s_std.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_i2s/i2s_pdm.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_gptimer/libesp_driver_gptimer.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_gptimer/libesp_driver_gptimer.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_i2s/i2s_tdm.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_i2s/i2s_platform.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_gptimer/libesp_driver_gptimer.a
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_gptimer/libesp_driver_gptimer.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_ledc/src/ledc.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_gpio/libesp_driver_gpio.a
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_gpio/libesp_driver_gpio.a
@@ -301,133 +292,132 @@ Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_mcpwm/src/mcpwm_cap.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_mcpwm/src/mcpwm_cmpr.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_mcpwm/src/mcpwm_com.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_mcpwm/src/mcpwm_fault.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_i2s/libesp_driver_i2s.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_mcpwm/src/mcpwm_gen.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_i2s/libesp_driver_i2s.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_mcpwm/src/mcpwm_oper.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_i2c/libesp_driver_i2c.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_mcpwm/src/mcpwm_sync.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_i2c/libesp_driver_i2c.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_mcpwm/src/mcpwm_timer.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_pcnt/src/pulse_cnt.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_rmt/src/rmt_common.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_i2c/libesp_driver_i2c.a
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_i2s/libesp_driver_i2s.a
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_i2c/libesp_driver_i2c.a
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_i2s/libesp_driver_i2s.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_rmt/src/rmt_encoder.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_rmt/src/rmt_encoder_bytes.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_rmt/src/rmt_encoder_copy.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_rmt/src/rmt_encoder_simple.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_rmt/src/rmt_rx.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_rmt/src/rmt_tx.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_sd_intf/sd_host.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_sdm/src/sdm.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_sdmmc/legacy/src/sdmmc_transaction.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_sd_intf/libesp_driver_sd_intf.a
-Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_sdmmc/legacy/src/sdmmc_host.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_sd_intf/libesp_driver_sd_intf.a
-Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_sdmmc/src/sd_host_sdmmc.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_sd_intf/libesp_driver_sd_intf.a
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_ledc/libesp_driver_ledc.a
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a
-Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_sdmmc/src/sd_trans_sdmmc.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_sd_intf/libesp_driver_sd_intf.a
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_ledc/libesp_driver_ledc.a
-Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_sdspi/src/sdspi_crc.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_sdmmc/legacy/src/sdmmc_host.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_sdmmc/src/sd_host_sdmmc.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_sdmmc/src/sd_trans_sdmmc.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_sdm/libesp_driver_sdm.a
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_sdm/libesp_driver_sdm.a
+Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_sdspi/src/sdspi_crc.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_sdspi/src/sdspi_host.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_sdspi/src/sdspi_transaction.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_spi/src/gpspi/spi_common.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_spi/src/gpspi/spi_master.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_spi/src/gpspi/spi_slave.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_rmt/libesp_driver_rmt.a
-Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_spi/src/gpspi/spi_slave_hd.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_spi/src/gpspi/spi_master.c.o
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_rmt/libesp_driver_rmt.a
+Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_spi/src/gpspi/spi_slave.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_spi/src/gpspi/spi_slave_hd.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_touch_sens/common/touch_sens_common.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_touch_sens/hw_ver2/touch_version_specific.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_tsens/src/temperature_sensor.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_twai/esp_twai.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_twai/esp_twai_onchip.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_uart/src/uart.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a
+Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_twai/esp_twai_onchip.c.o
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a
+Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_uart/src/uart.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_uart/src/uart_wakeup.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_uart/src/uhci.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_tsens/libesp_driver_tsens.a
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_tsens/libesp_driver_tsens.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_uart/src/uart_vfs.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_touch_sens/libesp_driver_touch_sens.a
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_spi/libesp_driver_spi.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_touch_sens/libesp_driver_touch_sens.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_spi/libesp_driver_spi.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_usb_serial_jtag/src/usb_serial_jtag.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_spi/libesp_driver_spi.a
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_twai/libesp_driver_twai.a
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_touch_sens/libesp_driver_touch_sens.a
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_spi/libesp_driver_spi.a
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_twai/libesp_driver_twai.a
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_touch_sens/libesp_driver_touch_sens.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_usb_serial_jtag/src/usb_serial_jtag_connection_monitor.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_driver_usb_serial_jtag/src/usb_serial_jtag_vfs.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_eth/src/esp_eth.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_twai/libesp_driver_twai.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_twai/libesp_driver_twai.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_eth/src/phy/esp_eth_phy_802_3.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_eth/src/esp_eth_netif_glue.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_event/default_event_loop.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_event/esp_event.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_event/esp_event_private.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_gdbstub/src/gdbstub.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_gdbstub/src/gdbstub_transport.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_gdbstub/src/packet.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_eth/libesp_eth.a
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_uart/libesp_driver_uart.a
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_event/libesp_event.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_eth/libesp_eth.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_gdbstub/src/port/xtensa/gdbstub_xtensa.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_event/libesp_event.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_uart/libesp_driver_uart.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_gdbstub/src/port/xtensa/gdbstub-entry.S.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_gdbstub/src/port/xtensa/xt_debugexception.S.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_ana_conv/esp32s3/adc_periph.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_ana_conv/adc_hal_common.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_ana_conv/adc_oneshot_hal.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_ana_conv/adc_hal.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_uart/libesp_driver_uart.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_ana_conv/temperature_sensor_hal.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_driver_uart/libesp_driver_uart.a
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_eth/libesp_eth.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_ana_conv/esp32s3/temperature_sensor_periph.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_eth/libesp_eth.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_cam/cam_hal.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_event/libesp_event.a
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_gdbstub/libesp_gdbstub.a
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_event/libesp_event.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_cam/esp32s3/cam_periph.c.o
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_gdbstub/libesp_gdbstub.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_clock/esp32s3/clk_tree_hal.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_dma/gdma_hal_top.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_dma/esp32s3/gdma_periph.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_dma/gdma_hal_ahb_v1.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_gpio/gpio_hal.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_ana_conv/libesp_hal_ana_conv.a
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_cam/libesp_hal_cam.a
-Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_gpio/rtc_io_hal.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_ana_conv/libesp_hal_ana_conv.a
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_cam/libesp_hal_cam.a
+Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_gpio/gpio_hal.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_gpio/rtc_io_hal.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_gpio/esp32s3/rtc_io_periph.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_gpio/esp32s3/dedic_gpio_periph.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_ana_conv/libesp_hal_ana_conv.a
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/edge-impulse/libedge-impulse.a
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_clock/libesp_hal_clock.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_ana_conv/libesp_hal_ana_conv.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_gpio/sdm_hal.c.o
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_clock/libesp_hal_clock.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_gpio/esp32s3/sdm_periph.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_gpspi/esp32s3/spi_periph.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_gpspi/spi_hal.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_dma/libesp_hal_dma.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_gpspi/spi_hal_iram.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_dma/libesp_hal_dma.a
-Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_gpspi/spi_slave_hal.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_gpio/libesp_hal_gpio.a
-Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_gpspi/spi_slave_hal_iram.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_dma/libesp_hal_dma.a
+Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_gpspi/spi_slave_hal.c.o
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_gpio/libesp_hal_gpio.a
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_dma/libesp_hal_dma.a
+Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_gpspi/spi_slave_hal_iram.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_gpspi/spi_slave_hd_hal.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_i2c/i2c_hal.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_i2c/i2c_hal_iram.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_i2c/esp32s3/i2c_periph.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_i2s/i2s_hal.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/edge-impulse/libedge-impulse.a
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/edge-impulse/libedge-impulse.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_i2s/esp32s3/i2s_periph.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_lcd/lcd_hal.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_lcd/esp32s3/lcd_periph.c.o
@@ -437,65 +427,66 @@ Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_i2c/libesp_hal_i2c.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_ledc/esp32s3/ledc_periph.c.o
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_i2c/libesp_hal_i2c.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_mcpwm/mcpwm_hal.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_gpspi/libesp_hal_gpspi.a
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_ledc/libesp_hal_ledc.a
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_lcd/libesp_hal_lcd.a
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_i2s/libesp_hal_i2s.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_lcd/libesp_hal_lcd.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_gpspi/libesp_hal_gpspi.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_ledc/libesp_hal_ledc.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_i2s/libesp_hal_i2s.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_mcpwm/esp32s3/mcpwm_periph.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_gpspi/libesp_hal_gpspi.a
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_lcd/libesp_hal_lcd.a
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_gpspi/libesp_hal_gpspi.a
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_lcd/libesp_hal_lcd.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_mspi/spi_flash_hal.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/edge-impulse/libedge-impulse.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_mspi/spi_flash_hal_iram.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_ledc/libesp_hal_ledc.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_mspi/spi_flash_encrypt_hal_iram.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_ledc/libesp_hal_ledc.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_mspi/spi_flash_hal_gpspi.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_pcnt/pcnt_hal.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_i2s/libesp_hal_i2s.a
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_mcpwm/libesp_hal_mcpwm.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_pcnt/esp32s3/pcnt_periph.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_i2s/libesp_hal_i2s.a
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_mcpwm/libesp_hal_mcpwm.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_pmu/esp32s3/rtc_cntl_hal.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_pmu/brownout_hal.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_rmt/rmt_hal.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_pcnt/libesp_hal_pcnt.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_rmt/esp32s3/rmt_periph.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_pcnt/libesp_hal_pcnt.a
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_pcnt/libesp_hal_pcnt.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_sd/sdmmc_hal.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_sd/esp32s3/sdmmc_periph.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_security/mpi_hal.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_security/sha_hal.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_pmu/libesp_hal_pmu.a
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_rmt/libesp_hal_rmt.a
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_sd/libesp_hal_sd.a
+Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_sd/esp32s3/sdmmc_periph.c.o
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_pmu/libesp_hal_pmu.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_rmt/libesp_hal_rmt.a
+Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_security/mpi_hal.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_mspi/libesp_hal_mspi.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_sd/libesp_hal_sd.a
-Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_security/aes_hal.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_security/sha_hal.c.o
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_mspi/libesp_hal_mspi.a
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_rmt/libesp_hal_rmt.a
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_rmt/libesp_hal_rmt.a
+Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_security/aes_hal.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_sd/libesp_hal_sd.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_security/hmac_hal.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_sd/libesp_hal_sd.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_security/ds_hal.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_security/mpu_hal.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_timg/timer_hal.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_timg/esp32s3/timer_periph.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_touch_sens/esp32s3/touch_sensor_legacy_hal.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_touch_sens/touch_sensor_legacy_hal.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_touch_sens/touch_sens_hal.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_security/libesp_hal_security.a
-Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_touch_sens/esp32s3/touch_sensor_periph.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_touch_sens/touch_sens_hal.c.o
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_security/libesp_hal_security.a
-Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_twai/esp32s3/twai_periph.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_touch_sens/esp32s3/touch_sensor_periph.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_timg/libesp_hal_timg.a
+Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_twai/esp32s3/twai_periph.c.o
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_timg/libesp_hal_timg.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_twai/twai_hal_v1.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_uart/uart_hal.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_uart/uart_hal_iram.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_uart/esp32s3/uart_periph.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_uart/uhci_hal.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_touch_sens/libesp_hal_touch_sens.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_touch_sens/libesp_hal_touch_sens.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_usb/usb_dwc_hal.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_touch_sens/libesp_hal_touch_sens.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_usb/usb_wrap_hal.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hal_touch_sens/libesp_hal_touch_sens.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_usb/esp32s3/usb_dwc_periph.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_usb/usb_serial_jtag_hal.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hal_wdt/esp32s3/mwdt_periph.c.o
@@ -518,10 +509,10 @@ Compiling .pio/build/esp32-s3-devkitm-1/esp_http_client/lib/http_header.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_http_client/lib/http_utils.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_http_server/src/httpd_main.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_http_server/src/httpd_parse.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hid/libesp_hid.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_http_server/src/httpd_sess.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hid/libesp_hid.a
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hid/libesp_hid.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_http_server/src/httpd_txrx.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hid/libesp_hid.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_http_server/src/httpd_uri.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_http_server/src/httpd_ws.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_http_server/src/util/ctrl_sock.c.o
@@ -529,8 +520,8 @@ Compiling .pio/build/esp32-s3-devkitm-1/esp_https_ota/src/esp_https_ota.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_https_server/src/https_server.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hw_support/cpu.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hw_support/port/esp32s3/esp_cpu_intr.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_http_server/libesp_http_server.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hw_support/esp_memory_utils.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_http_server/libesp_http_server.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hw_support/port/esp32s3/cpu_region_protect.c.o
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_http_server/libesp_http_server.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hw_support/esp_clk.c.o
@@ -539,15 +530,15 @@ Compiling .pio/build/esp32-s3-devkitm-1/esp_hw_support/hw_random.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hw_support/intr_alloc.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hw_support/mac_addr.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hw_support/periph_ctrl.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_https_ota/libesp_https_ota.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hw_support/revision.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_https_ota/libesp_https_ota.a
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_https_server/libesp_https_server.a
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_http_client/libesp_http_client.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_https_server/libesp_https_server.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_http_client/libesp_http_client.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hw_support/rtc_module.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_https_server/libesp_https_server.a
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_https_server/libesp_https_server.a
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_http_client/libesp_http_client.a
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_https_ota/libesp_https_ota.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hw_support/regi2c_ctrl.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_https_ota/libesp_https_ota.a
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_http_client/libesp_http_client.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hw_support/esp_gpio_reserve.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hw_support/sar_tsens_ctrl.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_hw_support/port/esp32s3/io_mux.c.o
@@ -609,8 +600,8 @@ Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hw_support/libesp_hw_support
 Compiling .pio/build/esp32-s3-devkitm-1/esp_libc/src/sysconf.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_libc/src/realpath.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_libc/src/scandir.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hw_support/libesp_hw_support.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_libc/src/syscalls.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_hw_support/libesp_hw_support.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_libc/src/reent_syscalls.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_libc/src/port/esp_time_impl.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_libc/src/picolibc/picolibc_init.c.o
@@ -623,28 +614,28 @@ Compiling .pio/build/esp32-s3-devkitm-1/esp_libc/src/picolibc/fopencookie.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_local_ctrl/src/esp_local_ctrl.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_libc/libesp_libc.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_local_ctrl/src/esp_local_ctrl_handler.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/esp_local_ctrl/proto-c/esp_local_ctrl.pb-c.c.o
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_libc/libesp_libc.a
+Compiling .pio/build/esp32-s3-devkitm-1/esp_local_ctrl/proto-c/esp_local_ctrl.pb-c.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_local_ctrl/src/esp_local_ctrl_transport_httpd.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_mm/esp_mmu_map.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_mm/port/esp32s3/ext_mem_layout.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_mm/esp_cache_msync.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/esp_mm/esp_cache_utils.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/esp_netif/esp_netif_handlers.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_lcd/libesp_lcd.a
-Compiling .pio/build/esp32-s3-devkitm-1/esp_netif/esp_netif_objects.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/esp_mm/esp_cache_utils.c.o
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_lcd/libesp_lcd.a
+Compiling .pio/build/esp32-s3-devkitm-1/esp_netif/esp_netif_handlers.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_local_ctrl/libesp_local_ctrl.a
+Compiling .pio/build/esp32-s3-devkitm-1/esp_netif/esp_netif_objects.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_local_ctrl/libesp_local_ctrl.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_netif/esp_netif_defaults.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_netif/lwip/esp_netif_lwip.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_local_ctrl/libesp_local_ctrl.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_local_ctrl/libesp_local_ctrl.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_netif/lwip/esp_netif_sntp.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_netif/lwip/esp_netif_lwip_defaults.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_netif/lwip/netif/wlanif.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_mm/libesp_mm.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_netif/lwip/netif/ethernetif.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_mm/libesp_mm.a
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_mm/libesp_mm.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_netif/lwip/netif/esp_pbuf_ref.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_mm/libesp_mm.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_partition/partition.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_partition/partition_target.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_phy/src/phy_override.c.o
@@ -661,37 +652,37 @@ Compiling .pio/build/esp32-s3-devkitm-1/esp_pm/pm_impl.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_psram/system_layer/esp_psram_mspi.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_ringbuf/ringbuf.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_rom/patches/esp_rom_sys.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_psram/libesp_psram.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_rom/patches/esp_rom_print.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_psram/libesp_psram.a
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_psram/libesp_psram.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_rom/patches/esp_rom_crc.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_psram/libesp_psram.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_rom/patches/esp_rom_serial_output.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_phy/libesp_phy.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_phy/libesp_phy.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_rom/patches/esp_rom_spiflash.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_phy/libesp_phy.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_rom/patches/esp_rom_efuse.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_phy/libesp_phy.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_rom/patches/esp_rom_gpio.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_rom/patches/esp_rom_longjmp.S.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_rom/patches/esp_rom_systimer.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/esp_rom/patches/esp_rom_cache_esp32s2_esp32s3.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_pm/libesp_pm.a
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_pm/libesp_pm.a
-Compiling .pio/build/esp32-s3-devkitm-1/esp_rom/patches/esp_rom_cache_esp32s2_esp32s3.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_rom/patches/esp_rom_cache_writeback_esp32s3.S.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_security/src/init.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_security/src/esp_hmac.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/esp_security/src/esp_ds.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_netif/libesp_netif.a
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_rom/libesp_rom.a
-Compiling .pio/build/esp32-s3-devkitm-1/esp_security/src/esp_crypto_lock.c.o
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_rom/libesp_rom.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_netif/libesp_netif.a
+Compiling .pio/build/esp32-s3-devkitm-1/esp_security/src/esp_ds.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/esp_security/src/esp_crypto_lock.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_netif/libesp_netif.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_security/src/esp_crypto_periph_clk.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_netif/libesp_netif.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_stdio/stdio_vfs.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_stdio/stdio_simple.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_ringbuf/libesp_ringbuf.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_stdio/stdio_syscalls_simple.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_ringbuf/libesp_ringbuf.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_system/esp_err.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_ringbuf/libesp_ringbuf.a
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_ringbuf/libesp_ringbuf.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_system/crosscore_int.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_security/libesp_security.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_system/esp_ipc.c.o
@@ -746,8 +737,8 @@ Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_system/libesp_system.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_wifi/src/wifi_init.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_wifi/src/wifi_default.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_wifi/src/wifi_netif.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_timer/libesp_timer.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_wifi/src/wifi_default_ap.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/esp_timer/libesp_timer.a
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/esp_timer/libesp_timer.a
 Compiling .pio/build/esp32-s3-devkitm-1/esp_wifi/esp32s3/esp_adapter.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/esp_wifi/regulatory/esp_wifi_regulatory.c.o
@@ -791,29 +782,29 @@ Compiling .pio/build/esp32-s3-devkitm-1/hal/cache_hal.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/hal/color_hal.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/hal/systimer_hal.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/heap/heap_caps_base.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/espressif__mqtt/libespressif__mqtt.a
 Compiling .pio/build/esp32-s3-devkitm-1/heap/heap_caps.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/espressif__mqtt/libespressif__mqtt.a
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/espressif__mqtt/libespressif__mqtt.a
 Compiling .pio/build/esp32-s3-devkitm-1/heap/heap_caps_init.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/espressif__mqtt/libespressif__mqtt.a
 Compiling .pio/build/esp32-s3-devkitm-1/heap/multi_heap.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/hal/libhal.a
 Compiling .pio/build/esp32-s3-devkitm-1/heap/tlsf/tlsf.c.o
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/hal/libhal.a
 Compiling .pio/build/esp32-s3-devkitm-1/heap/port/memory_layout_utils.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/heap/port/esp32s3/memory_layout.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/http_parser/http_parser.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/managed_components/joltwallet__littlefs/src/littlefs/lfs.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/fatfs/libfatfs.a
-Compiling .pio/build/esp32-s3-devkitm-1/managed_components/joltwallet__littlefs/src/littlefs/lfs_util.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/http_parser/http_parser.c.o
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/fatfs/libfatfs.a
+Compiling .pio/build/esp32-s3-devkitm-1/managed_components/joltwallet__littlefs/src/littlefs/lfs.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/managed_components/joltwallet__littlefs/src/littlefs/lfs_util.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/managed_components/joltwallet__littlefs/src/esp_littlefs.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/managed_components/joltwallet__littlefs/src/littlefs_esp_part.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/managed_components/joltwallet__littlefs/src/lfs_config.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/managed_components/joltwallet__littlefs/src/littlefs_bdl.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/freertos/libfreertos.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/freertos/libfreertos.a
 Compiling .pio/build/esp32-s3-devkitm-1/log/src/os/log_timestamp.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/freertos/libfreertos.a
 Compiling .pio/build/esp32-s3-devkitm-1/log/src/log_timestamp_common.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/freertos/libfreertos.a
 Compiling .pio/build/esp32-s3-devkitm-1/log/src/os/log_lock.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/log/src/buffer/log_buffers.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/log/src/os/util.c.o
@@ -830,18 +821,18 @@ Compiling .pio/build/esp32-s3-devkitm-1/lwip/apps/sntp/sntp.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/lwip/lwip/src/api/api_lib.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/log/liblog.a
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/heap/libheap.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/log/liblog.a
 Compiling .pio/build/esp32-s3-devkitm-1/lwip/lwip/src/api/api_msg.c.o
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/heap/libheap.a
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/log/liblog.a
 Compiling .pio/build/esp32-s3-devkitm-1/lwip/lwip/src/api/err.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/lwip/lwip/src/api/if_api.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/lwip/lwip/src/api/netbuf.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/lwip/lwip/src/api/netdb.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/lwip/lwip/src/api/netifapi.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/lwip/lwip/src/api/sockets.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/http_parser/libhttp_parser.a
-Compiling .pio/build/esp32-s3-devkitm-1/lwip/lwip/src/api/tcpip.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/lwip/lwip/src/api/netifapi.c.o
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/http_parser/libhttp_parser.a
+Compiling .pio/build/esp32-s3-devkitm-1/lwip/lwip/src/api/sockets.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/lwip/lwip/src/api/tcpip.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/lwip/lwip/src/apps/sntp/sntp.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/lwip/lwip/src/apps/netbiosns/netbiosns.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/lwip/lwip/src/core/def.c.o
@@ -867,11 +858,11 @@ Compiling .pio/build/esp32-s3-devkitm-1/lwip/lwip/src/core/ipv4/etharp.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/lwip/lwip/src/core/ipv4/icmp.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/lwip/lwip/src/core/ipv4/igmp.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/lwip/lwip/src/core/ipv4/ip4.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/joltwallet__littlefs/libjoltwallet__littlefs.a
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/joltwallet__littlefs/libjoltwallet__littlefs.a
 Compiling .pio/build/esp32-s3-devkitm-1/lwip/lwip/src/core/ipv4/ip4_napt.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/lwip/lwip/src/core/ipv4/ip4_addr.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/joltwallet__littlefs/libjoltwallet__littlefs.a
 Compiling .pio/build/esp32-s3-devkitm-1/lwip/lwip/src/core/ipv4/ip4_frag.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/joltwallet__littlefs/libjoltwallet__littlefs.a
 Compiling .pio/build/esp32-s3-devkitm-1/lwip/lwip/src/core/ipv6/dhcp6.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/lwip/lwip/src/core/ipv6/ethip6.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/lwip/lwip/src/core/ipv6/icmp6.c.o
@@ -939,26 +930,26 @@ Compiling .pio/build/esp32-s3-devkitm-1/nvs_flash/src/nvs_partition.cpp.o
 Compiling .pio/build/esp32-s3-devkitm-1/nvs_flash/src/nvs_partition_lookup.cpp.o
 Compiling .pio/build/esp32-s3-devkitm-1/nvs_flash/src/nvs_partition_manager.cpp.o
 Compiling .pio/build/esp32-s3-devkitm-1/nvs_flash/src/nvs_types.cpp.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/lwip/liblwip.a
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/mbedtls/libmbedtls.a
 Compiling .pio/build/esp32-s3-devkitm-1/nvs_flash/src/nvs_platform.cpp.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/mbedtls/libmbedtls.a
 Compiling .pio/build/esp32-s3-devkitm-1/nvs_flash/src/nvs_bootloader.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/mbedtls/libmbedtls.a
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/mbedtls/libmbedtls.a
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/lwip/liblwip.a
 Compiling .pio/build/esp32-s3-devkitm-1/nvs_flash/src/nvs_encrypted_partition.cpp.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/lwip/liblwip.a
 Compiling .pio/build/esp32-s3-devkitm-1/nvs_flash/src/nvs_bootloader_aes.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/lwip/liblwip.a
 Compiling .pio/build/esp32-s3-devkitm-1/nvs_flash/src/nvs_bootloader_xts_aes.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/nvs_sec_provider/nvs_sec_provider.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/perfmon/xtensa_perfmon_access.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/perfmon/xtensa_perfmon_apis.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/perfmon/xtensa_perfmon_masks.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/nvs_sec_provider/libnvs_sec_provider.a
+Compiling .pio/build/esp32-s3-devkitm-1/perfmon/xtensa_perfmon_masks.c.o
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/nvs_sec_provider/libnvs_sec_provider.a
 Compiling .pio/build/esp32-s3-devkitm-1/protobuf-c/protobuf-c/protobuf-c/protobuf-c.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/protocomm/src/common/protocomm.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/perfmon/libperfmon.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/perfmon/libperfmon.a
 Compiling .pio/build/esp32-s3-devkitm-1/protocomm/proto-c/constants.pb-c.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/perfmon/libperfmon.a
 Compiling .pio/build/esp32-s3-devkitm-1/protocomm/proto-c/sec0.pb-c.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/protocomm/proto-c/sec1.pb-c.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/protocomm/proto-c/sec2.pb-c.c.o
@@ -971,30 +962,28 @@ Compiling .pio/build/esp32-s3-devkitm-1/protocomm/src/crypto/srp6a/esp_srp_mpi.c
 Compiling .pio/build/esp32-s3-devkitm-1/pthread/pthread.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/pthread/pthread_cond_var.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/pthread/pthread_local_storage.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/protobuf-c/libprotobuf-c.a
 Compiling .pio/build/esp32-s3-devkitm-1/pthread/pthread_rwlock.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/protobuf-c/libprotobuf-c.a
 Compiling .pio/build/esp32-s3-devkitm-1/pthread/pthread_semaphore.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/protocomm/libprotocomm.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/protocomm/libprotocomm.a
 Compiling .pio/build/esp32-s3-devkitm-1/rt/FreeRTOS_POSIX_mqueue.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/pthread/libpthread.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/pthread/libpthread.a
 Compiling .pio/build/esp32-s3-devkitm-1/rt/FreeRTOS_POSIX_utils.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/sdmmc/sdmmc_cmd.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/nvs_flash/libnvs_flash.a
 Compiling .pio/build/esp32-s3-devkitm-1/sdmmc/sdmmc_common.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/sdmmc/sdmmc_init.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/sdmmc/sdmmc_mmc.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/nvs_flash/libnvs_flash.a
 Compiling .pio/build/esp32-s3-devkitm-1/sdmmc/sdmmc_sd.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/protobuf-c/libprotobuf-c.a
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/protocomm/libprotocomm.a
 Compiling .pio/build/esp32-s3-devkitm-1/sdmmc/sdmmc_blockdev.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/protobuf-c/libprotobuf-c.a
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/protocomm/libprotocomm.a
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/pthread/libpthread.a
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/pthread/libpthread.a
 Compiling .pio/build/esp32-s3-devkitm-1/sdmmc/sd_pwr_ctrl/sd_pwr_ctrl.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/sdmmc/sdmmc_io.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/soc/lldesc.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/rt/librt.a
-Compiling .pio/build/esp32-s3-devkitm-1/soc/dport_access_common.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/soc/lldesc.c.o
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/rt/librt.a
+Compiling .pio/build/esp32-s3-devkitm-1/soc/dport_access_common.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/soc/esp32s3/interrupts.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/soc/esp32s3/gpio_periph.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/soc/esp32s3/mpi_periph.c.o
@@ -1002,19 +991,21 @@ Compiling .pio/build/esp32-s3-devkitm-1/soc/esp32s3/power_supply_periph.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/spi_flash/flash_brownout_hook.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/spi_flash/esp32s3/spi_flash_oct_flash_init.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/soc/libsoc.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/soc/libsoc.a
 Compiling .pio/build/esp32-s3-devkitm-1/spi_flash/spi_flash_hpm_enable.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/soc/libsoc.a
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/nvs_flash/libnvs_flash.a
 Compiling .pio/build/esp32-s3-devkitm-1/spi_flash/spi_flash_chip_drivers.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/nvs_flash/libnvs_flash.a
 Compiling .pio/build/esp32-s3-devkitm-1/spi_flash/spi_flash_chip_generic.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/spi_flash/spi_flash_chip_issi.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/spi_flash/spi_flash_chip_mxic.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/spi_flash/spi_flash_chip_gd.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/spi_flash/spi_flash_chip_winbond.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/spi_flash/spi_flash_chip_boya.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/sdmmc/libsdmmc.a
 Compiling .pio/build/esp32-s3-devkitm-1/spi_flash/spi_flash_chip_mxic_opi.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/sdmmc/libsdmmc.a
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/sdmmc/libsdmmc.a
 Compiling .pio/build/esp32-s3-devkitm-1/spi_flash/spi_flash_chip_th.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/sdmmc/libsdmmc.a
 Compiling .pio/build/esp32-s3-devkitm-1/spi_flash/memspi_host_driver.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/spi_flash/spi_flash_blockdev.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/spi_flash/cache_utils.c.o
@@ -1037,11 +1028,11 @@ Compiling .pio/build/esp32-s3-devkitm-1/tcp_transport/transport_ssl.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/tcp_transport/transport_internal.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/tcp_transport/transport_socks_proxy.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/tcp_transport/transport_ws.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/unity/unity/src/unity.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/unity/unity_compat.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/spi_flash/libspi_flash.a
-Compiling .pio/build/esp32-s3-devkitm-1/unity/unity_runner.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/unity/unity/src/unity.c.o
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/spi_flash/libspi_flash.a
+Compiling .pio/build/esp32-s3-devkitm-1/unity/unity_compat.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/unity/unity_runner.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/unity/unity_utils_freertos.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/unity/unity_utils_cache.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/unity/unity_utils_memory.c.o
@@ -1054,25 +1045,25 @@ Compiling .pio/build/esp32-s3-devkitm-1/vfs/vfs_semihost.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/vfs/nullfs.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/wear_levelling/Partition.cpp.o
 Compiling .pio/build/esp32-s3-devkitm-1/wear_levelling/BDL_Access.cpp.o
-Compiling .pio/build/esp32-s3-devkitm-1/wear_levelling/SPI_Flash.cpp.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/spiffs/libspiffs.a
-Compiling .pio/build/esp32-s3-devkitm-1/wear_levelling/WL_Ext_Perf.cpp.o
+Compiling .pio/build/esp32-s3-devkitm-1/wear_levelling/SPI_Flash.cpp.o
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/spiffs/libspiffs.a
+Compiling .pio/build/esp32-s3-devkitm-1/wear_levelling/WL_Ext_Perf.cpp.o
 Compiling .pio/build/esp32-s3-devkitm-1/wear_levelling/WL_Ext_Safe.cpp.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/unity/libunity.a
 Compiling .pio/build/esp32-s3-devkitm-1/wear_levelling/WL_Flash.cpp.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/unity/libunity.a
 Compiling .pio/build/esp32-s3-devkitm-1/wear_levelling/crc32.cpp.o
 Compiling .pio/build/esp32-s3-devkitm-1/wear_levelling/wear_levelling.cpp.o
 Compiling .pio/build/esp32-s3-devkitm-1/wear_levelling/wl_blockdev.cpp.o
 Compiling .pio/build/esp32-s3-devkitm-1/wpa_supplicant/port/os_xtensa.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/tcp_transport/libtcp_transport.a
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/unity/libunity.a
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/tcp_transport/libtcp_transport.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/unity/libunity.a
 Compiling .pio/build/esp32-s3-devkitm-1/wpa_supplicant/port/eloop.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/wpa_supplicant/src/ap/ap_config.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/wpa_supplicant/src/ap/ieee802_1x.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/vfs/libvfs.a
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/vfs/libvfs.a
-Compiling .pio/build/esp32-s3-devkitm-1/wpa_supplicant/src/ap/ieee802_1x.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/wpa_supplicant/src/ap/wpa_auth.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/wpa_supplicant/src/ap/wpa_auth_ie.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/wpa_supplicant/src/ap/pmksa_cache_auth.c.o
@@ -1082,10 +1073,10 @@ Compiling .pio/build/esp32-s3-devkitm-1/wpa_supplicant/src/ap/comeback_token.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/wpa_supplicant/src/common/sae.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/wpa_supplicant/src/common/dragonfly.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/wpa_supplicant/src/common/wpa_common.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/wear_levelling/libwear_levelling.a
 Compiling .pio/build/esp32-s3-devkitm-1/wpa_supplicant/src/utils/bitfield.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/wear_levelling/libwear_levelling.a
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/wear_levelling/libwear_levelling.a
 Compiling .pio/build/esp32-s3-devkitm-1/wpa_supplicant/src/crypto/aes-siv.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/wear_levelling/libwear_levelling.a
 Compiling .pio/build/esp32-s3-devkitm-1/wpa_supplicant/src/crypto/sha256-kdf.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/wpa_supplicant/src/crypto/ccmp.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/wpa_supplicant/src/crypto/aes-gcm.c.o
@@ -1166,10 +1157,10 @@ Compiling .pio/build/esp32-s3-devkitm-1/managed_components/espressif__mqtt/lib/m
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/xtensa/libxtensa.a
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/xtensa/libxtensa.a
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/mbedtls/library/debug.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/mbedtls/library/mps_reader.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/espressif__mqtt/lib/mqtt_utils/libmqtt_utils_lib.a
-Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/mbedtls/library/mps_trace.c.o
 Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/espressif__mqtt/lib/mqtt_utils/libmqtt_utils_lib.a
+Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/mbedtls/library/mps_reader.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/mbedtls/library/mps_trace.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/mbedtls/library/ssl_cache.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/mbedtls/library/ssl_ciphersuites.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/mbedtls/library/ssl_client.c.o
@@ -1191,11 +1182,11 @@ Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/mbedtls/library/version.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/mbedtls/library/version_features.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/port/mbedtls_debug.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/port/esp_platform_time.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/wpa_supplicant/libwpa_supplicant.a
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/port/esp_timing.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/wpa_supplicant/libwpa_supplicant.a
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/port/esp_psa_crypto_init.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/wpa_supplicant/libwpa_supplicant.a
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/port/net_sockets.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/wpa_supplicant/libwpa_supplicant.a
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/mbedtls/library/error.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/mbedtls/library/mbedtls_config.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/mbedtls/library/pkcs7.c.o
@@ -1240,17 +1231,17 @@ Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/mbedtls/tf-psa-crypto/drivers/bu
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/gcm.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/hmac_drbg.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/lmots.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/mbedtls/mbedtls/library/libmbedtls.a
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/lms.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/mbedtls/mbedtls/library/libmbedtls.a
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/md.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/md5.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/mbedtls/mbedtls/library/libmbedtls.a
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/memory_buffer_alloc.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/mbedtls/mbedtls/library/libmbedx509.a
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/mbedtls/mbedtls/library/libmbedx509.a
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/mbedtls/mbedtls/library/libmbedtls.a
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/nist_kw.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/oid.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/mbedtls/mbedtls/library/libmbedx509.a
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/pem.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/mbedtls/mbedtls/library/libmbedx509.a
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/pk.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/pk_ecc.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/pk_rsa.c.o
@@ -1313,14 +1304,14 @@ Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/port/sha/esp_sha.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_transparent.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/port/psa_driver/esp_sha/core/psa_crypto_driver_esp_sha1.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/port/sha/core/sha.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/libmbed-builtin.a
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/port/psa_driver/esp_md/psa_crypto_driver_esp_md5.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/port/psa_driver/esp_mac/psa_crypto_driver_esp_hmac_opaque.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/libmbed-builtin.a
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/libmbed-builtin.a
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/port/psa_driver/esp_rsa_ds/psa_crypto_driver_esp_rsa_ds_utilities.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/port/esp_hmac_pbkdf2.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/port/bignum/esp_bignum.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/libmbed-builtin.a
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/port/bignum/bignum_alt.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/mbedtls/port/psa_driver/esp_aes/psa_crypto_driver_esp_aes_gcm.c.o
@@ -1333,10 +1324,10 @@ Compiling .pio/build/esp32-s3-devkitm-1/bootloader/bootloader_support/src/bootlo
 Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/xtensa/libxtensa.a
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/bootloader_support/src/bootloader_clock_init.c.o
 Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/xtensa/libxtensa.a
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader/bootloader_support/src/bootloader_mem.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/main/libmain.a
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader/bootloader_support/src/bootloader_random.c.o
 Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/main/libmain.a
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader/bootloader_support/src/bootloader_mem.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader/bootloader_support/src/bootloader_random.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/bootloader_support/src/bootloader_efuse.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/bootloader_support/src/flash_encrypt.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/bootloader_support/src/secure_boot.c.o
@@ -1367,44 +1358,44 @@ Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_bootloader_format/esp_boo
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_common/src/esp_err_to_name.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_ana_conv/esp32s3/adc_periph.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_ana_conv/adc_hal_common.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_bootloader_format/libesp_bootloader_format.a
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_ana_conv/adc_oneshot_hal.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_bootloader_format/libesp_bootloader_format.a
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_ana_conv/adc_hal.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_bootloader_format/libesp_bootloader_format.a
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_ana_conv/temperature_sensor_hal.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_bootloader_format/libesp_bootloader_format.a
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_ana_conv/esp32s3/temperature_sensor_periph.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_clock/esp32s3/clk_tree_hal.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_common/libesp_common.a
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_dma/gdma_hal_top.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/bootloader_support/libbootloader_support.a
 Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_common/libesp_common.a
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_dma/gdma_hal_top.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_dma/esp32s3/gdma_periph.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_dma/gdma_hal_ahb_v1.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/bootloader_support/libbootloader_support.a
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_gpio/gpio_hal.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_gpio/rtc_io_hal.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_gpio/esp32s3/rtc_io_periph.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_gpio/esp32s3/dedic_gpio_periph.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_gpio/sdm_hal.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_gpio/esp32s3/sdm_periph.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/bootloader_support/libbootloader_support.a
 Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/efuse/libefuse.a
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_gpspi/esp32s3/spi_periph.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_gpio/esp32s3/sdm_periph.c.o
 Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/efuse/libefuse.a
-Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/bootloader_support/libbootloader_support.a
 Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hal_clock/libesp_hal_clock.a
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_gpspi/spi_hal.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_gpspi/esp32s3/spi_periph.c.o
 Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hal_clock/libesp_hal_clock.a
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_gpspi/spi_hal.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_gpspi/spi_hal_iram.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_gpspi/spi_slave_hal.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_gpspi/spi_slave_hal_iram.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_gpspi/spi_slave_hd_hal.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hal_gpio/libesp_hal_gpio.a
 Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hal_ana_conv/libesp_hal_ana_conv.a
-Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hal_gpio/libesp_hal_gpio.a
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_pmu/esp32s3/rtc_cntl_hal.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hal_gpio/libesp_hal_gpio.a
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_gpspi/spi_slave_hal.c.o
 Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hal_ana_conv/libesp_hal_ana_conv.a
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_gpspi/spi_slave_hal_iram.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hal_gpio/libesp_hal_gpio.a
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_gpspi/spi_slave_hd_hal.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hal_dma/libesp_hal_dma.a
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_pmu/brownout_hal.c.o
 Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hal_dma/libesp_hal_dma.a
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_pmu/esp32s3/rtc_cntl_hal.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_pmu/brownout_hal.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_security/mpu_hal.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_timg/timer_hal.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_timg/esp32s3/timer_periph.c.o
@@ -1413,37 +1404,37 @@ Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_uart/uart_hal_iram.c.
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_uart/esp32s3/uart_periph.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hal_security/libesp_hal_security.a
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_uart/uhci_hal.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hal_security/libesp_hal_security.a
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_usb/usb_dwc_hal.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hal_security/libesp_hal_security.a
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_usb/usb_wrap_hal.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hal_timg/libesp_hal_timg.a
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_usb/esp32s3/usb_dwc_periph.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hal_pmu/libesp_hal_pmu.a
-Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hal_timg/libesp_hal_timg.a
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_usb/usb_serial_jtag_hal.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hal_pmu/libesp_hal_pmu.a
 Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hal_timg/libesp_hal_timg.a
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_usb/usb_serial_jtag_hal.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_wdt/esp32s3/mwdt_periph.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hal_pmu/libesp_hal_pmu.a
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_wdt/rom_patch.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hal_wdt/xt_wdt_hal.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hw_support/cpu.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hw_support/port/esp32s3/esp_cpu_intr.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hw_support/esp_memory_utils.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hal_uart/libesp_hal_uart.a
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hw_support/port/esp32s3/cpu_region_protect.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hal_uart/libesp_hal_uart.a
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hw_support/port/esp32s3/rtc_clk.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hal_wdt/libesp_hal_wdt.a
 Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hal_gpspi/libesp_hal_gpspi.a
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hw_support/port/esp32s3/rtc_clk_init.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hal_uart/libesp_hal_uart.a
 Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hal_wdt/libesp_hal_wdt.a
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hw_support/port/esp32s3/rtc_init.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hw_support/port/esp32s3/rtc_clk_init.c.o
+Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hal_uart/libesp_hal_uart.a
 Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hal_gpspi/libesp_hal_gpspi.a
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hw_support/port/esp32s3/rtc_init.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hw_support/port/esp32s3/rtc_sleep.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hw_support/port/esp32s3/rtc_time.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_hw_support/port/esp32s3/chip_info.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_rom/patches/esp_rom_sys.c.o
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_rom/patches/esp_rom_print.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hal_usb/libesp_hal_usb.a
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_rom/patches/esp_rom_print.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_rom/patches/esp_rom_crc.c.o
 Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hal_usb/libesp_hal_usb.a
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_rom/patches/esp_rom_serial_output.c.o
@@ -1459,14 +1450,14 @@ Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_security/src/esp_crypto_p
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/esp_system/esp_err.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/hal/hal_utils.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/hal/efuse_hal.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader/hal/esp32s3/efuse_hal.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader/hal/mmu_hal.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_rom/libesp_rom.a
 Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader/hal/esp32s3/efuse_hal.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_rom/libesp_rom.a
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader/hal/mmu_hal.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/hal/cache_hal.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a
+Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_rom/libesp_rom.a
 Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_system/libesp_system.a
+Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_hw_support/libesp_hw_support.a
 Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_system/libesp_system.a
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/log/src/noos/log_timestamp.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/esp_security/libesp_security.a
@@ -1482,22 +1473,22 @@ Compiling .pio/build/esp32-s3-devkitm-1/bootloader/log/src/log.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/bootloader/subproject/components/micro-ecc/uECC_verify_antifault.c.o
 Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/hal/libhal.a
 Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/log/liblog.a
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader/soc/lldesc.c.o
+Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/libtfpsacrypto.a
 Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/hal/libhal.a
-Compiling .pio/build/esp32-s3-devkitm-1/bootloader/soc/dport_access_common.c.o
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader/soc/lldesc.c.o
 Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/log/liblog.a
+Compiling .pio/build/esp32-s3-devkitm-1/bootloader/soc/dport_access_common.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/soc/esp32s3/interrupts.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/soc/esp32s3/gpio_periph.c.o
-Archiving .pio/build/esp32-s3-devkitm-1/esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/libtfpsacrypto.a
+Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/libtfpsacrypto.a
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/soc/esp32s3/mpi_periph.c.o
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/soc/esp32s3/power_supply_periph.c.o
-Indexing .pio/build/esp32-s3-devkitm-1/esp-idf/mbedtls/mbedtls/tf-psa-crypto/core/libtfpsacrypto.a
 Compiling .pio/build/esp32-s3-devkitm-1/bootloader/spi_flash/spi_flash_wrap.c.o
-Preprocessing linker script .pio/build/esp32-s3-devkitm-1/bootloader/ld/bootloader.ld
-Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/soc/libsoc.a
-Generating partitions .pio/build/esp32-s3-devkitm-1/partitions.bin
-Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/soc/libsoc.a
 Generating project linker script .pio/build/esp32-s3-devkitm-1/sections.ld
+Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/soc/libsoc.a
+Preprocessing linker script .pio/build/esp32-s3-devkitm-1/bootloader/ld/bootloader.ld
+Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/soc/libsoc.a
+Generating partitions .pio/build/esp32-s3-devkitm-1/partitions.bin
 Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/spi_flash/libspi_flash.a
 Indexing .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/spi_flash/libspi_flash.a
 Archiving .pio/build/esp32-s3-devkitm-1/bootloader/esp-idf/micro-ecc/libmicro-ecc.a
@@ -1512,11 +1503,13 @@ Linking .pio/build/esp32-s3-devkitm-1/firmware.elf
 Retrieving maximum program size .pio/build/esp32-s3-devkitm-1/firmware.elf
 Checking size .pio/build/esp32-s3-devkitm-1/firmware.elf
 Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
-RAM:   [==        ]  22.7% (used 74256 bytes from 327680 bytes)
-Flash: [=====     ]  51.1% (used 1072213 bytes from 2097152 bytes)
+RAM:   [==        ]  22.7% (used 74480 bytes from 327680 bytes)
+Flash: [=====     ]  52.9% (used 1110273 bytes from 2097152 bytes)
+Building .pio/build/esp32-s3-devkitm-1/firmware.bin with action:
+  "$PYTHONEXE" "$OBJCOPY" --chip esp32s3 elf2image --flash_mode ${__get_board_flash_mode(__env__)} --flash_freq ${__get_board_f_image(__env__)} --flash_size 8MB --elf-sha256-offset 0xb0 -o $TARGET $SOURCES
 Building .pio/build/esp32-s3-devkitm-1/firmware.bin
 esptool.py v4.11.0
 Creating esp32s3 image...
 Merged 3 ELF sections
 Successfully created esp32s3 image.
-========================= [SUCCESS] Took 70.10 seconds =========================
+========================= [SUCCESS] Took 49.21 seconds =========================

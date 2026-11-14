@@ -1,4 +1,6 @@
 #include "net_link.h"
+#include "net_portal.h"
+#include "netcfg.h"
 #include "secrets.h"
 #include "system_controller.h"
 
@@ -19,6 +21,10 @@ namespace
     constexpr const char* TOPIC_CMD    = "tcc/motor/cmd/reconfig";
     constexpr const char* TOPIC_STATUS = "tcc/motor/status";
     constexpr size_t MAX_PAYLOAD = 32 * 1024;
+    constexpr int FALHAS_PARA_PORTAL = 6;
+
+    NetConfig netCfg;
+    int falhasSeguidas = 0;
 
     esp_mqtt_client_handle_t client = nullptr;
 
@@ -107,7 +113,7 @@ namespace
         if (client) return;
 
         esp_mqtt_client_config_t cfg = {};
-        cfg.broker.address.uri = MQTT_URI;
+        cfg.broker.address.uri = netCfg.mqttUri;
         cfg.credentials.client_id = MQTT_CLIENT_ID;
         cfg.session.keepalive = 30;
         cfg.session.last_will.topic = TOPIC_STATUS;
@@ -128,15 +134,18 @@ namespace
     {
         if (base == WIFI_EVENT && id == WIFI_EVENT_STA_START)
         {
-            esp_wifi_connect();
+            if (!portalIsActive()) esp_wifi_connect();
         }
         else if (base == WIFI_EVENT && id == WIFI_EVENT_STA_DISCONNECTED)
         {
-            ESP_LOGW(TAG, "Wi-Fi desconectado: tentando de novo");
-            esp_wifi_connect();
+            falhasSeguidas++;
+            ESP_LOGW(TAG, "Wi-Fi desconectado (%d)", falhasSeguidas);
+            if (falhasSeguidas >= FALHAS_PARA_PORTAL) portalStart();
+            if (!portalIsActive()) esp_wifi_connect();
         }
         else if (base == IP_EVENT && id == IP_EVENT_STA_GOT_IP)
         {
+            falhasSeguidas = 0;
             auto* ev = static_cast<ip_event_got_ip_t*>(data);
             ESP_LOGI(TAG, "IP obtido: " IPSTR, IP2STR(&ev->ip_info.ip));
             startMqtt();
@@ -158,6 +167,11 @@ void netLinkStart()
         return;
     }
 
+    const bool fromNvs = netcfgLoad(netCfg);
+    const bool semRede = netCfg.ssid[0] == '\0' || strcmp(netCfg.ssid, "NOME_DA_REDE_2_4GHZ") == 0;
+    ESP_LOGI(TAG, "Rede: \"%s\" (%s) | broker %s", netCfg.ssid,
+             fromNvs ? "salva no NVS" : "padrao do secrets.h", netCfg.mqttUri);
+
     esp_netif_init();
     esp_event_loop_create_default();
     esp_netif_create_default_wifi_sta();
@@ -168,12 +182,18 @@ void netLinkStart()
     esp_event_handler_register(IP_EVENT, IP_EVENT_STA_GOT_IP, wifiHandler, nullptr);
 
     wifi_config_t wc = {};
-    strncpy(reinterpret_cast<char*>(wc.sta.ssid), WIFI_SSID, sizeof(wc.sta.ssid) - 1);
-    strncpy(reinterpret_cast<char*>(wc.sta.password), WIFI_PASS, sizeof(wc.sta.password) - 1);
+    strncpy(reinterpret_cast<char*>(wc.sta.ssid), netCfg.ssid, sizeof(wc.sta.ssid) - 1);
+    strncpy(reinterpret_cast<char*>(wc.sta.password), netCfg.pass, sizeof(wc.sta.password) - 1);
     wc.sta.threshold.authmode = WIFI_AUTH_WPA2_PSK;
 
     esp_wifi_set_mode(WIFI_MODE_STA);
     esp_wifi_set_config(WIFI_IF_STA, &wc);
     esp_wifi_start();
     esp_wifi_set_ps(WIFI_PS_NONE);
+
+    if (semRede)
+    {
+        ESP_LOGW(TAG, "Nenhuma rede configurada: abrindo o portal de configuracao");
+        portalStart();
+    }
 }

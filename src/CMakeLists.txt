@@ -5,7 +5,7 @@ file(GLOB_RECURSE app_sources
 idf_component_register(
     SRCS ${app_sources}
     REQUIRES esp_timer esp_driver_i2c esp_driver_gpio esp_partition esp_rom
-             esp_wifi esp_event esp_netif nvs_flash edge-impulse
+             esp_wifi esp_event esp_netif nvs_flash esp_http_server edge-impulse
 )
 
 target_compile_options(${COMPONENT_LIB} PRIVATE
