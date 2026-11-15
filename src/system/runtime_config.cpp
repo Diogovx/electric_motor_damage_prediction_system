@@ -123,9 +123,9 @@ bool parseRuntimeConfig(JsonObjectConst cfg, RuntimeConfig& out, std::string& er
         err = "numero de labels invalido";
         return false;
     }
-    if (out.arenaBytes < 2048 || out.arenaBytes > 65536)
+    if (out.arenaBytes < 512 || out.arenaBytes > 65536)
     {
-        err = "arena_bytes fora de 2048..65536";
+        err = "arena_bytes fora de 512..65536";
         return false;
     }
     if (out.features < 1 || out.features > MAX_FEATURES)

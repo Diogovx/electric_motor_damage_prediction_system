@@ -6,6 +6,7 @@
 
 #include "driver/gpio.h"
 #include "esp_log.h"
+#include "esp_system.h"
 #include "esp_rom_crc.h"
 #include "esp_timer.h"
 #include "freertos/task.h"
@@ -437,7 +438,11 @@ void SystemController::reconfigureRuntime()
     tSensorsReady = markEvent("sensors_ready");
 
     // 6) modelo (o ModelManager libera o interpretador e o modelo antigos)
-    modelMgr.reconfigureArena(next.arenaBytes);
+    if (!modelMgr.reconfigureArena(next.arenaBytes))
+    {
+        ESP_LOGE(TAG, "Falha ao ajustar a arena do modelo");
+        return;
+    }
     if (!modelMgr.loadModelFromFS(MODEL_PATH))
     {
         ESP_LOGE(TAG, "Falha ao carregar o modelo");
@@ -635,11 +640,13 @@ void SystemController::pollSummary()
              "refill_ms=%.1f reconf_ms=%.1f gap_ms=%.1f",
              trialId, trialTag.c_str(), cfg.version, transfer, persist, swtch, refill, reconf, gap);
 
-    char js[320];
+    char js[360];
     snprintf(js, sizeof(js),
              "{\"state\":\"summary\",\"trial\":%d,\"tag\":\"%s\",\"version\":%d,\"transfer_ms\":%.1f,"
-             "\"persist_ms\":%.1f,\"switch_ms\":%.1f,\"refill_ms\":%.1f,\"reconf_ms\":%.1f,\"gap_ms\":%.1f}",
-             trialId, trialTag.c_str(), cfg.version, transfer, persist, swtch, refill, reconf, gap);
+             "\"persist_ms\":%.1f,\"switch_ms\":%.1f,\"refill_ms\":%.1f,\"reconf_ms\":%.1f,"
+             "\"gap_ms\":%.1f,\"heap\":%lu}",
+             trialId, trialTag.c_str(), cfg.version, transfer, persist, swtch, refill, reconf, gap,
+             static_cast<unsigned long>(esp_get_free_heap_size()));
     if (g_statusSink) g_statusSink(js);
 }
 

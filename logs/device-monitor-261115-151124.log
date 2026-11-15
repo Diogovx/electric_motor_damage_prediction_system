@@ -1,0 +1,1677 @@
+15:11:24.150 > I (2721982) INFER: Falha de engrenagem | DSP 60 ms, NN 1027 us
+15:11:24.150 > I (2824102) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:11:24.270 > I (2824222) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:11:24.278 > I (2824232) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:24.390 > I (2824342) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:11:24.511 > I (2824472) INFER: Saudavel | DSP 62 ms, NN 1043 us
+15:11:24.630 > I (2824582) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:11:24.750 > I (2824702) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:11:24.870 > I (2824822) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:11:24.990 > I (2824942) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:11:24.990 > I (2824942) INFER: 9 janelas/s
+15:11:25.110 > I (2825062) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:11:25.229 > I (2825182) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:25.288 > I (2825242) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:25.349 > I (2825302) INFER: Saudavel | DSP 60 ms, NN 1029 us
+15:11:25.469 > I (2825422) INFER: Saudavel | DSP 60 ms, NN 1028 us
+15:11:25.591 > I (2825552) INFER: Saudavel | DSP 62 ms, NN 1412 us
+15:11:25.710 > I (2825662) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:11:25.830 > I (2825782) INFER: Saudavel | DSP 61 ms, NN 1026 us
+15:11:25.950 > I (2825902) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:11:26.069 > I (2826022) INFER: Saudavel | DSP 60 ms, NN 1031 us
+15:11:26.070 > I (2826022) INFER: 9 janelas/s
+15:11:26.189 > I (2826142) INFER: Saudavel | DSP 60 ms, NN 1029 us
+15:11:26.288 > I (2826242) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:26.310 > I (2826262) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:11:26.430 > I (2826382) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:11:26.550 > I (2826502) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:11:26.670 > I (2826622) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:26.789 > I (2826742) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:11:26.910 > I (2826862) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:11:27.032 > I (2826992) INFER: Saudavel | DSP 63 ms, NN 1041 us
+15:11:27.150 > I (2827102) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:11:27.151 > I (2827102) INFER: 9 janelas/s
+15:11:27.271 > I (2827222) INFER: Saudavel | DSP 62 ms, NN 1032 us
+15:11:27.298 > I (2827252) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:27.389 > I (2827342) INFER: Saudavel | DSP 60 ms, NN 1026 us
+15:11:27.509 > I (2827462) INFER: Saudavel | DSP 60 ms, NN 1028 us
+15:11:27.630 > I (2827582) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:11:27.750 > I (2827702) INFER: Saudavel | DSP 61 ms, NN 1026 us
+15:11:27.870 > I (2827822) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:11:27.990 > I (2827942) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:11:28.109 > I (2828062) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:11:28.229 > I (2828182) INFER: Saudavel | DSP 60 ms, NN 1029 us
+15:11:28.229 > I (2828182) INFER: 9 janelas/s
+15:11:28.298 > I (2828252) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:28.351 > I (2828302) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:28.471 > I (2828432) INFER: Saudavel | DSP 62 ms, NN 1043 us
+15:11:28.590 > I (2828542) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:11:28.710 > I (2828662) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:11:28.829 > I (2828782) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:11:28.950 > I (2828902) INFER: Saudavel | DSP 61 ms, NN 1026 us
+15:11:29.072 > I (2829032) INFER: Saudavel | DSP 63 ms, NN 1039 us
+15:11:29.191 > I (2829152) INFER: Saudavel | DSP 62 ms, NN 1039 us
+15:11:29.308 > I (2829262) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:29.310 > I (2829262) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:11:29.310 > I (2829262) INFER: 9 janelas/s
+15:11:29.430 > I (2829382) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:11:29.549 > I (2829502) INFER: Saudavel | DSP 60 ms, NN 1028 us
+15:11:29.669 > I (2829622) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:11:29.792 > I (2829752) INFER: Saudavel | DSP 63 ms, NN 1044 us
+15:11:29.910 > I (2829862) INFER: Saudavel | DSP 61 ms, NN 1026 us
+15:11:30.030 > I (2829982) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:11:30.149 > I (2830102) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:11:30.269 > I (2830222) INFER: Saudavel | DSP 60 ms, NN 1031 us
+15:11:30.318 > I (2830272) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:30.389 > I (2830342) INFER: Saudavel | DSP 60 ms, NN 1030 us
+15:11:30.390 > I (2830342) INFER: 9 janelas/s
+15:11:30.509 > I (2830462) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:11:30.630 > I (2830582) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:30.751 > I (2830712) INFER: Saudavel | DSP 63 ms, NN 1039 us
+15:11:30.870 > I (2830822) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:30.989 > I (2830942) INFER: Saudavel | DSP 60 ms, NN 1025 us
+15:11:31.111 > I (2831072) INFER: Saudavel | DSP 63 ms, NN 1044 us
+15:11:31.230 > I (2831182) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:31.318 > I (2831272) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:31.350 > I (2831302) INFER: Saudavel | DSP 61 ms, NN 1025 us
+15:11:31.471 > I (2831422) INFER: Saudavel | DSP 62 ms, NN 1030 us
+15:11:31.471 > I (2831432) INFER: 9 janelas/s
+15:11:31.589 > I (2831542) INFER: Saudavel | DSP 60 ms, NN 1029 us
+15:11:31.709 > I (2831662) INFER: Saudavel | DSP 60 ms, NN 1028 us
+15:11:31.829 > I (2831782) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:31.950 > I (2831902) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:32.072 > I (2832032) INFER: Saudavel | DSP 63 ms, NN 1041 us
+15:11:32.190 > I (2832142) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:11:32.309 > I (2832262) INFER: Saudavel | DSP 60 ms, NN 1031 us
+15:11:32.327 > I (2832282) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:32.429 > I (2832382) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:11:32.550 > I (2832502) INFER: Saudavel | DSP 61 ms, NN 1897 us
+15:11:32.551 > I (2832512) INFER: 9 janelas/s
+15:11:32.670 > I (2832622) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:11:32.790 > I (2832742) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:11:32.910 > I (2832862) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:11:33.029 > I (2832982) INFER: Saudavel | DSP 60 ms, NN 1025 us
+15:11:33.149 > I (2833102) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:11:33.269 > I (2833222) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:11:33.328 > I (2833282) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:33.390 > I (2833342) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:33.509 > I (2833462) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:11:33.629 > I (2833582) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:11:33.630 > I (2833582) INFER: 9 janelas/s
+15:11:33.749 > I (2833702) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:11:33.869 > I (2833822) INFER: Saudavel | DSP 60 ms, NN 1028 us
+15:11:33.989 > I (2833942) INFER: Saudavel | DSP 61 ms, NN 1025 us
+15:11:34.119 > I (2834072) INFER: Saudavel | DSP 70 ms, NN 1032 us
+15:11:34.229 > I (2834182) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:11:34.328 > I (2834282) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:34.349 > I (2834302) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:34.469 > I (2834422) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:11:34.589 > I (2834542) INFER: Saudavel | DSP 60 ms, NN 1029 us
+15:11:34.709 > I (2834662) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:11:34.710 > I (2834662) INFER: 9 janelas/s
+15:11:34.831 > I (2834782) INFER: Saudavel | DSP 62 ms, NN 1025 us
+15:11:34.950 > I (2834902) INFER: Saudavel | DSP 61 ms, NN 1033 us
+15:11:35.069 > I (2835022) INFER: Saudavel | DSP 60 ms, NN 1026 us
+15:11:35.189 > I (2835142) INFER: Saudavel | DSP 60 ms, NN 1031 us
+15:11:35.309 > I (2835262) INFER: Saudavel | DSP 61 ms, NN 1033 us
+15:11:35.337 > I (2835292) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:35.430 > I (2835382) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:11:35.549 > I (2835502) INFER: Saudavel | DSP 61 ms, NN 1026 us
+15:11:35.670 > I (2835622) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:35.789 > I (2835742) INFER: Saudavel | DSP 60 ms, NN 1031 us
+15:11:35.790 > I (2835742) INFER: 9 janelas/s
+15:11:35.909 > I (2835862) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:11:36.029 > I (2835982) INFER: Saudavel | DSP 61 ms, NN 1033 us
+15:11:36.154 > I (2836112) INFER: Saudavel | DSP 65 ms, NN 1031 us
+15:11:36.269 > I (2836222) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:11:36.338 > I (2836292) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:36.390 > I (2836342) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:36.505 > I (2836462) INFER: Saudavel | DSP 60 ms, NN 1031 us
+15:11:36.629 > I (2836582) INFER: Saudavel | DSP 61 ms, NN 1033 us
+15:11:36.750 > I (2836702) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:11:36.870 > I (2836822) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:11:36.870 > I (2836822) INFER: 9 janelas/s
+15:11:36.989 > I (2836942) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:11:37.109 > I (2837062) INFER: Saudavel | DSP 60 ms, NN 1035 us
+15:11:37.229 > I (2837182) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:11:37.348 > I (2837302) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:37.349 > I (2837302) INFER: Saudavel | DSP 60 ms, NN 1086 us
+15:11:37.469 > I (2837422) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:11:37.591 > I (2837552) INFER: Saudavel | DSP 62 ms, NN 1029 us
+15:11:37.709 > I (2837662) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:11:37.829 > I (2837782) INFER: Saudavel | DSP 60 ms, NN 1029 us
+15:11:37.949 > I (2837902) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:11:37.950 > I (2837902) INFER: 9 janelas/s
+15:11:38.069 > I (2838022) INFER: Saudavel | DSP 60 ms, NN 1029 us
+15:11:38.190 > I (2838142) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:11:38.309 > I (2838262) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:11:38.357 > I (2838312) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:38.430 > I (2838382) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:11:38.549 > I (2838502) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:11:38.669 > I (2838622) INFER: Saudavel | DSP 60 ms, NN 1028 us
+15:11:38.789 > I (2838742) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:11:38.910 > I (2838862) INFER: Saudavel | DSP 61 ms, NN 1026 us
+15:11:39.029 > I (2838982) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:39.030 > I (2838982) INFER: 9 janelas/s
+15:11:39.152 > I (2839112) INFER: Saudavel | DSP 63 ms, NN 1029 us
+15:11:39.269 > I (2839222) INFER: Saudavel | DSP 60 ms, NN 1030 us
+15:11:39.358 > I (2839312) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:39.389 > I (2839342) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:11:39.509 > I (2839462) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:11:39.630 > I (2839582) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:39.750 > I (2839702) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:39.870 > I (2839822) INFER: Saudavel | DSP 62 ms, NN 1034 us
+15:11:39.989 > I (2839942) INFER: Saudavel | DSP 60 ms, NN 1030 us
+15:11:40.109 > I (2840062) INFER: Saudavel | DSP 60 ms, NN 1029 us
+15:11:40.109 > I (2840062) INFER: 9 janelas/s
+15:11:40.229 > I (2840182) INFER: Saudavel | DSP 61 ms, NN 1131 us
+15:11:40.349 > I (2840302) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:11:40.358 > I (2840312) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:40.471 > I (2840432) INFER: Saudavel | DSP 62 ms, NN 1039 us
+15:11:40.589 > I (2840542) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:11:40.709 > I (2840662) INFER: Saudavel | DSP 60 ms, NN 1026 us
+15:11:40.829 > I (2840782) INFER: Saudavel | DSP 60 ms, NN 1029 us
+15:11:40.950 > I (2840902) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:41.071 > I (2841032) INFER: Saudavel | DSP 63 ms, NN 1039 us
+15:11:41.192 > I (2841152) INFER: Saudavel | DSP 63 ms, NN 1030 us
+15:11:41.192 > I (2841152) INFER: 9 janelas/s
+15:11:41.309 > I (2841262) INFER: Saudavel | DSP 60 ms, NN 1029 us
+15:11:41.367 > I (2841322) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:41.429 > I (2841382) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:11:41.549 > I (2841502) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:11:41.671 > I (2841632) INFER: Saudavel | DSP 62 ms, NN 1041 us
+15:11:41.790 > I (2841742) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:11:41.910 > I (2841862) INFER: Saudavel | DSP 61 ms, NN 1036 us
+15:11:42.029 > I (2841982) INFER: Saudavel | DSP 60 ms, NN 1029 us
+15:11:42.149 > I (2842102) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:11:42.269 > I (2842222) INFER: Saudavel | DSP 60 ms, NN 1030 us
+15:11:42.269 > I (2842222) INFER: 9 janelas/s
+15:11:42.368 > I (2842322) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:42.390 > I (2842342) INFER: Saudavel | DSP 61 ms, NN 1024 us
+15:11:42.512 > I (2842472) INFER: Saudavel | DSP 63 ms, NN 1028 us
+15:11:42.630 > I (2842582) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:11:42.749 > I (2842702) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:11:42.869 > I (2842822) INFER: Saudavel | DSP 60 ms, NN 1029 us
+15:11:42.989 > I (2842942) INFER: Saudavel | DSP 60 ms, NN 1261 us
+15:11:43.109 > I (2843062) INFER: Saudavel | DSP 61 ms, NN 1025 us
+15:11:43.231 > I (2843192) INFER: Saudavel | DSP 63 ms, NN 1042 us
+15:11:43.349 > I (2843302) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:11:43.350 > I (2843302) INFER: 9 janelas/s
+15:11:43.377 > I (2843332) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:43.469 > I (2843422) INFER: Saudavel | DSP 60 ms, NN 1030 us
+15:11:43.589 > I (2843542) INFER: Saudavel | DSP 60 ms, NN 1026 us
+15:11:43.709 > I (2843662) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:11:43.829 > I (2843782) INFER: Saudavel | DSP 61 ms, NN 1026 us
+15:11:43.950 > I (2843902) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:11:44.071 > I (2844032) INFER: Saudavel | DSP 62 ms, NN 1043 us
+15:11:44.191 > I (2844152) INFER: Saudavel | DSP 63 ms, NN 1040 us
+15:11:44.309 > I (2844262) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:11:44.378 > I (2844332) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:44.430 > I (2844382) INFER: Saudavel | DSP 62 ms, NN 1026 us
+15:11:44.431 > I (2844392) INFER: 9 janelas/s
+15:11:44.549 > I (2844502) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:11:44.670 > I (2844622) INFER: Saudavel | DSP 61 ms, NN 1034 us
+15:11:44.789 > I (2844742) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:44.909 > I (2844862) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:11:45.029 > I (2844982) INFER: Saudavel | DSP 60 ms, NN 1026 us
+15:11:45.151 > I (2845112) INFER: Saudavel | DSP 62 ms, NN 1041 us
+15:11:45.269 > I (2845222) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:45.388 > I (2845342) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:45.389 > I (2845342) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:11:45.509 > I (2845462) INFER: Saudavel | DSP 60 ms, NN 1029 us
+15:11:45.509 > I (2845462) INFER: 9 janelas/s
+15:11:45.629 > I (2845582) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:11:45.749 > I (2845702) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:11:45.869 > I (2845822) INFER: Saudavel | DSP 61 ms, NN 1026 us
+15:11:45.989 > I (2845942) INFER: Saudavel | DSP 61 ms, NN 1034 us
+15:11:46.109 > I (2846062) INFER: Saudavel | DSP 61 ms, NN 1026 us
+15:11:46.232 > I (2846192) INFER: Saudavel | DSP 64 ms, NN 1028 us
+15:11:46.349 > I (2846302) INFER: Saudavel | DSP 60 ms, NN 1028 us
+15:11:46.397 > I (2846352) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:46.469 > I (2846422) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:11:46.589 > I (2846542) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:46.590 > I (2846542) INFER: 9 janelas/s
+15:11:46.709 > I (2846662) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:11:46.830 > I (2846782) INFER: Saudavel | DSP 62 ms, NN 1036 us
+15:11:46.949 > I (2846902) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:11:47.069 > I (2847022) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:11:47.190 > I (2847142) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:11:47.309 > I (2847262) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:11:47.398 > I (2847352) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:47.430 > I (2847382) INFER: Saudavel | DSP 62 ms, NN 1029 us
+15:11:47.549 > I (2847502) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:11:47.669 > I (2847622) INFER: Saudavel | DSP 61 ms, NN 1025 us
+15:11:47.669 > I (2847622) INFER: 9 janelas/s
+15:11:47.789 > I (2847742) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:11:47.910 > I (2847872) INFER: Saudavel | DSP 61 ms, NN 1915 us
+15:11:48.029 > I (2847982) INFER: Saudavel | DSP 61 ms, NN 1026 us
+15:11:48.150 > I (2848102) INFER: Saudavel | DSP 61 ms, NN 1033 us
+15:11:48.273 > I (2848232) INFER: Saudavel | DSP 64 ms, NN 1030 us
+15:11:48.389 > I (2848342) INFER: Saudavel | DSP 60 ms, NN 1029 us
+15:11:48.407 > I (2848362) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:48.509 > I (2848462) INFER: Saudavel | DSP 60 ms, NN 1028 us
+15:11:48.630 > I (2848582) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:11:48.750 > I (2848702) INFER: Saudavel | DSP 61 ms, NN 1026 us
+15:11:48.750 > I (2848702) INFER: 9 janelas/s
+15:11:48.869 > I (2848822) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:11:48.989 > I (2848942) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:11:49.109 > I (2849062) INFER: Saudavel | DSP 60 ms, NN 1034 us
+15:11:49.229 > I (2849182) INFER: Saudavel | DSP 60 ms, NN 1026 us
+15:11:49.349 > I (2849302) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:11:49.407 > I (2849362) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:49.469 > I (2849422) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:49.591 > I (2849542) INFER: Saudavel | DSP 62 ms, NN 1028 us
+15:11:49.709 > I (2849662) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:11:49.829 > I (2849782) INFER: Saudavel | DSP 60 ms, NN 1026 us
+15:11:49.829 > I (2849782) INFER: 9 janelas/s
+15:11:49.949 > I (2849902) INFER: Saudavel | DSP 61 ms, NN 1025 us
+15:11:50.069 > I (2850022) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:50.190 > I (2850142) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:11:50.309 > I (2850262) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:50.408 > I (2850362) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:50.430 > I (2850382) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:11:50.549 > I (2850502) INFER: Saudavel | DSP 60 ms, NN 1029 us
+15:11:50.669 > I (2850622) INFER: Saudavel | DSP 60 ms, NN 1265 us
+15:11:50.790 > I (2850742) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:11:50.910 > I (2850862) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:50.910 > I (2850862) INFER: 9 janelas/s
+15:11:51.029 > I (2850982) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:11:51.149 > I (2851102) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:51.271 > I (2851232) INFER: Saudavel | DSP 62 ms, NN 1041 us
+15:11:51.389 > I (2851342) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:51.417 > I (2851372) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:51.510 > I (2851462) INFER: Saudavel | DSP 62 ms, NN 1027 us
+15:11:51.632 > I (2851592) INFER: Saudavel | DSP 63 ms, NN 1030 us
+15:11:51.750 > I (2851702) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:51.869 > I (2851822) INFER: Saudavel | DSP 60 ms, NN 1028 us
+15:11:51.989 > I (2851942) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:11:51.989 > I (2851942) INFER: 9 janelas/s
+15:11:52.109 > I (2852062) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:11:52.229 > I (2852182) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:11:52.349 > I (2852302) INFER: Saudavel | DSP 61 ms, NN 1024 us
+15:11:52.418 > I (2852372) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:52.471 > I (2852432) INFER: Saudavel | DSP 63 ms, NN 1043 us
+15:11:52.586 > I (2852542) INFER: Saudavel | DSP 60 ms, NN 1066 us
+15:11:52.709 > I (2852662) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:11:52.829 > I (2852782) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:52.950 > I (2852902) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:11:53.069 > I (2853022) INFER: Saudavel | DSP 61 ms, NN 1026 us
+15:11:53.070 > I (2853022) INFER: 9 janelas/s
+15:11:53.189 > I (2853142) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:11:53.311 > I (2853272) INFER: Saudavel | DSP 62 ms, NN 1042 us
+15:11:53.428 > I (2853382) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:53.429 > I (2853382) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:11:53.552 > I (2853512) INFER: Saudavel | DSP 64 ms, NN 1029 us
+15:11:53.669 > I (2853622) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:11:53.790 > I (2853742) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:53.909 > I (2853862) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:11:54.029 > I (2853982) INFER: Saudavel | DSP 60 ms, NN 1030 us
+15:11:54.149 > I (2854102) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:54.149 > I (2854102) INFER: 9 janelas/s
+15:11:54.269 > I (2854222) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:11:54.389 > I (2854342) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:11:54.437 > I (2854392) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:54.512 > I (2854472) INFER: Saudavel | DSP 63 ms, NN 1032 us
+15:11:54.631 > I (2854592) INFER: Saudavel | DSP 62 ms, NN 1042 us
+15:11:54.749 > I (2854702) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:11:54.869 > I (2854822) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:11:54.989 > I (2854942) INFER: Saudavel | DSP 61 ms, NN 1026 us
+15:11:55.109 > I (2855062) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:55.229 > I (2855182) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:11:55.229 > I (2855182) INFER: 9 janelas/s
+15:11:55.351 > I (2855312) INFER: Saudavel | DSP 62 ms, NN 1039 us
+15:11:55.438 > I (2855392) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:55.469 > I (2855422) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:11:55.589 > I (2855542) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:11:55.709 > I (2855662) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:11:55.829 > I (2855782) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:55.950 > I (2855902) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:11:56.069 > I (2856022) INFER: Saudavel | DSP 60 ms, NN 1029 us
+15:11:56.189 > I (2856142) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:11:56.311 > I (2856272) INFER: Saudavel | DSP 63 ms, NN 1040 us
+15:11:56.311 > I (2856272) INFER: 9 janelas/s
+15:11:56.430 > I (2856382) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:11:56.437 > I (2856392) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:56.549 > I (2856502) INFER: Saudavel | DSP 61 ms, NN 1025 us
+15:11:56.669 > I (2856622) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:11:56.789 > I (2856742) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:11:56.909 > I (2856862) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:11:57.030 > I (2856982) INFER: Saudavel | DSP 62 ms, NN 1028 us
+15:11:57.150 > I (2857102) INFER: Saudavel | DSP 61 ms, NN 1026 us
+15:11:57.269 > I (2857222) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:11:57.389 > I (2857342) INFER: Saudavel | DSP 60 ms, NN 1030 us
+15:11:57.389 > I (2857342) INFER: 9 janelas/s
+15:11:57.447 > I (2857402) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:57.509 > I (2857462) INFER: Saudavel | DSP 60 ms, NN 1030 us
+15:11:57.629 > I (2857582) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:57.749 > I (2857702) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:11:57.869 > I (2857822) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:11:57.989 > I (2857942) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:58.109 > I (2858062) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:11:58.229 > I (2858182) INFER: Saudavel | DSP 60 ms, NN 1030 us
+15:11:58.351 > I (2858312) INFER: Saudavel | DSP 63 ms, NN 1041 us
+15:11:58.448 > I (2858402) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:58.469 > I (2858422) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:11:58.470 > I (2858422) INFER: 9 janelas/s
+15:11:58.589 > I (2858542) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:11:58.709 > I (2858662) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:11:58.829 > I (2858782) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:11:58.949 > I (2858902) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:11:59.069 > I (2859022) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:11:59.189 > I (2859142) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:11:59.310 > I (2859272) INFER: Saudavel | DSP 62 ms, NN 1040 us
+15:11:59.429 > I (2859382) INFER: Saudavel | DSP 61 ms, NN 1033 us
+15:11:59.457 > I (2859412) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:11:59.549 > I (2859502) INFER: Saudavel | DSP 60 ms, NN 1026 us
+15:11:59.549 > I (2859502) INFER: 9 janelas/s
+15:11:59.669 > I (2859622) INFER: Saudavel | DSP 60 ms, NN 1029 us
+15:11:59.789 > I (2859742) INFER: Saudavel | DSP 61 ms, NN 1033 us
+15:11:59.909 > I (2859862) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:12:00.029 > I (2859982) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:12:00.149 > I (2860102) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:12:00.268 > I (2860222) INFER: Saudavel | DSP 60 ms, NN 1029 us
+15:12:00.391 > I (2860352) INFER: Saudavel | DSP 62 ms, NN 1333 us
+15:12:00.458 > I (2860412) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:00.509 > I (2860462) INFER: Saudavel | DSP 61 ms, NN 1026 us
+15:12:00.630 > I (2860582) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:00.630 > I (2860582) INFER: 9 janelas/s
+15:12:00.749 > I (2860702) INFER: Saudavel | DSP 61 ms, NN 1026 us
+15:12:00.869 > I (2860822) INFER: Saudavel | DSP 60 ms, NN 1026 us
+15:12:00.988 > I (2860942) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:12:01.108 > I (2861062) INFER: Saudavel | DSP 60 ms, NN 1026 us
+15:12:01.229 > I (2861182) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:12:01.349 > I (2861302) INFER: Saudavel | DSP 61 ms, NN 1024 us
+15:12:01.458 > I (2861412) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:01.471 > I (2861432) INFER: Saudavel | DSP 63 ms, NN 1034 us
+15:12:01.588 > I (2861542) INFER: Saudavel | DSP 60 ms, NN 1031 us
+15:12:01.708 > I (2861662) INFER: Saudavel | DSP 60 ms, NN 1028 us
+15:12:01.709 > I (2861662) INFER: 9 janelas/s
+15:12:01.828 > I (2861782) INFER: Saudavel | DSP 60 ms, NN 1028 us
+15:12:01.949 > I (2861902) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:12:02.069 > I (2862022) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:12:02.190 > I (2862152) INFER: Saudavel | DSP 62 ms, NN 1040 us
+15:12:02.308 > I (2862262) INFER: Saudavel | DSP 60 ms, NN 1030 us
+15:12:02.429 > I (2862382) INFER: Saudavel | DSP 61 ms, NN 1033 us
+15:12:02.467 > I (2862422) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:02.549 > I (2862502) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:12:02.669 > I (2862622) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:02.789 > I (2862742) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:12:02.790 > I (2862742) INFER: 9 janelas/s
+15:12:02.909 > I (2862862) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:12:03.028 > I (2862982) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:12:03.149 > I (2863102) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:03.269 > I (2863222) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:12:03.391 > I (2863352) INFER: Saudavel | DSP 63 ms, NN 1324 us
+15:12:03.468 > I (2863422) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:03.509 > I (2863462) INFER: Saudavel | DSP 61 ms, NN 1025 us
+15:12:03.629 > I (2863582) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:12:03.749 > I (2863702) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:12:03.868 > I (2863822) INFER: Saudavel | DSP 60 ms, NN 1031 us
+15:12:03.869 > I (2863822) INFER: 9 janelas/s
+15:12:03.989 > I (2863942) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:04.109 > I (2864062) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:12:04.229 > I (2864182) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:12:04.349 > I (2864302) INFER: Saudavel | DSP 60 ms, NN 1034 us
+15:12:04.468 > I (2864422) INFER: Saudavel | DSP 60 ms, NN 1028 us
+15:12:04.477 > I (2864432) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:04.588 > I (2864542) INFER: Saudavel | DSP 60 ms, NN 1029 us
+15:12:04.709 > I (2864662) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:12:04.829 > I (2864782) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:12:04.949 > I (2864902) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:12:04.950 > I (2864902) INFER: 9 janelas/s
+15:12:05.068 > I (2865022) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:12:05.189 > I (2865142) INFER: Saudavel | DSP 60 ms, NN 1029 us
+15:12:05.308 > I (2865262) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:12:05.431 > I (2865392) INFER: Saudavel | DSP 63 ms, NN 1028 us
+15:12:05.487 > I (2865442) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:05.549 > I (2865502) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:12:05.670 > I (2865632) INFER: Saudavel | DSP 62 ms, NN 1044 us
+15:12:05.789 > I (2865742) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:12:05.909 > I (2865862) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:12:06.029 > I (2865982) INFER: Saudavel | DSP 60 ms, NN 1026 us
+15:12:06.029 > I (2865982) INFER: 9 janelas/s
+15:12:06.151 > I (2866112) INFER: Saudavel | DSP 63 ms, NN 1046 us
+15:12:06.269 > I (2866222) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:12:06.389 > I (2866342) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:12:06.487 > I (2866442) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:06.510 > I (2866462) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:12:06.629 > I (2866582) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:12:06.749 > I (2866702) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:12:06.869 > I (2866822) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:06.989 > I (2866942) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:12:07.109 > I (2867062) INFER: Saudavel | DSP 61 ms, NN 1033 us
+15:12:07.109 > I (2867062) INFER: 9 janelas/s
+15:12:07.228 > I (2867182) INFER: Saudavel | DSP 60 ms, NN 1028 us
+15:12:07.348 > I (2867302) INFER: Saudavel | DSP 60 ms, NN 1028 us
+15:12:07.471 > I (2867432) INFER: Saudavel | DSP 63 ms, NN 1044 us
+15:12:07.497 > I (2867452) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:07.589 > I (2867542) INFER: Saudavel | DSP 61 ms, NN 1025 us
+15:12:07.709 > I (2867662) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:12:07.829 > I (2867782) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:12:07.949 > I (2867902) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:12:08.068 > I (2868022) INFER: Saudavel | DSP 60 ms, NN 1029 us
+15:12:08.189 > I (2868142) INFER: Saudavel | DSP 61 ms, NN 1033 us
+15:12:08.190 > I (2868142) INFER: 9 janelas/s
+15:12:08.309 > I (2868262) INFER: Saudavel | DSP 61 ms, NN 1026 us
+15:12:08.432 > I (2868392) INFER: Saudavel | DSP 64 ms, NN 1030 us
+15:12:08.507 > I (2868462) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:08.551 > I (2868512) INFER: Saudavel | DSP 62 ms, NN 1045 us
+15:12:08.669 > I (2868622) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:12:08.789 > I (2868742) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:08.909 > I (2868862) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:12:09.029 > I (2868982) INFER: Saudavel | DSP 61 ms, NN 1025 us
+15:12:09.149 > I (2869102) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:12:09.268 > I (2869222) INFER: Saudavel | DSP 60 ms, NN 1029 us
+15:12:09.269 > I (2869222) INFER: 9 janelas/s
+15:12:09.388 > I (2869342) INFER: Saudavel | DSP 60 ms, NN 1028 us
+15:12:09.508 > I (2869462) INFER: Saudavel | DSP 60 ms, NN 1032 us
+15:12:09.517 > I (2869472) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:09.630 > I (2869592) INFER: Saudavel | DSP 62 ms, NN 1039 us
+15:12:09.749 > I (2869702) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:12:09.870 > I (2869832) INFER: Saudavel | DSP 62 ms, NN 1041 us
+15:12:09.988 > I (2869942) INFER: Saudavel | DSP 60 ms, NN 1029 us
+15:12:10.108 > I (2870062) INFER: Saudavel | DSP 60 ms, NN 1029 us
+15:12:10.229 > I (2870182) INFER: Saudavel | DSP 60 ms, NN 1033 us
+15:12:10.349 > I (2870302) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:10.349 > I (2870302) INFER: 9 janelas/s
+15:12:10.471 > I (2870432) INFER: Saudavel | DSP 63 ms, NN 1038 us
+15:12:10.527 > I (2870482) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:10.589 > I (2870542) INFER: Saudavel | DSP 61 ms, NN 1034 us
+15:12:10.708 > I (2870662) INFER: Saudavel | DSP 60 ms, NN 1029 us
+15:12:10.828 > I (2870782) INFER: Saudavel | DSP 60 ms, NN 1029 us
+15:12:10.950 > I (2870902) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:12:11.069 > I (2871022) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:11.191 > I (2871152) INFER: Saudavel | DSP 63 ms, NN 1029 us
+15:12:11.309 > I (2871262) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:12:11.429 > I (2871382) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:12:11.429 > I (2871382) INFER: 9 janelas/s
+15:12:11.527 > I (2871482) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:11.549 > I (2871502) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:12:11.669 > I (2871622) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:12:11.789 > I (2871742) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:11.909 > I (2871862) INFER: Saudavel | DSP 61 ms, NN 1034 us
+15:12:12.029 > I (2871982) INFER: Saudavel | DSP 60 ms, NN 1033 us
+15:12:12.149 > I (2872102) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:12:12.268 > I (2872222) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:12:12.390 > I (2872342) INFER: Saudavel | DSP 62 ms, NN 1029 us
+15:12:12.511 > I (2872472) INFER: Saudavel | DSP 63 ms, NN 1035 us
+15:12:12.511 > I (2872472) INFER: 9 janelas/s
+15:12:12.537 > I (2872492) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:12.629 > I (2872582) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:12:12.749 > I (2872702) INFER: Saudavel | DSP 61 ms, NN 1026 us
+15:12:12.868 > I (2872822) INFER: Saudavel | DSP 60 ms, NN 1029 us
+15:12:12.988 > I (2872942) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:12:13.109 > I (2873062) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:12:13.229 > I (2873182) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:13.349 > I (2873302) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:13.471 > I (2873422) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:12:13.537 > I (2873492) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:13.589 > I (2873542) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:13.589 > I (2873542) INFER: 9 janelas/s
+15:12:13.709 > I (2873662) INFER: Saudavel | DSP 60 ms, NN 1026 us
+15:12:13.829 > I (2873782) INFER: Saudavel | DSP 61 ms, NN 1026 us
+15:12:13.949 > I (2873902) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:12:14.071 > I (2874032) INFER: Saudavel | DSP 63 ms, NN 1040 us
+15:12:14.189 > I (2874142) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:12:14.308 > I (2874262) INFER: Saudavel | DSP 60 ms, NN 1028 us
+15:12:14.429 > I (2874382) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:12:14.537 > I (2874492) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:14.549 > I (2874502) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:14.669 > I (2874622) INFER: Saudavel | DSP 61 ms, NN 1034 us
+15:12:14.669 > I (2874622) INFER: 9 janelas/s
+15:12:14.789 > I (2874742) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:12:14.909 > I (2874862) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:12:15.028 > I (2874982) INFER: Saudavel | DSP 60 ms, NN 1028 us
+15:12:15.150 > I (2875102) INFER: Saudavel | DSP 61 ms, NN 1866 us
+15:12:15.269 > I (2875222) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:15.389 > I (2875342) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:15.511 > I (2875472) INFER: Saudavel | DSP 63 ms, NN 1038 us
+15:12:15.547 > I (2875502) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:15.629 > I (2875582) INFER: Saudavel | DSP 61 ms, NN 1035 us
+15:12:15.749 > I (2875702) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:12:15.749 > I (2875702) INFER: 9 janelas/s
+15:12:15.869 > I (2875822) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:12:15.989 > I (2875942) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:12:16.109 > I (2876062) INFER: Saudavel | DSP 61 ms, NN 1026 us
+15:12:16.230 > I (2876192) INFER: Saudavel | DSP 62 ms, NN 1041 us
+15:12:16.348 > I (2876302) INFER: Saudavel | DSP 60 ms, NN 1030 us
+15:12:16.469 > I (2876422) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:16.547 > I (2876502) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:16.589 > I (2876542) INFER: Saudavel | DSP 61 ms, NN 1033 us
+15:12:16.709 > I (2876662) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:12:16.829 > I (2876782) INFER: Saudavel | DSP 61 ms, NN 1035 us
+15:12:16.829 > I (2876782) INFER: 9 janelas/s
+15:12:16.949 > I (2876902) INFER: Saudavel | DSP 61 ms, NN 1023 us
+15:12:17.068 > I (2877022) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:12:17.188 > I (2877142) INFER: Saudavel | DSP 60 ms, NN 1031 us
+15:12:17.309 > I (2877262) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:12:17.429 > I (2877382) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:12:17.552 > I (2877512) INFER: Saudavel | DSP 64 ms, NN 1031 us
+15:12:17.556 > I (2877512) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:17.669 > I (2877622) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:12:17.788 > I (2877742) INFER: Saudavel | DSP 61 ms, NN 1033 us
+15:12:17.909 > I (2877862) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:17.909 > I (2877862) INFER: 9 janelas/s
+15:12:18.029 > I (2877982) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:12:18.149 > I (2878102) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:12:18.269 > I (2878222) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:12:18.388 > I (2878342) INFER: Saudavel | DSP 60 ms, NN 1032 us
+15:12:18.508 > I (2878462) INFER: Saudavel | DSP 60 ms, NN 1031 us
+15:12:18.566 > I (2878522) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:18.629 > I (2878582) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:18.749 > I (2878702) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:12:18.869 > I (2878822) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:12:18.989 > I (2878942) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:12:18.989 > I (2878942) INFER: 9 janelas/s
+15:12:19.108 > I (2879062) INFER: Saudavel | DSP 60 ms, NN 1028 us
+15:12:19.228 > I (2879182) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:12:19.349 > I (2879302) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:12:19.469 > I (2879422) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:19.567 > I (2879522) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:19.600 > I (2879562) INFER: Saudavel | DSP 72 ms, NN 1039 us
+15:12:19.709 > I (2879662) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:12:19.828 > I (2879782) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:12:19.948 > I (2879902) INFER: Saudavel | DSP 60 ms, NN 1029 us
+15:12:20.069 > I (2880022) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:12:20.069 > I (2880022) INFER: 9 janelas/s
+15:12:20.189 > I (2880142) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:12:20.309 > I (2880262) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:20.429 > I (2880382) INFER: Saudavel | DSP 61 ms, NN 1033 us
+15:12:20.550 > I (2880512) INFER: Saudavel | DSP 62 ms, NN 1037 us
+15:12:20.576 > I (2880532) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:20.668 > I (2880622) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:12:20.789 > I (2880742) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:12:20.909 > I (2880862) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:12:21.029 > I (2880982) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:21.149 > I (2881102) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:21.149 > I (2881102) INFER: 9 janelas/s
+15:12:21.268 > I (2881222) INFER: Saudavel | DSP 60 ms, NN 1028 us
+15:12:21.388 > I (2881342) INFER: Saudavel | DSP 60 ms, NN 1031 us
+15:12:21.509 > I (2881462) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:12:21.577 > I (2881532) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:21.630 > I (2881582) INFER: Saudavel | DSP 62 ms, NN 1033 us
+15:12:21.749 > I (2881702) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:12:21.868 > I (2881822) INFER: Saudavel | DSP 60 ms, NN 1031 us
+15:12:21.988 > I (2881942) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:12:22.109 > I (2882062) INFER: Saudavel | DSP 61 ms, NN 1034 us
+15:12:22.229 > I (2882182) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:12:22.229 > I (2882182) INFER: 9 janelas/s
+15:12:22.350 > I (2882302) INFER: Saudavel | DSP 62 ms, NN 1029 us
+15:12:22.469 > I (2882422) INFER: Saudavel | DSP 61 ms, NN 1034 us
+15:12:22.587 > I (2882542) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:22.590 > I (2882552) INFER: Saudavel | DSP 63 ms, NN 1379 us
+15:12:22.708 > I (2882662) INFER: Saudavel | DSP 60 ms, NN 1031 us
+15:12:22.829 > I (2882782) INFER: Saudavel | DSP 61 ms, NN 1144 us
+15:12:22.949 > I (2882902) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:23.069 > I (2883022) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:12:23.189 > I (2883142) INFER: Saudavel | DSP 61 ms, NN 1034 us
+15:12:23.308 > I (2883262) INFER: Saudavel | DSP 60 ms, NN 1029 us
+15:12:23.308 > I (2883262) INFER: 9 janelas/s
+15:12:23.429 > I (2883382) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:12:23.549 > I (2883502) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:23.596 > I (2883552) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:23.669 > I (2883622) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:12:23.790 > I (2883752) INFER: Saudavel | DSP 62 ms, NN 1039 us
+15:12:23.908 > I (2883862) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:12:24.028 > I (2883982) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:12:24.148 > I (2884102) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:12:24.269 > I (2884222) INFER: Saudavel | DSP 61 ms, NN 1025 us
+15:12:24.388 > I (2884342) INFER: Saudavel | DSP 61 ms, NN 1026 us
+15:12:24.388 > I (2884342) INFER: 9 janelas/s
+15:12:24.508 > I (2884462) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:24.597 > I (2884552) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:24.631 > I (2884592) INFER: Saudavel | DSP 63 ms, NN 1027 us
+15:12:24.748 > I (2884702) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:24.868 > I (2884822) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:12:24.988 > I (2884942) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:12:25.108 > I (2885062) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:12:25.228 > I (2885182) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:12:25.348 > I (2885302) INFER: Saudavel | DSP 60 ms, NN 1030 us
+15:12:25.468 > I (2885422) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:12:25.468 > I (2885422) INFER: 9 janelas/s
+15:12:25.585 > I (2885542) INFER: Saudavel | DSP 61 ms, NN 1248 us
+15:12:25.606 > I (2885562) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:25.708 > I (2885662) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:12:25.828 > I (2885782) INFER: Saudavel | DSP 61 ms, NN 1032 us
+15:12:25.949 > I (2885902) INFER: Saudavel | DSP 61 ms, NN 1030 us
+15:12:26.068 > I (2886022) INFER: Saudavel | DSP 60 ms, NN 1030 us
+15:12:26.188 > I (2886142) INFER: Saudavel | DSP 60 ms, NN 1029 us
+15:12:26.308 > I (2886262) INFER: Saudavel | DSP 61 ms, NN 1034 us
+15:12:26.429 > I (2886382) INFER: Saudavel | DSP 61 ms, NN 1026 us
+15:12:26.548 > I (2886502) INFER: Saudavel | DSP 61 ms, NN 1031 us
+15:12:26.549 > I (2886502) INFER: 9 janelas/s
+15:12:26.606 > I (2886562) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:26.669 > I (2886622) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:26.788 > I (2886742) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:26.908 > I (2886862) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:27.028 > I (2886982) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:27.148 > I (2887102) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:12:27.268 > I (2887222) INFER: Saudavel | DSP 61 ms, NN 1025 us
+15:12:27.390 > I (2887342) INFER: Saudavel | DSP 62 ms, NN 1025 us
+15:12:27.508 > I (2887462) INFER: Saudavel | DSP 60 ms, NN 1030 us
+15:12:27.607 > I (2887562) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:27.631 > I (2887592) INFER: Saudavel | DSP 63 ms, NN 1028 us
+15:12:27.631 > I (2887592) INFER: 9 janelas/s
+15:12:27.749 > I (2887712) INFER: Saudavel | DSP 62 ms, NN 1034 us
+15:12:27.868 > I (2887822) INFER: Saudavel | DSP 61 ms, NN 1029 us
+15:12:27.988 > I (2887942) INFER: Saudavel | DSP 61 ms, NN 1027 us
+15:12:28.109 > I (2888072) INFER: Saudavel | DSP 62 ms, NN 1044 us
+15:12:28.228 > I (2888182) INFER: Saudavel | DSP 60 ms, NN 1027 us
+15:12:28.348 > I (2888302) INFER: Saudavel | DSP 60 ms, NN 1032 us
+15:12:28.468 > I (2888422) INFER: Saudavel | DSP 61 ms, NN 1028 us
+15:12:28.588 > I (2888542) INFER: Subtensao | DSP 61 ms, NN 1033 us
+15:12:28.616 > I (2888572) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:28.708 > I (2888662) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:12:28.708 > I (2888662) INFER: 9 janelas/s
+15:12:28.828 > I (2888782) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:12:28.948 > I (2888902) INFER: Subtensao | DSP 60 ms, NN 1029 us
+15:12:29.068 > I (2889022) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:12:29.190 > I (2889152) INFER: Subtensao | DSP 63 ms, NN 1040 us
+15:12:29.308 > I (2889262) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:12:29.429 > I (2889382) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:12:29.548 > I (2889502) INFER: Subtensao | DSP 60 ms, NN 1029 us
+15:12:29.617 > I (2889572) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:29.671 > I (2889632) INFER: Subtensao | DSP 64 ms, NN 1028 us
+15:12:29.788 > I (2889742) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:12:29.789 > I (2889742) INFER: 9 janelas/s
+15:12:29.908 > I (2889862) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:12:30.028 > I (2889982) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:12:30.148 > I (2890102) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:12:30.268 > I (2890222) INFER: Subtensao | DSP 60 ms, NN 1026 us
+15:12:30.387 > I (2890342) INFER: Subtensao | DSP 60 ms, NN 1030 us
+15:12:30.508 > I (2890462) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:12:30.626 > I (2890582) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:30.629 > I (2890582) INFER: Subtensao | DSP 62 ms, NN 1035 us
+15:12:30.750 > I (2890712) INFER: Subtensao | DSP 63 ms, NN 1039 us
+15:12:30.869 > I (2890822) INFER: Subtensao | DSP 62 ms, NN 1029 us
+15:12:30.869 > I (2890832) INFER: 9 janelas/s
+15:12:30.987 > I (2890942) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:12:31.107 > I (2891062) INFER: Subtensao | DSP 60 ms, NN 1031 us
+15:12:31.228 > I (2891182) INFER: Subtensao | DSP 61 ms, NN 1035 us
+15:12:31.348 > I (2891302) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:12:31.468 > I (2891422) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:12:31.588 > I (2891542) INFER: Subtensao | DSP 60 ms, NN 1032 us
+15:12:31.636 > I (2891592) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:31.710 > I (2891672) INFER: Subtensao | DSP 62 ms, NN 1041 us
+15:12:31.827 > I (2891782) INFER: Subtensao | DSP 60 ms, NN 1029 us
+15:12:31.948 > I (2891902) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:12:31.949 > I (2891902) INFER: 9 janelas/s
+15:12:32.068 > I (2892022) INFER: Subtensao | DSP 61 ms, NN 1023 us
+15:12:32.188 > I (2892142) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:12:32.309 > I (2892272) INFER: Subtensao | DSP 62 ms, NN 1039 us
+15:12:32.428 > I (2892382) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:12:32.547 > I (2892502) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:12:32.636 > I (2892592) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:32.671 > I (2892632) INFER: Subtensao | DSP 63 ms, NN 1026 us
+15:12:32.788 > I (2892742) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:12:32.910 > I (2892872) INFER: Subtensao | DSP 62 ms, NN 1037 us
+15:12:33.028 > I (2892982) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:12:33.028 > I (2892982) INFER: 9 janelas/s
+15:12:33.148 > I (2893102) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:12:33.268 > I (2893222) INFER: Subtensao | DSP 60 ms, NN 1279 us
+15:12:33.388 > I (2893342) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:12:33.508 > I (2893462) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:12:33.629 > I (2893582) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:12:33.636 > I (2893592) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:33.748 > I (2893702) INFER: Subtensao | DSP 61 ms, NN 1033 us
+15:12:33.867 > I (2893822) INFER: Subtensao | DSP 60 ms, NN 1031 us
+15:12:33.988 > I (2893942) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:12:34.108 > I (2894062) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:12:34.108 > I (2894062) INFER: 9 janelas/s
+15:12:34.228 > I (2894182) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:12:34.348 > I (2894302) INFER: Subtensao | DSP 61 ms, NN 1033 us
+15:12:34.467 > I (2894422) INFER: Subtensao | DSP 60 ms, NN 1030 us
+15:12:34.587 > I (2894542) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:12:34.646 > I (2894602) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:34.717 > I (2894672) INFER: Subtensao | DSP 69 ms, NN 1058 us
+15:12:34.828 > I (2894782) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:12:34.950 > I (2894912) INFER: Subtensao | DSP 62 ms, NN 1041 us
+15:12:35.068 > I (2895022) INFER: Subtensao | DSP 61 ms, NN 1024 us
+15:12:35.188 > I (2895142) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:12:35.188 > I (2895142) INFER: 9 janelas/s
+15:12:35.307 > I (2895262) INFER: Subtensao | DSP 60 ms, NN 1031 us
+15:12:35.428 > I (2895382) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:12:35.548 > I (2895502) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:12:35.647 > I (2895602) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:35.669 > I (2895622) INFER: Subtensao | DSP 62 ms, NN 1027 us
+15:12:35.788 > I (2895742) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:12:35.908 > I (2895862) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:12:36.027 > I (2895982) INFER: Subtensao | DSP 60 ms, NN 1026 us
+15:12:36.150 > I (2896112) INFER: Subtensao | DSP 63 ms, NN 1042 us
+15:12:36.268 > I (2896222) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:12:36.268 > I (2896222) INFER: 9 janelas/s
+15:12:36.388 > I (2896342) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:12:36.509 > I (2896472) INFER: Subtensao | DSP 62 ms, NN 1032 us
+15:12:36.628 > I (2896582) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:12:36.656 > I (2896612) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:36.750 > I (2896712) INFER: Subtensao | DSP 63 ms, NN 1272 us
+15:12:36.868 > I (2896822) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:12:36.988 > I (2896942) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:12:37.108 > I (2897062) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:12:37.227 > I (2897182) INFER: Subtensao | DSP 60 ms, NN 1025 us
+15:12:37.347 > I (2897302) INFER: Subtensao | DSP 60 ms, NN 1030 us
+15:12:37.348 > I (2897302) INFER: 9 janelas/s
+15:12:37.468 > I (2897422) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:12:37.588 > I (2897542) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:12:37.656 > I (2897612) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:37.708 > I (2897662) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:12:37.828 > I (2897782) INFER: Subtensao | DSP 61 ms, NN 1032 us
+15:12:37.948 > I (2897902) INFER: Subtensao | DSP 61 ms, NN 1023 us
+15:12:38.067 > I (2898022) INFER: Subtensao | DSP 60 ms, NN 1025 us
+15:12:38.188 > I (2898142) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:12:38.308 > I (2898262) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:12:38.428 > I (2898382) INFER: Subtensao | DSP 61 ms, NN 1025 us
+15:12:38.428 > I (2898382) INFER: 9 janelas/s
+15:12:38.548 > I (2898502) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:12:38.666 > I (2898622) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:38.668 > I (2898622) INFER: Subtensao | DSP 61 ms, NN 1034 us
+15:12:38.788 > I (2898742) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:12:38.908 > I (2898862) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:12:39.028 > I (2898982) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:12:39.148 > I (2899102) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:12:39.268 > I (2899222) INFER: Subtensao | DSP 60 ms, NN 1031 us
+15:12:39.387 > I (2899342) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:12:39.507 > I (2899462) INFER: Subtensao | DSP 60 ms, NN 1026 us
+15:12:39.508 > I (2899462) INFER: 9 janelas/s
+15:12:39.628 > I (2899582) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:12:39.676 > I (2899632) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:39.752 > I (2899712) INFER: Subtensao | DSP 64 ms, NN 1031 us
+15:12:39.868 > I (2899822) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:12:39.987 > I (2899942) INFER: Subtensao | DSP 60 ms, NN 1029 us
+15:12:40.107 > I (2900062) INFER: Subtensao | DSP 60 ms, NN 1032 us
+15:12:40.227 > I (2900182) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:12:40.348 > I (2900302) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:12:40.470 > I (2900432) INFER: Subtensao | DSP 62 ms, NN 1039 us
+15:12:40.588 > I (2900542) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:12:40.588 > I (2900542) INFER: 9 janelas/s
+15:12:40.676 > I (2900632) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:40.708 > I (2900662) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:12:40.827 > I (2900782) INFER: Subtensao | DSP 60 ms, NN 1030 us
+15:12:40.948 > I (2900902) INFER: Subtensao | DSP 60 ms, NN 1281 us
+15:12:41.068 > I (2901022) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:12:41.190 > I (2901152) INFER: Subtensao | DSP 63 ms, NN 1028 us
+15:12:41.308 > I (2901262) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:12:41.428 > I (2901382) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:12:41.547 > I (2901502) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:12:41.668 > I (2901622) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:12:41.668 > I (2901622) INFER: 9 janelas/s
+15:12:41.676 > I (2901632) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:41.790 > I (2901752) INFER: Subtensao | DSP 63 ms, NN 1029 us
+15:12:41.908 > I (2901862) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:12:42.028 > I (2901982) INFER: Subtensao | DSP 61 ms, NN 1034 us
+15:12:42.148 > I (2902102) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:12:42.267 > I (2902222) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:12:42.388 > I (2902342) INFER: Subtensao | DSP 61 ms, NN 1113 us
+15:12:42.510 > I (2902472) INFER: Subtensao | DSP 63 ms, NN 1026 us
+15:12:42.628 > I (2902582) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:12:42.686 > I (2902642) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:42.748 > I (2902702) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:12:42.748 > I (2902702) INFER: 9 janelas/s
+15:12:42.867 > I (2902822) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:12:42.987 > I (2902942) INFER: Subtensao | DSP 60 ms, NN 1026 us
+15:12:43.108 > I (2903062) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:12:43.228 > I (2903182) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:12:43.348 > I (2903302) INFER: Subtensao | DSP 61 ms, NN 1025 us
+15:12:43.467 > I (2903422) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:12:43.587 > I (2903542) INFER: Subtensao | DSP 60 ms, NN 1029 us
+15:12:43.686 > I (2903642) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:43.708 > I (2903662) INFER: Subtensao | DSP 61 ms, NN 1036 us
+15:12:43.830 > I (2903792) INFER: Subtensao | DSP 63 ms, NN 1040 us
+15:12:43.830 > I (2903792) INFER: 9 janelas/s
+15:12:43.948 > I (2903902) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:12:44.070 > I (2904032) INFER: Subtensao | DSP 63 ms, NN 1041 us
+15:12:44.188 > I (2904142) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:12:44.307 > I (2904262) INFER: Subtensao | DSP 60 ms, NN 1031 us
+15:12:44.428 > I (2904382) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:12:44.548 > I (2904502) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:12:44.668 > I (2904622) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:12:44.695 > I (2904652) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:44.790 > I (2904752) INFER: Subtensao | DSP 63 ms, NN 1026 us
+15:12:44.908 > I (2904862) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:12:44.908 > I (2904862) INFER: 9 janelas/s
+15:12:45.027 > I (2904982) INFER: Subtensao | DSP 60 ms, NN 1025 us
+15:12:45.148 > I (2905102) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:12:45.268 > I (2905222) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:12:45.388 > I (2905342) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:12:45.508 > I (2905462) INFER: Subtensao | DSP 61 ms, NN 1035 us
+15:12:45.628 > I (2905582) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:12:45.696 > I (2905652) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:45.748 > I (2905702) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:12:45.868 > I (2905822) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:12:45.988 > I (2905942) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:12:45.988 > I (2905942) INFER: 9 janelas/s
+15:12:46.108 > I (2906062) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:12:46.229 > I (2906192) INFER: Subtensao | DSP 63 ms, NN 1039 us
+15:12:46.347 > I (2906302) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:12:46.467 > I (2906422) INFER: Subtensao | DSP 60 ms, NN 1026 us
+15:12:46.588 > I (2906542) INFER: Subtensao | DSP 61 ms, NN 1032 us
+15:12:46.706 > I (2906662) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:46.708 > I (2906662) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:12:46.830 > I (2906792) INFER: Subtensao | DSP 63 ms, NN 1040 us
+15:12:46.948 > I (2906902) INFER: Subtensao | DSP 61 ms, NN 1025 us
+15:12:47.067 > I (2907022) INFER: Subtensao | DSP 60 ms, NN 1030 us
+15:12:47.067 > I (2907022) INFER: 9 janelas/s
+15:12:47.187 > I (2907142) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:12:47.309 > I (2907262) INFER: Subtensao | DSP 62 ms, NN 1026 us
+15:12:47.428 > I (2907382) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:12:47.548 > I (2907502) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:12:47.668 > I (2907622) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:12:47.715 > I (2907672) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:47.788 > I (2907742) INFER: Subtensao | DSP 61 ms, NN 1033 us
+15:12:47.907 > I (2907862) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:12:48.028 > I (2907982) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:12:48.148 > I (2908102) INFER: Subtensao | DSP 61 ms, NN 1034 us
+15:12:48.148 > I (2908102) INFER: 9 janelas/s
+15:12:48.269 > I (2908232) INFER: Subtensao | DSP 62 ms, NN 1038 us
+15:12:48.389 > I (2908342) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:12:48.507 > I (2908462) INFER: Subtensao | DSP 60 ms, NN 1029 us
+15:12:48.628 > I (2908582) INFER: Subtensao | DSP 61 ms, NN 1293 us
+15:12:48.716 > I (2908672) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:48.748 > I (2908702) INFER: Subtensao | DSP 62 ms, NN 1027 us
+15:12:48.870 > I (2908832) INFER: Subtensao | DSP 63 ms, NN 1043 us
+15:12:48.988 > I (2908942) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:12:49.107 > I (2909062) INFER: Subtensao | DSP 60 ms, NN 1030 us
+15:12:49.227 > I (2909182) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:12:49.227 > I (2909182) INFER: 9 janelas/s
+15:12:49.347 > I (2909302) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:12:49.469 > I (2909432) INFER: Subtensao | DSP 62 ms, NN 1040 us
+15:12:49.588 > I (2909542) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:12:49.708 > I (2909662) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:12:49.715 > I (2909672) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:49.827 > I (2909782) INFER: Subtensao | DSP 60 ms, NN 1024 us
+15:12:49.949 > I (2909912) INFER: Subtensao | DSP 62 ms, NN 1037 us
+15:12:50.068 > I (2910022) INFER: Subtensao | DSP 61 ms, NN 1122 us
+15:12:50.188 > I (2910142) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:12:50.307 > I (2910262) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:12:50.308 > I (2910262) INFER: 9 janelas/s
+15:12:50.428 > I (2910382) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:12:50.547 > I (2910502) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:12:50.667 > I (2910622) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:12:50.725 > I (2910682) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:50.788 > I (2910742) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:12:50.908 > I (2910862) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:12:51.027 > I (2910982) INFER: Subtensao | DSP 61 ms, NN 1024 us
+15:12:51.147 > I (2911102) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:12:51.267 > I (2911222) INFER: Subtensao | DSP 60 ms, NN 1032 us
+15:12:51.387 > I (2911342) INFER: Subtensao | DSP 60 ms, NN 1026 us
+15:12:51.387 > I (2911342) INFER: 9 janelas/s
+15:12:51.508 > I (2911462) INFER: Subtensao | DSP 61 ms, NN 1024 us
+15:12:51.628 > I (2911582) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:12:51.726 > I (2911682) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:51.748 > I (2911702) INFER: Subtensao | DSP 62 ms, NN 1027 us
+15:12:51.869 > I (2911832) INFER: Subtensao | DSP 62 ms, NN 1038 us
+15:12:51.987 > I (2911942) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:12:52.107 > I (2912062) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:12:52.228 > I (2912182) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:12:52.349 > I (2912302) INFER: Subtensao | DSP 62 ms, NN 1028 us
+15:12:52.467 > I (2912422) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:12:52.468 > I (2912422) INFER: 9 janelas/s
+15:12:52.587 > I (2912542) INFER: Subtensao | DSP 60 ms, NN 1030 us
+15:12:52.707 > I (2912662) INFER: Subtensao | DSP 60 ms, NN 1025 us
+15:12:52.735 > I (2912692) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:52.827 > I (2912782) INFER: Subtensao | DSP 60 ms, NN 1252 us
+15:12:52.948 > I (2912902) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:12:53.067 > I (2913022) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:12:53.188 > I (2913142) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:12:53.307 > I (2913262) INFER: Subtensao | DSP 60 ms, NN 1026 us
+15:12:53.427 > I (2913382) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:12:53.547 > I (2913502) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:12:53.548 > I (2913502) INFER: 9 janelas/s
+15:12:53.668 > I (2913622) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:12:53.736 > I (2913692) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:53.788 > I (2913742) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:12:53.910 > I (2913872) INFER: Subtensao | DSP 63 ms, NN 1030 us
+15:12:54.027 > I (2913982) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:12:54.147 > I (2914102) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:12:54.267 > I (2914222) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:12:54.387 > I (2914342) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:12:54.510 > I (2914472) INFER: Subtensao | DSP 63 ms, NN 1028 us
+15:12:54.628 > I (2914582) INFER: Subtensao | DSP 61 ms, NN 1032 us
+15:12:54.628 > I (2914582) INFER: 9 janelas/s
+15:12:54.746 > I (2914702) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:54.748 > I (2914702) INFER: Subtensao | DSP 61 ms, NN 1037 us
+15:12:54.867 > I (2914822) INFER: Subtensao | DSP 60 ms, NN 1033 us
+15:12:54.987 > I (2914942) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:12:55.107 > I (2915062) INFER: Subtensao | DSP 61 ms, NN 1023 us
+15:12:55.227 > I (2915182) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:12:55.349 > I (2915312) INFER: Subtensao | DSP 62 ms, NN 1043 us
+15:12:55.467 > I (2915422) INFER: Subtensao | DSP 60 ms, NN 1026 us
+15:12:55.587 > I (2915542) INFER: Subtensao | DSP 60 ms, NN 1029 us
+15:12:55.707 > I (2915662) INFER: Subtensao | DSP 61 ms, NN 1025 us
+15:12:55.708 > I (2915662) INFER: 9 janelas/s
+15:12:55.755 > I (2915712) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:55.827 > I (2915782) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:12:55.950 > I (2915912) INFER: Subtensao | DSP 63 ms, NN 1030 us
+15:12:56.067 > I (2916022) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:12:56.187 > I (2916142) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:12:56.307 > I (2916262) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:12:56.428 > I (2916382) INFER: Subtensao | DSP 61 ms, NN 1033 us
+15:12:56.547 > I (2916502) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:12:56.668 > I (2916622) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:12:56.756 > I (2916712) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:56.788 > I (2916742) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:12:56.788 > I (2916742) INFER: 9 janelas/s
+15:12:56.909 > I (2916872) INFER: Subtensao | DSP 63 ms, NN 1041 us
+15:12:57.027 > I (2916982) INFER: Subtensao | DSP 61 ms, NN 1033 us
+15:12:57.148 > I (2917102) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:12:57.267 > I (2917222) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:12:57.389 > I (2917342) INFER: Subtensao | DSP 62 ms, NN 1031 us
+15:12:57.507 > I (2917462) INFER: Subtensao | DSP 60 ms, NN 1026 us
+15:12:57.627 > I (2917582) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:12:57.748 > I (2917702) INFER: Subtensao | DSP 61 ms, NN 1139 us
+15:12:57.755 > I (2917712) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:57.867 > I (2917822) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:12:57.868 > I (2917822) INFER: 9 janelas/s
+15:12:57.987 > I (2917942) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:12:58.107 > I (2918062) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:12:58.227 > I (2918182) INFER: Subtensao | DSP 60 ms, NN 1026 us
+15:12:58.347 > I (2918302) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:12:58.468 > I (2918422) INFER: Subtensao | DSP 62 ms, NN 1025 us
+15:12:58.587 > I (2918542) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:12:58.707 > I (2918662) INFER: Subtensao | DSP 61 ms, NN 1025 us
+15:12:58.765 > I (2918722) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:58.827 > I (2918782) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:12:58.949 > I (2918912) INFER: Subtensao | DSP 63 ms, NN 1040 us
+15:12:58.949 > I (2918912) INFER: 9 janelas/s
+15:12:59.067 > I (2919022) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:12:59.188 > I (2919142) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:12:59.307 > I (2919262) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:12:59.428 > I (2919382) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:12:59.547 > I (2919502) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:12:59.667 > I (2919622) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:12:59.766 > I (2919722) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:12:59.788 > I (2919742) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:12:59.908 > I (2919862) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:00.027 > I (2919982) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:00.028 > I (2919982) INFER: 9 janelas/s
+15:13:00.148 > I (2920102) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:00.267 > I (2920222) INFER: Subtensao | DSP 60 ms, NN 1032 us
+15:13:00.387 > I (2920342) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:13:00.507 > I (2920462) INFER: Subtensao | DSP 60 ms, NN 1285 us
+15:13:00.628 > I (2920582) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:00.748 > I (2920702) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:00.775 > I (2920732) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:00.867 > I (2920822) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:00.989 > I (2920952) INFER: Subtensao | DSP 62 ms, NN 1037 us
+15:13:01.107 > I (2921062) INFER: Subtensao | DSP 60 ms, NN 1029 us
+15:13:01.107 > I (2921062) INFER: 9 janelas/s
+15:13:01.227 > I (2921182) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:01.347 > I (2921302) INFER: Subtensao | DSP 61 ms, NN 1025 us
+15:13:01.469 > I (2921432) INFER: Subtensao | DSP 63 ms, NN 1043 us
+15:13:01.587 > I (2921542) INFER: Subtensao | DSP 61 ms, NN 1033 us
+15:13:01.707 > I (2921662) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:13:01.776 > I (2921732) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:01.827 > I (2921782) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:01.948 > I (2921902) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:13:02.067 > I (2922022) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:02.188 > I (2922142) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:02.188 > I (2922142) INFER: 9 janelas/s
+15:13:02.307 > I (2922262) INFER: Subtensao | DSP 61 ms, NN 1032 us
+15:13:02.427 > I (2922382) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:02.547 > I (2922502) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:13:02.668 > I (2922622) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:02.785 > I (2922742) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:02.788 > I (2922742) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:02.908 > I (2922862) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:03.027 > I (2922982) INFER: Subtensao | DSP 60 ms, NN 1031 us
+15:13:03.147 > I (2923102) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:03.267 > I (2923222) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:13:03.267 > I (2923222) INFER: 9 janelas/s
+15:13:03.387 > I (2923342) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:03.507 > I (2923462) INFER: Subtensao | DSP 61 ms, NN 1032 us
+15:13:03.629 > I (2923592) INFER: Subtensao | DSP 62 ms, NN 1044 us
+15:13:03.747 > I (2923702) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:03.795 > I (2923752) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:03.867 > I (2923822) INFER: Subtensao | DSP 60 ms, NN 1024 us
+15:13:03.989 > I (2923952) INFER: Subtensao | DSP 62 ms, NN 1289 us
+15:13:04.107 > I (2924062) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:04.227 > I (2924182) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:04.347 > I (2924302) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:04.347 > I (2924302) INFER: 9 janelas/s
+15:13:04.467 > I (2924422) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:13:04.587 > I (2924542) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:13:04.707 > I (2924662) INFER: Subtensao | DSP 60 ms, NN 1023 us
+15:13:04.795 > I (2924752) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:04.828 > I (2924782) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:04.948 > I (2924902) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:13:05.067 > I (2925022) INFER: Subtensao | DSP 61 ms, NN 1034 us
+15:13:05.189 > I (2925152) INFER: Subtensao | DSP 62 ms, NN 1041 us
+15:13:05.307 > I (2925262) INFER: Subtensao | DSP 60 ms, NN 1029 us
+15:13:05.428 > I (2925382) INFER: Subtensao | DSP 61 ms, NN 1130 us
+15:13:05.428 > I (2925382) INFER: 9 janelas/s
+15:13:05.547 > I (2925502) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:05.668 > I (2925622) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:05.788 > I (2925742) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:05.795 > I (2925752) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:05.907 > I (2925862) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:06.029 > I (2925992) INFER: Subtensao | DSP 62 ms, NN 1041 us
+15:13:06.150 > I (2926112) INFER: Subtensao | DSP 63 ms, NN 1026 us
+15:13:06.267 > I (2926222) INFER: Subtensao | DSP 61 ms, NN 1024 us
+15:13:06.387 > I (2926342) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:06.509 > I (2926472) INFER: Subtensao | DSP 63 ms, NN 1039 us
+15:13:06.510 > I (2926472) INFER: 9 janelas/s
+15:13:06.627 > I (2926582) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:06.747 > I (2926702) INFER: Subtensao | DSP 61 ms, NN 1032 us
+15:13:06.805 > I (2926762) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:06.867 > I (2926822) INFER: Subtensao | DSP 61 ms, NN 1025 us
+15:13:06.987 > I (2926942) INFER: Subtensao | DSP 61 ms, NN 1034 us
+15:13:07.107 > I (2927062) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:07.227 > I (2927182) INFER: Subtensao | DSP 60 ms, NN 1026 us
+15:13:07.347 > I (2927302) INFER: Subtensao | DSP 60 ms, NN 1030 us
+15:13:07.467 > I (2927422) INFER: Subtensao | DSP 60 ms, NN 1030 us
+15:13:07.589 > I (2927542) INFER: Subtensao | DSP 62 ms, NN 1026 us
+15:13:07.589 > I (2927552) INFER: 9 janelas/s
+15:13:07.707 > I (2927662) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:07.805 > I (2927762) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:07.828 > I (2927782) INFER: Subtensao | DSP 61 ms, NN 1025 us
+15:13:07.947 > I (2927902) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:13:08.069 > I (2928032) INFER: Subtensao | DSP 62 ms, NN 1039 us
+15:13:08.187 > I (2928142) INFER: Subtensao | DSP 61 ms, NN 1276 us
+15:13:08.307 > I (2928262) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:08.428 > I (2928382) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:13:08.547 > I (2928502) INFER: Subtensao | DSP 61 ms, NN 1032 us
+15:13:08.667 > I (2928622) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:13:08.667 > I (2928622) INFER: 9 janelas/s
+15:13:08.787 > I (2928742) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:08.815 > I (2928772) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:08.908 > I (2928862) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:13:09.029 > I (2928992) INFER: Subtensao | DSP 63 ms, NN 1037 us
+15:13:09.148 > I (2929102) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:09.267 > I (2929222) INFER: Subtensao | DSP 61 ms, NN 1034 us
+15:13:09.387 > I (2929342) INFER: Subtensao | DSP 60 ms, NN 1029 us
+15:13:09.507 > I (2929462) INFER: Subtensao | DSP 60 ms, NN 1025 us
+15:13:09.628 > I (2929582) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:09.748 > I (2929702) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:09.748 > I (2929702) INFER: 9 janelas/s
+15:13:09.815 > I (2929772) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:09.869 > I (2929832) INFER: Subtensao | DSP 62 ms, NN 1037 us
+15:13:09.987 > I (2929942) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:10.107 > I (2930062) INFER: Subtensao | DSP 60 ms, NN 1031 us
+15:13:10.227 > I (2930182) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:13:10.347 > I (2930302) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:10.467 > I (2930422) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:10.587 > I (2930542) INFER: Subtensao | DSP 61 ms, NN 1024 us
+15:13:10.707 > I (2930662) INFER: Subtensao | DSP 60 ms, NN 1024 us
+15:13:10.825 > I (2930782) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:10.827 > I (2930782) INFER: Subtensao | DSP 60 ms, NN 1118 us
+15:13:10.827 > I (2930782) INFER: 9 janelas/s
+15:13:10.947 > I (2930902) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:11.069 > I (2931032) INFER: Subtensao | DSP 63 ms, NN 1042 us
+15:13:11.189 > I (2931152) INFER: Subtensao | DSP 63 ms, NN 1030 us
+15:13:11.307 > I (2931262) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:13:11.427 > I (2931382) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:11.547 > I (2931502) INFER: Subtensao | DSP 60 ms, NN 1026 us
+15:13:11.667 > I (2931622) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:13:11.787 > I (2931742) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:13:11.835 > I (2931792) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:11.908 > I (2931862) INFER: Subtensao | DSP 61 ms, NN 1024 us
+15:13:11.908 > I (2931872) INFER: 9 janelas/s
+15:13:12.027 > I (2931982) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:12.147 > I (2932102) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:12.267 > I (2932222) INFER: Subtensao | DSP 60 ms, NN 1033 us
+15:13:12.387 > I (2932342) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:13:12.509 > I (2932472) INFER: Subtensao | DSP 63 ms, NN 1035 us
+15:13:12.628 > I (2932582) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:12.747 > I (2932702) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:12.835 > I (2932792) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:12.867 > I (2932822) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:12.986 > I (2932942) INFER: Subtensao | DSP 60 ms, NN 1026 us
+15:13:12.987 > I (2932942) INFER: 9 janelas/s
+15:13:13.109 > I (2933072) INFER: Subtensao | DSP 63 ms, NN 1039 us
+15:13:13.227 > I (2933182) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:13.347 > I (2933302) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:13.469 > I (2933432) INFER: Subtensao | DSP 62 ms, NN 1038 us
+15:13:13.587 > I (2933542) INFER: Subtensao | DSP 60 ms, NN 1029 us
+15:13:13.707 > I (2933662) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:13:13.828 > I (2933782) INFER: Subtensao | DSP 62 ms, NN 1025 us
+15:13:13.835 > I (2933792) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:13.948 > I (2933902) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:14.071 > I (2934032) INFER: Subtensao | DSP 63 ms, NN 2741 us
+15:13:14.071 > I (2934032) INFER: 9 janelas/s
+15:13:14.187 > I (2934142) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:14.307 > I (2934262) INFER: Subtensao | DSP 60 ms, NN 1030 us
+15:13:14.427 > I (2934382) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:14.547 > I (2934502) INFER: Subtensao | DSP 61 ms, NN 1033 us
+15:13:14.667 > I (2934622) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:14.787 > I (2934742) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:14.845 > I (2934802) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:14.907 > I (2934862) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:15.027 > I (2934982) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:13:15.147 > I (2935102) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:15.147 > I (2935102) INFER: 9 janelas/s
+15:13:15.267 > I (2935222) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:15.387 > I (2935342) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:15.507 > I (2935462) INFER: Subtensao | DSP 61 ms, NN 1032 us
+15:13:15.627 > I (2935582) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:15.747 > I (2935702) INFER: Subtensao | DSP 61 ms, NN 1032 us
+15:13:15.845 > I (2935802) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:15.867 > I (2935822) INFER: Subtensao | DSP 61 ms, NN 1287 us
+15:13:15.987 > I (2935942) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:16.109 > I (2936072) INFER: Subtensao | DSP 63 ms, NN 1037 us
+15:13:16.229 > I (2936192) INFER: Subtensao | DSP 63 ms, NN 1045 us
+15:13:16.229 > I (2936192) INFER: 9 janelas/s
+15:13:16.347 > I (2936302) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:13:16.468 > I (2936422) INFER: Subtensao | DSP 62 ms, NN 1027 us
+15:13:16.587 > I (2936542) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:16.707 > I (2936662) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:16.827 > I (2936782) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:16.855 > I (2936812) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:16.947 > I (2936902) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:17.067 > I (2937022) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:13:17.187 > I (2937142) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:13:17.308 > I (2937262) INFER: Subtensao | DSP 61 ms, NN 1867 us
+15:13:17.308 > I (2937272) INFER: 9 janelas/s
+15:13:17.428 > I (2937382) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:17.547 > I (2937502) INFER: Subtensao | DSP 61 ms, NN 1024 us
+15:13:17.667 > I (2937622) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:13:17.787 > I (2937742) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:17.855 > I (2937812) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:17.907 > I (2937862) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:18.027 > I (2937982) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:18.149 > I (2938112) INFER: Subtensao | DSP 63 ms, NN 1028 us
+15:13:18.267 > I (2938222) INFER: Subtensao | DSP 61 ms, NN 1024 us
+15:13:18.386 > I (2938342) INFER: Subtensao | DSP 60 ms, NN 1029 us
+15:13:18.387 > I (2938342) INFER: 9 janelas/s
+15:13:18.506 > I (2938462) INFER: Subtensao | DSP 60 ms, NN 1030 us
+15:13:18.627 > I (2938582) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:18.747 > I (2938702) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:13:18.865 > I (2938822) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:18.867 > I (2938822) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:18.987 > I (2938942) INFER: Subtensao | DSP 61 ms, NN 1034 us
+15:13:19.107 > I (2939062) INFER: Subtensao | DSP 60 ms, NN 1029 us
+15:13:19.226 > I (2939182) INFER: Subtensao | DSP 60 ms, NN 1029 us
+15:13:19.346 > I (2939302) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:13:19.467 > I (2939422) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:19.467 > I (2939422) INFER: 9 janelas/s
+15:13:19.588 > I (2939552) INFER: Subtensao | DSP 62 ms, NN 1393 us
+15:13:19.707 > I (2939662) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:19.826 > I (2939782) INFER: Subtensao | DSP 60 ms, NN 1026 us
+15:13:19.875 > I (2939832) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:19.947 > I (2939902) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:20.067 > I (2940022) INFER: Subtensao | DSP 60 ms, NN 1029 us
+15:13:20.197 > I (2940152) INFER: Subtensao | DSP 71 ms, NN 1027 us
+15:13:20.307 > I (2940262) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:13:20.427 > I (2940382) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:20.546 > I (2940502) INFER: Subtensao | DSP 60 ms, NN 1026 us
+15:13:20.547 > I (2940502) INFER: 9 janelas/s
+15:13:20.667 > I (2940622) INFER: Subtensao | DSP 60 ms, NN 1029 us
+15:13:20.787 > I (2940742) INFER: Subtensao | DSP 61 ms, NN 1033 us
+15:13:20.875 > I (2940832) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:20.908 > I (2940862) INFER: Subtensao | DSP 62 ms, NN 1031 us
+15:13:21.027 > I (2940982) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:21.149 > I (2941112) INFER: Subtensao | DSP 63 ms, NN 1027 us
+15:13:21.264 > I (2941222) INFER: Subtensao | DSP 60 ms, NN 1264 us
+15:13:21.386 > I (2941342) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:13:21.507 > I (2941462) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:21.627 > I (2941582) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:21.628 > I (2941582) INFER: 9 janelas/s
+15:13:21.747 > I (2941702) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:21.867 > I (2941822) INFER: Subtensao | DSP 60 ms, NN 1031 us
+15:13:21.875 > I (2941832) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:21.986 > I (2941942) INFER: Subtensao | DSP 60 ms, NN 1024 us
+15:13:22.106 > I (2942062) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:13:22.227 > I (2942182) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:22.348 > I (2942302) INFER: Subtensao | DSP 62 ms, NN 1027 us
+15:13:22.467 > I (2942422) INFER: Subtensao | DSP 61 ms, NN 1032 us
+15:13:22.586 > I (2942542) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:13:22.706 > I (2942662) INFER: Subtensao | DSP 60 ms, NN 1031 us
+15:13:22.707 > I (2942662) INFER: 9 janelas/s
+15:13:22.826 > I (2942782) INFER: Subtensao | DSP 60 ms, NN 1026 us
+15:13:22.885 > I (2942842) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:22.947 > I (2942902) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:23.067 > I (2943022) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:13:23.189 > I (2943152) INFER: Subtensao | DSP 63 ms, NN 1032 us
+15:13:23.306 > I (2943262) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:13:23.427 > I (2943382) INFER: Subtensao | DSP 61 ms, NN 1032 us
+15:13:23.546 > I (2943502) INFER: Subtensao | DSP 60 ms, NN 1025 us
+15:13:23.667 > I (2943622) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:23.787 > I (2943742) INFER: Subtensao | DSP 61 ms, NN 1034 us
+15:13:23.788 > I (2943742) INFER: 9 janelas/s
+15:13:23.885 > I (2943842) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:23.908 > I (2943862) INFER: Subtensao | DSP 62 ms, NN 1029 us
+15:13:24.026 > I (2943982) INFER: Subtensao | DSP 60 ms, NN 1031 us
+15:13:24.147 > I (2944102) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:24.267 > I (2944222) INFER: Subtensao | DSP 61 ms, NN 1033 us
+15:13:24.389 > I (2944352) INFER: Subtensao | DSP 62 ms, NN 1316 us
+15:13:24.507 > I (2944462) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:24.627 > I (2944582) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:24.747 > I (2944702) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:24.866 > I (2944822) INFER: Subtensao | DSP 60 ms, NN 1032 us
+15:13:24.867 > I (2944822) INFER: 9 janelas/s
+15:13:24.895 > I (2944852) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:24.987 > I (2944942) INFER: Subtensao | DSP 61 ms, NN 1125 us
+15:13:25.107 > I (2945062) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:25.229 > I (2945192) INFER: Subtensao | DSP 63 ms, NN 1040 us
+15:13:25.347 > I (2945302) INFER: Subtensao | DSP 61 ms, NN 1025 us
+15:13:25.466 > I (2945422) INFER: Subtensao | DSP 60 ms, NN 1026 us
+15:13:25.586 > I (2945542) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:13:25.707 > I (2945662) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:25.827 > I (2945782) INFER: Subtensao | DSP 61 ms, NN 1032 us
+15:13:25.895 > I (2945852) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:25.948 > I (2945902) INFER: Subtensao | DSP 62 ms, NN 1029 us
+15:13:25.948 > I (2945912) INFER: 9 janelas/s
+15:13:26.066 > I (2946022) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:13:26.187 > I (2946142) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:13:26.306 > I (2946262) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:13:26.427 > I (2946382) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:26.547 > I (2946502) INFER: Subtensao | DSP 61 ms, NN 1024 us
+15:13:26.667 > I (2946622) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:26.787 > I (2946742) INFER: Subtensao | DSP 61 ms, NN 1032 us
+15:13:26.905 > I (2946862) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:26.907 > I (2946862) INFER: Subtensao | DSP 61 ms, NN 1032 us
+15:13:27.026 > I (2946982) INFER: Subtensao | DSP 60 ms, NN 1030 us
+15:13:27.026 > I (2946982) INFER: 9 janelas/s
+15:13:27.147 > I (2947102) INFER: Subtensao | DSP 61 ms, NN 1032 us
+15:13:27.267 > I (2947222) INFER: Subtensao | DSP 61 ms, NN 1032 us
+15:13:27.388 > I (2947342) INFER: Subtensao | DSP 62 ms, NN 1031 us
+15:13:27.506 > I (2947462) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:13:27.627 > I (2947582) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:27.747 > I (2947702) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:27.867 > I (2947822) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:13:27.915 > I (2947872) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:27.987 > I (2947942) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:28.107 > I (2948062) INFER: Subtensao | DSP 61 ms, NN 1033 us
+15:13:28.107 > I (2948062) INFER: 9 janelas/s
+15:13:28.228 > I (2948192) INFER: Subtensao | DSP 62 ms, NN 1037 us
+15:13:28.346 > I (2948302) INFER: Subtensao | DSP 60 ms, NN 1029 us
+15:13:28.467 > I (2948422) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:28.587 > I (2948542) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:28.707 > I (2948662) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:28.827 > I (2948782) INFER: Subtensao | DSP 61 ms, NN 1032 us
+15:13:28.915 > I (2948872) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:28.947 > I (2948902) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:29.066 > I (2949022) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:13:29.187 > I (2949142) INFER: Subtensao | DSP 61 ms, NN 1032 us
+15:13:29.187 > I (2949142) INFER: 9 janelas/s
+15:13:29.307 > I (2949262) INFER: Subtensao | DSP 61 ms, NN 1032 us
+15:13:29.427 > I (2949382) INFER: Subtensao | DSP 61 ms, NN 1023 us
+15:13:29.548 > I (2949512) INFER: Subtensao | DSP 62 ms, NN 1040 us
+15:13:29.667 > I (2949622) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:13:29.787 > I (2949742) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:29.907 > I (2949862) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:29.915 > I (2949872) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:30.027 > I (2949982) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:30.149 > I (2950112) INFER: Subtensao | DSP 63 ms, NN 1041 us
+15:13:30.268 > I (2950232) INFER: Subtensao | DSP 62 ms, NN 1042 us
+15:13:30.268 > I (2950232) INFER: 9 janelas/s
+15:13:30.386 > I (2950342) INFER: Subtensao | DSP 60 ms, NN 1034 us
+15:13:30.506 > I (2950462) INFER: Subtensao | DSP 60 ms, NN 1025 us
+15:13:30.627 > I (2950582) INFER: Subtensao | DSP 61 ms, NN 1035 us
+15:13:30.749 > I (2950712) INFER: Subtensao | DSP 63 ms, NN 1035 us
+15:13:30.868 > I (2950822) INFER: Subtensao | DSP 62 ms, NN 1028 us
+15:13:30.925 > I (2950882) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:30.987 > I (2950942) INFER: Subtensao | DSP 60 ms, NN 1029 us
+15:13:31.106 > I (2951062) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:13:31.226 > I (2951182) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:13:31.347 > I (2951302) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:31.347 > I (2951302) INFER: 9 janelas/s
+15:13:31.467 > I (2951422) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:31.587 > I (2951542) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:31.706 > I (2951662) INFER: Subtensao | DSP 60 ms, NN 1025 us
+15:13:31.826 > I (2951782) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:13:31.925 > I (2951882) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:31.948 > I (2951902) INFER: Subtensao | DSP 62 ms, NN 1033 us
+15:13:32.067 > I (2952022) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:32.187 > I (2952142) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:32.309 > I (2952272) INFER: Subtensao | DSP 63 ms, NN 1040 us
+15:13:32.427 > I (2952382) INFER: Subtensao | DSP 61 ms, NN 1032 us
+15:13:32.427 > I (2952382) INFER: 9 janelas/s
+15:13:32.546 > I (2952502) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:13:32.667 > I (2952622) INFER: Subtensao | DSP 61 ms, NN 1135 us
+15:13:32.787 > I (2952742) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:32.907 > I (2952862) INFER: Subtensao | DSP 61 ms, NN 1025 us
+15:13:32.934 > I (2952892) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:33.027 > I (2952982) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:33.147 > I (2953102) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:33.268 > I (2953232) INFER: Subtensao | DSP 62 ms, NN 1039 us
+15:13:33.387 > I (2953342) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:33.508 > I (2953462) INFER: Subtensao | DSP 62 ms, NN 1026 us
+15:13:33.508 > I (2953472) INFER: 9 janelas/s
+15:13:33.627 > I (2953582) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:33.746 > I (2953702) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:33.866 > I (2953822) INFER: Subtensao | DSP 60 ms, NN 1029 us
+15:13:33.935 > I (2953892) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:33.987 > I (2953942) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:34.106 > I (2954062) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:34.226 > I (2954182) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:34.347 > I (2954302) INFER: Subtensao | DSP 62 ms, NN 1028 us
+15:13:34.466 > I (2954422) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:13:34.586 > I (2954542) INFER: Subtensao | DSP 60 ms, NN 1029 us
+15:13:34.586 > I (2954542) INFER: 9 janelas/s
+15:13:34.706 > I (2954662) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:13:34.826 > I (2954782) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:34.945 > I (2954902) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:34.947 > I (2954902) INFER: Subtensao | DSP 62 ms, NN 1031 us
+15:13:35.066 > I (2955022) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:35.186 > I (2955142) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:35.314 > I (2955272) INFER: Subtensao | DSP 68 ms, NN 1240 us
+15:13:35.428 > I (2955392) INFER: Subtensao | DSP 62 ms, NN 1043 us
+15:13:35.546 > I (2955502) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:35.667 > I (2955622) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:35.667 > I (2955622) INFER: 9 janelas/s
+15:13:35.787 > I (2955742) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:35.906 > I (2955862) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:13:35.954 > I (2955912) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:36.026 > I (2955982) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:13:36.147 > I (2956102) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:13:36.266 > I (2956222) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:36.386 > I (2956342) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:36.506 > I (2956462) INFER: Subtensao | DSP 61 ms, NN 1035 us
+15:13:36.626 > I (2956582) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:36.746 > I (2956702) INFER: Subtensao | DSP 61 ms, NN 1033 us
+15:13:36.747 > I (2956702) INFER: 9 janelas/s
+15:13:36.866 > I (2956822) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:36.955 > I (2956912) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:36.987 > I (2956942) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:37.106 > I (2957062) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:37.226 > I (2957182) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:37.348 > I (2957312) INFER: Subtensao | DSP 62 ms, NN 1041 us
+15:13:37.466 > I (2957422) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:13:37.586 > I (2957542) INFER: Subtensao | DSP 61 ms, NN 1034 us
+15:13:37.706 > I (2957662) INFER: Subtensao | DSP 61 ms, NN 1025 us
+15:13:37.826 > I (2957782) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:37.827 > I (2957782) INFER: 9 janelas/s
+15:13:37.946 > I (2957902) INFER: Subtensao | DSP 61 ms, NN 1023 us
+15:13:37.954 > I (2957912) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:38.066 > I (2958022) INFER: Subtensao | DSP 60 ms, NN 1026 us
+15:13:38.186 > I (2958142) INFER: Subtensao | DSP 60 ms, NN 1030 us
+15:13:38.306 > I (2958262) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:38.427 > I (2958382) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:38.546 > I (2958502) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:38.667 > I (2958622) INFER: Subtensao | DSP 62 ms, NN 1032 us
+15:13:38.786 > I (2958742) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:38.906 > I (2958862) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:38.907 > I (2958862) INFER: 9 janelas/s
+15:13:38.964 > I (2958922) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:39.026 > I (2958982) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:39.147 > I (2959102) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:39.266 > I (2959222) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:39.386 > I (2959342) INFER: Subtensao | DSP 60 ms, NN 1031 us
+15:13:39.506 > I (2959462) INFER: Subtensao | DSP 60 ms, NN 1030 us
+15:13:39.627 > I (2959582) INFER: Subtensao | DSP 61 ms, NN 1032 us
+15:13:39.747 > I (2959702) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:39.866 > I (2959822) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:39.965 > I (2959922) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:39.986 > I (2959942) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:13:39.987 > I (2959942) INFER: 9 janelas/s
+15:13:40.106 > I (2960062) INFER: Subtensao | DSP 60 ms, NN 1033 us
+15:13:40.226 > I (2960182) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:13:40.348 > I (2960312) INFER: Subtensao | DSP 63 ms, NN 1040 us
+15:13:40.466 > I (2960422) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:40.588 > I (2960542) INFER: Subtensao | DSP 62 ms, NN 1030 us
+15:13:40.706 > I (2960662) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:40.826 > I (2960782) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:13:40.946 > I (2960902) INFER: Subtensao | DSP 61 ms, NN 1034 us
+15:13:40.974 > I (2960932) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:41.066 > I (2961022) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:41.067 > I (2961022) INFER: 9 janelas/s
+15:13:41.189 > I (2961152) INFER: Subtensao | DSP 63 ms, NN 1030 us
+15:13:41.306 > I (2961262) INFER: Subtensao | DSP 61 ms, NN 1024 us
+15:13:41.426 > I (2961382) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:41.546 > I (2961502) INFER: Subtensao | DSP 60 ms, NN 1025 us
+15:13:41.666 > I (2961622) INFER: Subtensao | DSP 60 ms, NN 1031 us
+15:13:41.787 > I (2961742) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:41.907 > I (2961862) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:41.975 > I (2961932) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:42.027 > I (2961982) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:42.146 > I (2962102) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:42.146 > I (2962102) INFER: 9 janelas/s
+15:13:42.266 > I (2962222) INFER: Subtensao | DSP 60 ms, NN 1025 us
+15:13:42.388 > I (2962352) INFER: Subtensao | DSP 62 ms, NN 1324 us
+15:13:42.509 > I (2962472) INFER: Subtensao | DSP 64 ms, NN 1027 us
+15:13:42.627 > I (2962582) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:42.747 > I (2962702) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:42.866 > I (2962822) INFER: Subtensao | DSP 60 ms, NN 1030 us
+15:13:42.985 > I (2962942) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:42.986 > I (2962942) INFER: Subtensao | DSP 60 ms, NN 1089 us
+15:13:43.106 > I (2963062) INFER: Subtensao | DSP 60 ms, NN 1278 us
+15:13:43.226 > I (2963182) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:43.226 > I (2963182) INFER: 9 janelas/s
+15:13:43.346 > I (2963302) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:43.466 > I (2963422) INFER: Subtensao | DSP 61 ms, NN 1032 us
+15:13:43.586 > I (2963542) INFER: Subtensao | DSP 60 ms, NN 1032 us
+15:13:43.706 > I (2963662) INFER: Subtensao | DSP 60 ms, NN 1026 us
+15:13:43.826 > I (2963782) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:43.947 > I (2963902) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:43.994 > I (2963952) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:44.068 > I (2964032) INFER: Subtensao | DSP 63 ms, NN 1044 us
+15:13:44.186 > I (2964142) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:13:44.306 > I (2964262) INFER: Subtensao | DSP 60 ms, NN 1025 us
+15:13:44.306 > I (2964262) INFER: 9 janelas/s
+15:13:44.428 > I (2964392) INFER: Subtensao | DSP 63 ms, NN 1044 us
+15:13:44.547 > I (2964502) INFER: Subtensao | DSP 61 ms, NN 1834 us
+15:13:44.666 > I (2964622) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:13:44.787 > I (2964742) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:44.907 > I (2964862) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:13:44.995 > I (2964952) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:45.026 > I (2964982) INFER: Subtensao | DSP 61 ms, NN 1032 us
+15:13:45.146 > I (2965102) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:45.266 > I (2965222) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:45.388 > I (2965352) INFER: Subtensao | DSP 63 ms, NN 1314 us
+15:13:45.389 > I (2965352) INFER: 9 janelas/s
+15:13:45.506 > I (2965462) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:45.626 > I (2965582) INFER: Subtensao | DSP 61 ms, NN 1033 us
+15:13:45.746 > I (2965702) INFER: Subtensao | DSP 61 ms, NN 1034 us
+15:13:45.866 > I (2965822) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:13:45.986 > I (2965942) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:45.994 > I (2965952) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:46.106 > I (2966062) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:46.228 > I (2966192) INFER: Subtensao | DSP 63 ms, NN 1027 us
+15:13:46.346 > I (2966302) INFER: Subtensao | DSP 60 ms, NN 1030 us
+15:13:46.465 > I (2966422) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:13:46.466 > I (2966422) INFER: 9 janelas/s
+15:13:46.586 > I (2966542) INFER: Subtensao | DSP 60 ms, NN 1032 us
+15:13:46.706 > I (2966662) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:46.828 > I (2966792) INFER: Subtensao | DSP 63 ms, NN 1040 us
+15:13:46.948 > I (2966912) INFER: Subtensao | DSP 63 ms, NN 1041 us
+15:13:47.004 > I (2966962) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:47.066 > I (2967022) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:13:47.186 > I (2967142) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:13:47.306 > I (2967262) INFER: Subtensao | DSP 61 ms, NN 1023 us
+15:13:47.429 > I (2967392) INFER: Subtensao | DSP 63 ms, NN 1033 us
+15:13:47.546 > I (2967502) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:47.547 > I (2967502) INFER: 9 janelas/s
+15:13:47.666 > I (2967622) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:47.786 > I (2967742) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:47.906 > I (2967862) INFER: Subtensao | DSP 61 ms, NN 1033 us
+15:13:48.005 > I (2967962) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:48.027 > I (2967992) INFER: Subtensao | DSP 61 ms, NN 1947 us
+15:13:48.146 > I (2968102) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:48.266 > I (2968222) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:48.386 > I (2968342) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:48.505 > I (2968462) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:13:48.626 > I (2968582) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:48.626 > I (2968582) INFER: 9 janelas/s
+15:13:48.746 > I (2968702) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:48.866 > I (2968822) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:13:48.986 > I (2968942) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:49.014 > I (2968972) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:49.106 > I (2969062) INFER: Subtensao | DSP 60 ms, NN 1032 us
+15:13:49.225 > I (2969182) INFER: Subtensao | DSP 60 ms, NN 1029 us
+15:13:49.345 > I (2969302) INFER: Subtensao | DSP 60 ms, NN 1029 us
+15:13:49.470 > I (2969432) INFER: Subtensao | DSP 64 ms, NN 1028 us
+15:13:49.586 > I (2969542) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:49.707 > I (2969662) INFER: Subtensao | DSP 62 ms, NN 1025 us
+15:13:49.708 > I (2969672) INFER: 9 janelas/s
+15:13:49.826 > I (2969782) INFER: Subtensao | DSP 60 ms, NN 1026 us
+15:13:49.946 > I (2969902) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:50.015 > I (2969972) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:50.066 > I (2970022) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:50.186 > I (2970142) INFER: Subtensao | DSP 61 ms, NN 1025 us
+15:13:50.306 > I (2970262) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:50.426 > I (2970382) INFER: Subtensao | DSP 61 ms, NN 1025 us
+15:13:50.546 > I (2970502) INFER: Subtensao | DSP 60 ms, NN 1024 us
+15:13:50.667 > I (2970632) INFER: Subtensao | DSP 62 ms, NN 1037 us
+15:13:50.786 > I (2970742) INFER: Subtensao | DSP 61 ms, NN 1278 us
+15:13:50.786 > I (2970742) INFER: 9 janelas/s
+15:13:50.906 > I (2970862) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:51.024 > I (2970982) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:51.026 > I (2970982) INFER: Subtensao | DSP 61 ms, NN 1032 us
+15:13:51.146 > I (2971102) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:51.266 > I (2971222) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:13:51.385 > I (2971342) INFER: Subtensao | DSP 60 ms, NN 1032 us
+15:13:51.506 > I (2971462) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:51.629 > I (2971592) INFER: Subtensao | DSP 64 ms, NN 1029 us
+15:13:51.746 > I (2971702) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:51.866 > I (2971822) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:51.866 > I (2971822) INFER: 9 janelas/s
+15:13:51.985 > I (2971942) INFER: Subtensao | DSP 60 ms, NN 1024 us
+15:13:52.034 > I (2971992) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:52.106 > I (2972062) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:13:52.226 > I (2972182) INFER: Subtensao | DSP 61 ms, NN 1112 us
+15:13:52.346 > I (2972302) INFER: Subtensao | DSP 61 ms, NN 1032 us
+15:13:52.468 > I (2972432) INFER: Subtensao | DSP 63 ms, NN 1041 us
+15:13:52.589 > I (2972552) INFER: Subtensao | DSP 64 ms, NN 1032 us
+15:13:52.701 > I (2972662) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:13:52.825 > I (2972782) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:13:52.946 > I (2972902) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:52.947 > I (2972902) INFER: 9 janelas/s
+15:13:53.034 > I (2972992) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:53.066 > I (2973022) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:53.186 > I (2973142) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:53.305 > I (2973262) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:13:53.426 > I (2973382) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:53.545 > I (2973502) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:13:53.666 > I (2973622) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:13:53.786 > I (2973742) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:53.906 > I (2973862) INFER: Subtensao | DSP 61 ms, NN 1032 us
+15:13:54.025 > I (2973982) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:13:54.026 > I (2973982) INFER: 9 janelas/s
+15:13:54.034 > I (2973992) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:54.146 > I (2974102) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:54.265 > I (2974222) INFER: Subtensao | DSP 60 ms, NN 1031 us
+15:13:54.386 > I (2974342) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:54.511 > I (2974472) INFER: Subtensao | DSP 66 ms, NN 1026 us
+15:13:54.629 > I (2974592) INFER: Subtensao | DSP 64 ms, NN 1028 us
+15:13:54.746 > I (2974702) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:54.865 > I (2974822) INFER: Subtensao | DSP 60 ms, NN 1029 us
+15:13:54.986 > I (2974942) INFER: Subtensao | DSP 60 ms, NN 1031 us
+15:13:55.044 > I (2975002) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:55.106 > I (2975062) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:13:55.106 > I (2975062) INFER: 9 janelas/s
+15:13:55.226 > I (2975182) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:55.346 > I (2975302) INFER: Subtensao | DSP 61 ms, NN 1032 us
+15:13:55.465 > I (2975422) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:13:55.585 > I (2975542) INFER: Subtensao | DSP 60 ms, NN 1029 us
+15:13:55.706 > I (2975662) INFER: Subtensao | DSP 61 ms, NN 1026 us
+15:13:55.826 > I (2975782) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:55.947 > I (2975912) INFER: Subtensao | DSP 62 ms, NN 1039 us
+15:13:56.044 > I (2976002) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:56.066 > I (2976022) INFER: Subtensao | DSP 61 ms, NN 1025 us
+15:13:56.186 > I (2976142) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:13:56.186 > I (2976142) INFER: 9 janelas/s
+15:13:56.305 > I (2976262) INFER: Subtensao | DSP 60 ms, NN 1029 us
+15:13:56.426 > I (2976382) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:56.548 > I (2976512) INFER: Subtensao | DSP 63 ms, NN 1042 us
+15:13:56.666 > I (2976622) INFER: Subtensao | DSP 61 ms, NN 1033 us
+15:13:56.786 > I (2976742) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:56.906 > I (2976862) INFER: Subtensao | DSP 61 ms, NN 1024 us
+15:13:57.025 > I (2976982) INFER: Subtensao | DSP 60 ms, NN 1026 us
+15:13:57.054 > I (2977012) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:57.146 > I (2977102) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:13:57.266 > I (2977222) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:57.266 > I (2977222) INFER: 9 janelas/s
+15:13:57.387 > I (2977342) INFER: Subtensao | DSP 62 ms, NN 1027 us
+15:13:57.507 > I (2977472) INFER: Subtensao | DSP 62 ms, NN 1039 us
+15:13:57.626 > I (2977582) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:57.746 > I (2977702) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:57.866 > I (2977822) INFER: Subtensao | DSP 61 ms, NN 1025 us
+15:13:57.986 > I (2977942) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:58.054 > I (2978012) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:58.106 > I (2978062) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:58.225 > I (2978182) INFER: Subtensao | DSP 60 ms, NN 1026 us
+15:13:58.345 > I (2978302) INFER: Subtensao | DSP 60 ms, NN 1029 us
+15:13:58.346 > I (2978302) INFER: 9 janelas/s
+15:13:58.465 > I (2978422) INFER: Subtensao | DSP 60 ms, NN 1026 us
+15:13:58.586 > I (2978542) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:13:58.706 > I (2978662) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:58.826 > I (2978782) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:13:58.946 > I (2978902) INFER: Subtensao | DSP 60 ms, NN 1025 us
+15:13:59.064 > I (2979022) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:13:59.065 > I (2979022) INFER: Subtensao | DSP 60 ms, NN 1080 us
+15:13:59.186 > I (2979142) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:13:59.306 > I (2979262) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:13:59.426 > I (2979382) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:13:59.427 > I (2979382) INFER: 9 janelas/s
+15:13:59.548 > I (2979512) INFER: Subtensao | DSP 63 ms, NN 1041 us
+15:13:59.666 > I (2979622) INFER: Subtensao | DSP 60 ms, NN 1026 us
+15:13:59.786 > I (2979742) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:13:59.907 > I (2979872) INFER: Subtensao | DSP 62 ms, NN 1036 us
+15:14:00.026 > I (2979982) INFER: Subtensao | DSP 61 ms, NN 1025 us
+15:14:00.074 > I (2980032) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:14:00.146 > I (2980102) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:14:00.266 > I (2980222) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:14:00.385 > I (2980342) INFER: Subtensao | DSP 60 ms, NN 1029 us
+15:14:00.505 > I (2980462) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:14:00.506 > I (2980462) INFER: 9 janelas/s
+15:14:00.626 > I (2980582) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:14:00.746 > I (2980702) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:14:00.866 > I (2980822) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:14:00.985 > I (2980942) INFER: Subtensao | DSP 60 ms, NN 1031 us
+15:14:01.074 > I (2981032) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:14:01.106 > I (2981062) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:14:01.225 > I (2981182) INFER: Subtensao | DSP 60 ms, NN 1031 us
+15:14:01.346 > I (2981302) INFER: Subtensao | DSP 61 ms, NN 1024 us
+15:14:01.468 > I (2981432) INFER: Subtensao | DSP 63 ms, NN 1029 us
+15:14:01.588 > I (2981552) INFER: Subtensao | DSP 63 ms, NN 1387 us
+15:14:01.588 > I (2981552) INFER: 9 janelas/s
+15:14:01.707 > I (2981672) INFER: Subtensao | DSP 62 ms, NN 1045 us
+15:14:01.825 > I (2981782) INFER: Subtensao | DSP 60 ms, NN 1025 us
+15:14:01.946 > I (2981902) INFER: Subtensao | DSP 60 ms, NN 1029 us
+15:14:02.066 > I (2982022) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:14:02.074 > I (2982032) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:14:02.186 > I (2982142) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:14:02.306 > I (2982262) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:14:02.426 > I (2982382) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:14:02.545 > I (2982502) INFER: Subtensao | DSP 60 ms, NN 1026 us
+15:14:02.666 > I (2982622) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:14:02.666 > I (2982622) INFER: 9 janelas/s
+15:14:02.788 > I (2982752) INFER: Subtensao | DSP 63 ms, NN 1031 us
+15:14:02.908 > I (2982872) INFER: Subtensao | DSP 63 ms, NN 1026 us
+15:14:03.026 > I (2982982) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:14:03.084 > I (2983042) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:14:03.146 > I (2983102) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:14:03.265 > I (2983222) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:14:03.386 > I (2983342) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:14:03.506 > I (2983462) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:14:03.626 > I (2983582) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:14:03.746 > I (2983702) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:14:03.747 > I (2983702) INFER: 9 janelas/s
+15:14:03.865 > I (2983822) INFER: Subtensao | DSP 60 ms, NN 1030 us
+15:14:03.985 > I (2983942) INFER: Subtensao | DSP 60 ms, NN 1027 us
+15:14:04.084 > I (2984042) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:14:04.106 > I (2984062) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:14:04.226 > I (2984182) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:14:04.346 > I (2984302) INFER: Subtensao | DSP 61 ms, NN 1024 us
+15:14:04.465 > I (2984422) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:14:04.587 > I (2984552) INFER: Subtensao | DSP 62 ms, NN 1378 us
+15:14:04.705 > I (2984662) INFER: Subtensao | DSP 60 ms, NN 1025 us
+15:14:04.826 > I (2984782) INFER: Subtensao | DSP 61 ms, NN 1025 us
+15:14:04.826 > I (2984782) INFER: 9 janelas/s
+15:14:04.946 > I (2984902) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:14:05.067 > I (2985022) INFER: Subtensao | DSP 62 ms, NN 1029 us
+15:14:05.094 > I (2985052) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:14:05.186 > I (2985142) INFER: Subtensao | DSP 61 ms, NN 1025 us
+15:14:05.305 > I (2985262) INFER: Subtensao | DSP 60 ms, NN 1025 us
+15:14:05.426 > I (2985382) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:14:05.546 > I (2985502) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:14:05.669 > I (2985632) INFER: Subtensao | DSP 64 ms, NN 1031 us
+15:14:05.786 > I (2985742) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:14:05.906 > I (2985862) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:14:05.906 > I (2985862) INFER: 9 janelas/s
+15:14:06.025 > I (2985982) INFER: Subtensao | DSP 60 ms, NN 1030 us
+15:14:06.094 > I (2986052) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+15:14:06.146 > I (2986102) INFER: Subtensao | DSP 61 ms, NN 1287 us
+15:14:06.268 > I (2986232) INFER: Subtensao | DSP 63 ms, NN 1042 us
+15:14:06.386 > I (2986342) INFER: Subtensao | DSP 61 ms, NN 1029 us
+15:14:06.514 > I (2986472) INFER: Subtensao | DSP 69 ms, NN 1291 us
+15:14:06.628 > I (2986592) INFER: Subtensao | DSP 63 ms, NN 1042 us
+15:14:06.746 > I (2986702) INFER: Subtensao | DSP 61 ms, NN 1028 us
+15:14:06.866 > I (2986822) INFER: Subtensao | DSP 61 ms, NN 1034 us
+15:14:06.986 > I (2986942) INFER: Subtensao | DSP 61 ms, NN 1027 us
+15:14:06.986 > I (2986942) INFER: 9 janelas/s
+15:14:07.104 > I (2987062) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+15:14:07.106 > I (2987062) INFER: Subtensao | DSP 61 ms, NN 1030 us
+15:14:07.226 > I (2987182) INFER: Subtensao | DSP 61 ms, NN 1031 us
+15:14:07.345 > I (2987302) INFER: Subtensao | DSP 60 ms, NN 1028 us
+15:14:07.465 > I (2987422) INFER: Subtensao | DSP 60 ms, NN 1026 us
