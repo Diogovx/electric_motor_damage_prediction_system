@@ -14,7 +14,7 @@ static const char* TAG = "MAIN";
 
 // Apenas durante o desenvolvimento: espera o monitor reconectar apos o reset
 // da USB nativa. Coloque 0 na versao final e nas medicoes de tempo.
-static constexpr uint32_t BOOT_LOG_DELAY_MS = 10000;
+static constexpr uint32_t BOOT_LOG_DELAY_MS = 0;
 
 static SystemController controller;      // objeto grande: fica fora da pilha
 

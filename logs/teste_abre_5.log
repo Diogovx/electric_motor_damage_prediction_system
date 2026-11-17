@@ -1,0 +1,247 @@
+Saved PC:0x4037b62e
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x14f0
+load:0x403c8700,len:0xda0
+load:0x403cb700,len:0x2f58
+entry 0x403c8900
+I (24) boot: ESP-IDF 6.0.1 2nd stage bootloader
+I (24) boot: compile time Nov 15 2026 14:23:46
+I (25) boot: Multicore bootloader
+I (26) boot: chip revision: v0.2
+I (27) boot: efuse block revision: v1.3
+I (31) boot.esp32s3: Boot SPI Speed : 80MHz
+I (35) boot.esp32s3: SPI Mode       : DIO
+I (39) boot.esp32s3: SPI Flash Size : 8MB
+I (42) boot: Enabling RNG early entropy source...
+I (47) boot: Partition Table:
+I (49) boot: ## Label            Usage          Type ST Offset   Length
+I (56) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (62) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+I (69) boot:  2 factory          factory app      00 00 00010000 00200000
+I (75) boot:  3 storage          Unknown data     01 82 00210000 00100000
+I (82) boot: End of partition table
+I (85) esp_image: segment 0: paddr=00010020 vaddr=3c0d0020 size=2afd0h (176080) map
+I (124) esp_image: segment 1: paddr=0003aff8 vaddr=3fc97e00 size=05020h ( 20512) load
+I (129) esp_image: segment 2: paddr=00040020 vaddr=42000020 size=cb358h (832344) map
+I (279) esp_image: segment 3: paddr=0010b380 vaddr=3fc9ce20 size=00258h (   600) load
+I (279) esp_image: segment 4: paddr=0010b5e0 vaddr=40374000 size=13d4ch ( 81228) load
+I (300) esp_image: segment 5: paddr=0011f334 vaddr=50000000 size=00024h (    36) load
+I (309) boot: Loaded app from partition at offset 0x10000
+I (310) boot: Disabling RNG early entropy source...
+I (320) cpu_start: Multicore app
+I (328) cpu_start: GPIO 44 and 43 are used as console UART I/O pins
+I (329) cpu_start: Pro cpu start user code
+I (329) cpu_start: cpu freq: 160000000 Hz
+I (331) app_init: Application information:
+I (334) app_init: Project name:     tcc_monitoramento2
+I (339) app_init: App version:      46aafed-dirty
+I (344) app_init: Compile time:     Nov 15 2026 14:23:34
+I (349) app_init: ELF file SHA256:  b4b61c75e...
+I (353) app_init: ESP-IDF:          6.0.1
+I (357) efuse_init: Min chip rev:     v0.0
+I (361) efuse_init: Max chip rev:     v0.99 
+I (365) efuse_init: Chip rev:         v0.2
+I (368) heap_init: Initializing. RAM available for dynamic allocation:
+I (375) heap_init: At 3FCAA0F0 len 0003F620 (253 KiB): RAM
+I (380) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM
+I (385) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM
+I (390) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM
+I (397) spi_flash: detected chip: boya
+I (399) spi_flash: flash io: dio
+W (402) spi_flash: Detected size(16384k) larger than the size in the binary image header(8192k). Using the size in the binary image header.
+I (415) sleep_gpio: Configure to isolate all GPIO pins in sleep state
+I (421) sleep_gpio: Enable automatic switching of GPIO sleep configuration
+I (428) main_task: Started on CPU0
+I (438) main_task: Calling app_main()
+I (438) MAIN: === Diagnostico de falhas em motores (TinyML) ===
+I (438) MAIN: ESP32-S3 | 2 nucleos | IDF 6.0.1 | heap livre 302612
+I (448) I2C_BUS: Barramento I2C inicializado
+I (448) I2C_BUS: SDA: GPIO 8
+I (448) I2C_BUS: SCL: GPIO 9
+I (468) STORAGE: LittleFS montado em /storage: 36864 de 1048576 bytes usados
+I (488) RECONF: ev=reconf_begin t_us=88905
+I (488) RECONF: ev=last_inference_old t_us=0
+I (498) RECONF: ev=old_released t_us=97344
+I (498) ADXL345: OK (endereco 0x53, 100 Hz, +-16 g)
+I (498) INA219: OK (endereco 0x40, config 0x399F, shunt 0.100 ohm)
+I (498) RECONF: ev=sensors_ready t_us=102584
+I (528) MODEL_MGR: Modelo lido de /storage/model.tflite (3776 bytes)
+I (528) MODEL_MGR: Arena: 980 de 8192 bytes usados
+I (528) MODEL_MGR: Pronto: entrada 52 valores (int8, scale=0.324740, zp=-121), saida 3 classes
+I (528) RECONF: ev=model_ready t_us=137016
+I (598) RECONF: ev=selftest_ok t_us=202437
+I (598) CTRL: STATUS {"state":"running","version":1,"motor":"jgb37-520","trial":0,"detail":"configuracao aplicada"}
+I (608) NET: Rede: "DIOGO VELOZO" (salva no NVS) | broker mqtt://192.168.1.109:1883
+I (608) pp: pp rom version: e7ae62f
+I (608) net80211: net80211 rom version: e7ae62f
+I (618) RECONF: ev=first_sample t_us=223952
+I (628) wifi:wifi driver task: 3fcbb774, prio:23, stack:6656, core=0
+I (638) wifi:wifi firmware version: b37c951
+I (648) wifi:wifi certification version: v7.0
+I (648) wifi:config NVS flash: enabled
+I (648) wifi:config nano formatting: disabled
+I (648) wifi:Init data frame dynamic rx buffer num: 32
+I (648) wifi:Init static rx mgmt buffer num: 5
+I (658) wifi:Init management short buffer num: 32
+I (658) wifi:Init dynamic tx buffer num: 32
+I (668) wifi:Init static tx FG buffer num: 2
+I (668) wifi:Init static rx buffer size: 1600
+I (678) wifi:Init static rx buffer num: 10
+I (678) wifi:Init dynamic rx buffer num: 32
+I (678) wifi_init: rx ba win: 6
+I (688) wifi_init: accept mbox: 6
+I (688) wifi_init: tcpip mbox: 32
+I (688) wifi_init: udp mbox: 6
+I (688) wifi_init: tcp mbox: 6
+I (698) wifi_init: tcp tx win: 5760
+I (698) wifi_init: tcp rx win: 5760
+I (698) wifi_init: tcp mss: 1440
+I (708) wifi_init: WiFi IRAM OP enabled
+I (708) wifi_init: WiFi RX IRAM OP enabled
+I (718) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10
+I (758) wifi:mode : sta (1c:db:d4:ad:d3:3c)
+I (758) wifi:enable tsf
+I (758) wifi:Set ps type: 0, coexist: 0
+
+I (758) main_task: Returned from app_main()
+I (768) wifi:new:<5,0>, old:<1,0>, ap:<255,255>, sta:<5,0>, prof:1, snd_ch_cfg:0x0
+I (768) wifi:state: init -> auth (0xb0)
+I (778) wifi:state: auth -> assoc (0x0)
+I (788) wifi:state: assoc -> run (0x10)
+I (1018) wifi:connected with DIOGO VELOZO, aid = 7, channel 5, BW20, bssid = c0:25:2f:0b:54:dd
+I (1018) wifi:security: WPA2-PSK, phy: bgn, rssi: -28, cipher(pairwise:0x3, group:0x3), pmf:0
+I (1028) wifi:pm start, type: 0
+
+I (1028) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (1038) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (1048) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+I (1058) wifi:<ba-add>idx:0 (ifx:0, c0:25:2f:0b:54:dd), tid:0, ssn:2, winSize:64
+I (1608) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (2078) esp_netif_handlers: sta ip: 192.168.1.107, mask: 255.255.255.0, gw: 192.168.1.1
+I (2078) NET: IP obtido: 192.168.1.107
+I (2098) NET: MQTT conectado
+I (2608) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (3228) RECONF: ev=first_inference_valid t_us=2835749
+I (3228) INFER: Falha de engrenagem | DSP 61 ms, NN 1031 us
+I (3228) INFER: 1 janelas/s
+I (3348) INFER: Falha de engrenagem | DSP 60 ms, NN 1033 us
+I (3468) INFER: Falha de engrenagem | DSP 60 ms, NN 1026 us
+I (3588) INFER: Falha de engrenagem | DSP 60 ms, NN 1029 us
+I (3618) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (3708) INFER: Falha de engrenagem | DSP 62 ms, NN 1031 us
+I (3828) INFER: Falha de engrenagem | DSP 61 ms, NN 1036 us
+I (3948) INFER: Falha de engrenagem | DSP 60 ms, NN 1031 us
+I (4068) INFER: Falha de engrenagem | DSP 60 ms, NN 1032 us
+I (4188) INFER: Falha de engrenagem | DSP 60 ms, NN 1031 us
+I (4308) INFER: Falha de engrenagem | DSP 60 ms, NN 1028 us
+I (4308) INFER: 9 janelas/s
+I (4428) INFER: Falha de engrenagem | DSP 60 ms, NN 1030 us
+I (4548) INFER: Falha de engrenagem | DSP 61 ms, NN 1028 us
+I (4618) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (4678) INFER: Falha de engrenagem | DSP 62 ms, NN 1039 us
+I (4788) INFER: Subtensao | DSP 60 ms, NN 1030 us
+I (4908) INFER: Subtensao | DSP 60 ms, NN 1027 us
+I (5028) INFER: Subtensao | DSP 60 ms, NN 1032 us
+I (5158) INFER: Subtensao | DSP 62 ms, NN 1040 us
+I (5268) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (5388) INFER: Falha de engrenagem | DSP 60 ms, NN 1028 us
+I (5388) INFER: 9 janelas/s
+I (5508) INFER: Subtensao | DSP 60 ms, NN 1033 us
+I (5628) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (5628) INFER: Falha de engrenagem | DSP 62 ms, NN 1031 us
+I (5748) INFER: Subtensao | DSP 60 ms, NN 1030 us
+I (5868) INFER: Falha de engrenagem | DSP 61 ms, NN 1027 us
+I (5988) INFER: Falha de engrenagem | DSP 61 ms, NN 1026 us
+I (6108) INFER: Falha de engrenagem | DSP 61 ms, NN 1027 us
+I (6228) INFER: Falha de engrenagem | DSP 60 ms, NN 1030 us
+I (6348) INFER: Falha de engrenagem | DSP 60 ms, NN 1033 us
+I (6468) INFER: Falha de engrenagem | DSP 61 ms, NN 1030 us
+I (6468) INFER: 9 janelas/s
+I (6588) INFER: Falha de engrenagem | DSP 61 ms, NN 1028 us
+I (6638) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (6708) INFER: Falha de engrenagem | DSP 61 ms, NN 1027 us
+I (6828) INFER: Falha de engrenagem | DSP 61 ms, NN 1030 us
+I (6948) INFER: Falha de engrenagem | DSP 60 ms, NN 1032 us
+I (7068) INFER: Falha de engrenagem | DSP 60 ms, NN 1031 us
+I (7198) INFER: Falha de engrenagem | DSP 62 ms, NN 1047 us
+I (7308) INFER: Falha de engrenagem | DSP 60 ms, NN 1031 us
+I (7428) INFER: Falha de engrenagem | DSP 60 ms, NN 1034 us
+I (7548) INFER: Falha de engrenagem | DSP 61 ms, NN 1030 us
+I (7548) INFER: 9 janelas/s
+I (7638) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (7668) INFER: Falha de engrenagem | DSP 60 ms, NN 1030 us
+I (7788) INFER: Falha de engrenagem | DSP 60 ms, NN 1028 us
+I (7918) INFER: Falha de engrenagem | DSP 62 ms, NN 1042 us
+I (8028) INFER: Falha de engrenagem | DSP 60 ms, NN 1032 us
+I (8148) INFER: Falha de engrenagem | DSP 60 ms, NN 1030 us
+I (8268) INFER: Falha de engrenagem | DSP 60 ms, NN 1037 us
+I (8388) INFER: Falha de engrenagem | DSP 60 ms, NN 1032 us
+I (8508) INFER: Falha de engrenagem | DSP 60 ms, NN 1029 us
+I (8628) INFER: Falha de engrenagem | DSP 61 ms, NN 1034 us
+I (8628) INFER: 9 janelas/s
+I (8638) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (8748) INFER: Falha de engrenagem | DSP 61 ms, NN 1029 us
+I (8868) INFER: Falha de engrenagem | DSP 61 ms, NN 1031 us
+I (8988) INFER: Falha de engrenagem | DSP 60 ms, NN 1028 us
+I (9108) INFER: Subtensao | DSP 60 ms, NN 1032 us
+I (9238) INFER: Falha de engrenagem | DSP 62 ms, NN 1040 us
+I (9348) INFER: Falha de engrenagem | DSP 61 ms, NN 1032 us
+I (9468) INFER: Falha de engrenagem | DSP 61 ms, NN 1028 us
+I (9588) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (9648) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (9708) INFER: Falha de engrenagem | DSP 60 ms, NN 1063 us
+I (9708) INFER: 9 janelas/s
+I (9828) INFER: Subtensao | DSP 60 ms, NN 1033 us
+I (9948) INFER: Falha de engrenagem | DSP 60 ms, NN 1123 us
+I (10068) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (10198) INFER: Falha de engrenagem | DSP 64 ms, NN 1030 us
+I (10308) INFER: Falha de engrenagem | DSP 60 ms, NN 1032 us
+I (10428) INFER: Falha de engrenagem | DSP 60 ms, NN 1028 us
+I (10548) INFER: Falha de engrenagem | DSP 60 ms, NN 1028 us
+I (10648) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (10668) INFER: Falha de engrenagem | DSP 61 ms, NN 1027 us
+I (10788) INFER: Falha de engrenagem | DSP 61 ms, NN 1028 us
+I (10788) INFER: 9 janelas/s
+I (10908) INFER: Falha de engrenagem | DSP 61 ms, NN 1027 us
+I (11028) INFER: Falha de engrenagem | DSP 60 ms, NN 1028 us
+I (11148) INFER: Falha de engrenagem | DSP 60 ms, NN 1029 us
+I (11268) INFER: Falha de engrenagem | DSP 60 ms, NN 1029 us
+I (11388) INFER: Falha de engrenagem | DSP 61 ms, NN 1029 us
+I (11508) INFER: Falha de engrenagem | DSP 62 ms, NN 1032 us
+I (11628) INFER: Falha de engrenagem | DSP 61 ms, NN 1031 us
+I (11658) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (11748) INFER: Falha de engrenagem | DSP 60 ms, NN 1031 us
+I (11868) INFER: Falha de engrenagem | DSP 60 ms, NN 1037 us
+I (11868) INFER: 9 janelas/s
+I (11988) INFER: Falha de engrenagem | DSP 60 ms, NN 1027 us
+I (12108) INFER: Falha de engrenagem | DSP 61 ms, NN 1031 us
+I (12238) INFER: Falha de engrenagem | DSP 63 ms, NN 1039 us
+I (12348) INFER: Falha de engrenagem | DSP 61 ms, NN 1031 us
+I (12468) INFER: Falha de engrenagem | DSP 60 ms, NN 1030 us
+I (12588) INFER: Falha de engrenagem | DSP 60 ms, NN 1033 us
+I (12658) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (12708) INFER: Falha de engrenagem | DSP 61 ms, NN 1032 us
+I (12828) INFER: Falha de engrenagem | DSP 61 ms, NN 1031 us
+I (12958) INFER: Falha de engrenagem | DSP 62 ms, NN 1042 us
+I (12958) INFER: 9 janelas/s
+I (13068) INFER: Falha de engrenagem | DSP 60 ms, NN 1030 us
+I (13188) INFER: Falha de engrenagem | DSP 60 ms, NN 1028 us
+I (13308) INFER: Falha de engrenagem | DSP 60 ms, NN 1034 us
+I (13428) INFER: Falha de engrenagem | DSP 60 ms, NN 1028 us
+I (13548) INFER: Falha de engrenagem | DSP 60 ms, NN 1032 us
+I (13668) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (13668) INFER: Falha de engrenagem | DSP 61 ms, NN 1032 us
+I (13788) INFER: Falha de engrenagem | DSP 61 ms, NN 1030 us
+I (13908) INFER: Falha de engrenagem | DSP 60 ms, NN 1028 us
+I (14028) INFER: Falha de engrenagem | DSP 60 ms, NN 1031 us
+I (14028) INFER: 9 janelas/s
+I (14158) INFER: Falha de engrenagem | DSP 62 ms, NN 1041 us
+I (14278) INFER: Falha de engrenagem | DSP 62 ms, NN 1046 us
+I (14388) INFER: Falha de engrenagem | DSP 60 ms, NN 1029 us
+I (14508) INFER: Falha de engrenagem | DSP 60 ms, NN 1031 us
+I (14638) INFER: Falha de engrenagem | DSP 62 ms, NN 1033 us
+I (14678) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (14748) INFER: Falha de engrenagem | DSP 60 ms, NN 1030 us
+I (14868) INFER: Falha de engrenagem | DSP 61 ms, NN 1031 us
+I (14988) INFER: Falha de engrenagem | DSP 60 ms, NN 1031 us
