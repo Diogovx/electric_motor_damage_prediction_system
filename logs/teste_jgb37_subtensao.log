@@ -1,0 +1,709 @@
+Saved PC:0x40033677
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x14f0
+load:0x403c8700,len:0xda0
+load:0x403cb700,len:0x2f58
+entry 0x403c8900
+I (24) boot: ESP-IDF 6.0.1 2nd stage bootloader
+I (24) boot: compile time Nov 15 2026 14:23:46
+I (25) boot: Multicore bootloader
+I (26) boot: chip revision: v0.2
+I (27) boot: efuse block revision: v1.3
+I (31) boot.esp32s3: Boot SPI Speed : 80MHz
+I (35) boot.esp32s3: SPI Mode       : DIO
+I (39) boot.esp32s3: SPI Flash Size : 8MB
+I (42) boot: Enabling RNG early entropy source...
+I (47) boot: Partition Table:
+I (49) boot: ## Label            Usage          Type ST Offset   Length
+I (56) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (62) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+I (69) boot:  2 factory          factory app      00 00 00010000 00200000
+I (75) boot:  3 storage          Unknown data     01 82 00210000 00100000
+I (82) boot: End of partition table
+I (85) esp_image: segment 0: paddr=00010020 vaddr=3c0d0020 size=2afd0h (176080) map
+I (124) esp_image: segment 1: paddr=0003aff8 vaddr=3fc97e00 size=05020h ( 20512) load
+I (129) esp_image: segment 2: paddr=00040020 vaddr=42000020 size=cb358h (832344) map
+I (279) esp_image: segment 3: paddr=0010b380 vaddr=3fc9ce20 size=00258h (   600) load
+I (279) esp_image: segment 4: paddr=0010b5e0 vaddr=40374000 size=13d4ch ( 81228) load
+I (300) esp_image: segment 5: paddr=0011f334 vaddr=50000000 size=00024h (    36) load
+I (309) boot: Loaded app from partition at offset 0x10000
+I (310) boot: Disabling RNG early entropy source...
+I (320) cpu_start: Multicore app
+I (328) cpu_start: GPIO 44 and 43 are used as console UART I/O pins
+I (329) cpu_start: Pro cpu start user code
+I (329) cpu_start: cpu freq: 160000000 Hz
+I (331) app_init: Application information:
+I (334) app_init: Project name:     tcc_monitoramento2
+I (339) app_init: App version:      46aafed-dirty
+I (344) app_init: Compile time:     Nov 15 2026 14:23:34
+I (349) app_init: ELF file SHA256:  b4b61c75e...
+I (353) app_init: ESP-IDF:          6.0.1
+I (357) efuse_init: Min chip rev:     v0.0
+I (361) efuse_init: Max chip rev:     v0.99 
+I (365) efuse_init: Chip rev:         v0.2
+I (368) heap_init: Initializing. RAM available for dynamic allocation:
+I (375) heap_init: At 3FCAA0F0 len 0003F620 (253 KiB): RAM
+I (380) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM
+I (385) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM
+I (390) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM
+I (397) spi_flash: detected chip: boya
+I (399) spi_flash: flash io: dio
+W (402) spi_flash: Detected size(16384k) larger than the size in the binary image header(8192k). Using the size in the binary image header.
+I (415) sleep_gpio: Configure to isolate all GPIO pins in sleep state
+I (421) sleep_gpio: Enable automatic switching of GPIO sleep configuration
+I (428) main_task: Started on CPU0
+I (438) main_task: Calling app_main()
+I (438) MAIN: === Diagnostico de falhas em motores (TinyML) ===
+I (438) MAIN: ESP32-S3 | 2 nucleos | IDF 6.0.1 | heap livre 302612
+I (448) I2C_BUS: Barramento I2C inicializado
+I (448) I2C_BUS: SDA: GPIO 8
+I (448) I2C_BUS: SCL: GPIO 9
+I (468) STORAGE: LittleFS montado em /storage: 40960 de 1048576 bytes usados
+I (518) NET: Rede: "DIOGO VELOZO" (salva no NVS) | broker mqtt://192.168.1.109:1883
+I (518) RECONF: ev=reconf_begin t_us=125292
+I (518) RECONF: ev=last_inference_old t_us=0
+I (518) pp: pp rom version: e7ae62f
+I (528) net80211: net80211 rom version: e7ae62f
+I (528) RECONF: ev=old_released t_us=132169
+I (538) wifi:wifi driver task: 3fcb784c, prio:23, stack:6656, core=0
+I (538) ADXL345: OK (endereco 0x53, 100 Hz, +-16 g)
+I (548) INA219: OK (endereco 0x40, config 0x399F, shunt 0.100 ohm)
+I (548) RECONF: ev=sensors_ready t_us=154255
+I (558) wifi:wifi firmware version: b37c951
+I (558) wifi:wifi certification version: v7.0
+I (558) wifi:config NVS flash: enabled
+I (568) wifi:I (558) MODEL_MGR: Modelo lido de /storage/model.tflite (3776 bytes)
+config nano formatting: disabled
+I (578) MODEL_MGR: Arena: 980 de 8192 bytes usados
+I (578) wifi:Init data frame dynamic rx buffer num: 32I (578) MODEL_MGR: Pronto: entrada 52 valores (int8, scale=0.324740, zp=-121), saida 3 classes
+
+I (588) RECONF: ev=model_ready t_us=196388
+I (588) wifi:Init static rx mgmt buffer num: 5
+I (598) wifi:Init management short buffer num: 32
+I (608) wifi:Init dynamic tx buffer num: 32
+I (608) wifi:Init static tx FG buffer num: 2
+I (608) wifi:Init static rx buffer size: 1600
+I (618) wifi:Init static rx buffer num: 10
+I (618) wifi:Init dynamic rx buffer num: 32
+I (628) wifi_init: rx ba win: 6
+I (628) wifi_init: accept mbox: 6
+I (628) wifi_init: tcpip mbox: 32
+I (638) wifi_init: udp mbox: 6
+I (638) wifi_init: tcp mbox: 6
+I (638) wifi_init: tcp tx win: 5760
+I (638) wifi_init: tcp rx win: 5760
+I (648) wifi_init: tcp mss: 1440
+I (648) wifi_init: WiFi IRAM OP enabled
+I (648) wifi_init: WiFi RX IRAM OP enabled
+I (658) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10
+I (668) RECONF: ev=selftest_ok t_us=275279
+I (668) CTRL: STATUS {"state":"running","version":1,"motor":"jgb37","trial":0,"detail":"configuracao aplicada"}
+I (688) RECONF: ev=first_sample t_us=294151
+I (698) wifi:mode : sta (1c:db:d4:ad:d3:3c)
+I (698) wifi:enable tsf
+I (708) wifi:Set ps type: 0, coexist: 0
+
+I (708) main_task: Returned from app_main()
+I (718) wifi:new:<2,0>, old:<1,0>, ap:<255,255>, sta:<2,0>, prof:1, snd_ch_cfg:0x0
+I (718) wifi:state: init -> auth (0xb0)
+I (728) wifi:state: auth -> assoc (0x0)
+I (728) wifi:state: assoc -> run (0x10)
+I (1678) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (1858) wifi:<ba-add>idx:0 (ifx:0, c0:25:2f:0b:54:dd), tid:0, ssn:2, winSize:64
+I (1868) wifi:connected with DIOGO VELOZO, aid = 8, channel 2, BW20, bssid = c0:25:2f:0b:54:dd
+I (1868) wifi:security: WPA2-PSK, phy: bgn, rssi: -36, cipher(pairwise:0x3, group:0x3), pmf:0
+I (1878) wifi:pm start, type: 0
+
+I (1878) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (1888) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (1948) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+I (2688) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (2918) esp_netif_handlers: sta ip: 192.168.1.104, mask: 255.255.255.0, gw: 192.168.1.1
+I (2918) NET: IP obtido: 192.168.1.104
+I (2938) NET: MQTT conectado
+I (3298) RECONF: ev=first_inference_valid t_us=2906149
+I (3298) INFER: Subtensao | DSP 61 ms, NN 1033 us
+I (3298) INFER: 1 janelas/s
+I (3418) INFER: Subtensao | DSP 61 ms, NN 1028 us
+I (3538) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (3658) INFER: Subtensao | DSP 60 ms, NN 1080 us
+I (3688) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=1
+I (3778) INFER: Subtensao | DSP 60 ms, NN 1034 us
+I (3898) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (4018) INFER: Subtensao | DSP 61 ms, NN 1033 us
+I (4138) INFER: Subtensao | DSP 61 ms, NN 1033 us
+I (4258) INFER: Subtensao | DSP 60 ms, NN 1029 us
+I (4378) INFER: Subtensao | DSP 60 ms, NN 1033 us
+I (4378) INFER: 9 janelas/s
+I (4498) INFER: Subtensao | DSP 61 ms, NN 1035 us
+I (4628) INFER: Subtensao | DSP 62 ms, NN 1043 us
+I (4688) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (4748) INFER: Subtensao | DSP 64 ms, NN 1034 us
+I (4858) INFER: Subtensao | DSP 61 ms, NN 1030 us
+I (4988) INFER: Subtensao | DSP 62 ms, NN 1044 us
+I (5098) INFER: Subtensao | DSP 60 ms, NN 1033 us
+I (5218) INFER: Subtensao | DSP 61 ms, NN 1030 us
+I (5338) INFER: Subtensao | DSP 60 ms, NN 1031 us
+I (5468) INFER: Subtensao | DSP 62 ms, NN 1046 us
+I (5468) INFER: 9 janelas/s
+I (5588) INFER: Subtensao | DSP 62 ms, NN 1045 us
+I (5698) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (5698) INFER: Subtensao | DSP 61 ms, NN 1034 us
+I (5818) INFER: Subtensao | DSP 60 ms, NN 1031 us
+I (5938) INFER: Subtensao | DSP 61 ms, NN 1030 us
+I (6058) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (6178) INFER: Subtensao | DSP 61 ms, NN 1030 us
+I (6298) INFER: Subtensao | DSP 61 ms, NN 1030 us
+I (6418) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (6538) INFER: Subtensao | DSP 61 ms, NN 1036 us
+I (6538) INFER: 9 janelas/s
+I (6658) INFER: Subtensao | DSP 60 ms, NN 1030 us
+I (6708) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (6778) INFER: Subtensao | DSP 60 ms, NN 1035 us
+I (6898) INFER: Subtensao | DSP 60 ms, NN 1030 us
+I (7028) INFER: Subtensao | DSP 63 ms, NN 1030 us
+I (7138) INFER: Subtensao | DSP 60 ms, NN 1040 us
+I (7258) INFER: Subtensao | DSP 60 ms, NN 1089 us
+I (7378) INFER: Subtensao | DSP 60 ms, NN 1029 us
+I (7498) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (7618) INFER: Subtensao | DSP 61 ms, NN 1034 us
+I (7618) INFER: 9 janelas/s
+I (7708) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (7738) INFER: Subtensao | DSP 61 ms, NN 1030 us
+I (7858) INFER: Subtensao | DSP 60 ms, NN 1031 us
+I (7978) INFER: Subtensao | DSP 60 ms, NN 1284 us
+I (8098) INFER: Subtensao | DSP 61 ms, NN 1028 us
+I (8218) INFER: Subtensao | DSP 61 ms, NN 1030 us
+I (8338) INFER: Subtensao | DSP 61 ms, NN 1034 us
+I (8458) INFER: Subtensao | DSP 61 ms, NN 1034 us
+I (8578) INFER: Subtensao | DSP 60 ms, NN 1029 us
+I (8698) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (8708) INFER: 9 janelas/s
+I (8708) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (8818) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (8938) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (9068) INFER: Subtensao | DSP 63 ms, NN 1045 us
+I (9178) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (9298) INFER: Subtensao | DSP 60 ms, NN 1026 us
+I (9418) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (9538) INFER: Subtensao | DSP 62 ms, NN 1032 us
+I (9658) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (9718) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (9778) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (9778) INFER: 9 janelas/s
+I (9898) INFER: Subtensao | DSP 60 ms, NN 1034 us
+I (10028) INFER: Subtensao | DSP 62 ms, NN 1037 us
+I (10138) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (10258) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (10378) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (10498) INFER: Subtensao | DSP 60 ms, NN 1032 us
+I (10618) INFER: Subtensao | DSP 60 ms, NN 1030 us
+I (10718) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (10738) INFER: Subtensao | DSP 61 ms, NN 1030 us
+I (10858) INFER: Subtensao | DSP 61 ms, NN 1026 us
+I (10858) INFER: 9 janelas/s
+I (10978) INFER: Subtensao | DSP 61 ms, NN 1033 us
+I (11098) INFER: Subtensao | DSP 61 ms, NN 1033 us
+I (11218) INFER: Subtensao | DSP 61 ms, NN 1033 us
+I (11338) INFER: Subtensao | DSP 60 ms, NN 1033 us
+I (11458) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (11588) INFER: Subtensao | DSP 63 ms, NN 1044 us
+I (11698) INFER: Subtensao | DSP 62 ms, NN 1024 us
+I (11728) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (11818) INFER: Subtensao | DSP 61 ms, NN 1037 us
+I (11938) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (11948) INFER: 9 janelas/s
+I (12068) INFER: Subtensao | DSP 62 ms, NN 1045 us
+I (12178) INFER: Subtensao | DSP 61 ms, NN 1030 us
+I (12298) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (12418) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (12538) INFER: Subtensao | DSP 61 ms, NN 1033 us
+I (12658) INFER: Subtensao | DSP 60 ms, NN 1030 us
+I (12728) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (12778) INFER: Subtensao | DSP 60 ms, NN 1032 us
+I (12898) INFER: Subtensao | DSP 60 ms, NN 1033 us
+I (13018) INFER: Subtensao | DSP 60 ms, NN 1029 us
+I (13018) INFER: 9 janelas/s
+I (13138) INFER: Subtensao | DSP 60 ms, NN 1029 us
+I (13258) INFER: Subtensao | DSP 60 ms, NN 1031 us
+I (13378) INFER: Subtensao | DSP 60 ms, NN 1045 us
+I (13498) INFER: Subtensao | DSP 60 ms, NN 1029 us
+I (13628) INFER: Subtensao | DSP 63 ms, NN 1041 us
+I (13738) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (13738) INFER: Subtensao | DSP 62 ms, NN 1030 us
+I (13868) INFER: Subtensao | DSP 63 ms, NN 1043 us
+I (13978) INFER: Subtensao | DSP 61 ms, NN 1030 us
+I (14108) INFER: Subtensao | DSP 62 ms, NN 1041 us
+I (14108) INFER: 9 janelas/s
+I (14218) INFER: Subtensao | DSP 61 ms, NN 1033 us
+I (14338) INFER: Subtensao | DSP 61 ms, NN 1028 us
+I (14458) INFER: Subtensao | DSP 61 ms, NN 1033 us
+I (14578) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (14708) INFER: Subtensao | DSP 63 ms, NN 1040 us
+I (14748) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (14818) INFER: Subtensao | DSP 60 ms, NN 1036 us
+I (14938) INFER: Subtensao | DSP 61 ms, NN 1030 us
+I (15058) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (15178) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (15178) INFER: 9 janelas/s
+I (15298) INFER: Subtensao | DSP 62 ms, NN 1033 us
+I (15418) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (15548) INFER: Subtensao | DSP 62 ms, NN 1040 us
+I (15658) INFER: Subtensao | DSP 60 ms, NN 1030 us
+I (15748) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (15778) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (15908) INFER: Subtensao | DSP 63 ms, NN 1048 us
+I (16018) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (16138) INFER: Subtensao | DSP 60 ms, NN 1035 us
+I (16258) INFER: Subtensao | DSP 60 ms, NN 1031 us
+I (16258) INFER: 9 janelas/s
+I (16378) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (16508) INFER: Subtensao | DSP 63 ms, NN 1041 us
+I (16618) INFER: Subtensao | DSP 61 ms, NN 1033 us
+I (16748) INFER: Subtensao | DSP 62 ms, NN 1047 us
+I (16748) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (16858) INFER: Subtensao | DSP 60 ms, NN 1030 us
+I (16978) INFER: Subtensao | DSP 60 ms, NN 1031 us
+I (17108) INFER: Subtensao | DSP 65 ms, NN 1176 us
+I (17228) INFER: Subtensao | DSP 64 ms, NN 1029 us
+I (17338) INFER: Subtensao | DSP 61 ms, NN 1034 us
+I (17338) INFER: 9 janelas/s
+I (17458) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (17578) INFER: Subtensao | DSP 60 ms, NN 1030 us
+I (17698) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (17758) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (17828) INFER: Subtensao | DSP 64 ms, NN 1275 us
+I (17938) INFER: Subtensao | DSP 61 ms, NN 1027 us
+I (18058) INFER: Subtensao | DSP 61 ms, NN 1028 us
+I (18188) INFER: Subtensao | DSP 64 ms, NN 1038 us
+I (18298) INFER: Subtensao | DSP 60 ms, NN 1031 us
+I (18418) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (18418) INFER: 9 janelas/s
+I (18548) INFER: Subtensao | DSP 63 ms, NN 1033 us
+I (18658) INFER: Subtensao | DSP 61 ms, NN 1033 us
+I (18758) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (18778) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (18898) INFER: Subtensao | DSP 60 ms, NN 1033 us
+I (19008) wifi:<ba-add>idx:1 (ifx:0, c0:25:2f:0b:54:dd), tid:6, ssn:1, winSize:64
+I (19028) INFER: Subtensao | DSP 64 ms, NN 1031 us
+I (19148) INFER: Subtensao | DSP 62 ms, NN 1297 us
+I (19258) INFER: Subtensao | DSP 61 ms, NN 1030 us
+I (19378) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (19498) INFER: Subtensao | DSP 61 ms, NN 1030 us
+I (19498) INFER: 9 janelas/s
+I (19618) INFER: Subtensao | DSP 60 ms, NN 1032 us
+I (19738) INFER: Subtensao | DSP 61 ms, NN 1035 us
+I (19768) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (19858) INFER: Subtensao | DSP 60 ms, NN 1033 us
+I (19978) INFER: Subtensao | DSP 61 ms, NN 1033 us
+I (20098) INFER: Subtensao | DSP 61 ms, NN 1028 us
+I (20218) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (20338) INFER: Subtensao | DSP 60 ms, NN 1030 us
+I (20458) INFER: Subtensao | DSP 60 ms, NN 1033 us
+I (20578) INFER: Subtensao | DSP 61 ms, NN 1030 us
+I (20578) INFER: 9 janelas/s
+I (20698) INFER: Subtensao | DSP 61 ms, NN 1034 us
+I (20768) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (20828) INFER: Subtensao | DSP 63 ms, NN 1032 us
+I (20938) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (21058) INFER: Subtensao | DSP 60 ms, NN 1029 us
+I (21188) INFER: Subtensao | DSP 63 ms, NN 1046 us
+I (21298) INFER: Subtensao | DSP 61 ms, NN 1033 us
+I (21418) INFER: Subtensao | DSP 61 ms, NN 1033 us
+I (21538) INFER: Subtensao | DSP 61 ms, NN 1028 us
+I (21658) INFER: Subtensao | DSP 60 ms, NN 1031 us
+I (21658) INFER: 9 janelas/s
+I (21778) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (21778) INFER: Subtensao | DSP 60 ms, NN 1068 us
+I (21898) INFER: Subtensao | DSP 60 ms, NN 1030 us
+I (22018) INFER: Subtensao | DSP 61 ms, NN 1028 us
+I (22148) INFER: Subtensao | DSP 63 ms, NN 1039 us
+I (22258) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (22378) INFER: Subtensao | DSP 60 ms, NN 1031 us
+I (22498) INFER: Subtensao | DSP 60 ms, NN 1028 us
+I (22618) INFER: Subtensao | DSP 60 ms, NN 1031 us
+I (22738) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (22738) INFER: 9 janelas/s
+I (22788) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (22858) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (22978) INFER: Subtensao | DSP 61 ms, NN 1034 us
+I (23098) INFER: Subtensao | DSP 60 ms, NN 1029 us
+I (23218) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (23338) INFER: Subtensao | DSP 60 ms, NN 1030 us
+I (23458) INFER: Subtensao | DSP 61 ms, NN 1028 us
+I (23578) INFER: Subtensao | DSP 61 ms, NN 1034 us
+I (23708) INFER: Subtensao | DSP 62 ms, NN 1041 us
+I (23788) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (23818) INFER: Subtensao | DSP 61 ms, NN 1035 us
+I (23818) INFER: 9 janelas/s
+I (23938) INFER: Subtensao | DSP 60 ms, NN 1032 us
+I (24058) INFER: Subtensao | DSP 61 ms, NN 1033 us
+I (24188) INFER: Subtensao | DSP 65 ms, NN 1035 us
+I (24308) INFER: Subtensao | DSP 63 ms, NN 1043 us
+I (24418) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (24538) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (24658) INFER: Subtensao | DSP 60 ms, NN 1030 us
+I (24778) INFER: Subtensao | DSP 61 ms, NN 1901 us
+I (24798) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (24898) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (24898) INFER: 9 janelas/s
+I (25018) INFER: Subtensao | DSP 61 ms, NN 1034 us
+I (25138) INFER: Subtensao | DSP 61 ms, NN 1027 us
+I (25258) INFER: Subtensao | DSP 60 ms, NN 1032 us
+I (25378) INFER: Subtensao | DSP 60 ms, NN 1030 us
+I (25508) INFER: Subtensao | DSP 63 ms, NN 1044 us
+I (25618) INFER: Subtensao | DSP 61 ms, NN 1034 us
+I (25738) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (25798) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (25868) INFER: Subtensao | DSP 62 ms, NN 1046 us
+I (25978) INFER: Subtensao | DSP 60 ms, NN 1032 us
+I (25978) INFER: 9 janelas/s
+I (26098) INFER: Subtensao | DSP 60 ms, NN 1031 us
+I (26228) INFER: Subtensao | DSP 63 ms, NN 1029 us
+I (26338) INFER: Subtensao | DSP 61 ms, NN 1028 us
+I (26458) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (26578) INFER: Subtensao | DSP 60 ms, NN 1027 us
+I (26698) INFER: Subtensao | DSP 61 ms, NN 1033 us
+I (26798) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (26818) INFER: Subtensao | DSP 61 ms, NN 1033 us
+I (26938) INFER: Subtensao | DSP 61 ms, NN 1034 us
+I (27058) INFER: Subtensao | DSP 62 ms, NN 1029 us
+I (27068) INFER: 9 janelas/s
+I (27178) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (27298) INFER: Subtensao | DSP 60 ms, NN 1028 us
+I (27418) INFER: Subtensao | DSP 61 ms, NN 1030 us
+I (27538) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (27668) INFER: Subtensao | DSP 65 ms, NN 1234 us
+I (27788) INFER: Subtensao | DSP 63 ms, NN 1044 us
+I (27808) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (27908) INFER: Subtensao | DSP 65 ms, NN 1033 us
+I (28028) INFER: Subtensao | DSP 63 ms, NN 1029 us
+I (28138) INFER: Subtensao | DSP 60 ms, NN 1029 us
+I (28138) INFER: 9 janelas/s
+I (28258) INFER: Subtensao | DSP 61 ms, NN 1028 us
+I (28378) INFER: Subtensao | DSP 61 ms, NN 1027 us
+I (28498) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (28628) INFER: Subtensao | DSP 62 ms, NN 1045 us
+I (28738) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (28808) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (28858) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (28978) INFER: Subtensao | DSP 61 ms, NN 1030 us
+I (29098) INFER: Subtensao | DSP 61 ms, NN 1030 us
+I (29228) INFER: Subtensao | DSP 66 ms, NN 1036 us
+I (29228) INFER: 9 janelas/s
+I (29338) INFER: Subtensao | DSP 60 ms, NN 1032 us
+I (29458) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (29578) INFER: Subtensao | DSP 60 ms, NN 1030 us
+I (29698) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (29818) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (29818) INFER: Subtensao | DSP 61 ms, NN 1034 us
+I (29948) INFER: Subtensao | DSP 63 ms, NN 1030 us
+I (30058) INFER: Subtensao | DSP 60 ms, NN 1030 us
+I (30178) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (30298) INFER: Subtensao | DSP 60 ms, NN 1031 us
+I (30298) INFER: 9 janelas/s
+I (30418) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (30538) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (30658) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (30778) INFER: Subtensao | DSP 60 ms, NN 1033 us
+I (30828) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (30898) INFER: Subtensao | DSP 60 ms, NN 1033 us
+I (31018) INFER: Subtensao | DSP 60 ms, NN 1030 us
+I (31138) INFER: Subtensao | DSP 61 ms, NN 1030 us
+I (31268) INFER: Subtensao | DSP 65 ms, NN 1032 us
+I (31378) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (31378) INFER: 9 janelas/s
+I (31498) INFER: Subtensao | DSP 60 ms, NN 1031 us
+I (31618) INFER: Subtensao | DSP 60 ms, NN 1029 us
+I (31738) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (31828) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (31868) INFER: Subtensao | DSP 63 ms, NN 1027 us
+I (31978) INFER: Subtensao | DSP 61 ms, NN 1035 us
+I (32098) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (32218) INFER: Subtensao | DSP 61 ms, NN 1026 us
+I (32338) INFER: Subtensao | DSP 60 ms, NN 1033 us
+I (32458) INFER: Subtensao | DSP 61 ms, NN 1133 us
+I (32458) INFER: 9 janelas/s
+I (32578) INFER: Subtensao | DSP 61 ms, NN 1039 us
+I (32698) INFER: Subtensao | DSP 61 ms, NN 1026 us
+I (32828) INFER: Subtensao | DSP 63 ms, NN 1044 us
+I (32828) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (32938) INFER: Subtensao | DSP 60 ms, NN 1058 us
+I (33058) INFER: Subtensao | DSP 60 ms, NN 1032 us
+I (33178) INFER: Subtensao | DSP 61 ms, NN 1034 us
+I (33308) INFER: Subtensao | DSP 69 ms, NN 1100 us
+I (33428) INFER: Subtensao | DSP 63 ms, NN 1043 us
+I (33538) INFER: Subtensao | DSP 61 ms, NN 1036 us
+I (33538) INFER: 9 janelas/s
+I (33658) INFER: Subtensao | DSP 60 ms, NN 1031 us
+I (33778) INFER: Subtensao | DSP 60 ms, NN 1029 us
+I (33838) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (33908) INFER: Subtensao | DSP 63 ms, NN 1044 us
+I (34018) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (34138) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (34268) INFER: Subtensao | DSP 62 ms, NN 1038 us
+I (34378) INFER: Subtensao | DSP 60 ms, NN 1031 us
+I (34498) INFER: Subtensao | DSP 60 ms, NN 1030 us
+I (34618) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (34618) INFER: 9 janelas/s
+I (34738) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (34838) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (34858) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (34978) INFER: Subtensao | DSP 60 ms, NN 1031 us
+I (35098) INFER: Subtensao | DSP 60 ms, NN 1029 us
+I (35218) INFER: Subtensao | DSP 61 ms, NN 1261 us
+I (35338) INFER: Subtensao | DSP 61 ms, NN 1033 us
+I (35458) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (35578) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (35698) INFER: Subtensao | DSP 61 ms, NN 1033 us
+I (35698) INFER: 9 janelas/s
+I (35818) INFER: Subtensao | DSP 60 ms, NN 1029 us
+I (35848) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (35938) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (36058) INFER: Subtensao | DSP 61 ms, NN 1025 us
+I (36188) INFER: Subtensao | DSP 63 ms, NN 1035 us
+I (36308) INFER: Subtensao | DSP 63 ms, NN 1043 us
+I (36418) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (36538) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (36658) INFER: Subtensao | DSP 61 ms, NN 1026 us
+I (36788) INFER: Subtensao | DSP 63 ms, NN 1044 us
+I (36788) INFER: 9 janelas/s
+I (36848) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (36898) INFER: Subtensao | DSP 61 ms, NN 1026 us
+I (37018) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (37138) INFER: Subtensao | DSP 60 ms, NN 1025 us
+I (37258) INFER: Subtensao | DSP 60 ms, NN 1031 us
+I (37378) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (37498) INFER: Subtensao | DSP 61 ms, NN 1030 us
+I (37628) INFER: Subtensao | DSP 63 ms, NN 1047 us
+I (37738) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (37858) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (37858) INFER: Subtensao | DSP 60 ms, NN 1112 us
+I (37858) INFER: 9 janelas/s
+I (37978) INFER: Subtensao | DSP 60 ms, NN 1034 us
+I (38098) INFER: Subtensao | DSP 61 ms, NN 1025 us
+I (38228) INFER: Subtensao | DSP 63 ms, NN 1030 us
+I (38348) INFER: Subtensao | DSP 62 ms, NN 1047 us
+I (38458) INFER: Subtensao | DSP 60 ms, NN 1031 us
+I (38578) INFER: Subtensao | DSP 60 ms, NN 1029 us
+I (38698) INFER: Subtensao | DSP 61 ms, NN 1033 us
+I (38818) INFER: Subtensao | DSP 61 ms, NN 1030 us
+I (38868) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (38938) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (38938) INFER: 9 janelas/s
+I (39058) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (39178) INFER: Subtensao | DSP 61 ms, NN 1033 us
+I (39298) INFER: Subtensao | DSP 60 ms, NN 1030 us
+I (39418) INFER: Subtensao | DSP 61 ms, NN 1033 us
+I (39538) INFER: Subtensao | DSP 61 ms, NN 1037 us
+I (39658) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (39778) INFER: Subtensao | DSP 61 ms, NN 1035 us
+I (39868) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (39898) INFER: Subtensao | DSP 61 ms, NN 1033 us
+I (40018) INFER: Subtensao | DSP 60 ms, NN 1031 us
+I (40018) INFER: 9 janelas/s
+I (40138) INFER: Subtensao | DSP 61 ms, NN 1030 us
+I (40258) INFER: Subtensao | DSP 61 ms, NN 1037 us
+I (40378) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (40498) INFER: Subtensao | DSP 61 ms, NN 1030 us
+I (40618) INFER: Subtensao | DSP 60 ms, NN 1033 us
+I (40738) INFER: Subtensao | DSP 61 ms, NN 1034 us
+I (40858) INFER: Subtensao | DSP 61 ms, NN 1034 us
+I (40868) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (40978) INFER: Subtensao | DSP 61 ms, NN 1034 us
+I (41098) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (41098) INFER: 9 janelas/s
+I (41228) INFER: Subtensao | DSP 63 ms, NN 1033 us
+I (41348) INFER: Subtensao | DSP 62 ms, NN 1047 us
+I (41458) INFER: Subtensao | DSP 60 ms, NN 1034 us
+I (41578) INFER: Subtensao | DSP 61 ms, NN 1028 us
+I (41698) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (41818) INFER: Subtensao | DSP 61 ms, NN 1027 us
+I (41878) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (41948) INFER: Subtensao | DSP 62 ms, NN 1044 us
+I (42058) INFER: Subtensao | DSP 60 ms, NN 1033 us
+I (42178) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (42178) INFER: 9 janelas/s
+I (42298) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (42418) INFER: Subtensao | DSP 61 ms, NN 1030 us
+I (42538) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (42658) INFER: Subtensao | DSP 60 ms, NN 1030 us
+I (42778) INFER: Subtensao | DSP 60 ms, NN 1027 us
+I (42878) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (42898) INFER: Subtensao | DSP 61 ms, NN 1283 us
+I (43018) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (43138) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (43268) INFER: Subtensao | DSP 62 ms, NN 1045 us
+I (43268) INFER: 9 janelas/s
+I (43388) INFER: Subtensao | DSP 62 ms, NN 1045 us
+I (43498) INFER: Subtensao | DSP 60 ms, NN 1029 us
+I (43618) INFER: Subtensao | DSP 61 ms, NN 1035 us
+I (43738) INFER: Subtensao | DSP 61 ms, NN 1038 us
+I (43868) INFER: Subtensao | DSP 63 ms, NN 1045 us
+I (43888) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (43978) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (44098) INFER: Subtensao | DSP 60 ms, NN 1029 us
+I (44218) INFER: Subtensao | DSP 61 ms, NN 1033 us
+I (44338) INFER: Subtensao | DSP 61 ms, NN 1039 us
+I (44338) INFER: 9 janelas/s
+I (44468) INFER: Subtensao | DSP 64 ms, NN 1032 us
+I (44578) INFER: Subtensao | DSP 61 ms, NN 1030 us
+I (44698) INFER: Subtensao | DSP 61 ms, NN 1036 us
+I (44818) INFER: Subtensao | DSP 60 ms, NN 1035 us
+I (44888) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (44938) INFER: Subtensao | DSP 61 ms, NN 1034 us
+I (45058) INFER: Subtensao | DSP 61 ms, NN 1035 us
+I (45188) INFER: Subtensao | DSP 63 ms, NN 1044 us
+I (45298) INFER: Subtensao | DSP 61 ms, NN 1026 us
+I (45428) INFER: Subtensao | DSP 63 ms, NN 1043 us
+I (45428) INFER: 9 janelas/s
+I (45538) INFER: Subtensao | DSP 61 ms, NN 1033 us
+I (45658) INFER: Subtensao | DSP 60 ms, NN 1030 us
+I (45778) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (45888) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (45908) INFER: Subtensao | DSP 63 ms, NN 1034 us
+I (46018) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (46138) INFER: Subtensao | DSP 60 ms, NN 1032 us
+I (46258) INFER: Subtensao | DSP 60 ms, NN 1030 us
+I (46388) INFER: Subtensao | DSP 62 ms, NN 1295 us
+I (46498) INFER: Subtensao | DSP 62 ms, NN 1027 us
+I (46508) INFER: 9 janelas/s
+I (46618) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (46738) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (46858) INFER: Subtensao | DSP 60 ms, NN 1029 us
+I (46898) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (46978) INFER: Subtensao | DSP 60 ms, NN 1028 us
+I (47098) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (47218) INFER: Subtensao | DSP 61 ms, NN 1033 us
+I (47338) INFER: Subtensao | DSP 61 ms, NN 1030 us
+I (47458) INFER: Subtensao | DSP 61 ms, NN 1034 us
+I (47578) INFER: Subtensao | DSP 60 ms, NN 1034 us
+I (47578) INFER: 9 janelas/s
+I (47698) INFER: Subtensao | DSP 61 ms, NN 1035 us
+I (47818) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (47898) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (47938) INFER: Subtensao | DSP 62 ms, NN 1031 us
+I (48058) INFER: Subtensao | DSP 61 ms, NN 1028 us
+I (48178) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (48298) INFER: Subtensao | DSP 60 ms, NN 1034 us
+I (48428) INFER: Subtensao | DSP 69 ms, NN 1063 us
+I (48538) INFER: Subtensao | DSP 61 ms, NN 1033 us
+I (48658) INFER: Subtensao | DSP 61 ms, NN 1027 us
+I (48658) INFER: 9 janelas/s
+I (48788) INFER: Subtensao | DSP 63 ms, NN 1041 us
+I (48898) INFER: Subtensao | DSP 60 ms, NN 1034 us
+I (48908) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (49018) INFER: Subtensao | DSP 60 ms, NN 1031 us
+I (49138) INFER: Subtensao | DSP 60 ms, NN 1030 us
+I (49258) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (49378) INFER: Subtensao | DSP 61 ms, NN 1034 us
+I (49498) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (49628) INFER: Subtensao | DSP 62 ms, NN 1041 us
+I (49738) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (49738) INFER: 9 janelas/s
+I (49858) INFER: Subtensao | DSP 60 ms, NN 1032 us
+I (49918) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (49978) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (50098) INFER: Subtensao | DSP 61 ms, NN 1030 us
+I (50218) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (50338) INFER: Subtensao | DSP 60 ms, NN 1027 us
+I (50468) INFER: Subtensao | DSP 62 ms, NN 1043 us
+I (50578) INFER: Subtensao | DSP 60 ms, NN 1031 us
+I (50698) INFER: Subtensao | DSP 61 ms, NN 1033 us
+I (50828) INFER: Subtensao | DSP 63 ms, NN 1042 us
+I (50828) INFER: 9 janelas/s
+I (50918) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (50938) INFER: Subtensao | DSP 61 ms, NN 1030 us
+I (51058) INFER: Subtensao | DSP 60 ms, NN 1028 us
+I (51178) INFER: Subtensao | DSP 61 ms, NN 1034 us
+I (51298) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (51418) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (51548) INFER: Subtensao | DSP 62 ms, NN 1040 us
+I (51658) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (51778) INFER: Subtensao | DSP 60 ms, NN 1031 us
+I (51898) INFER: Subtensao | DSP 60 ms, NN 1028 us
+I (51898) INFER: 9 janelas/s
+I (51928) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (52018) INFER: Subtensao | DSP 61 ms, NN 1121 us
+I (52138) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (52268) INFER: Subtensao | DSP 62 ms, NN 1038 us
+I (52378) INFER: Subtensao | DSP 61 ms, NN 1037 us
+I (52498) INFER: Subtensao | DSP 60 ms, NN 1035 us
+I (52618) INFER: Subtensao | DSP 60 ms, NN 1031 us
+I (52748) INFER: Subtensao | DSP 62 ms, NN 1036 us
+I (52868) INFER: Subtensao | DSP 63 ms, NN 1040 us
+I (52928) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (52978) INFER: Subtensao | DSP 61 ms, NN 1027 us
+I (52978) INFER: 9 janelas/s
+I (53098) INFER: Subtensao | DSP 60 ms, NN 1028 us
+I (53218) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (53338) INFER: Subtensao | DSP 60 ms, NN 1032 us
+I (53468) INFER: Subtensao | DSP 63 ms, NN 1030 us
+I (53578) INFER: Subtensao | DSP 61 ms, NN 1035 us
+I (53698) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (53818) INFER: Subtensao | DSP 60 ms, NN 1033 us
+I (53938) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (53938) INFER: Subtensao | DSP 61 ms, NN 1034 us
+I (54058) INFER: Subtensao | DSP 60 ms, NN 1033 us
+I (54058) INFER: 9 janelas/s
+I (54178) INFER: Subtensao | DSP 61 ms, NN 1026 us
+I (54298) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (54418) INFER: Subtensao | DSP 61 ms, NN 1030 us
+I (54538) INFER: Subtensao | DSP 60 ms, NN 1030 us
+I (54658) INFER: Subtensao | DSP 60 ms, NN 1028 us
+I (54778) INFER: Subtensao | DSP 60 ms, NN 1031 us
+I (54898) INFER: Subtensao | DSP 61 ms, NN 1036 us
+I (54948) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (55028) INFER: Subtensao | DSP 62 ms, NN 1041 us
+I (55138) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (55138) INFER: 9 janelas/s
+I (55258) INFER: Subtensao | DSP 60 ms, NN 1031 us
+I (55378) INFER: Subtensao | DSP 60 ms, NN 1031 us
+I (55508) INFER: Subtensao | DSP 63 ms, NN 1852 us
+I (55618) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (55738) INFER: Subtensao | DSP 61 ms, NN 1034 us
+I (55858) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (55948) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (55978) INFER: Subtensao | DSP 60 ms, NN 1281 us
+I (56098) INFER: Subtensao | DSP 60 ms, NN 1028 us
+I (56218) INFER: Subtensao | DSP 61 ms, NN 1034 us
+I (56218) INFER: 9 janelas/s
+I (56338) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (56458) INFER: Subtensao | DSP 61 ms, NN 1034 us
+I (56578) INFER: Subtensao | DSP 60 ms, NN 1037 us
+I (56698) INFER: Subtensao | DSP 61 ms, NN 1033 us
+I (56818) INFER: Subtensao | DSP 60 ms, NN 1029 us
+I (56938) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (56948) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (57058) INFER: Subtensao | DSP 61 ms, NN 1033 us
+I (57178) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (57298) INFER: Subtensao | DSP 61 ms, NN 1028 us
+I (57298) INFER: 9 janelas/s
+I (57418) INFER: Subtensao | DSP 61 ms, NN 1029 us
+I (57548) INFER: Subtensao | DSP 63 ms, NN 1033 us
+I (57658) INFER: Subtensao | DSP 61 ms, NN 1028 us
+I (57778) INFER: Subtensao | DSP 61 ms, NN 1035 us
+I (57908) INFER: Subtensao | DSP 63 ms, NN 1031 us
+I (57958) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (58018) INFER: Subtensao | DSP 60 ms, NN 1028 us
+I (58138) INFER: Subtensao | DSP 60 ms, NN 1028 us
+I (58258) INFER: Subtensao | DSP 60 ms, NN 1029 us
+I (58378) INFER: Subtensao | DSP 61 ms, NN 1027 us
+I (58378) INFER: 9 janelas/s
+I (58508) INFER: Subtensao | DSP 63 ms, NN 1039 us
+I (58628) INFER: Subtensao | DSP 62 ms, NN 1041 us
+I (58738) INFER: Subtensao | DSP 61 ms, NN 1031 us
+I (58858) INFER: Subtensao | DSP 60 ms, NN 1031 us
+I (58958) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (58978) INFER: Subtensao | DSP 61 ms, NN 1030 us
+I (59098) INFER: Subtensao | DSP 61 ms, NN 1032 us
+I (59218) INFER: Subtensao | DSP 61 ms, NN 1030 us
+I (59338) INFER: Subtensao | DSP 61 ms, NN 1035 us
+I (59458) INFER: Subtensao | DSP 60 ms, NN 1034 us
+I (59458) INFER: 9 janelas/s
+I (59578) INFER: Subtensao | DSP 60 ms, NN 1033 us
+I (59708) INFER: Subtensao | DSP 61 ms, NN 1889 us
+I (59818) INFER: Subtensao | DSP 61 ms, NN 1035 us
+I (59948) INFER: Subtensao | DSP 63 ms, NN 1038 us
+I (59968) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
