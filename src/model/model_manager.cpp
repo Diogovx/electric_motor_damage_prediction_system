@@ -119,6 +119,9 @@ bool ModelManager::buildInterpreter()
         return false;
     }
 
+    ESP_LOGI(TAG, "Arena: %u de %u bytes usados",
+             (unsigned)interpreter->arena_used_bytes(), (unsigned)arenaSize);
+
     TfLiteTensor* in = interpreter->input(0);
     TfLiteTensor* out = interpreter->output(0);
 
@@ -191,23 +194,24 @@ bool ModelManager::loadModelFromFS(const char* path)
     return buildInterpreter();
 }
 
-void ModelManager::reconfigureArena(size_t size)
+bool ModelManager::reconfigureArena(size_t size)
 {
     if (size < 1024)
     {
-        ESP_LOGW(TAG, "Arena de %u bytes e pequena demais, ignorando", (unsigned)size);
-        return;
+        ESP_LOGE(TAG, "Arena de %u bytes e pequena demais (minimo 1024)", (unsigned)size);
+        return false;
     }
 
     if (!allocateArena(size))
     {
-        return;
+        return false;
     }
 
     if (modelBuffer != nullptr)
     {
-        buildInterpreter();              // refaz o interpreter com a nova arena
+        buildInterpreter();              // reconstroi o modelo atual na arena nova (se nao couber, quem decide e o modelo novo)
     }
+    return true;
 }
 
 int ModelManager::runInterference(float* input)

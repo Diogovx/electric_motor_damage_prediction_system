@@ -1,0 +1,1767 @@
+20:35:20.202 > I (407027) INFER: Falha de engrenagem | DSP 59 ms, NN 1059 us
+20:35:20.322 > I (407147) INFER: Falha de engrenagem | DSP 59 ms, NN 1030 us
+20:35:20.442 > I (407267) INFER: Falha de engrenagem | DSP 59 ms, NN 1074 us
+20:35:20.562 > I (407387) INFER: Falha de engrenagem | DSP 59 ms, NN 1029 us
+20:35:20.682 > I (407507) INFER: Falha de engrenagem | DSP 59 ms, NN 1072 us
+20:35:20.802 > I (407627) INFER: Falha de engrenagem | DSP 59 ms, NN 1082 us
+20:35:20.872 > I (407697) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:20.922 > I (407747) INFER: Falha de engrenagem | DSP 59 ms, NN 1156 us
+20:35:21.042 > I (407867) INFER: Falha de engrenagem | DSP 59 ms, NN 1130 us
+20:35:21.162 > I (407987) INFER: Falha de engrenagem | DSP 58 ms, NN 1106 us
+20:35:21.162 > I (407987) INFER: 9 janelas/s
+20:35:21.282 > I (408107) INFER: Falha de engrenagem | DSP 59 ms, NN 1084 us
+20:35:21.402 > I (408227) INFER: Falha de engrenagem | DSP 59 ms, NN 1067 us
+20:35:21.522 > I (408347) INFER: Subtensao | DSP 59 ms, NN 1102 us
+20:35:21.642 > I (408467) INFER: Falha de engrenagem | DSP 59 ms, NN 1064 us
+20:35:21.762 > I (408587) INFER: Subtensao | DSP 59 ms, NN 1106 us
+20:35:21.882 > I (408707) INFER: Falha de engrenagem | DSP 59 ms, NN 1069 us
+20:35:21.883 > I (408707) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:22.002 > I (408827) INFER: Subtensao | DSP 59 ms, NN 1116 us
+20:35:22.122 > I (408947) INFER: Falha de engrenagem | DSP 59 ms, NN 1067 us
+20:35:22.242 > I (409067) INFER: Falha de engrenagem | DSP 59 ms, NN 1109 us
+20:35:22.242 > I (409067) INFER: 9 janelas/s
+20:35:22.362 > I (409187) INFER: Falha de engrenagem | DSP 59 ms, NN 1036 us
+20:35:22.482 > I (409307) INFER: Falha de engrenagem | DSP 59 ms, NN 1109 us
+20:35:22.602 > I (409427) INFER: Falha de engrenagem | DSP 59 ms, NN 1123 us
+20:35:22.722 > I (409547) INFER: Subtensao | DSP 59 ms, NN 1144 us
+20:35:22.842 > I (409667) INFER: Falha de engrenagem | DSP 59 ms, NN 1092 us
+20:35:22.892 > I (409717) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:22.962 > I (409787) INFER: Subtensao | DSP 59 ms, NN 1085 us
+20:35:23.082 > I (409907) INFER: Falha de engrenagem | DSP 59 ms, NN 1125 us
+20:35:23.202 > I (410027) INFER: Subtensao | DSP 59 ms, NN 1175 us
+20:35:23.322 > I (410147) INFER: Falha de engrenagem | DSP 58 ms, NN 1154 us
+20:35:23.322 > I (410147) INFER: 9 janelas/s
+20:35:23.442 > I (410267) INFER: Falha de engrenagem | DSP 59 ms, NN 1143 us
+20:35:23.562 > I (410387) INFER: Falha de engrenagem | DSP 59 ms, NN 1127 us
+20:35:23.682 > I (410507) INFER: Falha de engrenagem | DSP 58 ms, NN 1197 us
+20:35:23.802 > I (410627) INFER: Falha de engrenagem | DSP 59 ms, NN 1133 us
+20:35:23.892 > I (410717) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:23.922 > I (410747) INFER: Falha de engrenagem | DSP 59 ms, NN 1220 us
+20:35:24.042 > I (410867) INFER: Falha de engrenagem | DSP 59 ms, NN 1157 us
+20:35:24.162 > I (410987) INFER: Falha de engrenagem | DSP 59 ms, NN 1085 us
+20:35:24.282 > I (411107) INFER: Falha de engrenagem | DSP 58 ms, NN 1198 us
+20:35:24.402 > I (411227) INFER: Falha de engrenagem | DSP 59 ms, NN 1125 us
+20:35:24.402 > I (411227) INFER: 9 janelas/s
+20:35:24.522 > I (411347) INFER: Falha de engrenagem | DSP 58 ms, NN 1178 us
+20:35:24.642 > I (411467) INFER: Falha de engrenagem | DSP 58 ms, NN 1152 us
+20:35:24.762 > I (411587) INFER: Falha de engrenagem | DSP 59 ms, NN 1152 us
+20:35:24.882 > I (411707) INFER: Falha de engrenagem | DSP 59 ms, NN 1127 us
+20:35:24.902 > I (411727) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:25.002 > I (411827) INFER: Falha de engrenagem | DSP 59 ms, NN 1133 us
+20:35:25.122 > I (411947) INFER: Falha de engrenagem | DSP 59 ms, NN 1102 us
+20:35:25.242 > I (412067) INFER: Falha de engrenagem | DSP 58 ms, NN 1180 us
+20:35:25.362 > I (412187) INFER: Falha de engrenagem | DSP 58 ms, NN 1169 us
+20:35:25.482 > I (412307) INFER: Falha de engrenagem | DSP 58 ms, NN 1183 us
+20:35:25.482 > I (412307) INFER: 9 janelas/s
+20:35:25.602 > I (412427) INFER: Falha de engrenagem | DSP 58 ms, NN 1162 us
+20:35:25.722 > I (412547) INFER: Falha de engrenagem | DSP 58 ms, NN 1219 us
+20:35:25.842 > I (412667) INFER: Falha de engrenagem | DSP 59 ms, NN 1109 us
+20:35:25.902 > I (412727) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:25.962 > I (412787) INFER: Falha de engrenagem | DSP 59 ms, NN 1193 us
+20:35:26.082 > I (412907) INFER: Falha de engrenagem | DSP 59 ms, NN 1078 us
+20:35:26.202 > I (413027) INFER: Falha de engrenagem | DSP 59 ms, NN 1108 us
+20:35:26.322 > I (413147) INFER: Falha de engrenagem | DSP 58 ms, NN 1155 us
+20:35:26.442 > I (413267) INFER: Falha de engrenagem | DSP 59 ms, NN 1085 us
+20:35:26.562 > I (413387) INFER: Falha de engrenagem | DSP 59 ms, NN 1047 us
+20:35:26.562 > I (413387) INFER: 9 janelas/s
+20:35:26.682 > I (413507) INFER: Falha de engrenagem | DSP 59 ms, NN 1059 us
+20:35:26.802 > I (413627) INFER: Falha de engrenagem | DSP 59 ms, NN 1084 us
+20:35:26.902 > I (413727) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:26.922 > I (413747) INFER: Falha de engrenagem | DSP 59 ms, NN 1148 us
+20:35:27.042 > I (413867) INFER: Falha de engrenagem | DSP 59 ms, NN 1090 us
+20:35:27.162 > I (413987) INFER: Falha de engrenagem | DSP 59 ms, NN 1047 us
+20:35:27.282 > I (414107) INFER: Falha de engrenagem | DSP 59 ms, NN 1027 us
+20:35:27.402 > I (414227) INFER: Falha de engrenagem | DSP 59 ms, NN 1075 us
+20:35:27.522 > I (414347) INFER: Falha de engrenagem | DSP 59 ms, NN 1077 us
+20:35:27.642 > I (414467) INFER: Falha de engrenagem | DSP 59 ms, NN 1075 us
+20:35:27.642 > I (414467) INFER: 9 janelas/s
+20:35:27.762 > I (414587) INFER: Falha de engrenagem | DSP 59 ms, NN 1139 us
+20:35:27.882 > I (414707) INFER: Falha de engrenagem | DSP 59 ms, NN 1118 us
+20:35:27.912 > I (414737) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:28.002 > I (414827) INFER: Falha de engrenagem | DSP 59 ms, NN 1129 us
+20:35:28.122 > I (414947) INFER: Falha de engrenagem | DSP 59 ms, NN 1121 us
+20:35:28.242 > I (415067) INFER: Falha de engrenagem | DSP 59 ms, NN 1125 us
+20:35:28.362 > I (415187) INFER: Falha de engrenagem | DSP 59 ms, NN 1096 us
+20:35:28.482 > I (415307) INFER: Falha de engrenagem | DSP 59 ms, NN 1131 us
+20:35:28.602 > I (415427) INFER: Falha de engrenagem | DSP 59 ms, NN 1103 us
+20:35:28.722 > I (415547) INFER: Falha de engrenagem | DSP 59 ms, NN 1131 us
+20:35:28.722 > I (415547) INFER: 9 janelas/s
+20:35:28.842 > I (415667) INFER: Falha de engrenagem | DSP 59 ms, NN 1053 us
+20:35:28.912 > I (415737) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:28.962 > I (415787) INFER: Falha de engrenagem | DSP 59 ms, NN 1185 us
+20:35:29.082 > I (415907) INFER: Saudavel | DSP 59 ms, NN 1130 us
+20:35:29.202 > I (416027) INFER: Saudavel | DSP 59 ms, NN 1078 us
+20:35:29.322 > I (416147) INFER: Saudavel | DSP 58 ms, NN 1184 us
+20:35:29.442 > I (416267) INFER: Saudavel | DSP 59 ms, NN 1124 us
+20:35:29.562 > I (416387) INFER: Saudavel | DSP 59 ms, NN 1139 us
+20:35:29.682 > I (416507) INFER: Saudavel | DSP 59 ms, NN 1075 us
+20:35:29.802 > I (416627) INFER: Saudavel | DSP 58 ms, NN 1181 us
+20:35:29.802 > I (416627) INFER: 9 janelas/s
+20:35:29.922 > I (416747) INFER: Saudavel | DSP 59 ms, NN 1150 us
+20:35:29.922 > I (416747) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:30.042 > I (416867) INFER: Saudavel | DSP 59 ms, NN 1133 us
+20:35:30.162 > I (416987) INFER: Saudavel | DSP 59 ms, NN 1117 us
+20:35:30.282 > I (417107) INFER: Saudavel | DSP 59 ms, NN 1139 us
+20:35:30.402 > I (417227) INFER: Saudavel | DSP 59 ms, NN 1074 us
+20:35:30.522 > I (417347) INFER: Saudavel | DSP 58 ms, NN 1184 us
+20:35:30.642 > I (417467) INFER: Saudavel | DSP 59 ms, NN 1145 us
+20:35:30.762 > I (417587) INFER: Saudavel | DSP 59 ms, NN 1160 us
+20:35:30.882 > I (417707) INFER: Saudavel | DSP 59 ms, NN 1074 us
+20:35:30.882 > I (417707) INFER: 9 janelas/s
+20:35:30.932 > I (417757) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:31.002 > I (417827) INFER: Saudavel | DSP 59 ms, NN 1136 us
+20:35:31.122 > I (417947) INFER: Saudavel | DSP 59 ms, NN 1113 us
+20:35:31.242 > I (418067) INFER: Saudavel | DSP 58 ms, NN 1180 us
+20:35:31.362 > I (418187) INFER: Saudavel | DSP 58 ms, NN 1165 us
+20:35:31.482 > I (418307) INFER: Saudavel | DSP 58 ms, NN 1184 us
+20:35:31.602 > I (418427) INFER: Saudavel | DSP 59 ms, NN 1158 us
+20:35:31.722 > I (418547) INFER: Saudavel | DSP 58 ms, NN 1182 us
+20:35:31.842 > I (418667) INFER: Saudavel | DSP 59 ms, NN 1105 us
+20:35:31.932 > I (418757) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:31.962 > I (418787) INFER: Saudavel | DSP 59 ms, NN 1229 us
+20:35:31.962 > I (418787) INFER: 9 janelas/s
+20:35:32.082 > I (418907) INFER: Saudavel | DSP 59 ms, NN 1122 us
+20:35:32.202 > I (419027) INFER: Saudavel | DSP 59 ms, NN 1105 us
+20:35:32.322 > I (419147) INFER: Saudavel | DSP 58 ms, NN 1182 us
+20:35:32.441 > I (419267) INFER: Saudavel | DSP 58 ms, NN 1170 us
+20:35:32.562 > I (419387) INFER: Saudavel | DSP 58 ms, NN 1174 us
+20:35:32.682 > I (419507) INFER: Saudavel | DSP 59 ms, NN 1157 us
+20:35:32.802 > I (419627) INFER: Saudavel | DSP 59 ms, NN 1160 us
+20:35:32.921 > I (419747) INFER: Saudavel | DSP 59 ms, NN 1116 us
+20:35:32.942 > I (419767) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:33.041 > I (419867) INFER: Saudavel | DSP 58 ms, NN 1200 us
+20:35:33.042 > I (419867) INFER: 9 janelas/s
+20:35:33.162 > I (419987) INFER: Saudavel | DSP 59 ms, NN 1131 us
+20:35:33.282 > I (420107) INFER: Saudavel | DSP 59 ms, NN 1142 us
+20:35:33.402 > I (420227) INFER: Saudavel | DSP 59 ms, NN 1078 us
+20:35:33.522 > I (420347) INFER: Saudavel | DSP 58 ms, NN 1197 us
+20:35:33.642 > I (420467) INFER: Saudavel | DSP 59 ms, NN 1132 us
+20:35:33.762 > I (420587) INFER: Saudavel | DSP 59 ms, NN 1134 us
+20:35:33.882 > I (420707) INFER: Saudavel | DSP 59 ms, NN 1077 us
+20:35:33.952 > I (420777) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:34.002 > I (420827) INFER: Saudavel | DSP 59 ms, NN 1188 us
+20:35:34.122 > I (420947) INFER: Saudavel | DSP 59 ms, NN 1133 us
+20:35:34.122 > I (420947) INFER: 9 janelas/s
+20:35:34.242 > I (421067) INFER: Saudavel | DSP 59 ms, NN 1104 us
+20:35:34.361 > I (421187) INFER: Saudavel | DSP 58 ms, NN 1184 us
+20:35:34.481 > I (421307) INFER: Saudavel | DSP 58 ms, NN 1160 us
+20:35:34.601 > I (421427) INFER: Saudavel | DSP 59 ms, NN 1138 us
+20:35:34.722 > I (421547) INFER: Saudavel | DSP 59 ms, NN 1098 us
+20:35:34.841 > I (421667) INFER: Saudavel | DSP 58 ms, NN 1180 us
+20:35:34.961 > I (421787) INFER: Saudavel | DSP 58 ms, NN 1169 us
+20:35:34.962 > I (421787) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:35.081 > I (421907) INFER: Saudavel | DSP 58 ms, NN 1180 us
+20:35:35.201 > I (422027) INFER: Saudavel | DSP 58 ms, NN 1162 us
+20:35:35.202 > I (422027) INFER: 9 janelas/s
+20:35:35.321 > I (422147) INFER: Saudavel | DSP 58 ms, NN 1196 us
+20:35:35.441 > I (422267) INFER: Saudavel | DSP 59 ms, NN 1118 us
+20:35:35.561 > I (422387) INFER: Saudavel | DSP 59 ms, NN 1125 us
+20:35:35.681 > I (422507) INFER: Saudavel | DSP 59 ms, NN 1156 us
+20:35:35.801 > I (422627) INFER: Saudavel | DSP 59 ms, NN 1165 us
+20:35:35.921 > I (422747) INFER: Saudavel | DSP 59 ms, NN 1078 us
+20:35:35.971 > I (422797) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:36.042 > I (422867) INFER: Saudavel | DSP 59 ms, NN 1094 us
+20:35:36.161 > I (422987) INFER: Saudavel | DSP 59 ms, NN 1078 us
+20:35:36.281 > I (423107) INFER: Saudavel | DSP 59 ms, NN 1162 us
+20:35:36.282 > I (423107) INFER: 9 janelas/s
+20:35:36.401 > I (423227) INFER: Saudavel | DSP 59 ms, NN 1094 us
+20:35:36.521 > I (423347) INFER: Saudavel | DSP 58 ms, NN 1186 us
+20:35:36.641 > I (423467) INFER: Saudavel | DSP 59 ms, NN 1136 us
+20:35:36.761 > I (423587) INFER: Saudavel | DSP 59 ms, NN 1158 us
+20:35:36.881 > I (423707) INFER: Saudavel | DSP 59 ms, NN 1093 us
+20:35:36.972 > I (423797) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:37.002 > I (423827) INFER: Saudavel | DSP 59 ms, NN 1179 us
+20:35:37.121 > I (423947) INFER: Saudavel | DSP 59 ms, NN 1127 us
+20:35:37.241 > I (424067) INFER: Saudavel | DSP 59 ms, NN 1074 us
+20:35:37.361 > I (424187) INFER: Saudavel | DSP 59 ms, NN 1166 us
+20:35:37.362 > I (424187) INFER: 9 janelas/s
+20:35:37.481 > I (424307) INFER: Saudavel | DSP 59 ms, NN 1099 us
+20:35:37.601 > I (424427) INFER: Saudavel | DSP 58 ms, NN 1183 us
+20:35:37.721 > I (424547) INFER: Saudavel | DSP 58 ms, NN 1168 us
+20:35:37.841 > I (424667) INFER: Saudavel | DSP 58 ms, NN 1184 us
+20:35:37.961 > I (424787) INFER: Saudavel | DSP 59 ms, NN 1095 us
+20:35:37.972 > I (424797) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:38.081 > I (424907) INFER: Saudavel | DSP 59 ms, NN 1135 us
+20:35:38.201 > I (425027) INFER: Saudavel | DSP 59 ms, NN 1118 us
+20:35:38.321 > I (425147) INFER: Saudavel | DSP 59 ms, NN 1137 us
+20:35:38.441 > I (425267) INFER: Saudavel | DSP 59 ms, NN 1080 us
+20:35:38.442 > I (425267) INFER: 9 janelas/s
+20:35:38.561 > I (425387) INFER: Saudavel | DSP 58 ms, NN 1192 us
+20:35:38.681 > I (425507) INFER: Saudavel | DSP 59 ms, NN 1135 us
+20:35:38.801 > I (425627) INFER: Saudavel | DSP 59 ms, NN 1122 us
+20:35:38.921 > I (425747) INFER: Saudavel | DSP 59 ms, NN 1122 us
+20:35:38.981 > I (425807) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:39.042 > I (425867) INFER: Saudavel | DSP 59 ms, NN 1169 us
+20:35:39.161 > I (425987) INFER: Saudavel | DSP 58 ms, NN 1172 us
+20:35:39.281 > I (426107) INFER: Saudavel | DSP 59 ms, NN 1125 us
+20:35:39.401 > I (426227) INFER: Saudavel | DSP 59 ms, NN 1126 us
+20:35:39.521 > I (426347) INFER: Saudavel | DSP 59 ms, NN 1137 us
+20:35:39.522 > I (426347) INFER: 9 janelas/s
+20:35:39.641 > I (426467) INFER: Saudavel | DSP 59 ms, NN 1105 us
+20:35:39.761 > I (426587) INFER: Saudavel | DSP 59 ms, NN 1118 us
+20:35:39.881 > I (426707) INFER: Saudavel | DSP 59 ms, NN 1099 us
+20:35:39.982 > I (426807) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:40.002 > I (426827) INFER: Saudavel | DSP 59 ms, NN 1186 us
+20:35:40.121 > I (426947) INFER: Saudavel | DSP 59 ms, NN 1151 us
+20:35:40.241 > I (427067) INFER: Saudavel | DSP 59 ms, NN 1109 us
+20:35:40.361 > I (427187) INFER: Saudavel | DSP 59 ms, NN 1157 us
+20:35:40.481 > I (427307) INFER: Saudavel | DSP 59 ms, NN 1085 us
+20:35:40.601 > I (427427) INFER: Saudavel | DSP 59 ms, NN 1128 us
+20:35:40.602 > I (427427) INFER: 9 janelas/s
+20:35:40.721 > I (427547) INFER: Saudavel | DSP 59 ms, NN 1121 us
+20:35:40.841 > I (427667) INFER: Saudavel | DSP 58 ms, NN 1184 us
+20:35:40.961 > I (427787) INFER: Saudavel | DSP 59 ms, NN 1128 us
+20:35:40.991 > I (427817) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:41.081 > I (427907) INFER: Saudavel | DSP 59 ms, NN 1158 us
+20:35:41.201 > I (428027) INFER: Saudavel | DSP 59 ms, NN 1080 us
+20:35:41.321 > I (428147) INFER: Saudavel | DSP 59 ms, NN 1136 us
+20:35:41.441 > I (428267) INFER: Saudavel | DSP 59 ms, NN 1112 us
+20:35:41.561 > I (428387) INFER: Saudavel | DSP 59 ms, NN 1181 us
+20:35:41.681 > I (428507) INFER: Saudavel | DSP 58 ms, NN 1163 us
+20:35:41.682 > I (428507) INFER: 9 janelas/s
+20:35:41.801 > I (428627) INFER: Saudavel | DSP 58 ms, NN 1201 us
+20:35:41.921 > I (428747) INFER: Saudavel | DSP 59 ms, NN 1127 us
+20:35:41.992 > I (428817) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:42.042 > I (428867) INFER: Saudavel | DSP 59 ms, NN 1184 us
+20:35:42.161 > I (428987) INFER: Saudavel | DSP 59 ms, NN 1125 us
+20:35:42.281 > I (429107) INFER: Saudavel | DSP 59 ms, NN 1081 us
+20:35:42.401 > I (429227) INFER: Saudavel | DSP 58 ms, NN 1206 us
+20:35:42.521 > I (429347) INFER: Saudavel | DSP 59 ms, NN 1120 us
+20:35:42.641 > I (429467) INFER: Saudavel | DSP 58 ms, NN 1206 us
+20:35:42.761 > I (429587) INFER: Saudavel | DSP 58 ms, NN 1160 us
+20:35:42.762 > I (429587) INFER: 9 janelas/s
+20:35:42.881 > I (429707) INFER: Saudavel | DSP 58 ms, NN 1220 us
+20:35:43.001 > I (429827) INFER: Saudavel | DSP 59 ms, NN 1113 us
+20:35:43.002 > I (429827) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:43.121 > I (429947) INFER: Saudavel | DSP 59 ms, NN 1133 us
+20:35:43.241 > I (430067) INFER: Saudavel | DSP 59 ms, NN 1124 us
+20:35:43.361 > I (430187) INFER: Saudavel | DSP 59 ms, NN 1113 us
+20:35:43.481 > I (430307) INFER: Saudavel | DSP 59 ms, NN 1120 us
+20:35:43.601 > I (430427) INFER: Saudavel | DSP 59 ms, NN 1140 us
+20:35:43.721 > I (430547) INFER: Saudavel | DSP 59 ms, NN 1083 us
+20:35:43.841 > I (430667) INFER: Saudavel | DSP 59 ms, NN 1170 us
+20:35:43.842 > I (430667) INFER: 9 janelas/s
+20:35:43.961 > I (430787) INFER: Saudavel | DSP 59 ms, NN 1084 us
+20:35:44.011 > I (430837) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:44.081 > I (430907) INFER: Saudavel | DSP 59 ms, NN 1097 us
+20:35:44.201 > I (431027) INFER: Saudavel | DSP 59 ms, NN 1082 us
+20:35:44.321 > I (431147) INFER: Saudavel | DSP 59 ms, NN 1167 us
+20:35:44.441 > I (431267) INFER: Saudavel | DSP 59 ms, NN 1078 us
+20:35:44.561 > I (431387) INFER: Saudavel | DSP 58 ms, NN 1198 us
+20:35:44.681 > I (431507) INFER: Saudavel | DSP 59 ms, NN 1125 us
+20:35:44.801 > I (431627) INFER: Saudavel | DSP 59 ms, NN 1140 us
+20:35:44.921 > I (431747) INFER: Saudavel | DSP 59 ms, NN 1100 us
+20:35:44.922 > I (431747) INFER: 9 janelas/s
+20:35:45.012 > I (431837) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:45.042 > I (431867) INFER: Saudavel | DSP 59 ms, NN 1184 us
+20:35:45.161 > I (431987) INFER: Saudavel | DSP 59 ms, NN 1129 us
+20:35:45.281 > I (432107) INFER: Saudavel | DSP 59 ms, NN 1102 us
+20:35:45.401 > I (432227) INFER: Saudavel | DSP 58 ms, NN 1186 us
+20:35:45.521 > I (432347) INFER: Saudavel | DSP 59 ms, NN 1153 us
+20:35:45.641 > I (432467) INFER: Saudavel | DSP 59 ms, NN 1132 us
+20:35:45.761 > I (432587) INFER: Saudavel | DSP 59 ms, NN 1113 us
+20:35:45.881 > I (432707) INFER: Saudavel | DSP 59 ms, NN 1139 us
+20:35:46.001 > I (432827) INFER: Saudavel | DSP 59 ms, NN 1107 us
+20:35:46.002 > I (432827) INFER: 9 janelas/s
+20:35:46.012 > I (432837) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:46.121 > I (432947) INFER: Saudavel | DSP 58 ms, NN 1180 us
+20:35:46.241 > I (433067) INFER: Saudavel | DSP 58 ms, NN 1169 us
+20:35:46.361 > I (433187) INFER: Saudavel | DSP 59 ms, NN 1170 us
+20:35:46.481 > I (433307) INFER: Saudavel | DSP 58 ms, NN 1167 us
+20:35:46.601 > I (433427) INFER: Saudavel | DSP 58 ms, NN 1207 us
+20:35:46.721 > I (433547) INFER: Saudavel | DSP 58 ms, NN 1175 us
+20:35:46.841 > I (433667) INFER: Saudavel | DSP 59 ms, NN 1171 us
+20:35:46.961 > I (433787) INFER: Saudavel | DSP 59 ms, NN 1158 us
+20:35:47.021 > I (433847) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:47.081 > I (433907) INFER: Saudavel | DSP 59 ms, NN 1150 us
+20:35:47.082 > I (433907) INFER: 9 janelas/s
+20:35:47.201 > I (434027) INFER: Saudavel | DSP 59 ms, NN 1142 us
+20:35:47.321 > I (434147) INFER: Saudavel | DSP 59 ms, NN 1107 us
+20:35:47.441 > I (434267) INFER: Saudavel | DSP 58 ms, NN 1169 us
+20:35:47.561 > I (434387) INFER: Saudavel | DSP 58 ms, NN 1184 us
+20:35:47.681 > I (434507) INFER: Saudavel | DSP 58 ms, NN 1164 us
+20:35:47.688 > I (434517) CTRL: Gatilho de teste: aplicando /storage/test_b.json
+20:35:47.693 > I (434517) RECONF: ev=rx_first t_us=434244405
+20:35:47.693 > I (434517) RECONF: ev=rx_done t_us=434251128
+20:35:47.798 > I (434627) INFER: Saudavel | DSP 60 ms, NN 983 us
+20:35:47.918 > I (434747) INFER: Saudavel | DSP 60 ms, NN 985 us
+20:35:48.022 > I (434847) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:48.038 > I (434867) INFER: Saudavel | DSP 60 ms, NN 987 us
+20:35:48.095 > I (434927) RECONF: ev=files_ok t_us=434657637
+20:35:48.158 > I (434987) INFER: Saudavel | DSP 60 ms, NN 990 us
+20:35:48.159 > I (434987) INFER: 9 janelas/s
+20:35:48.171 > I (434997) RECONF: ev=reconf_begin t_us=434733990
+20:35:48.172 > I (434997) RECONF: ev=last_inference_old t_us=434721001
+20:35:48.181 > I (435007) RECONF: ev=old_released t_us=434744083
+20:35:48.183 > I (435007) ADXL345: OK (endereco 0x53, 100 Hz, +-16 g)
+20:35:48.186 > I (435017) INA219: OK (endereco 0x40, config 0x399F, shunt 0.100 ohm)
+20:35:48.190 > I (435017) RECONF: ev=sensors_ready t_us=434749148
+20:35:48.199 > I (435017) MODEL_MGR: Pronto: entrada 52 valores (int8, scale=0.324740, zp=-121), saida 3 classes
+20:35:48.205 > I (435037) MODEL_MGR: Modelo lido de /storage/model.tflite (3776 bytes)
+20:35:48.214 > I (435037) MODEL_MGR: Pronto: entrada 52 valores (int8, scale=0.324740, zp=-121), saida 3 classes
+20:35:48.218 > I (435047) RECONF: ev=model_ready t_us=434777205
+20:35:48.280 > I (435107) RECONF: ev=selftest_ok t_us=434842314
+20:35:48.284 > I (435107) CTRL: STATUS {"state":"running","version":2,"motor":"jgb37-520","trial":0,"detail":"configuracao aplicada"}
+20:35:48.301 > I (435127) RECONF: ev=first_sample t_us=434863917
+20:35:49.291 > I (436117) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:50.291 > I (437117) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:50.911 > I (437737) RECONF: ev=first_inference_valid t_us=437473945
+20:35:50.912 > I (437737) INFER: Saudavel | DSP 59 ms, NN 1115 us
+20:35:50.912 > I (437737) INFER: 1 janelas/s
+20:35:50.924 > I (437737) RECONF: summary trial=0 tag=B version=2 transfer_ms=6.7 persist_ms=406.5 switch_ms=184.7 refill_ms=2610.0 reconf_ms=3222.8 gap_ms=2752.9
+20:35:51.031 > I (437857) INFER: Saudavel | DSP 59 ms, NN 1091 us
+20:35:51.151 > I (437977) INFER: Saudavel | DSP 59 ms, NN 1136 us
+20:35:51.271 > I (438097) INFER: Saudavel | DSP 59 ms, NN 1105 us
+20:35:51.291 > I (438117) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:51.391 > I (438217) INFER: Saudavel | DSP 59 ms, NN 1155 us
+20:35:51.511 > I (438337) INFER: Saudavel | DSP 59 ms, NN 1085 us
+20:35:51.631 > I (438457) INFER: Saudavel | DSP 59 ms, NN 1156 us
+20:35:51.751 > I (438577) INFER: Saudavel | DSP 59 ms, NN 1085 us
+20:35:51.871 > I (438697) INFER: Saudavel | DSP 59 ms, NN 1130 us
+20:35:51.991 > I (438817) INFER: Saudavel | DSP 59 ms, NN 1121 us
+20:35:51.992 > I (438817) INFER: 9 janelas/s
+20:35:52.111 > I (438937) INFER: Saudavel | DSP 58 ms, NN 1184 us
+20:35:52.231 > I (439057) INFER: Saudavel | DSP 59 ms, NN 1137 us
+20:35:52.302 > I (439127) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:52.351 > I (439177) INFER: Saudavel | DSP 59 ms, NN 1190 us
+20:35:52.471 > I (439297) INFER: Saudavel | DSP 59 ms, NN 1136 us
+20:35:52.591 > I (439417) INFER: Saudavel | DSP 59 ms, NN 1100 us
+20:35:52.711 > I (439537) INFER: Saudavel | DSP 59 ms, NN 1170 us
+20:35:52.831 > I (439657) INFER: Saudavel | DSP 59 ms, NN 1079 us
+20:35:52.951 > I (439777) INFER: Saudavel | DSP 58 ms, NN 1193 us
+20:35:53.071 > I (439897) INFER: Saudavel | DSP 58 ms, NN 1154 us
+20:35:53.071 > I (439897) INFER: 9 janelas/s
+20:35:53.191 > I (440017) INFER: Saudavel | DSP 59 ms, NN 1133 us
+20:35:53.311 > I (440137) INFER: Saudavel | DSP 59 ms, NN 1129 us
+20:35:53.312 > I (440137) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:53.431 > I (440257) INFER: Saudavel | DSP 59 ms, NN 1130 us
+20:35:53.551 > I (440377) INFER: Saudavel | DSP 59 ms, NN 1158 us
+20:35:53.671 > I (440497) INFER: Saudavel | DSP 58 ms, NN 1203 us
+20:35:53.791 > I (440617) INFER: Saudavel | DSP 59 ms, NN 1162 us
+20:35:53.911 > I (440737) INFER: Saudavel | DSP 59 ms, NN 1180 us
+20:35:54.031 > I (440857) INFER: Saudavel | DSP 59 ms, NN 1105 us
+20:35:54.151 > I (440977) INFER: Saudavel | DSP 58 ms, NN 1183 us
+20:35:54.151 > I (440977) INFER: 9 janelas/s
+20:35:54.271 > I (441097) INFER: Saudavel | DSP 58 ms, NN 1163 us
+20:35:54.321 > I (441147) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:54.391 > I (441217) INFER: Saudavel | DSP 59 ms, NN 1131 us
+20:35:54.511 > I (441337) INFER: Saudavel | DSP 59 ms, NN 1100 us
+20:35:54.631 > I (441457) INFER: Saudavel | DSP 59 ms, NN 1178 us
+20:35:54.751 > I (441577) INFER: Saudavel | DSP 58 ms, NN 1170 us
+20:35:54.871 > I (441697) INFER: Saudavel | DSP 58 ms, NN 1181 us
+20:35:54.991 > I (441817) INFER: Saudavel | DSP 58 ms, NN 1171 us
+20:35:55.111 > I (441937) INFER: Saudavel | DSP 58 ms, NN 1178 us
+20:35:55.231 > I (442057) INFER: Saudavel | DSP 58 ms, NN 1166 us
+20:35:55.231 > I (442057) INFER: 9 janelas/s
+20:35:55.322 > I (442147) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:55.351 > I (442177) INFER: Saudavel | DSP 59 ms, NN 1221 us
+20:35:55.471 > I (442297) INFER: Saudavel | DSP 59 ms, NN 1168 us
+20:35:55.591 > I (442417) INFER: Saudavel | DSP 59 ms, NN 1091 us
+20:35:55.711 > I (442537) INFER: Saudavel | DSP 59 ms, NN 1179 us
+20:35:55.831 > I (442657) INFER: Saudavel | DSP 58 ms, NN 1161 us
+20:35:55.951 > I (442777) INFER: Saudavel | DSP 58 ms, NN 1202 us
+20:35:56.071 > I (442897) INFER: Saudavel | DSP 59 ms, NN 1122 us
+20:35:56.191 > I (443017) INFER: Saudavel | DSP 59 ms, NN 1132 us
+20:35:56.311 > I (443137) INFER: Saudavel | DSP 59 ms, NN 1107 us
+20:35:56.312 > I (443137) INFER: 9 janelas/s
+20:35:56.331 > I (443157) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:56.431 > I (443257) INFER: Saudavel | DSP 59 ms, NN 1179 us
+20:35:56.551 > I (443377) INFER: Saudavel | DSP 58 ms, NN 1164 us
+20:35:56.671 > I (443497) INFER: Saudavel | DSP 58 ms, NN 1240 us
+20:35:56.791 > I (443617) INFER: Saudavel | DSP 59 ms, NN 1137 us
+20:35:56.911 > I (443737) INFER: Saudavel | DSP 59 ms, NN 1140 us
+20:35:57.031 > I (443857) INFER: Saudavel | DSP 59 ms, NN 1076 us
+20:35:57.151 > I (443977) INFER: Saudavel | DSP 59 ms, NN 1170 us
+20:35:57.271 > I (444097) INFER: Saudavel | DSP 59 ms, NN 1123 us
+20:35:57.342 > I (444167) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:57.391 > I (444217) INFER: Saudavel | DSP 59 ms, NN 1194 us
+20:35:57.392 > I (444217) INFER: 9 janelas/s
+20:35:57.511 > I (444337) INFER: Saudavel | DSP 59 ms, NN 1131 us
+20:35:57.631 > I (444457) INFER: Saudavel | DSP 59 ms, NN 1111 us
+20:35:57.751 > I (444577) INFER: Saudavel | DSP 58 ms, NN 1177 us
+20:35:57.871 > I (444697) INFER: Saudavel | DSP 58 ms, NN 1161 us
+20:35:57.991 > I (444817) INFER: Saudavel | DSP 58 ms, NN 1200 us
+20:35:58.111 > I (444937) INFER: Saudavel | DSP 58 ms, NN 1167 us
+20:35:58.231 > I (445057) INFER: Saudavel | DSP 58 ms, NN 1188 us
+20:35:58.351 > I (445177) INFER: Saudavel | DSP 59 ms, NN 1088 us
+20:35:58.351 > I (445177) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:58.471 > I (445297) INFER: Saudavel | DSP 59 ms, NN 1118 us
+20:35:58.471 > I (445297) INFER: 9 janelas/s
+20:35:58.591 > I (445417) INFER: Saudavel | DSP 59 ms, NN 1114 us
+20:35:58.711 > I (445537) INFER: Saudavel | DSP 59 ms, NN 1153 us
+20:35:58.831 > I (445657) INFER: Saudavel | DSP 59 ms, NN 1071 us
+20:35:58.951 > I (445777) INFER: Saudavel | DSP 58 ms, NN 1183 us
+20:35:59.071 > I (445897) INFER: Saudavel | DSP 58 ms, NN 1158 us
+20:35:59.191 > I (446017) INFER: Saudavel | DSP 59 ms, NN 1170 us
+20:35:59.311 > I (446137) INFER: Saudavel | DSP 59 ms, NN 1119 us
+20:35:59.361 > I (446187) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:35:59.431 > I (446257) INFER: Saudavel | DSP 59 ms, NN 1092 us
+20:35:59.551 > I (446377) INFER: Saudavel | DSP 59 ms, NN 1119 us
+20:35:59.551 > I (446377) INFER: 9 janelas/s
+20:35:59.671 > I (446497) INFER: Saudavel | DSP 59 ms, NN 1140 us
+20:35:59.791 > I (446617) INFER: Saudavel | DSP 59 ms, NN 1075 us
+20:35:59.911 > I (446737) INFER: Saudavel | DSP 59 ms, NN 1172 us
+20:36:00.031 > I (446857) INFER: Saudavel | DSP 59 ms, NN 1096 us
+20:36:00.151 > I (446977) INFER: Saudavel | DSP 58 ms, NN 1185 us
+20:36:00.271 > I (447097) INFER: Saudavel | DSP 59 ms, NN 1121 us
+20:36:00.361 > I (447187) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:00.391 > I (447217) INFER: Saudavel | DSP 59 ms, NN 1189 us
+20:36:00.511 > I (447337) INFER: Saudavel | DSP 59 ms, NN 1126 us
+20:36:00.631 > I (447457) INFER: Saudavel | DSP 59 ms, NN 1082 us
+20:36:00.631 > I (447457) INFER: 9 janelas/s
+20:36:00.751 > I (447577) INFER: Saudavel | DSP 58 ms, NN 1194 us
+20:36:00.871 > I (447697) INFER: Saudavel | DSP 59 ms, NN 1136 us
+20:36:00.991 > I (447817) INFER: Saudavel | DSP 59 ms, NN 1136 us
+20:36:01.111 > I (447937) INFER: Saudavel | DSP 59 ms, NN 1076 us
+20:36:01.231 > I (448057) INFER: Saudavel | DSP 58 ms, NN 1185 us
+20:36:01.351 > I (448177) INFER: Saudavel | DSP 59 ms, NN 1115 us
+20:36:01.370 > I (448197) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:01.471 > I (448297) INFER: Saudavel | DSP 59 ms, NN 1140 us
+20:36:01.591 > I (448417) INFER: Saudavel | DSP 59 ms, NN 1120 us
+20:36:01.711 > I (448537) INFER: Saudavel | DSP 59 ms, NN 1156 us
+20:36:01.711 > I (448537) INFER: 9 janelas/s
+20:36:01.831 > I (448657) INFER: Saudavel | DSP 59 ms, NN 1133 us
+20:36:01.951 > I (448777) INFER: Saudavel | DSP 59 ms, NN 1163 us
+20:36:02.071 > I (448897) INFER: Saudavel | DSP 59 ms, NN 1075 us
+20:36:02.191 > I (449017) INFER: Saudavel | DSP 58 ms, NN 1180 us
+20:36:02.311 > I (449137) INFER: Saudavel | DSP 58 ms, NN 1170 us
+20:36:02.371 > I (449197) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:02.431 > I (449257) INFER: Saudavel | DSP 59 ms, NN 1162 us
+20:36:02.551 > I (449377) INFER: Saudavel | DSP 59 ms, NN 1141 us
+20:36:02.671 > I (449497) INFER: Saudavel | DSP 59 ms, NN 1123 us
+20:36:02.791 > I (449617) INFER: Saudavel | DSP 59 ms, NN 1143 us
+20:36:02.791 > I (449617) INFER: 9 janelas/s
+20:36:02.911 > I (449737) INFER: Saudavel | DSP 59 ms, NN 1128 us
+20:36:03.031 > I (449857) INFER: Saudavel | DSP 58 ms, NN 1171 us
+20:36:03.151 > I (449977) INFER: Saudavel | DSP 58 ms, NN 1180 us
+20:36:03.271 > I (450097) INFER: Saudavel | DSP 59 ms, NN 1131 us
+20:36:03.371 > I (450197) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:03.391 > I (450217) INFER: Saudavel | DSP 59 ms, NN 1190 us
+20:36:03.511 > I (450337) INFER: Saudavel | DSP 59 ms, NN 1135 us
+20:36:03.631 > I (450457) INFER: Saudavel | DSP 59 ms, NN 1117 us
+20:36:03.751 > I (450577) INFER: Saudavel | DSP 59 ms, NN 1145 us
+20:36:03.871 > I (450697) INFER: Saudavel | DSP 59 ms, NN 1077 us
+20:36:03.871 > I (450697) INFER: 9 janelas/s
+20:36:03.991 > I (450817) INFER: Saudavel | DSP 59 ms, NN 1173 us
+20:36:04.110 > I (450937) INFER: Saudavel | DSP 59 ms, NN 1126 us
+20:36:04.230 > I (451057) INFER: Saudavel | DSP 59 ms, NN 1132 us
+20:36:04.351 > I (451177) INFER: Saudavel | DSP 59 ms, NN 1126 us
+20:36:04.380 > I (451207) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:04.470 > I (451297) INFER: Saudavel | DSP 58 ms, NN 1180 us
+20:36:04.591 > I (451417) INFER: Saudavel | DSP 58 ms, NN 1165 us
+20:36:04.710 > I (451537) INFER: Saudavel | DSP 58 ms, NN 1232 us
+20:36:04.830 > I (451657) INFER: Saudavel | DSP 58 ms, NN 1157 us
+20:36:04.950 > I (451777) INFER: Saudavel | DSP 59 ms, NN 1137 us
+20:36:04.951 > I (451777) INFER: 9 janelas/s
+20:36:05.071 > I (451897) INFER: Saudavel | DSP 59 ms, NN 1076 us
+20:36:05.190 > I (452017) INFER: Saudavel | DSP 59 ms, NN 1169 us
+20:36:05.310 > I (452137) INFER: Saudavel | DSP 59 ms, NN 1114 us
+20:36:05.381 > I (452207) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:05.431 > I (452257) INFER: Saudavel | DSP 59 ms, NN 1232 us
+20:36:05.550 > I (452377) INFER: Saudavel | DSP 59 ms, NN 1171 us
+20:36:05.670 > I (452497) INFER: Saudavel | DSP 59 ms, NN 1072 us
+20:36:05.790 > I (452617) INFER: Saudavel | DSP 59 ms, NN 1142 us
+20:36:05.910 > I (452737) INFER: Saudavel | DSP 59 ms, NN 1121 us
+20:36:06.030 > I (452857) INFER: Saudavel | DSP 59 ms, NN 1132 us
+20:36:06.031 > I (452857) INFER: 9 janelas/s
+20:36:06.150 > I (452977) INFER: Saudavel | DSP 59 ms, NN 1078 us
+20:36:06.270 > I (453097) INFER: Saudavel | DSP 58 ms, NN 1204 us
+20:36:06.390 > I (453217) INFER: Saudavel | DSP 58 ms, NN 1176 us
+20:36:06.391 > I (453217) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:06.510 > I (453337) INFER: Saudavel | DSP 58 ms, NN 1183 us
+20:36:06.630 > I (453457) INFER: Saudavel | DSP 59 ms, NN 1155 us
+20:36:06.750 > I (453577) INFER: Saudavel | DSP 59 ms, NN 1132 us
+20:36:06.870 > I (453697) INFER: Saudavel | DSP 59 ms, NN 1127 us
+20:36:06.990 > I (453817) INFER: Saudavel | DSP 59 ms, NN 1152 us
+20:36:07.110 > I (453937) INFER: Saudavel | DSP 59 ms, NN 1072 us
+20:36:07.111 > I (453937) INFER: 9 janelas/s
+20:36:07.230 > I (454057) INFER: Saudavel | DSP 59 ms, NN 1167 us
+20:36:07.350 > I (454177) INFER: Saudavel | DSP 59 ms, NN 1091 us
+20:36:07.400 > I (454227) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:07.470 > I (454297) INFER: Saudavel | DSP 59 ms, NN 1106 us
+20:36:07.590 > I (454417) INFER: Saudavel | DSP 59 ms, NN 1075 us
+20:36:07.710 > I (454537) INFER: Saudavel | DSP 58 ms, NN 1178 us
+20:36:07.830 > I (454657) INFER: Subtensao | DSP 59 ms, NN 1135 us
+20:36:07.950 > I (454777) INFER: Saudavel | DSP 59 ms, NN 1134 us
+20:36:08.070 > I (454897) INFER: Saudavel | DSP 59 ms, NN 1099 us
+20:36:08.190 > I (455017) INFER: Saudavel | DSP 59 ms, NN 1131 us
+20:36:08.191 > I (455017) INFER: 9 janelas/s
+20:36:08.310 > I (455137) INFER: Saudavel | DSP 59 ms, NN 1094 us
+20:36:08.401 > I (455227) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:08.431 > I (455257) INFER: Saudavel | DSP 59 ms, NN 1173 us
+20:36:08.550 > I (455377) INFER: Saudavel | DSP 59 ms, NN 1138 us
+20:36:08.670 > I (455497) INFER: Saudavel | DSP 59 ms, NN 1114 us
+20:36:08.790 > I (455617) INFER: Saudavel | DSP 59 ms, NN 1154 us
+20:36:08.910 > I (455737) INFER: Saudavel | DSP 59 ms, NN 1077 us
+20:36:09.030 > I (455857) INFER: Saudavel | DSP 59 ms, NN 1106 us
+20:36:09.150 > I (455977) INFER: Saudavel | DSP 59 ms, NN 1085 us
+20:36:09.270 > I (456097) INFER: Saudavel | DSP 59 ms, NN 1135 us
+20:36:09.271 > I (456097) INFER: 9 janelas/s
+20:36:09.390 > I (456217) INFER: Saudavel | DSP 59 ms, NN 1129 us
+20:36:09.410 > I (456237) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:09.510 > I (456337) INFER: Saudavel | DSP 59 ms, NN 1131 us
+20:36:09.630 > I (456457) INFER: Saudavel | DSP 59 ms, NN 1128 us
+20:36:09.750 > I (456577) INFER: Saudavel | DSP 59 ms, NN 1091 us
+20:36:09.870 > I (456697) INFER: Saudavel | DSP 59 ms, NN 1166 us
+20:36:09.990 > I (456817) INFER: Saudavel | DSP 59 ms, NN 1110 us
+20:36:10.110 > I (456937) INFER: Saudavel | DSP 59 ms, NN 1137 us
+20:36:10.230 > I (457057) INFER: Saudavel | DSP 59 ms, NN 1122 us
+20:36:10.350 > I (457177) INFER: Saudavel | DSP 59 ms, NN 1125 us
+20:36:10.351 > I (457177) INFER: 9 janelas/s
+20:36:10.410 > I (457237) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:10.470 > I (457297) INFER: Saudavel | DSP 59 ms, NN 1135 us
+20:36:10.590 > I (457417) INFER: Saudavel | DSP 59 ms, NN 1145 us
+20:36:10.710 > I (457537) INFER: Saudavel | DSP 59 ms, NN 1093 us
+20:36:10.830 > I (457657) INFER: Saudavel | DSP 59 ms, NN 1167 us
+20:36:10.950 > I (457777) INFER: Saudavel | DSP 59 ms, NN 1091 us
+20:36:11.070 > I (457897) INFER: Saudavel | DSP 59 ms, NN 1160 us
+20:36:11.190 > I (458017) INFER: Saudavel | DSP 59 ms, NN 1121 us
+20:36:11.310 > I (458137) INFER: Saudavel | DSP 59 ms, NN 1160 us
+20:36:11.411 > I (458237) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:11.431 > I (458257) INFER: Saudavel | DSP 59 ms, NN 1199 us
+20:36:11.431 > I (458257) INFER: 9 janelas/s
+20:36:11.550 > I (458377) INFER: Saudavel | DSP 59 ms, NN 1132 us
+20:36:11.670 > I (458497) INFER: Saudavel | DSP 59 ms, NN 1077 us
+20:36:11.790 > I (458617) INFER: Saudavel | DSP 59 ms, NN 1181 us
+20:36:11.910 > I (458737) INFER: Saudavel | DSP 58 ms, NN 1156 us
+20:36:12.030 > I (458857) INFER: Saudavel | DSP 59 ms, NN 1143 us
+20:36:12.150 > I (458977) INFER: Saudavel | DSP 59 ms, NN 1123 us
+20:36:12.270 > I (459097) INFER: Saudavel | DSP 59 ms, NN 1106 us
+20:36:12.390 > I (459217) INFER: Saudavel | DSP 59 ms, NN 1107 us
+20:36:12.420 > I (459247) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:12.510 > I (459337) INFER: Saudavel | DSP 59 ms, NN 1117 us
+20:36:12.511 > I (459337) INFER: 9 janelas/s
+20:36:12.630 > I (459457) INFER: Saudavel | DSP 59 ms, NN 1153 us
+20:36:12.750 > I (459577) INFER: Saudavel | DSP 58 ms, NN 1176 us
+20:36:12.870 > I (459697) INFER: Saudavel | DSP 59 ms, NN 1132 us
+20:36:12.990 > I (459817) INFER: Saudavel | DSP 59 ms, NN 1135 us
+20:36:13.110 > I (459937) INFER: Saudavel | DSP 59 ms, NN 1078 us
+20:36:13.230 > I (460057) INFER: Saudavel | DSP 59 ms, NN 1144 us
+20:36:13.350 > I (460177) INFER: Saudavel | DSP 59 ms, NN 1080 us
+20:36:13.421 > I (460247) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:13.471 > I (460297) INFER: Saudavel | DSP 59 ms, NN 1219 us
+20:36:13.590 > I (460417) INFER: Saudavel | DSP 59 ms, NN 1127 us
+20:36:13.591 > I (460417) INFER: 9 janelas/s
+20:36:13.710 > I (460537) INFER: Saudavel | DSP 59 ms, NN 1107 us
+20:36:13.830 > I (460657) INFER: Saudavel | DSP 59 ms, NN 1183 us
+20:36:13.950 > I (460777) INFER: Saudavel | DSP 58 ms, NN 1166 us
+20:36:14.070 > I (460897) INFER: Saudavel | DSP 58 ms, NN 1187 us
+20:36:14.190 > I (461017) INFER: Saudavel | DSP 59 ms, NN 1136 us
+20:36:14.310 > I (461137) INFER: Saudavel | DSP 59 ms, NN 1174 us
+20:36:14.430 > I (461257) INFER: Saudavel | DSP 59 ms, NN 1145 us
+20:36:14.431 > I (461257) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:14.550 > I (461377) INFER: Saudavel | DSP 59 ms, NN 1136 us
+20:36:14.670 > I (461497) INFER: Saudavel | DSP 59 ms, NN 1076 us
+20:36:14.670 > I (461497) INFER: 9 janelas/s
+20:36:14.790 > I (461617) INFER: Saudavel | DSP 59 ms, NN 1168 us
+20:36:14.910 > I (461737) INFER: Saudavel | DSP 59 ms, NN 1084 us
+20:36:15.030 > I (461857) INFER: Saudavel | DSP 58 ms, NN 1185 us
+20:36:15.150 > I (461977) INFER: Saudavel | DSP 59 ms, NN 1134 us
+20:36:15.270 > I (462097) INFER: Saudavel | DSP 59 ms, NN 1157 us
+20:36:15.390 > I (462217) INFER: Saudavel | DSP 59 ms, NN 1107 us
+20:36:15.440 > I (462267) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:15.510 > I (462337) INFER: Saudavel | DSP 59 ms, NN 1111 us
+20:36:15.630 > I (462457) INFER: Saudavel | DSP 59 ms, NN 1079 us
+20:36:15.750 > I (462577) INFER: Saudavel | DSP 58 ms, NN 1181 us
+20:36:15.750 > I (462577) INFER: 9 janelas/s
+20:36:15.870 > I (462697) INFER: Saudavel | DSP 58 ms, NN 1167 us
+20:36:15.990 > I (462817) INFER: Saudavel | DSP 59 ms, NN 1180 us
+20:36:16.110 > I (462937) INFER: Saudavel | DSP 58 ms, NN 1167 us
+20:36:16.230 > I (463057) INFER: Saudavel | DSP 58 ms, NN 1191 us
+20:36:16.350 > I (463177) INFER: Saudavel | DSP 59 ms, NN 1141 us
+20:36:16.363 > I (463187) CTRL: Gatilho de teste: aplicando /storage/test_a.json
+20:36:16.368 > I (463197) RECONF: ev=rx_first t_us=462914437
+20:36:16.368 > I (463197) RECONF: ev=rx_done t_us=462926739
+20:36:16.440 > I (463267) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:16.467 > I (463297) INFER: Saudavel | DSP 60 ms, NN 992 us
+20:36:16.587 > I (463417) INFER: Saudavel | DSP 60 ms, NN 986 us
+20:36:16.707 > I (463537) INFER: Saudavel | DSP 60 ms, NN 983 us
+20:36:16.827 > I (463657) INFER: Saudavel | DSP 60 ms, NN 984 us
+20:36:16.827 > I (463657) INFER: 9 janelas/s
+20:36:16.947 > I (463777) INFER: Saudavel | DSP 60 ms, NN 984 us
+20:36:16.984 > I (463817) RECONF: ev=files_ok t_us=463547598
+20:36:17.000 > I (463827) RECONF: ev=reconf_begin t_us=463563671
+20:36:17.000 > I (463827) RECONF: ev=last_inference_old t_us=463510887
+20:36:17.069 > I (463897) INFER: Saudavel | DSP 58 ms, NN 996 us
+20:36:17.070 > I (463897) RECONF: ev=old_released t_us=463633706
+20:36:17.072 > I (463897) ADXL345: OK (endereco 0x53, 100 Hz, +-16 g)
+20:36:17.078 > I (463907) INA219: OK (endereco 0x40, config 0x399F, shunt 0.100 ohm)
+20:36:17.082 > I (463907) RECONF: ev=sensors_ready t_us=463642337
+20:36:17.091 > I (463917) MODEL_MGR: Pronto: entrada 52 valores (int8, scale=0.324740, zp=-121), saida 3 classes
+20:36:17.098 > I (463927) MODEL_MGR: Modelo lido de /storage/model.tflite (3776 bytes)
+20:36:17.106 > I (463927) MODEL_MGR: Pronto: entrada 52 valores (int8, scale=0.324740, zp=-121), saida 3 classes
+20:36:17.110 > I (463937) RECONF: ev=model_ready t_us=463670818
+20:36:17.172 > I (463997) RECONF: ev=selftest_ok t_us=463735643
+20:36:17.175 > I (463997) CTRL: STATUS {"state":"running","version":1,"motor":"jgb37-520","trial":0,"detail":"configuracao aplicada"}
+20:36:17.190 > I (464017) RECONF: ev=first_sample t_us=463753914
+20:36:18.180 > I (465007) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:19.180 > I (466007) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:19.800 > I (466627) RECONF: ev=first_inference_valid t_us=466363870
+20:36:19.801 > I (466627) INFER: Saudavel | DSP 59 ms, NN 1128 us
+20:36:19.801 > I (466627) INFER: 1 janelas/s
+20:36:19.812 > I (466627) RECONF: summary trial=0 tag=A version=1 transfer_ms=12.3 persist_ms=620.9 switch_ms=188.0 refill_ms=2610.0 reconf_ms=3437.1 gap_ms=2853.0
+20:36:19.920 > I (466747) INFER: Saudavel | DSP 59 ms, NN 1098 us
+20:36:20.040 > I (466867) INFER: Saudavel | DSP 59 ms, NN 1161 us
+20:36:20.160 > I (466987) INFER: Saudavel | DSP 59 ms, NN 1084 us
+20:36:20.180 > I (467007) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:20.280 > I (467107) INFER: Saudavel | DSP 58 ms, NN 1177 us
+20:36:20.400 > I (467227) INFER: Saudavel | DSP 58 ms, NN 1179 us
+20:36:20.520 > I (467347) INFER: Saudavel | DSP 58 ms, NN 1187 us
+20:36:20.640 > I (467467) INFER: Saudavel | DSP 59 ms, NN 1165 us
+20:36:20.760 > I (467587) INFER: Saudavel | DSP 59 ms, NN 1139 us
+20:36:20.880 > I (467707) INFER: Saudavel | DSP 59 ms, NN 1101 us
+20:36:20.880 > I (467707) INFER: 9 janelas/s
+20:36:21.000 > I (467827) INFER: Saudavel | DSP 58 ms, NN 1173 us
+20:36:21.120 > I (467947) INFER: Saudavel | DSP 58 ms, NN 1180 us
+20:36:21.190 > I (468017) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:21.240 > I (468067) INFER: Saudavel | DSP 59 ms, NN 1191 us
+20:36:21.360 > I (468187) INFER: Saudavel | DSP 59 ms, NN 1139 us
+20:36:21.480 > I (468307) INFER: Saudavel | DSP 59 ms, NN 1109 us
+20:36:21.600 > I (468427) INFER: Saudavel | DSP 59 ms, NN 1166 us
+20:36:21.720 > I (468547) INFER: Saudavel | DSP 59 ms, NN 1124 us
+20:36:21.840 > I (468667) INFER: Saudavel | DSP 59 ms, NN 1149 us
+20:36:21.960 > I (468787) INFER: Saudavel | DSP 59 ms, NN 1093 us
+20:36:21.960 > I (468787) INFER: 9 janelas/s
+20:36:22.080 > I (468907) INFER: Saudavel | DSP 59 ms, NN 1145 us
+20:36:22.200 > I (469027) INFER: Saudavel | DSP 59 ms, NN 1109 us
+20:36:22.201 > I (469027) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:22.320 > I (469147) INFER: Saudavel | DSP 59 ms, NN 1157 us
+20:36:22.440 > I (469267) INFER: Saudavel | DSP 59 ms, NN 1120 us
+20:36:22.560 > I (469387) INFER: Saudavel | DSP 59 ms, NN 1139 us
+20:36:22.680 > I (469507) INFER: Saudavel | DSP 59 ms, NN 1081 us
+20:36:22.800 > I (469627) INFER: Saudavel | DSP 59 ms, NN 1174 us
+20:36:22.920 > I (469747) INFER: Saudavel | DSP 58 ms, NN 1166 us
+20:36:23.040 > I (469867) INFER: Saudavel | DSP 59 ms, NN 1172 us
+20:36:23.040 > I (469867) INFER: 9 janelas/s
+20:36:23.160 > I (469987) INFER: Saudavel | DSP 59 ms, NN 1142 us
+20:36:23.210 > I (470037) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:23.280 > I (470107) INFER: Saudavel | DSP 59 ms, NN 1086 us
+20:36:23.400 > I (470227) INFER: Saudavel | DSP 59 ms, NN 1123 us
+20:36:23.520 > I (470347) INFER: Saudavel | DSP 59 ms, NN 1165 us
+20:36:23.640 > I (470467) INFER: Saudavel | DSP 59 ms, NN 1123 us
+20:36:23.760 > I (470587) INFER: Saudavel | DSP 59 ms, NN 1145 us
+20:36:23.880 > I (470707) INFER: Saudavel | DSP 59 ms, NN 1079 us
+20:36:24.000 > I (470827) INFER: Saudavel | DSP 58 ms, NN 1183 us
+20:36:24.120 > I (470947) INFER: Saudavel | DSP 58 ms, NN 1169 us
+20:36:24.120 > I (470947) INFER: 9 janelas/s
+20:36:24.210 > I (471037) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:24.240 > I (471067) INFER: Saudavel | DSP 59 ms, NN 1206 us
+20:36:24.360 > I (471187) INFER: Saudavel | DSP 59 ms, NN 1121 us
+20:36:24.480 > I (471307) INFER: Saudavel | DSP 59 ms, NN 1080 us
+20:36:24.600 > I (471427) INFER: Saudavel | DSP 59 ms, NN 1127 us
+20:36:24.720 > I (471547) INFER: Saudavel | DSP 59 ms, NN 1100 us
+20:36:24.840 > I (471667) INFER: Saudavel | DSP 58 ms, NN 1180 us
+20:36:24.960 > I (471787) INFER: Saudavel | DSP 58 ms, NN 1172 us
+20:36:25.080 > I (471907) INFER: Saudavel | DSP 58 ms, NN 1188 us
+20:36:25.200 > I (472027) INFER: Saudavel | DSP 58 ms, NN 1154 us
+20:36:25.200 > I (472027) INFER: 9 janelas/s
+20:36:25.220 > I (472047) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:25.320 > I (472147) INFER: Saudavel | DSP 59 ms, NN 1121 us
+20:36:25.440 > I (472267) INFER: Saudavel | DSP 58 ms, NN 1173 us
+20:36:25.560 > I (472387) INFER: Saudavel | DSP 59 ms, NN 1135 us
+20:36:25.680 > I (472507) INFER: Saudavel | DSP 59 ms, NN 1094 us
+20:36:25.800 > I (472627) INFER: Saudavel | DSP 58 ms, NN 1192 us
+20:36:25.920 > I (472747) INFER: Saudavel | DSP 58 ms, NN 1218 us
+20:36:26.040 > I (472867) INFER: Saudavel | DSP 58 ms, NN 1179 us
+20:36:26.160 > I (472987) INFER: Saudavel | DSP 58 ms, NN 1174 us
+20:36:26.220 > I (473047) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:26.280 > I (473107) INFER: Saudavel | DSP 59 ms, NN 1158 us
+20:36:26.280 > I (473107) INFER: 9 janelas/s
+20:36:26.400 > I (473227) INFER: Saudavel | DSP 59 ms, NN 1132 us
+20:36:26.520 > I (473347) INFER: Saudavel | DSP 59 ms, NN 1123 us
+20:36:26.640 > I (473467) INFER: Saudavel | DSP 59 ms, NN 1137 us
+20:36:26.760 > I (473587) INFER: Saudavel | DSP 59 ms, NN 1123 us
+20:36:26.880 > I (473707) INFER: Saudavel | DSP 58 ms, NN 1181 us
+20:36:27.000 > I (473827) INFER: Saudavel | DSP 59 ms, NN 1153 us
+20:36:27.120 > I (473947) INFER: Saudavel | DSP 59 ms, NN 1122 us
+20:36:27.220 > I (474047) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:27.240 > I (474067) INFER: Saudavel | DSP 59 ms, NN 1208 us
+20:36:27.360 > I (474187) INFER: Saudavel | DSP 59 ms, NN 1134 us
+20:36:27.360 > I (474187) INFER: 9 janelas/s
+20:36:27.480 > I (474307) INFER: Saudavel | DSP 59 ms, NN 1120 us
+20:36:27.600 > I (474427) INFER: Saudavel | DSP 59 ms, NN 1144 us
+20:36:27.720 > I (474547) INFER: Saudavel | DSP 59 ms, NN 1084 us
+20:36:27.840 > I (474667) INFER: Saudavel | DSP 58 ms, NN 1180 us
+20:36:27.960 > I (474787) INFER: Saudavel | DSP 59 ms, NN 1127 us
+20:36:28.080 > I (474907) INFER: Saudavel | DSP 59 ms, NN 1139 us
+20:36:28.200 > I (475027) INFER: Saudavel | DSP 59 ms, NN 1097 us
+20:36:28.229 > I (475057) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:28.320 > I (475147) INFER: Saudavel | DSP 58 ms, NN 1188 us
+20:36:28.440 > I (475267) INFER: Saudavel | DSP 59 ms, NN 1131 us
+20:36:28.440 > I (475267) INFER: 9 janelas/s
+20:36:28.560 > I (475387) INFER: Saudavel | DSP 59 ms, NN 1132 us
+20:36:28.680 > I (475507) INFER: Saudavel | DSP 59 ms, NN 1102 us
+20:36:28.800 > I (475627) INFER: Saudavel | DSP 59 ms, NN 1138 us
+20:36:28.920 > I (475747) INFER: Saudavel | DSP 59 ms, NN 1075 us
+20:36:29.040 > I (475867) INFER: Saudavel | DSP 58 ms, NN 1183 us
+20:36:29.160 > I (475987) INFER: Saudavel | DSP 58 ms, NN 1168 us
+20:36:29.230 > I (476057) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:29.280 > I (476107) INFER: Saudavel | DSP 59 ms, NN 1185 us
+20:36:29.400 > I (476227) INFER: Saudavel | DSP 59 ms, NN 1136 us
+20:36:29.520 > I (476347) INFER: Saudavel | DSP 59 ms, NN 1071 us
+20:36:29.520 > I (476347) INFER: 9 janelas/s
+20:36:29.640 > I (476467) INFER: Saudavel | DSP 59 ms, NN 1177 us
+20:36:29.760 > I (476587) INFER: Saudavel | DSP 58 ms, NN 1154 us
+20:36:29.880 > I (476707) INFER: Saudavel | DSP 59 ms, NN 1171 us
+20:36:30.000 > I (476827) INFER: Saudavel | DSP 58 ms, NN 1152 us
+20:36:30.120 > I (476947) INFER: Saudavel | DSP 58 ms, NN 1184 us
+20:36:30.240 > I (477067) INFER: Saudavel | DSP 59 ms, NN 1145 us
+20:36:30.240 > I (477067) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:30.360 > I (477187) INFER: Saudavel | DSP 59 ms, NN 1136 us
+20:36:30.480 > I (477307) INFER: Saudavel | DSP 59 ms, NN 1075 us
+20:36:30.600 > I (477427) INFER: Saudavel | DSP 58 ms, NN 1186 us
+20:36:30.600 > I (477427) INFER: 9 janelas/s
+20:36:30.720 > I (477547) INFER: Saudavel | DSP 58 ms, NN 1169 us
+20:36:30.840 > I (477667) INFER: Saudavel | DSP 58 ms, NN 1210 us
+20:36:30.960 > I (477787) INFER: Saudavel | DSP 58 ms, NN 1169 us
+20:36:31.080 > I (477907) INFER: Saudavel | DSP 58 ms, NN 1181 us
+20:36:31.200 > I (478027) INFER: Saudavel | DSP 58 ms, NN 1163 us
+20:36:31.249 > I (478077) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:31.320 > I (478147) INFER: Saudavel | DSP 59 ms, NN 1095 us
+20:36:31.440 > I (478267) INFER: Saudavel | DSP 59 ms, NN 1118 us
+20:36:31.560 > I (478387) INFER: Saudavel | DSP 59 ms, NN 1095 us
+20:36:31.680 > I (478507) INFER: Saudavel | DSP 59 ms, NN 1117 us
+20:36:31.680 > I (478507) INFER: 9 janelas/s
+20:36:31.800 > I (478627) INFER: Saudavel | DSP 59 ms, NN 1118 us
+20:36:31.920 > I (478747) INFER: Saudavel | DSP 59 ms, NN 1129 us
+20:36:32.040 > I (478867) INFER: Saudavel | DSP 59 ms, NN 1115 us
+20:36:32.160 > I (478987) INFER: Saudavel | DSP 59 ms, NN 1158 us
+20:36:32.250 > I (479077) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:32.280 > I (479107) INFER: Saudavel | DSP 59 ms, NN 1190 us
+20:36:32.400 > I (479227) INFER: Saudavel | DSP 59 ms, NN 1131 us
+20:36:32.520 > I (479347) INFER: Saudavel | DSP 59 ms, NN 1080 us
+20:36:32.640 > I (479467) INFER: Saudavel | DSP 59 ms, NN 1138 us
+20:36:32.760 > I (479587) INFER: Saudavel | DSP 59 ms, NN 1084 us
+20:36:32.760 > I (479587) INFER: 9 janelas/s
+20:36:32.880 > I (479707) INFER: Saudavel | DSP 59 ms, NN 1131 us
+20:36:33.000 > I (479827) INFER: Saudavel | DSP 59 ms, NN 1123 us
+20:36:33.120 > I (479947) INFER: Saudavel | DSP 58 ms, NN 1179 us
+20:36:33.240 > I (480067) INFER: Saudavel | DSP 58 ms, NN 1164 us
+20:36:33.259 > I (480087) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:33.360 > I (480187) INFER: Saudavel | DSP 59 ms, NN 1177 us
+20:36:33.480 > I (480307) INFER: Saudavel | DSP 58 ms, NN 1168 us
+20:36:33.600 > I (480427) INFER: Saudavel | DSP 58 ms, NN 1180 us
+20:36:33.720 > I (480547) INFER: Saudavel | DSP 58 ms, NN 1166 us
+20:36:33.840 > I (480667) INFER: Saudavel | DSP 58 ms, NN 1192 us
+20:36:33.840 > I (480667) INFER: 9 janelas/s
+20:36:33.960 > I (480787) INFER: Saudavel | DSP 59 ms, NN 1124 us
+20:36:34.080 > I (480907) INFER: Saudavel | DSP 59 ms, NN 1137 us
+20:36:34.200 > I (481027) INFER: Saudavel | DSP 59 ms, NN 1078 us
+20:36:34.259 > I (481087) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:34.320 > I (481147) INFER: Saudavel | DSP 59 ms, NN 1171 us
+20:36:34.440 > I (481267) INFER: Saudavel | DSP 58 ms, NN 1162 us
+20:36:34.560 > I (481387) INFER: Saudavel | DSP 59 ms, NN 1100 us
+20:36:34.680 > I (481507) INFER: Saudavel | DSP 59 ms, NN 1153 us
+20:36:34.800 > I (481627) INFER: Saudavel | DSP 59 ms, NN 1138 us
+20:36:34.920 > I (481747) INFER: Saudavel | DSP 59 ms, NN 1094 us
+20:36:34.920 > I (481747) INFER: 9 janelas/s
+20:36:35.040 > I (481867) INFER: Saudavel | DSP 59 ms, NN 1116 us
+20:36:35.160 > I (481987) INFER: Saudavel | DSP 59 ms, NN 1100 us
+20:36:35.260 > I (482087) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:35.280 > I (482107) INFER: Saudavel | DSP 59 ms, NN 1191 us
+20:36:35.400 > I (482227) INFER: Saudavel | DSP 59 ms, NN 1126 us
+20:36:35.520 > I (482347) INFER: Saudavel | DSP 59 ms, NN 1074 us
+20:36:35.640 > I (482467) INFER: Saudavel | DSP 58 ms, NN 1198 us
+20:36:35.760 > I (482587) INFER: Saudavel | DSP 59 ms, NN 1131 us
+20:36:35.880 > I (482707) INFER: Saudavel | DSP 59 ms, NN 1129 us
+20:36:36.000 > I (482827) INFER: Saudavel | DSP 59 ms, NN 1114 us
+20:36:36.000 > I (482827) INFER: 9 janelas/s
+20:36:36.120 > I (482947) INFER: Saudavel | DSP 59 ms, NN 1121 us
+20:36:36.240 > I (483067) INFER: Saudavel | DSP 59 ms, NN 1097 us
+20:36:36.269 > I (483097) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:36.360 > I (483187) INFER: Saudavel | DSP 59 ms, NN 1146 us
+20:36:36.480 > I (483307) INFER: Saudavel | DSP 59 ms, NN 1100 us
+20:36:36.600 > I (483427) INFER: Saudavel | DSP 59 ms, NN 1154 us
+20:36:36.720 > I (483547) INFER: Saudavel | DSP 59 ms, NN 1076 us
+20:36:36.840 > I (483667) INFER: Saudavel | DSP 59 ms, NN 1135 us
+20:36:36.960 > I (483787) INFER: Saudavel | DSP 59 ms, NN 1099 us
+20:36:37.080 > I (483907) INFER: Saudavel | DSP 59 ms, NN 1148 us
+20:36:37.080 > I (483907) INFER: 9 janelas/s
+20:36:37.200 > I (484027) INFER: Saudavel | DSP 59 ms, NN 1081 us
+20:36:37.270 > I (484097) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:37.320 > I (484147) INFER: Saudavel | DSP 59 ms, NN 1191 us
+20:36:37.440 > I (484267) INFER: Saudavel | DSP 59 ms, NN 1090 us
+20:36:37.560 > I (484387) INFER: Saudavel | DSP 59 ms, NN 1096 us
+20:36:37.680 > I (484507) INFER: Saudavel | DSP 58 ms, NN 1185 us
+20:36:37.800 > I (484627) INFER: Saudavel | DSP 58 ms, NN 1188 us
+20:36:37.920 > I (484747) INFER: Saudavel | DSP 58 ms, NN 1178 us
+20:36:38.040 > I (484867) INFER: Saudavel | DSP 58 ms, NN 1166 us
+20:36:38.160 > I (484987) INFER: Saudavel | DSP 58 ms, NN 1205 us
+20:36:38.160 > I (484987) INFER: 9 janelas/s
+20:36:38.280 > I (485107) INFER: Saudavel | DSP 59 ms, NN 1121 us
+20:36:38.280 > I (485107) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:38.400 > I (485227) INFER: Saudavel | DSP 59 ms, NN 1158 us
+20:36:38.520 > I (485347) INFER: Saudavel | DSP 59 ms, NN 1118 us
+20:36:38.640 > I (485467) INFER: Saudavel | DSP 59 ms, NN 1166 us
+20:36:38.760 > I (485587) INFER: Saudavel | DSP 59 ms, NN 1121 us
+20:36:38.880 > I (485707) INFER: Saudavel | DSP 59 ms, NN 1134 us
+20:36:39.000 > I (485827) INFER: Saudavel | DSP 59 ms, NN 1078 us
+20:36:39.120 > I (485947) INFER: Saudavel | DSP 58 ms, NN 1208 us
+20:36:39.240 > I (486067) INFER: Saudavel | DSP 59 ms, NN 1122 us
+20:36:39.240 > I (486067) INFER: 9 janelas/s
+20:36:39.289 > I (486117) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:39.360 > I (486187) INFER: Saudavel | DSP 59 ms, NN 1088 us
+20:36:39.480 > I (486307) INFER: Saudavel | DSP 59 ms, NN 1152 us
+20:36:39.600 > I (486427) INFER: Saudavel | DSP 59 ms, NN 1133 us
+20:36:39.720 > I (486547) INFER: Saudavel | DSP 59 ms, NN 1083 us
+20:36:39.840 > I (486667) INFER: Saudavel | DSP 58 ms, NN 1182 us
+20:36:39.959 > I (486787) INFER: Saudavel | DSP 58 ms, NN 1195 us
+20:36:40.080 > I (486907) INFER: Saudavel | DSP 58 ms, NN 1181 us
+20:36:40.199 > I (487027) INFER: Saudavel | DSP 58 ms, NN 1168 us
+20:36:40.290 > I (487117) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:40.320 > I (487147) INFER: Saudavel | DSP 59 ms, NN 1226 us
+20:36:40.320 > I (487147) INFER: 9 janelas/s
+20:36:40.440 > I (487267) INFER: Saudavel | DSP 59 ms, NN 1137 us
+20:36:40.560 > I (487387) INFER: Saudavel | DSP 59 ms, NN 1081 us
+20:36:40.680 > I (487507) INFER: Saudavel | DSP 59 ms, NN 1147 us
+20:36:40.800 > I (487627) INFER: Saudavel | DSP 59 ms, NN 1103 us
+20:36:40.919 > I (487747) INFER: Saudavel | DSP 58 ms, NN 1194 us
+20:36:41.039 > I (487867) INFER: Saudavel | DSP 59 ms, NN 1129 us
+20:36:41.160 > I (487987) INFER: Saudavel | DSP 59 ms, NN 1118 us
+20:36:41.280 > I (488107) INFER: Saudavel | DSP 59 ms, NN 1119 us
+20:36:41.299 > I (488127) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:41.400 > I (488227) INFER: Saudavel | DSP 59 ms, NN 1110 us
+20:36:41.400 > I (488227) INFER: 9 janelas/s
+20:36:41.520 > I (488347) INFER: Saudavel | DSP 59 ms, NN 1103 us
+20:36:41.640 > I (488467) INFER: Saudavel | DSP 59 ms, NN 1169 us
+20:36:41.759 > I (488587) INFER: Saudavel | DSP 59 ms, NN 1124 us
+20:36:41.879 > I (488707) INFER: Saudavel | DSP 58 ms, NN 1186 us
+20:36:41.999 > I (488827) INFER: Saudavel | DSP 59 ms, NN 1136 us
+20:36:42.120 > I (488947) INFER: Saudavel | DSP 59 ms, NN 1132 us
+20:36:42.239 > I (489067) INFER: Saudavel | DSP 59 ms, NN 1121 us
+20:36:42.299 > I (489127) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:42.360 > I (489187) INFER: Saudavel | DSP 59 ms, NN 1165 us
+20:36:42.479 > I (489307) INFER: Saudavel | DSP 59 ms, NN 1110 us
+20:36:42.480 > I (489307) INFER: 9 janelas/s
+20:36:42.600 > I (489427) INFER: Saudavel | DSP 59 ms, NN 1118 us
+20:36:42.719 > I (489547) INFER: Saudavel | DSP 59 ms, NN 1114 us
+20:36:42.840 > I (489667) INFER: Saudavel | DSP 59 ms, NN 1097 us
+20:36:42.959 > I (489787) INFER: Saudavel | DSP 58 ms, NN 1157 us
+20:36:43.079 > I (489907) INFER: Saudavel | DSP 59 ms, NN 1130 us
+20:36:43.199 > I (490027) INFER: Saudavel | DSP 59 ms, NN 1125 us
+20:36:43.300 > I (490127) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:43.320 > I (490147) INFER: Saudavel | DSP 59 ms, NN 1193 us
+20:36:43.439 > I (490267) INFER: Saudavel | DSP 59 ms, NN 1145 us
+20:36:43.560 > I (490387) INFER: Saudavel | DSP 59 ms, NN 1120 us
+20:36:43.560 > I (490387) INFER: 9 janelas/s
+20:36:43.679 > I (490507) INFER: Saudavel | DSP 59 ms, NN 1131 us
+20:36:43.799 > I (490627) INFER: Saudavel | DSP 59 ms, NN 1097 us
+20:36:43.919 > I (490747) INFER: Saudavel | DSP 59 ms, NN 1170 us
+20:36:44.039 > I (490867) INFER: Saudavel | DSP 59 ms, NN 1137 us
+20:36:44.159 > I (490987) INFER: Saudavel | DSP 59 ms, NN 1139 us
+20:36:44.279 > I (491107) INFER: Saudavel | DSP 59 ms, NN 1098 us
+20:36:44.309 > I (491137) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:44.399 > I (491227) INFER: Saudavel | DSP 59 ms, NN 1179 us
+20:36:44.519 > I (491347) INFER: Saudavel | DSP 58 ms, NN 1179 us
+20:36:44.639 > I (491467) INFER: Saudavel | DSP 58 ms, NN 1215 us
+20:36:44.640 > I (491467) INFER: 9 janelas/s
+20:36:44.759 > I (491587) INFER: Saudavel | DSP 58 ms, NN 1173 us
+20:36:44.879 > I (491707) INFER: Saudavel | DSP 58 ms, NN 1198 us
+20:36:44.999 > I (491827) INFER: Saudavel | DSP 59 ms, NN 1125 us
+20:36:45.119 > I (491947) INFER: Saudavel | DSP 59 ms, NN 1139 us
+20:36:45.239 > I (492067) INFER: Saudavel | DSP 59 ms, NN 1082 us
+20:36:45.310 > I (492137) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:45.360 > I (492187) INFER: Saudavel | DSP 59 ms, NN 1219 us
+20:36:45.479 > I (492307) INFER: Saudavel | DSP 59 ms, NN 1133 us
+20:36:45.599 > I (492427) INFER: Saudavel | DSP 59 ms, NN 1099 us
+20:36:45.719 > I (492547) INFER: Saudavel | DSP 58 ms, NN 1208 us
+20:36:45.720 > I (492547) INFER: 9 janelas/s
+20:36:45.839 > I (492667) INFER: Saudavel | DSP 58 ms, NN 1154 us
+20:36:45.959 > I (492787) INFER: Saudavel | DSP 58 ms, NN 1180 us
+20:36:46.079 > I (492907) INFER: Saudavel | DSP 59 ms, NN 1138 us
+20:36:46.199 > I (493027) INFER: Saudavel | DSP 59 ms, NN 1117 us
+20:36:46.320 > I (493147) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:46.320 > I (493147) INFER: Saudavel | DSP 59 ms, NN 1085 us
+20:36:46.439 > I (493267) INFER: Saudavel | DSP 59 ms, NN 1142 us
+20:36:46.559 > I (493387) INFER: Saudavel | DSP 59 ms, NN 1122 us
+20:36:46.679 > I (493507) INFER: Saudavel | DSP 59 ms, NN 1117 us
+20:36:46.799 > I (493627) INFER: Saudavel | DSP 58 ms, NN 1159 us
+20:36:46.800 > I (493627) INFER: 9 janelas/s
+20:36:46.919 > I (493747) INFER: Saudavel | DSP 59 ms, NN 1148 us
+20:36:47.039 > I (493867) INFER: Saudavel | DSP 59 ms, NN 1125 us
+20:36:47.159 > I (493987) INFER: Saudavel | DSP 58 ms, NN 1190 us
+20:36:47.279 > I (494107) INFER: Saudavel | DSP 59 ms, NN 1156 us
+20:36:47.329 > I (494157) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:47.399 > I (494227) INFER: Saudavel | DSP 59 ms, NN 1115 us
+20:36:47.519 > I (494347) INFER: Saudavel | DSP 59 ms, NN 1121 us
+20:36:47.639 > I (494467) INFER: Saudavel | DSP 59 ms, NN 1122 us
+20:36:47.759 > I (494587) INFER: Saudavel | DSP 59 ms, NN 1121 us
+20:36:47.879 > I (494707) INFER: Saudavel | DSP 59 ms, NN 1093 us
+20:36:47.880 > I (494707) INFER: 9 janelas/s
+20:36:47.999 > I (494827) INFER: Saudavel | DSP 59 ms, NN 1123 us
+20:36:48.119 > I (494947) INFER: Saudavel | DSP 59 ms, NN 1114 us
+20:36:48.239 > I (495067) INFER: Saudavel | DSP 59 ms, NN 1145 us
+20:36:48.330 > I (495157) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:48.360 > I (495187) INFER: Saudavel | DSP 59 ms, NN 1185 us
+20:36:48.479 > I (495307) INFER: Saudavel | DSP 59 ms, NN 1125 us
+20:36:48.599 > I (495427) INFER: Saudavel | DSP 59 ms, NN 1128 us
+20:36:48.719 > I (495547) INFER: Saudavel | DSP 59 ms, NN 1143 us
+20:36:48.839 > I (495667) INFER: Saudavel | DSP 59 ms, NN 1078 us
+20:36:48.959 > I (495787) INFER: Saudavel | DSP 59 ms, NN 1151 us
+20:36:48.960 > I (495787) INFER: 9 janelas/s
+20:36:49.079 > I (495907) INFER: Saudavel | DSP 59 ms, NN 1129 us
+20:36:49.199 > I (496027) INFER: Saudavel | DSP 59 ms, NN 1140 us
+20:36:49.319 > I (496147) INFER: Saudavel | DSP 59 ms, NN 1089 us
+20:36:49.339 > I (496167) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:49.439 > I (496267) INFER: Saudavel | DSP 59 ms, NN 1162 us
+20:36:49.559 > I (496387) INFER: Saudavel | DSP 59 ms, NN 1137 us
+20:36:49.679 > I (496507) INFER: Saudavel | DSP 59 ms, NN 1162 us
+20:36:49.799 > I (496627) INFER: Saudavel | DSP 59 ms, NN 1141 us
+20:36:49.919 > I (496747) INFER: Saudavel | DSP 58 ms, NN 1186 us
+20:36:50.039 > I (496867) INFER: Saudavel | DSP 59 ms, NN 1152 us
+20:36:50.039 > I (496867) INFER: 9 janelas/s
+20:36:50.159 > I (496987) INFER: Saudavel | DSP 59 ms, NN 1132 us
+20:36:50.279 > I (497107) INFER: Saudavel | DSP 59 ms, NN 1097 us
+20:36:50.350 > I (497177) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:50.400 > I (497227) INFER: Saudavel | DSP 59 ms, NN 1204 us
+20:36:50.519 > I (497347) INFER: Saudavel | DSP 59 ms, NN 1129 us
+20:36:50.639 > I (497467) INFER: Saudavel | DSP 59 ms, NN 1083 us
+20:36:50.759 > I (497587) INFER: Saudavel | DSP 59 ms, NN 1180 us
+20:36:50.879 > I (497707) INFER: Saudavel | DSP 58 ms, NN 1157 us
+20:36:50.999 > I (497827) INFER: Saudavel | DSP 58 ms, NN 1182 us
+20:36:51.119 > I (497947) INFER: Saudavel | DSP 59 ms, NN 1152 us
+20:36:51.119 > I (497947) INFER: 9 janelas/s
+20:36:51.239 > I (498067) INFER: Saudavel | DSP 59 ms, NN 1126 us
+20:36:51.359 > I (498187) INFER: Saudavel | DSP 59 ms, NN 1124 us
+20:36:51.360 > I (498187) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:51.479 > I (498307) INFER: Saudavel | DSP 59 ms, NN 1140 us
+20:36:51.599 > I (498427) INFER: Saudavel | DSP 59 ms, NN 1100 us
+20:36:51.719 > I (498547) INFER: Saudavel | DSP 59 ms, NN 1170 us
+20:36:51.839 > I (498667) INFER: Saudavel | DSP 59 ms, NN 1079 us
+20:36:51.959 > I (498787) INFER: Saudavel | DSP 59 ms, NN 1176 us
+20:36:52.079 > I (498907) INFER: Saudavel | DSP 59 ms, NN 1150 us
+20:36:52.199 > I (499027) INFER: Saudavel | DSP 59 ms, NN 1138 us
+20:36:52.199 > I (499027) INFER: 9 janelas/s
+20:36:52.319 > I (499147) INFER: Saudavel | DSP 59 ms, NN 1081 us
+20:36:52.369 > I (499197) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:52.439 > I (499267) INFER: Saudavel | DSP 59 ms, NN 1107 us
+20:36:52.559 > I (499387) INFER: Saudavel | DSP 59 ms, NN 1090 us
+20:36:52.679 > I (499507) INFER: Saudavel | DSP 59 ms, NN 1142 us
+20:36:52.799 > I (499627) INFER: Saudavel | DSP 59 ms, NN 1082 us
+20:36:52.919 > I (499747) INFER: Saudavel | DSP 59 ms, NN 1133 us
+20:36:53.039 > I (499867) INFER: Saudavel | DSP 59 ms, NN 1097 us
+20:36:53.159 > I (499987) INFER: Saudavel | DSP 59 ms, NN 1139 us
+20:36:53.279 > I (500107) INFER: Saudavel | DSP 59 ms, NN 1074 us
+20:36:53.279 > I (500107) INFER: 9 janelas/s
+20:36:53.369 > I (500197) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:53.400 > I (500227) INFER: Saudavel | DSP 59 ms, NN 1182 us
+20:36:53.519 > I (500347) INFER: Saudavel | DSP 59 ms, NN 1097 us
+20:36:53.639 > I (500467) INFER: Saudavel | DSP 59 ms, NN 1080 us
+20:36:53.759 > I (500587) INFER: Saudavel | DSP 59 ms, NN 1124 us
+20:36:53.879 > I (500707) INFER: Saudavel | DSP 59 ms, NN 1080 us
+20:36:53.999 > I (500827) INFER: Saudavel | DSP 59 ms, NN 1144 us
+20:36:54.119 > I (500947) INFER: Saudavel | DSP 59 ms, NN 1082 us
+20:36:54.239 > I (501067) INFER: Saudavel | DSP 58 ms, NN 1204 us
+20:36:54.359 > I (501187) INFER: Saudavel | DSP 59 ms, NN 1154 us
+20:36:54.359 > I (501187) INFER: 9 janelas/s
+20:36:54.379 > I (501207) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:54.479 > I (501307) INFER: Saudavel | DSP 59 ms, NN 1135 us
+20:36:54.599 > I (501427) INFER: Saudavel | DSP 59 ms, NN 1123 us
+20:36:54.719 > I (501547) INFER: Saudavel | DSP 59 ms, NN 1138 us
+20:36:54.839 > I (501667) INFER: Saudavel | DSP 59 ms, NN 1125 us
+20:36:54.959 > I (501787) INFER: Saudavel | DSP 59 ms, NN 1114 us
+20:36:55.079 > I (501907) INFER: Saudavel | DSP 59 ms, NN 1123 us
+20:36:55.199 > I (502027) INFER: Saudavel | DSP 59 ms, NN 1105 us
+20:36:55.319 > I (502147) INFER: Saudavel | DSP 59 ms, NN 1134 us
+20:36:55.379 > I (502207) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:55.439 > I (502267) INFER: Saudavel | DSP 59 ms, NN 1156 us
+20:36:55.440 > I (502267) INFER: 9 janelas/s
+20:36:55.559 > I (502387) INFER: Saudavel | DSP 59 ms, NN 1134 us
+20:36:55.679 > I (502507) INFER: Saudavel | DSP 59 ms, NN 1113 us
+20:36:55.799 > I (502627) INFER: Saudavel | DSP 59 ms, NN 1159 us
+20:36:55.919 > I (502747) INFER: Saudavel | DSP 59 ms, NN 1133 us
+20:36:56.039 > I (502867) INFER: Saudavel | DSP 59 ms, NN 1124 us
+20:36:56.159 > I (502987) INFER: Saudavel | DSP 59 ms, NN 1106 us
+20:36:56.279 > I (503107) INFER: Saudavel | DSP 59 ms, NN 1113 us
+20:36:56.379 > I (503207) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:56.400 > I (503227) INFER: Saudavel | DSP 59 ms, NN 1189 us
+20:36:56.519 > I (503347) INFER: Saudavel | DSP 59 ms, NN 1135 us
+20:36:56.519 > I (503347) INFER: 9 janelas/s
+20:36:56.639 > I (503467) INFER: Saudavel | DSP 59 ms, NN 1120 us
+20:36:56.759 > I (503587) INFER: Saudavel | DSP 59 ms, NN 1132 us
+20:36:56.879 > I (503707) INFER: Saudavel | DSP 59 ms, NN 1099 us
+20:36:56.999 > I (503827) INFER: Saudavel | DSP 59 ms, NN 1176 us
+20:36:57.119 > I (503947) INFER: Saudavel | DSP 58 ms, NN 1157 us
+20:36:57.239 > I (504067) INFER: Saudavel | DSP 59 ms, NN 1170 us
+20:36:57.359 > I (504187) INFER: Saudavel | DSP 59 ms, NN 1140 us
+20:36:57.389 > I (504217) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:57.479 > I (504307) INFER: Saudavel | DSP 59 ms, NN 1093 us
+20:36:57.599 > I (504427) INFER: Saudavel | DSP 59 ms, NN 1119 us
+20:36:57.599 > I (504427) INFER: 9 janelas/s
+20:36:57.719 > I (504547) INFER: Saudavel | DSP 59 ms, NN 1093 us
+20:36:57.839 > I (504667) INFER: Saudavel | DSP 59 ms, NN 1119 us
+20:36:57.959 > I (504787) INFER: Saudavel | DSP 59 ms, NN 1090 us
+20:36:58.079 > I (504907) INFER: Saudavel | DSP 58 ms, NN 1161 us
+20:36:58.199 > I (505027) INFER: Saudavel | DSP 58 ms, NN 1176 us
+20:36:58.319 > I (505147) INFER: Saudavel | DSP 58 ms, NN 1219 us
+20:36:58.389 > I (505217) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:58.440 > I (505267) INFER: Saudavel | DSP 59 ms, NN 1216 us
+20:36:58.559 > I (505387) INFER: Saudavel | DSP 59 ms, NN 1144 us
+20:36:58.679 > I (505507) INFER: Saudavel | DSP 59 ms, NN 1083 us
+20:36:58.679 > I (505507) INFER: 9 janelas/s
+20:36:58.799 > I (505627) INFER: Subtensao | DSP 59 ms, NN 1168 us
+20:36:58.919 > I (505747) INFER: Falha de engrenagem | DSP 59 ms, NN 1155 us
+20:36:59.039 > I (505867) INFER: Subtensao | DSP 58 ms, NN 1179 us
+20:36:59.159 > I (505987) INFER: Subtensao | DSP 59 ms, NN 1121 us
+20:36:59.279 > I (506107) INFER: Falha de engrenagem | DSP 59 ms, NN 1134 us
+20:36:59.399 > I (506227) INFER: Falha de engrenagem | DSP 59 ms, NN 1120 us
+20:36:59.400 > I (506227) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:36:59.519 > I (506347) INFER: Subtensao | DSP 58 ms, NN 1173 us
+20:36:59.639 > I (506467) INFER: Subtensao | DSP 59 ms, NN 1119 us
+20:36:59.759 > I (506587) INFER: Falha de engrenagem | DSP 59 ms, NN 1168 us
+20:36:59.759 > I (506587) INFER: 9 janelas/s
+20:36:59.879 > I (506707) INFER: Subtensao | DSP 59 ms, NN 1138 us
+20:36:59.999 > I (506827) INFER: Subtensao | DSP 59 ms, NN 1126 us
+20:37:00.119 > I (506947) INFER: Subtensao | DSP 59 ms, NN 1088 us
+20:37:00.239 > I (507067) INFER: Subtensao | DSP 59 ms, NN 1132 us
+20:37:00.359 > I (507187) INFER: Subtensao | DSP 59 ms, NN 1139 us
+20:37:00.409 > I (507237) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:00.479 > I (507307) INFER: Subtensao | DSP 59 ms, NN 1030 us
+20:37:00.599 > I (507427) INFER: Subtensao | DSP 59 ms, NN 1067 us
+20:37:00.719 > I (507547) INFER: Subtensao | DSP 59 ms, NN 1123 us
+20:37:00.839 > I (507667) INFER: Subtensao | DSP 58 ms, NN 1096 us
+20:37:00.839 > I (507667) INFER: 9 janelas/s
+20:37:00.959 > I (507787) INFER: Subtensao | DSP 58 ms, NN 1209 us
+20:37:01.079 > I (507907) INFER: Falha de engrenagem | DSP 58 ms, NN 1170 us
+20:37:01.199 > I (508027) INFER: Subtensao | DSP 59 ms, NN 1146 us
+20:37:01.319 > I (508147) INFER: Subtensao | DSP 59 ms, NN 1113 us
+20:37:01.409 > I (508237) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:01.439 > I (508267) INFER: Subtensao | DSP 59 ms, NN 1153 us
+20:37:01.559 > I (508387) INFER: Subtensao | DSP 59 ms, NN 1169 us
+20:37:01.679 > I (508507) INFER: Subtensao | DSP 59 ms, NN 1065 us
+20:37:01.799 > I (508627) INFER: Subtensao | DSP 59 ms, NN 1152 us
+20:37:01.919 > I (508747) INFER: Subtensao | DSP 59 ms, NN 1044 us
+20:37:01.919 > I (508747) INFER: 9 janelas/s
+20:37:02.039 > I (508867) INFER: Falha de engrenagem | DSP 59 ms, NN 1078 us
+20:37:02.159 > I (508987) INFER: Subtensao | DSP 59 ms, NN 1050 us
+20:37:02.279 > I (509107) INFER: Subtensao | DSP 59 ms, NN 1057 us
+20:37:02.399 > I (509227) INFER: Subtensao | DSP 59 ms, NN 1039 us
+20:37:02.419 > I (509247) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:02.519 > I (509347) INFER: Falha de engrenagem | DSP 59 ms, NN 1126 us
+20:37:02.639 > I (509467) INFER: Falha de engrenagem | DSP 59 ms, NN 1158 us
+20:37:02.759 > I (509587) INFER: Falha de engrenagem | DSP 59 ms, NN 1147 us
+20:37:02.879 > I (509707) INFER: Falha de engrenagem | DSP 59 ms, NN 1105 us
+20:37:02.999 > I (509827) INFER: Falha de engrenagem | DSP 59 ms, NN 1167 us
+20:37:02.999 > I (509827) INFER: 9 janelas/s
+20:37:03.119 > I (509947) INFER: Falha de engrenagem | DSP 58 ms, NN 1159 us
+20:37:03.239 > I (510067) INFER: Falha de engrenagem | DSP 59 ms, NN 1147 us
+20:37:03.359 > I (510187) INFER: Falha de engrenagem | DSP 58 ms, NN 1154 us
+20:37:03.429 > I (510257) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:03.479 > I (510307) INFER: Falha de engrenagem | DSP 59 ms, NN 1182 us
+20:37:03.599 > I (510427) INFER: Falha de engrenagem | DSP 58 ms, NN 1184 us
+20:37:03.719 > I (510547) INFER: Falha de engrenagem | DSP 59 ms, NN 1137 us
+20:37:03.839 > I (510667) INFER: Falha de engrenagem | DSP 59 ms, NN 1135 us
+20:37:03.959 > I (510787) INFER: Falha de engrenagem | DSP 59 ms, NN 1075 us
+20:37:04.079 > I (510907) INFER: Falha de engrenagem | DSP 58 ms, NN 1208 us
+20:37:04.079 > I (510907) INFER: 9 janelas/s
+20:37:04.199 > I (511027) INFER: Falha de engrenagem | DSP 59 ms, NN 1135 us
+20:37:04.319 > I (511147) INFER: Falha de engrenagem | DSP 59 ms, NN 1177 us
+20:37:04.439 > I (511267) INFER: Falha de engrenagem | DSP 59 ms, NN 1143 us
+20:37:04.440 > I (511267) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:04.559 > I (511387) INFER: Falha de engrenagem | DSP 59 ms, NN 1178 us
+20:37:04.679 > I (511507) INFER: Falha de engrenagem | DSP 59 ms, NN 1123 us
+20:37:04.799 > I (511627) INFER: Falha de engrenagem | DSP 59 ms, NN 1165 us
+20:37:04.919 > I (511747) INFER: Falha de engrenagem | DSP 59 ms, NN 1090 us
+20:37:05.039 > I (511867) INFER: Falha de engrenagem | DSP 58 ms, NN 1194 us
+20:37:05.159 > I (511987) INFER: Falha de engrenagem | DSP 59 ms, NN 1115 us
+20:37:05.159 > I (511987) INFER: 9 janelas/s
+20:37:05.279 > I (512107) INFER: Falha de engrenagem | DSP 59 ms, NN 1147 us
+20:37:05.399 > I (512227) INFER: Falha de engrenagem | DSP 59 ms, NN 1121 us
+20:37:05.449 > I (512277) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:05.519 > I (512347) INFER: Falha de engrenagem | DSP 58 ms, NN 1136 us
+20:37:05.639 > I (512467) INFER: Falha de engrenagem | DSP 59 ms, NN 1072 us
+20:37:05.759 > I (512587) INFER: Falha de engrenagem | DSP 58 ms, NN 1179 us
+20:37:05.879 > I (512707) INFER: Falha de engrenagem | DSP 58 ms, NN 1158 us
+20:37:05.999 > I (512827) INFER: Falha de engrenagem | DSP 58 ms, NN 1180 us
+20:37:06.119 > I (512947) INFER: Falha de engrenagem | DSP 59 ms, NN 1134 us
+20:37:06.239 > I (513067) INFER: Falha de engrenagem | DSP 59 ms, NN 1137 us
+20:37:06.239 > I (513067) INFER: 9 janelas/s
+20:37:06.359 > I (513187) INFER: Falha de engrenagem | DSP 59 ms, NN 1075 us
+20:37:06.449 > I (513277) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:06.479 > I (513307) INFER: Falha de engrenagem | DSP 59 ms, NN 1185 us
+20:37:06.599 > I (513427) INFER: Falha de engrenagem | DSP 59 ms, NN 1167 us
+20:37:06.719 > I (513547) INFER: Falha de engrenagem | DSP 59 ms, NN 1109 us
+20:37:06.839 > I (513667) INFER: Falha de engrenagem | DSP 59 ms, NN 1139 us
+20:37:06.959 > I (513787) INFER: Falha de engrenagem | DSP 59 ms, NN 1097 us
+20:37:07.079 > I (513907) INFER: Falha de engrenagem | DSP 58 ms, NN 1176 us
+20:37:07.198 > I (514027) INFER: Falha de engrenagem | DSP 58 ms, NN 1158 us
+20:37:07.319 > I (514147) INFER: Falha de engrenagem | DSP 59 ms, NN 1169 us
+20:37:07.319 > I (514147) INFER: 9 janelas/s
+20:37:07.439 > I (514267) INFER: Falha de engrenagem | DSP 59 ms, NN 1117 us
+20:37:07.459 > I (514287) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:07.559 > I (514387) INFER: Falha de engrenagem | DSP 59 ms, NN 1121 us
+20:37:07.679 > I (514507) INFER: Falha de engrenagem | DSP 59 ms, NN 1114 us
+20:37:07.799 > I (514627) INFER: Falha de engrenagem | DSP 59 ms, NN 1155 us
+20:37:07.919 > I (514747) INFER: Falha de engrenagem | DSP 59 ms, NN 1102 us
+20:37:08.039 > I (514867) INFER: Falha de engrenagem | DSP 58 ms, NN 1201 us
+20:37:08.159 > I (514987) INFER: Falha de engrenagem | DSP 59 ms, NN 1127 us
+20:37:08.279 > I (515107) INFER: Falha de engrenagem | DSP 59 ms, NN 1167 us
+20:37:08.399 > I (515227) INFER: Falha de engrenagem | DSP 59 ms, NN 1109 us
+20:37:08.399 > I (515227) INFER: 9 janelas/s
+20:37:08.469 > I (515297) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:08.519 > I (515347) INFER: Falha de engrenagem | DSP 59 ms, NN 1195 us
+20:37:08.639 > I (515467) INFER: Falha de engrenagem | DSP 59 ms, NN 1145 us
+20:37:08.759 > I (515587) INFER: Falha de engrenagem | DSP 59 ms, NN 1083 us
+20:37:08.878 > I (515707) INFER: Falha de engrenagem | DSP 58 ms, NN 1177 us
+20:37:08.998 > I (515827) INFER: Falha de engrenagem | DSP 58 ms, NN 1153 us
+20:37:09.118 > I (515947) INFER: Falha de engrenagem | DSP 59 ms, NN 1136 us
+20:37:09.239 > I (516067) INFER: Falha de engrenagem | DSP 59 ms, NN 1095 us
+20:37:09.359 > I (516187) INFER: Falha de engrenagem | DSP 59 ms, NN 1132 us
+20:37:09.479 > I (516307) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:09.479 > I (516307) INFER: Falha de engrenagem | DSP 59 ms, NN 1094 us
+20:37:09.481 > I (516307) INFER: 9 janelas/s
+20:37:09.599 > I (516427) INFER: Falha de engrenagem | DSP 59 ms, NN 1144 us
+20:37:09.718 > I (516547) INFER: Falha de engrenagem | DSP 59 ms, NN 1120 us
+20:37:09.838 > I (516667) INFER: Falha de engrenagem | DSP 59 ms, NN 1148 us
+20:37:09.958 > I (516787) INFER: Falha de engrenagem | DSP 59 ms, NN 1079 us
+20:37:10.079 > I (516907) INFER: Falha de engrenagem | DSP 59 ms, NN 1167 us
+20:37:10.198 > I (517027) INFER: Falha de engrenagem | DSP 59 ms, NN 1121 us
+20:37:10.318 > I (517147) INFER: Falha de engrenagem | DSP 59 ms, NN 1144 us
+20:37:10.439 > I (517267) INFER: Falha de engrenagem | DSP 59 ms, NN 1101 us
+20:37:10.488 > I (517317) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:10.558 > I (517387) INFER: Falha de engrenagem | DSP 59 ms, NN 1101 us
+20:37:10.559 > I (517387) INFER: 9 janelas/s
+20:37:10.678 > I (517507) INFER: Falha de engrenagem | DSP 59 ms, NN 1116 us
+20:37:10.798 > I (517627) INFER: Falha de engrenagem | DSP 59 ms, NN 1166 us
+20:37:10.918 > I (517747) INFER: Falha de engrenagem | DSP 59 ms, NN 1101 us
+20:37:11.038 > I (517867) INFER: Falha de engrenagem | DSP 59 ms, NN 1167 us
+20:37:11.158 > I (517987) INFER: Falha de engrenagem | DSP 59 ms, NN 1130 us
+20:37:11.278 > I (518107) INFER: Falha de engrenagem | DSP 59 ms, NN 1131 us
+20:37:11.398 > I (518227) INFER: Falha de engrenagem | DSP 59 ms, NN 1124 us
+20:37:11.489 > I (518317) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:11.519 > I (518347) INFER: Falha de engrenagem | DSP 59 ms, NN 1232 us
+20:37:11.638 > I (518467) INFER: Falha de engrenagem | DSP 59 ms, NN 1137 us
+20:37:11.639 > I (518467) INFER: 9 janelas/s
+20:37:11.758 > I (518587) INFER: Falha de engrenagem | DSP 59 ms, NN 1074 us
+20:37:11.878 > I (518707) INFER: Falha de engrenagem | DSP 59 ms, NN 1170 us
+20:37:11.998 > I (518827) INFER: Falha de engrenagem | DSP 58 ms, NN 1156 us
+20:37:12.118 > I (518947) INFER: Falha de engrenagem | DSP 58 ms, NN 1173 us
+20:37:12.238 > I (519067) INFER: Falha de engrenagem | DSP 59 ms, NN 1152 us
+20:37:12.358 > I (519187) INFER: Falha de engrenagem | DSP 58 ms, NN 1178 us
+20:37:12.478 > I (519307) INFER: Falha de engrenagem | DSP 59 ms, NN 1149 us
+20:37:12.498 > I (519327) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:12.598 > I (519427) INFER: Falha de engrenagem | DSP 59 ms, NN 1096 us
+20:37:12.718 > I (519547) INFER: Falha de engrenagem | DSP 58 ms, NN 1172 us
+20:37:12.719 > I (519547) INFER: 9 janelas/s
+20:37:12.838 > I (519667) INFER: Falha de engrenagem | DSP 58 ms, NN 1173 us
+20:37:12.958 > I (519787) INFER: Falha de engrenagem | DSP 58 ms, NN 1164 us
+20:37:13.078 > I (519907) INFER: Falha de engrenagem | DSP 59 ms, NN 1137 us
+20:37:13.198 > I (520027) INFER: Falha de engrenagem | DSP 59 ms, NN 1121 us
+20:37:13.318 > I (520147) INFER: Falha de engrenagem | DSP 59 ms, NN 1142 us
+20:37:13.438 > I (520267) INFER: Falha de engrenagem | DSP 59 ms, NN 1076 us
+20:37:13.498 > I (520327) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:13.558 > I (520387) INFER: Falha de engrenagem | DSP 59 ms, NN 1129 us
+20:37:13.678 > I (520507) INFER: Falha de engrenagem | DSP 59 ms, NN 1161 us
+20:37:13.798 > I (520627) INFER: Falha de engrenagem | DSP 59 ms, NN 1129 us
+20:37:13.799 > I (520627) INFER: 9 janelas/s
+20:37:13.918 > I (520747) INFER: Falha de engrenagem | DSP 59 ms, NN 1150 us
+20:37:14.038 > I (520867) INFER: Falha de engrenagem | DSP 59 ms, NN 1137 us
+20:37:14.158 > I (520987) INFER: Falha de engrenagem | DSP 59 ms, NN 1139 us
+20:37:14.278 > I (521107) INFER: Falha de engrenagem | DSP 59 ms, NN 1106 us
+20:37:14.398 > I (521227) INFER: Falha de engrenagem | DSP 59 ms, NN 1125 us
+20:37:14.499 > I (521327) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:14.519 > I (521347) INFER: Falha de engrenagem | DSP 59 ms, NN 1187 us
+20:37:14.638 > I (521467) INFER: Falha de engrenagem | DSP 59 ms, NN 1178 us
+20:37:14.758 > I (521587) INFER: Subtensao | DSP 58 ms, NN 1168 us
+20:37:14.878 > I (521707) INFER: Falha de engrenagem | DSP 58 ms, NN 1201 us
+20:37:14.879 > I (521707) INFER: 9 janelas/s
+20:37:14.998 > I (521827) INFER: Subtensao | DSP 59 ms, NN 1116 us
+20:37:15.118 > I (521947) INFER: Falha de engrenagem | DSP 59 ms, NN 1166 us
+20:37:15.238 > I (522067) INFER: Subtensao | DSP 59 ms, NN 1069 us
+20:37:15.358 > I (522187) INFER: Falha de engrenagem | DSP 59 ms, NN 1177 us
+20:37:15.478 > I (522307) INFER: Falha de engrenagem | DSP 58 ms, NN 1158 us
+20:37:15.508 > I (522337) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:15.598 > I (522427) INFER: Falha de engrenagem | DSP 59 ms, NN 1143 us
+20:37:15.718 > I (522547) INFER: Falha de engrenagem | DSP 59 ms, NN 1123 us
+20:37:15.838 > I (522667) INFER: Falha de engrenagem | DSP 59 ms, NN 1164 us
+20:37:15.958 > I (522787) INFER: Falha de engrenagem | DSP 59 ms, NN 1129 us
+20:37:15.959 > I (522787) INFER: 9 janelas/s
+20:37:16.078 > I (522907) INFER: Falha de engrenagem | DSP 59 ms, NN 1109 us
+20:37:16.198 > I (523027) INFER: Subtensao | DSP 59 ms, NN 1151 us
+20:37:16.318 > I (523147) INFER: Falha de engrenagem | DSP 59 ms, NN 1102 us
+20:37:16.438 > I (523267) INFER: Subtensao | DSP 59 ms, NN 1153 us
+20:37:16.509 > I (523337) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:16.559 > I (523387) INFER: Falha de engrenagem | DSP 59 ms, NN 1199 us
+20:37:16.678 > I (523507) INFER: Subtensao | DSP 59 ms, NN 1168 us
+20:37:16.798 > I (523627) INFER: Falha de engrenagem | DSP 59 ms, NN 1104 us
+20:37:16.918 > I (523747) INFER: Subtensao | DSP 58 ms, NN 1200 us
+20:37:17.038 > I (523867) INFER: Falha de engrenagem | DSP 59 ms, NN 1120 us
+20:37:17.039 > I (523867) INFER: 9 janelas/s
+20:37:17.158 > I (523987) INFER: Subtensao | DSP 59 ms, NN 1157 us
+20:37:17.278 > I (524107) INFER: Falha de engrenagem | DSP 59 ms, NN 1090 us
+20:37:17.398 > I (524227) INFER: Falha de engrenagem | DSP 58 ms, NN 1183 us
+20:37:17.518 > I (524347) INFER: Falha de engrenagem | DSP 59 ms, NN 1110 us
+20:37:17.519 > I (524347) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:17.638 > I (524467) INFER: Subtensao | DSP 59 ms, NN 1163 us
+20:37:17.758 > I (524587) INFER: Falha de engrenagem | DSP 59 ms, NN 1095 us
+20:37:17.878 > I (524707) INFER: Falha de engrenagem | DSP 58 ms, NN 1192 us
+20:37:17.998 > I (524827) INFER: Falha de engrenagem | DSP 59 ms, NN 1113 us
+20:37:18.118 > I (524947) INFER: Falha de engrenagem | DSP 59 ms, NN 1114 us
+20:37:18.119 > I (524947) INFER: 9 janelas/s
+20:37:18.238 > I (525067) INFER: Falha de engrenagem | DSP 59 ms, NN 1124 us
+20:37:18.358 > I (525187) INFER: Falha de engrenagem | DSP 59 ms, NN 1158 us
+20:37:18.478 > I (525307) INFER: Falha de engrenagem | DSP 59 ms, NN 1084 us
+20:37:18.528 > I (525357) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:18.598 > I (525427) INFER: Falha de engrenagem | DSP 59 ms, NN 1108 us
+20:37:18.718 > I (525547) INFER: Falha de engrenagem | DSP 59 ms, NN 1094 us
+20:37:18.838 > I (525667) INFER: Falha de engrenagem | DSP 58 ms, NN 1196 us
+20:37:18.958 > I (525787) INFER: Falha de engrenagem | DSP 59 ms, NN 1154 us
+20:37:19.078 > I (525907) INFER: Falha de engrenagem | DSP 58 ms, NN 1183 us
+20:37:19.198 > I (526027) INFER: Falha de engrenagem | DSP 59 ms, NN 1115 us
+20:37:19.199 > I (526027) INFER: 9 janelas/s
+20:37:19.318 > I (526147) INFER: Falha de engrenagem | DSP 58 ms, NN 1187 us
+20:37:19.438 > I (526267) INFER: Falha de engrenagem | DSP 58 ms, NN 1165 us
+20:37:19.529 > I (526357) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:19.559 > I (526387) INFER: Falha de engrenagem | DSP 59 ms, NN 1216 us
+20:37:19.678 > I (526507) INFER: Falha de engrenagem | DSP 59 ms, NN 1128 us
+20:37:19.798 > I (526627) INFER: Falha de engrenagem | DSP 59 ms, NN 1117 us
+20:37:19.918 > I (526747) INFER: Falha de engrenagem | DSP 59 ms, NN 1169 us
+20:37:20.038 > I (526867) INFER: Falha de engrenagem | DSP 59 ms, NN 1100 us
+20:37:20.158 > I (526987) INFER: Falha de engrenagem | DSP 59 ms, NN 1135 us
+20:37:20.278 > I (527107) INFER: Falha de engrenagem | DSP 59 ms, NN 1099 us
+20:37:20.279 > I (527107) INFER: 9 janelas/s
+20:37:20.398 > I (527227) INFER: Falha de engrenagem | DSP 59 ms, NN 1168 us
+20:37:20.518 > I (527347) INFER: Falha de engrenagem | DSP 59 ms, NN 1073 us
+20:37:20.528 > I (527357) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:20.638 > I (527467) INFER: Falha de engrenagem | DSP 59 ms, NN 1169 us
+20:37:20.758 > I (527587) INFER: Falha de engrenagem | DSP 59 ms, NN 1094 us
+20:37:20.878 > I (527707) INFER: Falha de engrenagem | DSP 58 ms, NN 1182 us
+20:37:20.998 > I (527827) INFER: Falha de engrenagem | DSP 58 ms, NN 1210 us
+20:37:21.118 > I (527947) INFER: Falha de engrenagem | DSP 58 ms, NN 1182 us
+20:37:21.238 > I (528067) INFER: Falha de engrenagem | DSP 59 ms, NN 1083 us
+20:37:21.358 > I (528187) INFER: Falha de engrenagem | DSP 59 ms, NN 1140 us
+20:37:21.359 > I (528187) INFER: 9 janelas/s
+20:37:21.478 > I (528307) INFER: Falha de engrenagem | DSP 59 ms, NN 1073 us
+20:37:21.538 > I (528367) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:21.598 > I (528427) INFER: Falha de engrenagem | DSP 59 ms, NN 1161 us
+20:37:21.718 > I (528547) INFER: Falha de engrenagem | DSP 59 ms, NN 1155 us
+20:37:21.838 > I (528667) INFER: Falha de engrenagem | DSP 59 ms, NN 1127 us
+20:37:21.958 > I (528787) INFER: Falha de engrenagem | DSP 59 ms, NN 1142 us
+20:37:22.078 > I (528907) INFER: Falha de engrenagem | DSP 59 ms, NN 1104 us
+20:37:22.198 > I (529027) INFER: Falha de engrenagem | DSP 59 ms, NN 1131 us
+20:37:22.318 > I (529147) INFER: Falha de engrenagem | DSP 59 ms, NN 1121 us
+20:37:22.438 > I (529267) INFER: Falha de engrenagem | DSP 59 ms, NN 1150 us
+20:37:22.439 > I (529267) INFER: 9 janelas/s
+20:37:22.539 > I (529367) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:22.559 > I (529387) INFER: Falha de engrenagem | DSP 59 ms, NN 1221 us
+20:37:22.678 > I (529507) INFER: Falha de engrenagem | DSP 59 ms, NN 1162 us
+20:37:22.798 > I (529627) INFER: Falha de engrenagem | DSP 59 ms, NN 1098 us
+20:37:22.918 > I (529747) INFER: Falha de engrenagem | DSP 58 ms, NN 1180 us
+20:37:23.038 > I (529867) INFER: Falha de engrenagem | DSP 58 ms, NN 1166 us
+20:37:23.158 > I (529987) INFER: Falha de engrenagem | DSP 59 ms, NN 1177 us
+20:37:23.278 > I (530107) INFER: Falha de engrenagem | DSP 58 ms, NN 1169 us
+20:37:23.398 > I (530227) INFER: Falha de engrenagem | DSP 58 ms, NN 1183 us
+20:37:23.518 > I (530347) INFER: Falha de engrenagem | DSP 59 ms, NN 1103 us
+20:37:23.519 > I (530347) INFER: 9 janelas/s
+20:37:23.548 > I (530377) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:23.638 > I (530467) INFER: Falha de engrenagem | DSP 59 ms, NN 1135 us
+20:37:23.758 > I (530587) INFER: Falha de engrenagem | DSP 59 ms, NN 1080 us
+20:37:23.878 > I (530707) INFER: Falha de engrenagem | DSP 59 ms, NN 1163 us
+20:37:23.998 > I (530827) INFER: Falha de engrenagem | DSP 59 ms, NN 1110 us
+20:37:24.118 > I (530947) INFER: Falha de engrenagem | DSP 58 ms, NN 1202 us
+20:37:24.238 > I (531067) INFER: Falha de engrenagem | DSP 58 ms, NN 1164 us
+20:37:24.358 > I (531187) INFER: Falha de engrenagem | DSP 58 ms, NN 1233 us
+20:37:24.478 > I (531307) INFER: Falha de engrenagem | DSP 59 ms, NN 1132 us
+20:37:24.549 > I (531377) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:24.599 > I (531427) INFER: Falha de engrenagem | DSP 59 ms, NN 1224 us
+20:37:24.599 > I (531427) INFER: 9 janelas/s
+20:37:24.718 > I (531547) INFER: Falha de engrenagem | DSP 59 ms, NN 1137 us
+20:37:24.838 > I (531667) INFER: Falha de engrenagem | DSP 59 ms, NN 1087 us
+20:37:24.958 > I (531787) INFER: Falha de engrenagem | DSP 59 ms, NN 1180 us
+20:37:25.078 > I (531907) INFER: Falha de engrenagem | DSP 58 ms, NN 1185 us
+20:37:25.198 > I (532027) INFER: Falha de engrenagem | DSP 59 ms, NN 1141 us
+20:37:25.318 > I (532147) INFER: Falha de engrenagem | DSP 59 ms, NN 1082 us
+20:37:25.438 > I (532267) INFER: Falha de engrenagem | DSP 59 ms, NN 1161 us
+20:37:25.558 > I (532387) INFER: Falha de engrenagem | DSP 59 ms, NN 1122 us
+20:37:25.559 > I (532387) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:25.678 > I (532507) INFER: Falha de engrenagem | DSP 59 ms, NN 1152 us
+20:37:25.679 > I (532507) INFER: 9 janelas/s
+20:37:25.798 > I (532627) INFER: Falha de engrenagem | DSP 59 ms, NN 1102 us
+20:37:25.918 > I (532747) INFER: Falha de engrenagem | DSP 58 ms, NN 1183 us
+20:37:26.038 > I (532867) INFER: Falha de engrenagem | DSP 59 ms, NN 1141 us
+20:37:26.158 > I (532987) INFER: Falha de engrenagem | DSP 58 ms, NN 1185 us
+20:37:26.278 > I (533107) INFER: Falha de engrenagem | DSP 59 ms, NN 1122 us
+20:37:26.398 > I (533227) INFER: Falha de engrenagem | DSP 59 ms, NN 1098 us
+20:37:26.518 > I (533347) INFER: Falha de engrenagem | DSP 59 ms, NN 1137 us
+20:37:26.568 > I (533397) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:26.638 > I (533467) INFER: Falha de engrenagem | DSP 59 ms, NN 1077 us
+20:37:26.758 > I (533587) INFER: Falha de engrenagem | DSP 59 ms, NN 1127 us
+20:37:26.759 > I (533587) INFER: 9 janelas/s
+20:37:26.878 > I (533707) INFER: Falha de engrenagem | DSP 59 ms, NN 1128 us
+20:37:26.998 > I (533827) INFER: Falha de engrenagem | DSP 59 ms, NN 1079 us
+20:37:27.118 > I (533947) INFER: Falha de engrenagem | DSP 59 ms, NN 1126 us
+20:37:27.238 > I (534067) INFER: Falha de engrenagem | DSP 59 ms, NN 1151 us
+20:37:27.358 > I (534187) INFER: Falha de engrenagem | DSP 59 ms, NN 1164 us
+20:37:27.478 > I (534307) INFER: Falha de engrenagem | DSP 59 ms, NN 1097 us
+20:37:27.569 > I (534397) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:27.598 > I (534427) INFER: Falha de engrenagem | DSP 59 ms, NN 1185 us
+20:37:27.718 > I (534547) INFER: Falha de engrenagem | DSP 59 ms, NN 1157 us
+20:37:27.838 > I (534667) INFER: Falha de engrenagem | DSP 59 ms, NN 1075 us
+20:37:27.839 > I (534667) INFER: 9 janelas/s
+20:37:27.958 > I (534787) INFER: Falha de engrenagem | DSP 58 ms, NN 1194 us
+20:37:28.078 > I (534907) INFER: Falha de engrenagem | DSP 58 ms, NN 1161 us
+20:37:28.198 > I (535027) INFER: Falha de engrenagem | DSP 58 ms, NN 1235 us
+20:37:28.318 > I (535147) INFER: Falha de engrenagem | DSP 58 ms, NN 1160 us
+20:37:28.438 > I (535267) INFER: Falha de engrenagem | DSP 59 ms, NN 1121 us
+20:37:28.558 > I (535387) INFER: Falha de engrenagem | DSP 59 ms, NN 1089 us
+20:37:28.578 > I (535407) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:28.678 > I (535507) INFER: Falha de engrenagem | DSP 59 ms, NN 1154 us
+20:37:28.798 > I (535627) INFER: Falha de engrenagem | DSP 59 ms, NN 1078 us
+20:37:28.918 > I (535747) INFER: Falha de engrenagem | DSP 58 ms, NN 1185 us
+20:37:28.918 > I (535747) INFER: 9 janelas/s
+20:37:29.038 > I (535867) INFER: Falha de engrenagem | DSP 59 ms, NN 1135 us
+20:37:29.158 > I (535987) INFER: Falha de engrenagem | DSP 59 ms, NN 1136 us
+20:37:29.278 > I (536107) INFER: Falha de engrenagem | DSP 59 ms, NN 1099 us
+20:37:29.398 > I (536227) INFER: Falha de engrenagem | DSP 59 ms, NN 1139 us
+20:37:29.518 > I (536347) INFER: Falha de engrenagem | DSP 59 ms, NN 1101 us
+20:37:29.578 > I (536407) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:29.638 > I (536467) INFER: Falha de engrenagem | DSP 59 ms, NN 1160 us
+20:37:29.758 > I (536587) INFER: Falha de engrenagem | DSP 59 ms, NN 1162 us
+20:37:29.878 > I (536707) INFER: Falha de engrenagem | DSP 58 ms, NN 1178 us
+20:37:29.998 > I (536827) INFER: Falha de engrenagem | DSP 58 ms, NN 1174 us
+20:37:29.998 > I (536827) INFER: 9 janelas/s
+20:37:30.118 > I (536947) INFER: Falha de engrenagem | DSP 59 ms, NN 1136 us
+20:37:30.238 > I (537067) INFER: Falha de engrenagem | DSP 59 ms, NN 1126 us
+20:37:30.358 > I (537187) INFER: Falha de engrenagem | DSP 59 ms, NN 1134 us
+20:37:30.478 > I (537307) INFER: Falha de engrenagem | DSP 59 ms, NN 1092 us
+20:37:30.579 > I (537407) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:30.598 > I (537427) INFER: Falha de engrenagem | DSP 59 ms, NN 1181 us
+20:37:30.718 > I (537547) INFER: Falha de engrenagem | DSP 59 ms, NN 1170 us
+20:37:30.838 > I (537667) INFER: Falha de engrenagem | DSP 59 ms, NN 1123 us
+20:37:30.958 > I (537787) INFER: Falha de engrenagem | DSP 58 ms, NN 1183 us
+20:37:31.078 > I (537907) INFER: Falha de engrenagem | DSP 58 ms, NN 1197 us
+20:37:31.078 > I (537907) INFER: 9 janelas/s
+20:37:31.198 > I (538027) INFER: Falha de engrenagem | DSP 58 ms, NN 1184 us
+20:37:31.318 > I (538147) INFER: Falha de engrenagem | DSP 59 ms, NN 1135 us
+20:37:31.438 > I (538267) INFER: Falha de engrenagem | DSP 59 ms, NN 1180 us
+20:37:31.558 > I (538387) INFER: Falha de engrenagem | DSP 59 ms, NN 1142 us
+20:37:31.588 > I (538417) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:31.678 > I (538507) INFER: Falha de engrenagem | DSP 59 ms, NN 1083 us
+20:37:31.798 > I (538627) INFER: Falha de engrenagem | DSP 58 ms, NN 1164 us
+20:37:31.918 > I (538747) INFER: Falha de engrenagem | DSP 59 ms, NN 1173 us
+20:37:32.038 > I (538867) INFER: Falha de engrenagem | DSP 58 ms, NN 1212 us
+20:37:32.158 > I (538987) INFER: Falha de engrenagem | DSP 59 ms, NN 1166 us
+20:37:32.158 > I (538987) INFER: 9 janelas/s
+20:37:32.278 > I (539107) INFER: Falha de engrenagem | DSP 59 ms, NN 1090 us
+20:37:32.398 > I (539227) INFER: Falha de engrenagem | DSP 59 ms, NN 1139 us
+20:37:32.518 > I (539347) INFER: Falha de engrenagem | DSP 59 ms, NN 1103 us
+20:37:32.589 > I (539417) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:32.638 > I (539467) INFER: Falha de engrenagem | DSP 59 ms, NN 1197 us
+20:37:32.758 > I (539587) INFER: Falha de engrenagem | DSP 59 ms, NN 1122 us
+20:37:32.878 > I (539707) INFER: Falha de engrenagem | DSP 59 ms, NN 1099 us
+20:37:32.998 > I (539827) INFER: Falha de engrenagem | DSP 58 ms, NN 1182 us
+20:37:33.118 > I (539947) INFER: Falha de engrenagem | DSP 59 ms, NN 1132 us
+20:37:33.238 > I (540067) INFER: Falha de engrenagem | DSP 59 ms, NN 1180 us
+20:37:33.238 > I (540067) INFER: 9 janelas/s
+20:37:33.358 > I (540187) INFER: Falha de engrenagem | DSP 59 ms, NN 1125 us
+20:37:33.478 > I (540307) INFER: Falha de engrenagem | DSP 59 ms, NN 1179 us
+20:37:33.598 > I (540427) INFER: Falha de engrenagem | DSP 59 ms, NN 1133 us
+20:37:33.599 > I (540427) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:33.718 > I (540547) INFER: Falha de engrenagem | DSP 59 ms, NN 1143 us
+20:37:33.838 > I (540667) INFER: Falha de engrenagem | DSP 59 ms, NN 1077 us
+20:37:33.958 > I (540787) INFER: Falha de engrenagem | DSP 59 ms, NN 1172 us
+20:37:34.078 > I (540907) INFER: Falha de engrenagem | DSP 59 ms, NN 1114 us
+20:37:34.198 > I (541027) INFER: Falha de engrenagem | DSP 58 ms, NN 1185 us
+20:37:34.318 > I (541147) INFER: Falha de engrenagem | DSP 58 ms, NN 1156 us
+20:37:34.318 > I (541147) INFER: 9 janelas/s
+20:37:34.438 > I (541267) INFER: Falha de engrenagem | DSP 58 ms, NN 1181 us
+20:37:34.558 > I (541387) INFER: Falha de engrenagem | DSP 59 ms, NN 1134 us
+20:37:34.608 > I (541437) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:34.678 > I (541507) INFER: Falha de engrenagem | DSP 59 ms, NN 1077 us
+20:37:34.798 > I (541627) INFER: Falha de engrenagem | DSP 59 ms, NN 1127 us
+20:37:34.918 > I (541747) INFER: Falha de engrenagem | DSP 59 ms, NN 1102 us
+20:37:35.038 > I (541867) INFER: Falha de engrenagem | DSP 58 ms, NN 1166 us
+20:37:35.158 > I (541987) INFER: Falha de engrenagem | DSP 58 ms, NN 1182 us
+20:37:35.278 > I (542107) INFER: Falha de engrenagem | DSP 58 ms, NN 1179 us
+20:37:35.398 > I (542227) INFER: Falha de engrenagem | DSP 59 ms, NN 1169 us
+20:37:35.398 > I (542227) INFER: 9 janelas/s
+20:37:35.518 > I (542347) INFER: Falha de engrenagem | DSP 58 ms, NN 1179 us
+20:37:35.608 > I (542437) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:35.638 > I (542467) INFER: Falha de engrenagem | DSP 59 ms, NN 1188 us
+20:37:35.758 > I (542587) INFER: Falha de engrenagem | DSP 59 ms, NN 1166 us
+20:37:35.878 > I (542707) INFER: Falha de engrenagem | DSP 59 ms, NN 1079 us
+20:37:35.998 > I (542827) INFER: Falha de engrenagem | DSP 58 ms, NN 1177 us
+20:37:36.118 > I (542947) INFER: Falha de engrenagem | DSP 58 ms, NN 1162 us
+20:37:36.238 > I (543067) INFER: Falha de engrenagem | DSP 59 ms, NN 1168 us
+20:37:36.358 > I (543187) INFER: Falha de engrenagem | DSP 59 ms, NN 1095 us
+20:37:36.478 > I (543307) INFER: Falha de engrenagem | DSP 58 ms, NN 1193 us
+20:37:36.478 > I (543307) INFER: 9 janelas/s
+20:37:36.598 > I (543427) INFER: Falha de engrenagem | DSP 59 ms, NN 1150 us
+20:37:36.618 > I (543447) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:36.718 > I (543547) INFER: Falha de engrenagem | DSP 59 ms, NN 1096 us
+20:37:36.838 > I (543667) INFER: Falha de engrenagem | DSP 59 ms, NN 1128 us
+20:37:36.958 > I (543787) INFER: Falha de engrenagem | DSP 59 ms, NN 1111 us
+20:37:37.078 > I (543907) INFER: Falha de engrenagem | DSP 59 ms, NN 1102 us
+20:37:37.198 > I (544027) INFER: Falha de engrenagem | DSP 59 ms, NN 1082 us
+20:37:37.318 > I (544147) INFER: Falha de engrenagem | DSP 59 ms, NN 1129 us
+20:37:37.438 > I (544267) INFER: Falha de engrenagem | DSP 59 ms, NN 1134 us
+20:37:37.558 > I (544387) INFER: Falha de engrenagem | DSP 59 ms, NN 1086 us
+20:37:37.558 > I (544387) INFER: 9 janelas/s
+20:37:37.618 > I (544447) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:37.678 > I (544507) INFER: Falha de engrenagem | DSP 59 ms, NN 1172 us
+20:37:37.798 > I (544627) INFER: Falha de engrenagem | DSP 59 ms, NN 1118 us
+20:37:37.918 > I (544747) INFER: Falha de engrenagem | DSP 59 ms, NN 1112 us
+20:37:38.038 > I (544867) INFER: Falha de engrenagem | DSP 59 ms, NN 1122 us
+20:37:38.158 > I (544987) INFER: Falha de engrenagem | DSP 59 ms, NN 1139 us
+20:37:38.278 > I (545107) INFER: Falha de engrenagem | DSP 59 ms, NN 1118 us
+20:37:38.398 > I (545227) INFER: Falha de engrenagem | DSP 59 ms, NN 1129 us
+20:37:38.518 > I (545347) INFER: Falha de engrenagem | DSP 59 ms, NN 1114 us
+20:37:38.618 > I (545447) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:38.638 > I (545467) INFER: Falha de engrenagem | DSP 59 ms, NN 1184 us
+20:37:38.639 > I (545467) INFER: 9 janelas/s
+20:37:38.758 > I (545587) INFER: Falha de engrenagem | DSP 59 ms, NN 1168 us
+20:37:38.878 > I (545707) INFER: Falha de engrenagem | DSP 59 ms, NN 1098 us
+20:37:38.998 > I (545827) INFER: Falha de engrenagem | DSP 59 ms, NN 1134 us
+20:37:39.118 > I (545947) INFER: Falha de engrenagem | DSP 59 ms, NN 1098 us
+20:37:39.238 > I (546067) INFER: Falha de engrenagem | DSP 59 ms, NN 1145 us
+20:37:39.358 > I (546187) INFER: Falha de engrenagem | DSP 59 ms, NN 1116 us
+20:37:39.478 > I (546307) INFER: Falha de engrenagem | DSP 59 ms, NN 1141 us
+20:37:39.598 > I (546427) INFER: Falha de engrenagem | DSP 59 ms, NN 1085 us
+20:37:39.628 > I (546457) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:39.718 > I (546547) INFER: Subtensao | DSP 59 ms, NN 1164 us
+20:37:39.718 > I (546547) INFER: 9 janelas/s
+20:37:39.838 > I (546667) INFER: Falha de engrenagem | DSP 59 ms, NN 1096 us
+20:37:39.958 > I (546787) INFER: Falha de engrenagem | DSP 58 ms, NN 1196 us
+20:37:40.078 > I (546907) INFER: Falha de engrenagem | DSP 59 ms, NN 1124 us
+20:37:40.198 > I (547027) INFER: Falha de engrenagem | DSP 59 ms, NN 1145 us
+20:37:40.318 > I (547147) INFER: Falha de engrenagem | DSP 59 ms, NN 1102 us
+20:37:40.438 > I (547267) INFER: Falha de engrenagem | DSP 58 ms, NN 1187 us
+20:37:40.558 > I (547387) INFER: Falha de engrenagem | DSP 59 ms, NN 1128 us
+20:37:40.628 > I (547457) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:40.678 > I (547507) INFER: Falha de engrenagem | DSP 59 ms, NN 1221 us
+20:37:40.798 > I (547627) INFER: Falha de engrenagem | DSP 59 ms, NN 1122 us
+20:37:40.798 > I (547627) INFER: 9 janelas/s
+20:37:40.918 > I (547747) INFER: Falha de engrenagem | DSP 59 ms, NN 1118 us
+20:37:41.038 > I (547867) INFER: Falha de engrenagem | DSP 59 ms, NN 1166 us
+20:37:41.158 > I (547987) INFER: Falha de engrenagem | DSP 59 ms, NN 1111 us
+20:37:41.278 > I (548107) INFER: Falha de engrenagem | DSP 59 ms, NN 1142 us
+20:37:41.398 > I (548227) INFER: Falha de engrenagem | DSP 59 ms, NN 1068 us
+20:37:41.518 > I (548347) INFER: Falha de engrenagem | DSP 59 ms, NN 1177 us
+20:37:41.638 > I (548467) INFER: Falha de engrenagem | DSP 58 ms, NN 1164 us
+20:37:41.638 > I (548467) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:41.758 > I (548587) INFER: Falha de engrenagem | DSP 58 ms, NN 1195 us
+20:37:41.878 > I (548707) INFER: Falha de engrenagem | DSP 59 ms, NN 1125 us
+20:37:41.878 > I (548707) INFER: 9 janelas/s
+20:37:41.998 > I (548827) INFER: Falha de engrenagem | DSP 59 ms, NN 1128 us
+20:37:42.118 > I (548947) INFER: Falha de engrenagem | DSP 59 ms, NN 1092 us
+20:37:42.238 > I (549067) INFER: Falha de engrenagem | DSP 58 ms, NN 1195 us
+20:37:42.358 > I (549187) INFER: Falha de engrenagem | DSP 59 ms, NN 1155 us
+20:37:42.478 > I (549307) INFER: Falha de engrenagem | DSP 59 ms, NN 1155 us
+20:37:42.598 > I (549427) INFER: Falha de engrenagem | DSP 59 ms, NN 1088 us
+20:37:42.647 > I (549477) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:42.718 > I (549547) INFER: Falha de engrenagem | DSP 59 ms, NN 1134 us
+20:37:42.838 > I (549667) INFER: Falha de engrenagem | DSP 59 ms, NN 1072 us
+20:37:42.958 > I (549787) INFER: Falha de engrenagem | DSP 59 ms, NN 1160 us
+20:37:42.958 > I (549787) INFER: 9 janelas/s
+20:37:43.078 > I (549907) INFER: Falha de engrenagem | DSP 59 ms, NN 1069 us
+20:37:43.198 > I (550027) INFER: Falha de engrenagem | DSP 59 ms, NN 1156 us
+20:37:43.318 > I (550147) INFER: Falha de engrenagem | DSP 59 ms, NN 1101 us
+20:37:43.438 > I (550267) INFER: Falha de engrenagem | DSP 59 ms, NN 1139 us
+20:37:43.558 > I (550387) INFER: Falha de engrenagem | DSP 59 ms, NN 1081 us
+20:37:43.648 > I (550477) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:43.678 > I (550507) INFER: Falha de engrenagem | DSP 59 ms, NN 1176 us
+20:37:43.798 > I (550627) INFER: Falha de engrenagem | DSP 59 ms, NN 1122 us
+20:37:43.918 > I (550747) INFER: Falha de engrenagem | DSP 59 ms, NN 1075 us
+20:37:44.038 > I (550867) INFER: Falha de engrenagem | DSP 58 ms, NN 1182 us
+20:37:44.038 > I (550867) INFER: 9 janelas/s
+20:37:44.158 > I (550987) INFER: Falha de engrenagem | DSP 59 ms, NN 1137 us
+20:37:44.278 > I (551107) INFER: Falha de engrenagem | DSP 59 ms, NN 1141 us
+20:37:44.398 > I (551227) INFER: Falha de engrenagem | DSP 59 ms, NN 1108 us
+20:37:44.518 > I (551347) INFER: Falha de engrenagem | DSP 59 ms, NN 1140 us
+20:37:44.638 > I (551467) INFER: Falha de engrenagem | DSP 59 ms, NN 1115 us
+20:37:44.648 > I (551477) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:44.758 > I (551587) INFER: Falha de engrenagem | DSP 59 ms, NN 1156 us
+20:37:44.878 > I (551707) INFER: Falha de engrenagem | DSP 59 ms, NN 1076 us
+20:37:44.998 > I (551827) INFER: Falha de engrenagem | DSP 59 ms, NN 1179 us
+20:37:45.118 > I (551947) INFER: Falha de engrenagem | DSP 58 ms, NN 1165 us
+20:37:45.118 > I (551947) INFER: 9 janelas/s
+20:37:45.238 > I (552067) INFER: Falha de engrenagem | DSP 58 ms, NN 1198 us
+20:37:45.358 > I (552187) INFER: Falha de engrenagem | DSP 59 ms, NN 1118 us
+20:37:45.478 > I (552307) INFER: Falha de engrenagem | DSP 59 ms, NN 1171 us
+20:37:45.598 > I (552427) INFER: Falha de engrenagem | DSP 59 ms, NN 1118 us
+20:37:45.657 > I (552487) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:45.718 > I (552547) INFER: Falha de engrenagem | DSP 59 ms, NN 1169 us
+20:37:45.838 > I (552667) INFER: Falha de engrenagem | DSP 59 ms, NN 1157 us
+20:37:45.957 > I (552787) INFER: Falha de engrenagem | DSP 59 ms, NN 1130 us
+20:37:46.077 > I (552907) INFER: Falha de engrenagem | DSP 58 ms, NN 1160 us
+20:37:46.197 > I (553027) INFER: Falha de engrenagem | DSP 59 ms, NN 1148 us
+20:37:46.198 > I (553027) INFER: 9 janelas/s
+20:37:46.317 > I (553147) INFER: Falha de engrenagem | DSP 59 ms, NN 1094 us
+20:37:46.437 > I (553267) INFER: Falha de engrenagem | DSP 58 ms, NN 1198 us
+20:37:46.558 > I (553387) INFER: Falha de engrenagem | DSP 58 ms, NN 1169 us
+20:37:46.658 > I (553487) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:46.678 > I (553507) INFER: Falha de engrenagem | DSP 59 ms, NN 1177 us
+20:37:46.797 > I (553627) INFER: Falha de engrenagem | DSP 59 ms, NN 1167 us
+20:37:46.917 > I (553747) INFER: Falha de engrenagem | DSP 59 ms, NN 1094 us
+20:37:47.037 > I (553867) INFER: Falha de engrenagem | DSP 58 ms, NN 1174 us
+20:37:47.157 > I (553987) INFER: Falha de engrenagem | DSP 58 ms, NN 1155 us
+20:37:47.277 > I (554107) INFER: Falha de engrenagem | DSP 58 ms, NN 1209 us
+20:37:47.278 > I (554107) INFER: 9 janelas/s
+20:37:47.397 > I (554227) INFER: Falha de engrenagem | DSP 58 ms, NN 1158 us
+20:37:47.517 > I (554347) INFER: Falha de engrenagem | DSP 59 ms, NN 1166 us
+20:37:47.637 > I (554467) INFER: Falha de engrenagem | DSP 59 ms, NN 1074 us
+20:37:47.667 > I (554497) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:47.757 > I (554587) INFER: Falha de engrenagem | DSP 59 ms, NN 1164 us
+20:37:47.877 > I (554707) INFER: Falha de engrenagem | DSP 59 ms, NN 1080 us
+20:37:47.997 > I (554827) INFER: Falha de engrenagem | DSP 58 ms, NN 1179 us
+20:37:48.117 > I (554947) INFER: Falha de engrenagem | DSP 58 ms, NN 1166 us
+20:37:48.237 > I (555067) INFER: Falha de engrenagem | DSP 58 ms, NN 1217 us
+20:37:48.357 > I (555187) INFER: Falha de engrenagem | DSP 59 ms, NN 1099 us
+20:37:48.358 > I (555187) INFER: 9 janelas/s
+20:37:48.477 > I (555307) INFER: Falha de engrenagem | DSP 59 ms, NN 1131 us
+20:37:48.597 > I (555427) INFER: Falha de engrenagem | DSP 59 ms, NN 1086 us
+20:37:48.668 > I (555497) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:48.718 > I (555547) INFER: Falha de engrenagem | DSP 59 ms, NN 1204 us
+20:37:48.837 > I (555667) INFER: Falha de engrenagem | DSP 59 ms, NN 1134 us
+20:37:48.957 > I (555787) INFER: Falha de engrenagem | DSP 59 ms, NN 1082 us
+20:37:49.077 > I (555907) INFER: Falha de engrenagem | DSP 59 ms, NN 1176 us
+20:37:49.197 > I (556027) INFER: Falha de engrenagem | DSP 58 ms, NN 1155 us
+20:37:49.318 > I (556147) INFER: Falha de engrenagem | DSP 59 ms, NN 1125 us
+20:37:49.437 > I (556267) INFER: Falha de engrenagem | DSP 59 ms, NN 1118 us
+20:37:49.438 > I (556267) INFER: 9 janelas/s
+20:37:49.558 > I (556387) INFER: Falha de engrenagem | DSP 58 ms, NN 1199 us
+20:37:49.677 > I (556507) INFER: Falha de engrenagem | DSP 58 ms, NN 1175 us
+20:37:49.678 > I (556507) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:49.797 > I (556627) INFER: Falha de engrenagem | DSP 59 ms, NN 1181 us
+20:37:49.917 > I (556747) INFER: Falha de engrenagem | DSP 58 ms, NN 1163 us
+20:37:50.037 > I (556867) INFER: Falha de engrenagem | DSP 58 ms, NN 1214 us
+20:37:50.157 > I (556987) INFER: Falha de engrenagem | DSP 58 ms, NN 1170 us
+20:37:50.277 > I (557107) INFER: Falha de engrenagem | DSP 58 ms, NN 1211 us
+20:37:50.397 > I (557227) INFER: Falha de engrenagem | DSP 59 ms, NN 1155 us
+20:37:50.517 > I (557347) INFER: Falha de engrenagem | DSP 58 ms, NN 1186 us
+20:37:50.518 > I (557347) INFER: 9 janelas/s
+20:37:50.637 > I (557467) INFER: Falha de engrenagem | DSP 58 ms, NN 1181 us
+20:37:50.687 > I (557517) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:50.757 > I (557587) INFER: Falha de engrenagem | DSP 59 ms, NN 1130 us
+20:37:50.877 > I (557707) INFER: Falha de engrenagem | DSP 59 ms, NN 1121 us
+20:37:50.997 > I (557827) INFER: Falha de engrenagem | DSP 58 ms, NN 1183 us
+20:37:51.117 > I (557947) INFER: Falha de engrenagem | DSP 59 ms, NN 1136 us
+20:37:51.237 > I (558067) INFER: Subtensao | DSP 59 ms, NN 1134 us
+20:37:51.357 > I (558187) INFER: Subtensao | DSP 59 ms, NN 1118 us
+20:37:51.477 > I (558307) INFER: Subtensao | DSP 58 ms, NN 1189 us
+20:37:51.597 > I (558427) INFER: Subtensao | DSP 58 ms, NN 1166 us
+20:37:51.598 > I (558427) INFER: 9 janelas/s
+20:37:51.688 > I (558517) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:51.717 > I (558547) INFER: Falha de engrenagem | DSP 59 ms, NN 1208 us
+20:37:51.837 > I (558667) INFER: Subtensao | DSP 59 ms, NN 1171 us
+20:37:51.957 > I (558787) INFER: Falha de engrenagem | DSP 59 ms, NN 1124 us
+20:37:52.077 > I (558907) INFER: Subtensao | DSP 59 ms, NN 1135 us
+20:37:52.197 > I (559027) INFER: Falha de engrenagem | DSP 59 ms, NN 1076 us
+20:37:52.317 > I (559147) INFER: Subtensao | DSP 58 ms, NN 1187 us
+20:37:52.437 > I (559267) INFER: Falha de engrenagem | DSP 58 ms, NN 1171 us
+20:37:52.557 > I (559387) INFER: Subtensao | DSP 58 ms, NN 1208 us
+20:37:52.677 > I (559507) INFER: Falha de engrenagem | DSP 58 ms, NN 1151 us
+20:37:52.678 > I (559507) INFER: 9 janelas/s
+20:37:52.697 > I (559527) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:52.797 > I (559627) INFER: Falha de engrenagem | DSP 59 ms, NN 1084 us
+20:37:52.917 > I (559747) INFER: Falha de engrenagem | DSP 59 ms, NN 1121 us
+20:37:53.037 > I (559867) INFER: Falha de engrenagem | DSP 59 ms, NN 1108 us
+20:37:53.157 > I (559987) INFER: Falha de engrenagem | DSP 58 ms, NN 1152 us
+20:37:53.277 > I (560107) INFER: Falha de engrenagem | DSP 59 ms, NN 1121 us
+20:37:53.397 > I (560227) INFER: Falha de engrenagem | DSP 58 ms, NN 1173 us
+20:37:53.517 > I (560347) INFER: Falha de engrenagem | DSP 59 ms, NN 1159 us
+20:37:53.637 > I (560467) INFER: Falha de engrenagem | DSP 59 ms, NN 1128 us
+20:37:53.697 > I (560527) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:53.757 > I (560587) INFER: Falha de engrenagem | DSP 59 ms, NN 1172 us
+20:37:53.758 > I (560587) INFER: 9 janelas/s
+20:37:53.877 > I (560707) INFER: Falha de engrenagem | DSP 58 ms, NN 1171 us
+20:37:53.997 > I (560827) INFER: Falha de engrenagem | DSP 58 ms, NN 1175 us
+20:37:54.117 > I (560947) INFER: Falha de engrenagem | DSP 58 ms, NN 1175 us
+20:37:54.237 > I (561067) INFER: Falha de engrenagem | DSP 59 ms, NN 1150 us
+20:37:54.357 > I (561187) INFER: Falha de engrenagem | DSP 59 ms, NN 1122 us
+20:37:54.477 > I (561307) INFER: Falha de engrenagem | DSP 59 ms, NN 1114 us
+20:37:54.597 > I (561427) INFER: Falha de engrenagem | DSP 59 ms, NN 1123 us
+20:37:54.698 > I (561527) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:54.717 > I (561547) INFER: Falha de engrenagem | DSP 59 ms, NN 1177 us
+20:37:54.837 > I (561667) INFER: Falha de engrenagem | DSP 59 ms, NN 1172 us
+20:37:54.838 > I (561667) INFER: 9 janelas/s
+20:37:54.957 > I (561787) INFER: Falha de engrenagem | DSP 59 ms, NN 1123 us
+20:37:55.077 > I (561907) INFER: Falha de engrenagem | DSP 59 ms, NN 1142 us
+20:37:55.197 > I (562027) INFER: Falha de engrenagem | DSP 59 ms, NN 1077 us
+20:37:55.317 > I (562147) INFER: Falha de engrenagem | DSP 58 ms, NN 1181 us
+20:37:55.437 > I (562267) INFER: Falha de engrenagem | DSP 58 ms, NN 1159 us
+20:37:55.557 > I (562387) INFER: Falha de engrenagem | DSP 59 ms, NN 1138 us
+20:37:55.677 > I (562507) INFER: Falha de engrenagem | DSP 59 ms, NN 1092 us
+20:37:55.707 > I (562537) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:55.797 > I (562627) INFER: Falha de engrenagem | DSP 59 ms, NN 1079 us
+20:37:55.917 > I (562747) INFER: Falha de engrenagem | DSP 59 ms, NN 1121 us
+20:37:55.918 > I (562747) INFER: 9 janelas/s
+20:37:56.037 > I (562867) INFER: Falha de engrenagem | DSP 59 ms, NN 1126 us
+20:37:56.157 > I (562987) INFER: Falha de engrenagem | DSP 59 ms, NN 1124 us
+20:37:56.277 > I (563107) INFER: Falha de engrenagem | DSP 59 ms, NN 1138 us
+20:37:56.397 > I (563227) INFER: Falha de engrenagem | DSP 59 ms, NN 1120 us
+20:37:56.517 > I (563347) INFER: Falha de engrenagem | DSP 59 ms, NN 1140 us
+20:37:56.637 > I (563467) INFER: Falha de engrenagem | DSP 59 ms, NN 1135 us
+20:37:56.708 > I (563537) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:56.757 > I (563587) INFER: Falha de engrenagem | DSP 59 ms, NN 1216 us
+20:37:56.877 > I (563707) INFER: Falha de engrenagem | DSP 59 ms, NN 1134 us
+20:37:56.997 > I (563827) INFER: Falha de engrenagem | DSP 59 ms, NN 1096 us
+20:37:56.997 > I (563827) INFER: 9 janelas/s
+20:37:57.117 > I (563947) INFER: Falha de engrenagem | DSP 59 ms, NN 1172 us
+20:37:57.237 > I (564067) INFER: Falha de engrenagem | DSP 59 ms, NN 1137 us
+20:37:57.357 > I (564187) INFER: Falha de engrenagem | DSP 59 ms, NN 1148 us
+20:37:57.477 > I (564307) INFER: Falha de engrenagem | DSP 59 ms, NN 1074 us
+20:37:57.597 > I (564427) INFER: Falha de engrenagem | DSP 59 ms, NN 1172 us
+20:37:57.717 > I (564547) INFER: Falha de engrenagem | DSP 59 ms, NN 1115 us
+20:37:57.717 > I (564547) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:57.837 > I (564667) INFER: Falha de engrenagem | DSP 59 ms, NN 1118 us
+20:37:57.957 > I (564787) INFER: Falha de engrenagem | DSP 59 ms, NN 1141 us
+20:37:58.077 > I (564907) INFER: Falha de engrenagem | DSP 59 ms, NN 1163 us
+20:37:58.077 > I (564907) INFER: 9 janelas/s
+20:37:58.197 > I (565027) INFER: Falha de engrenagem | DSP 59 ms, NN 1107 us
+20:37:58.317 > I (565147) INFER: Falha de engrenagem | DSP 58 ms, NN 1212 us
+20:37:58.437 > I (565267) INFER: Falha de engrenagem | DSP 58 ms, NN 1160 us
+20:37:58.557 > I (565387) INFER: Falha de engrenagem | DSP 58 ms, NN 1201 us
+20:37:58.677 > I (565507) INFER: Falha de engrenagem | DSP 59 ms, NN 1125 us
+20:37:58.727 > I (565557) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:58.797 > I (565627) INFER: Falha de engrenagem | DSP 59 ms, NN 1099 us
+20:37:58.917 > I (565747) INFER: Falha de engrenagem | DSP 59 ms, NN 1119 us
+20:37:59.037 > I (565867) INFER: Falha de engrenagem | DSP 59 ms, NN 1137 us
+20:37:59.157 > I (565987) INFER: Falha de engrenagem | DSP 59 ms, NN 1113 us
+20:37:59.157 > I (565987) INFER: 9 janelas/s
+20:37:59.277 > I (566107) INFER: Falha de engrenagem | DSP 59 ms, NN 1138 us
+20:37:59.397 > I (566227) INFER: Falha de engrenagem | DSP 59 ms, NN 1097 us
+20:37:59.517 > I (566347) INFER: Falha de engrenagem | DSP 58 ms, NN 1178 us
+20:37:59.637 > I (566467) INFER: Falha de engrenagem | DSP 58 ms, NN 1164 us
+20:37:59.727 > I (566557) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:37:59.757 > I (566587) INFER: Falha de engrenagem | DSP 59 ms, NN 1188 us
+20:37:59.877 > I (566707) INFER: Falha de engrenagem | DSP 59 ms, NN 1122 us
+20:37:59.997 > I (566827) INFER: Falha de engrenagem | DSP 59 ms, NN 1078 us
+20:38:00.117 > I (566947) INFER: Falha de engrenagem | DSP 59 ms, NN 1135 us
+20:38:00.237 > I (567067) INFER: Falha de engrenagem | DSP 59 ms, NN 1076 us
+20:38:00.237 > I (567067) INFER: 9 janelas/s
+20:38:00.357 > I (567187) INFER: Falha de engrenagem | DSP 58 ms, NN 1209 us
+20:38:00.477 > I (567307) INFER: Falha de engrenagem | DSP 58 ms, NN 1157 us
+20:38:00.597 > I (567427) INFER: Falha de engrenagem | DSP 58 ms, NN 1215 us
+20:38:00.717 > I (567547) INFER: Falha de engrenagem | DSP 58 ms, NN 1162 us
+20:38:00.737 > I (567567) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:38:00.837 > I (567667) INFER: Falha de engrenagem | DSP 58 ms, NN 1177 us
+20:38:00.957 > I (567787) INFER: Falha de engrenagem | DSP 58 ms, NN 1207 us
+20:38:01.077 > I (567907) INFER: Falha de engrenagem | DSP 58 ms, NN 1200 us
+20:38:01.197 > I (568027) INFER: Falha de engrenagem | DSP 58 ms, NN 1171 us
+20:38:01.317 > I (568147) INFER: Falha de engrenagem | DSP 59 ms, NN 1157 us
+20:38:01.317 > I (568147) INFER: 9 janelas/s
+20:38:01.437 > I (568267) INFER: Falha de engrenagem | DSP 59 ms, NN 1153 us
+20:38:01.557 > I (568387) INFER: Falha de engrenagem | DSP 59 ms, NN 1089 us
+20:38:01.677 > I (568507) INFER: Falha de engrenagem | DSP 58 ms, NN 1176 us
+20:38:01.737 > I (568567) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:38:01.797 > I (568627) INFER: Falha de engrenagem | DSP 59 ms, NN 1132 us
+20:38:01.917 > I (568747) INFER: Subtensao | DSP 59 ms, NN 1126 us
+20:38:02.037 > I (568867) INFER: Falha de engrenagem | DSP 59 ms, NN 1131 us
+20:38:02.157 > I (568987) INFER: Falha de engrenagem | DSP 59 ms, NN 1123 us
+20:38:02.277 > I (569107) INFER: Falha de engrenagem | DSP 59 ms, NN 1119 us
+20:38:02.397 > I (569227) INFER: Falha de engrenagem | DSP 59 ms, NN 1119 us
+20:38:02.397 > I (569227) INFER: 9 janelas/s
+20:38:02.517 > I (569347) INFER: Falha de engrenagem | DSP 59 ms, NN 1091 us
+20:38:02.637 > I (569467) INFER: Falha de engrenagem | DSP 59 ms, NN 1099 us
+20:38:02.737 > I (569567) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:38:02.757 > I (569587) INFER: Falha de engrenagem | DSP 59 ms, NN 1179 us
+20:38:02.877 > I (569707) INFER: Falha de engrenagem | DSP 59 ms, NN 1134 us
+20:38:02.997 > I (569827) INFER: Falha de engrenagem | DSP 59 ms, NN 1078 us
+20:38:03.117 > I (569947) INFER: Falha de engrenagem | DSP 58 ms, NN 1182 us
+20:38:03.237 > I (570067) INFER: Falha de engrenagem | DSP 59 ms, NN 1121 us
+20:38:03.357 > I (570187) INFER: Falha de engrenagem | DSP 59 ms, NN 1145 us
+20:38:03.477 > I (570307) INFER: Falha de engrenagem | DSP 59 ms, NN 1114 us
+20:38:03.477 > I (570307) INFER: 9 janelas/s
+20:38:03.597 > I (570427) INFER: Falha de engrenagem | DSP 59 ms, NN 1111 us
+20:38:03.717 > I (570547) INFER: Falha de engrenagem | DSP 59 ms, NN 1115 us
+20:38:03.746 > I (570577) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:38:03.837 > I (570667) INFER: Falha de engrenagem | DSP 59 ms, NN 1163 us
+20:38:03.957 > I (570787) INFER: Falha de engrenagem | DSP 59 ms, NN 1094 us
+20:38:04.077 > I (570907) INFER: Falha de engrenagem | DSP 59 ms, NN 1165 us
+20:38:04.197 > I (571027) INFER: Falha de engrenagem | DSP 59 ms, NN 1116 us
+20:38:04.317 > I (571147) INFER: Falha de engrenagem | DSP 59 ms, NN 1140 us
+20:38:04.437 > I (571267) INFER: Falha de engrenagem | DSP 59 ms, NN 1076 us
+20:38:04.557 > I (571387) INFER: Falha de engrenagem | DSP 59 ms, NN 1180 us
+20:38:04.557 > I (571387) INFER: 9 janelas/s
+20:38:04.677 > I (571507) INFER: Falha de engrenagem | DSP 59 ms, NN 1148 us
+20:38:04.747 > I (571577) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:38:04.797 > I (571627) INFER: Falha de engrenagem | DSP 59 ms, NN 1210 us
+20:38:04.917 > I (571747) INFER: Falha de engrenagem | DSP 59 ms, NN 1128 us
+20:38:05.037 > I (571867) INFER: Falha de engrenagem | DSP 59 ms, NN 1092 us
+20:38:05.157 > I (571987) INFER: Falha de engrenagem | DSP 58 ms, NN 1182 us
+20:38:05.277 > I (572107) INFER: Falha de engrenagem | DSP 58 ms, NN 1154 us
+20:38:05.397 > I (572227) INFER: Falha de engrenagem | DSP 59 ms, NN 1162 us
+20:38:05.517 > I (572347) INFER: Falha de engrenagem | DSP 59 ms, NN 1113 us
+20:38:05.637 > I (572467) INFER: Falha de engrenagem | DSP 58 ms, NN 1207 us
+20:38:05.637 > I (572467) INFER: 9 janelas/s
+20:38:05.757 > I (572587) INFER: Falha de engrenagem | DSP 58 ms, NN 1184 us
+20:38:05.757 > I (572587) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:38:05.877 > I (572707) INFER: Falha de engrenagem | DSP 58 ms, NN 1214 us
+20:38:05.997 > I (572827) INFER: Falha de engrenagem | DSP 59 ms, NN 1138 us
+20:38:06.117 > I (572947) INFER: Falha de engrenagem | DSP 59 ms, NN 1127 us
+20:38:06.237 > I (573067) INFER: Falha de engrenagem | DSP 59 ms, NN 1081 us
+20:38:06.357 > I (573187) INFER: Falha de engrenagem | DSP 59 ms, NN 1130 us
+20:38:06.477 > I (573307) INFER: Falha de engrenagem | DSP 59 ms, NN 1109 us
+20:38:06.597 > I (573427) INFER: Falha de engrenagem | DSP 58 ms, NN 1179 us
+20:38:06.717 > I (573547) INFER: Falha de engrenagem | DSP 58 ms, NN 1227 us
+20:38:06.717 > I (573547) INFER: 9 janelas/s
+20:38:06.766 > I (573597) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:38:06.837 > I (573667) INFER: Falha de engrenagem | DSP 59 ms, NN 1106 us
+20:38:06.957 > I (573787) INFER: Falha de engrenagem | DSP 59 ms, NN 1124 us
+20:38:07.077 > I (573907) INFER: Falha de engrenagem | DSP 59 ms, NN 1096 us
+20:38:07.197 > I (574027) INFER: Falha de engrenagem | DSP 59 ms, NN 1150 us
+20:38:07.317 > I (574147) INFER: Falha de engrenagem | DSP 59 ms, NN 1093 us
+20:38:07.437 > I (574267) INFER: Falha de engrenagem | DSP 59 ms, NN 1130 us
+20:38:07.557 > I (574387) INFER: Falha de engrenagem | DSP 59 ms, NN 1113 us
+20:38:07.677 > I (574507) INFER: Falha de engrenagem | DSP 58 ms, NN 1169 us
+20:38:07.767 > I (574597) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:38:07.797 > I (574627) INFER: Falha de engrenagem | DSP 59 ms, NN 1217 us
+20:38:07.797 > I (574627) INFER: 9 janelas/s
+20:38:07.917 > I (574747) INFER: Falha de engrenagem | DSP 59 ms, NN 1127 us
+20:38:08.037 > I (574867) INFER: Falha de engrenagem | DSP 59 ms, NN 1098 us
+20:38:08.157 > I (574987) INFER: Falha de engrenagem | DSP 59 ms, NN 1127 us
+20:38:08.277 > I (575107) INFER: Falha de engrenagem | DSP 59 ms, NN 1118 us
+20:38:08.397 > I (575227) INFER: Falha de engrenagem | DSP 58 ms, NN 1183 us
+20:38:08.517 > I (575347) INFER: Falha de engrenagem | DSP 59 ms, NN 1131 us
+20:38:08.637 > I (575467) INFER: Falha de engrenagem | DSP 59 ms, NN 1132 us
+20:38:08.757 > I (575587) INFER: Falha de engrenagem | DSP 59 ms, NN 1119 us
+20:38:08.776 > I (575607) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:38:08.877 > I (575707) INFER: Falha de engrenagem | DSP 58 ms, NN 1178 us
+20:38:08.877 > I (575707) INFER: 9 janelas/s
+20:38:08.997 > I (575827) INFER: Falha de engrenagem | DSP 58 ms, NN 1159 us
+20:38:09.117 > I (575947) INFER: Falha de engrenagem | DSP 58 ms, NN 1210 us
+20:38:09.237 > I (576067) INFER: Falha de engrenagem | DSP 59 ms, NN 1107 us
+20:38:09.357 > I (576187) INFER: Falha de engrenagem | DSP 59 ms, NN 1100 us
+20:38:09.477 > I (576307) INFER: Falha de engrenagem | DSP 59 ms, NN 1129 us
+20:38:09.597 > I (576427) INFER: Falha de engrenagem | DSP 59 ms, NN 1128 us
+20:38:09.717 > I (576547) INFER: Falha de engrenagem | DSP 59 ms, NN 1133 us
+20:38:09.776 > I (576607) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:38:09.837 > I (576667) INFER: Falha de engrenagem | DSP 59 ms, NN 1154 us
+20:38:09.957 > I (576787) INFER: Falha de engrenagem | DSP 59 ms, NN 1116 us
+20:38:09.957 > I (576787) INFER: 9 janelas/s
+20:38:10.077 > I (576907) INFER: Falha de engrenagem | DSP 59 ms, NN 1108 us
+20:38:10.197 > I (577027) INFER: Falha de engrenagem | DSP 58 ms, NN 1162 us
+20:38:10.317 > I (577147) INFER: Falha de engrenagem | DSP 59 ms, NN 1154 us
+20:38:10.437 > I (577267) INFER: Falha de engrenagem | DSP 59 ms, NN 1124 us
+20:38:10.557 > I (577387) INFER: Falha de engrenagem | DSP 59 ms, NN 1127 us
+20:38:10.677 > I (577507) INFER: Falha de engrenagem | DSP 59 ms, NN 1103 us
+20:38:10.777 > I (577607) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:38:10.797 > I (577627) INFER: Falha de engrenagem | DSP 59 ms, NN 1182 us
+20:38:10.917 > I (577747) INFER: Falha de engrenagem | DSP 59 ms, NN 1137 us
+20:38:11.037 > I (577867) INFER: Falha de engrenagem | DSP 59 ms, NN 1125 us
+20:38:11.037 > I (577867) INFER: 9 janelas/s
+20:38:11.157 > I (577987) INFER: Falha de engrenagem | DSP 58 ms, NN 1179 us
+20:38:11.277 > I (578107) INFER: Falha de engrenagem | DSP 58 ms, NN 1164 us
+20:38:11.397 > I (578227) INFER: Falha de engrenagem | DSP 58 ms, NN 1184 us
+20:38:11.517 > I (578347) INFER: Falha de engrenagem | DSP 59 ms, NN 1143 us
+20:38:11.637 > I (578467) INFER: Falha de engrenagem | DSP 59 ms, NN 1136 us
+20:38:11.757 > I (578587) INFER: Falha de engrenagem | DSP 59 ms, NN 1118 us
+20:38:11.786 > I (578617) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+20:38:11.877 > I (578707) INFER: Falha de engrenagem | DSP 59 ms, NN 1165 us
+20:38:11.997 > I (578827) INFER: Falha de engrenagem | DSP 59 ms, NN 1098 us
+20:38:12.117 > I (578947) INFER: Falha de engrenagem | DSP 59 ms, NN 1166 us
+20:38:12.117 > I (578947) INFER: 9 janelas/s
+20:38:12.237 > I (579067) INFER: Falha de engrenagem | DSP 59 ms, NN 1089 us
+20:38:12.357 > I (579187) INFER: Falha de engrenagem | DSP 59 ms, NN 1176 us
+20:38:12.477 > I (579307) INFER: Falha de engrenagem | DSP 58 ms, NN 1153 us
+20:38:12.597 > I (579427) INFER: Falha de engrenagem | DSP 58 ms, NN 1175 us
+20:38:12.717 > I (579547) INFER: Falha de engrenagem | DSP 59 ms, NN 1142 us
+20:38:12.787 > I (579617) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+20:38:12.837 > I (579667) INFER: Falha de engrenagem | DSP 59 ms, NN 1188 us
+20:38:12.957 > I (579787) INFER: Falha de engrenagem | DSP 59 ms, NN 1121 us
+20:38:13.077 > I (579907) INFER: Falha de engrenagem | DSP 59 ms, NN 1075 us
+20:38:13.197 > I (580027) INFER: Falha de engrenagem | DSP 58 ms, NN 1201 us
+20:38:13.197 > I (580027) INFER: 9 janelas/s
+20:38:13.317 > I (580147) INFER: Falha de engrenagem | DSP 58 ms, NN 1163 us
+20:38:13.437 > I (580267) INFER: Falha de engrenagem | DSP 58 ms, NN 1221 us

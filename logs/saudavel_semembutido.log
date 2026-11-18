@@ -1,0 +1,580 @@
+rst:0x15 (USB_UART_CHIP_RESET),boot:0xb (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037900a
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x14f0
+load:0x403c8700,len:0xda0
+load:0x403cb700,len:0x2f58
+entry 0x403c8900
+I (24) boot: ESP-IDF 6.0.1 2nd stage bootloader
+I (24) boot: compile time Nov  9 2026 21:19:56
+I (25) boot: Multicore bootloader
+I (26) boot: chip revision: v0.2
+I (27) boot: efuse block revision: v1.3
+I (31) boot.esp32s3: Boot SPI Speed : 80MHz
+I (35) boot.esp32s3: SPI Mode       : DIO
+I (39) boot.esp32s3: SPI Flash Size : 8MB
+I (42) boot: Enabling RNG early entropy source...
+I (47) boot: Partition Table:
+I (49) boot: ## Label            Usage          Type ST Offset   Length
+I (56) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (62) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+I (69) boot:  2 factory          factory app      00 00 00010000 00200000
+I (75) boot:  3 storage          Unknown data     01 82 00210000 00100000
+I (82) boot: End of partition table
+I (85) esp_image: segment 0: paddr=00010020 vaddr=3c030020 size=1192ch ( 71980) map
+I (105) esp_image: segment 1: paddr=00021954 vaddr=3fc90e00 size=03364h ( 13156) load
+I (109) esp_image: segment 2: paddr=00024cc0 vaddr=40374000 size=0b358h ( 45912) load
+I (120) esp_image: segment 3: paddr=00030020 vaddr=42000020 size=2e92ch (190764) map
+I (155) esp_image: segment 4: paddr=0005e954 vaddr=4037f358 size=01a04h (  6660) load
+I (157) esp_image: segment 5: paddr=00060360 vaddr=50000000 size=00024h (    36) load
+I (165) boot: Loaded app from partition at offset 0x10000
+I (165) boot: Disabling RNG early entropy source...
+I (181) cpu_start: Multicore app
+I (189) cpu_start: GPIO 44 and 43 are used as console UART I/O pins
+I (190) cpu_start: Pro cpu start user code
+I (190) cpu_start: cpu freq: 160000000 Hz
+I (191) app_init: Application information:
+I (195) app_init: Project name:     tcc_monitoramento2
+I (200) app_init: App version:      0648824-dirty
+I (204) app_init: Compile time:     Nov  9 2026 21:19:44
+I (209) app_init: ELF file SHA256:  7f10bb604...
+I (214) app_init: ESP-IDF:          6.0.1
+I (217) efuse_init: Min chip rev:     v0.0
+I (221) efuse_init: Max chip rev:     v0.99 
+I (225) efuse_init: Chip rev:         v0.2
+I (229) heap_init: Initializing. RAM available for dynamic allocation:
+I (236) heap_init: At 3FC97360 len 000523B0 (328 KiB): RAM
+I (241) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM
+I (246) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM
+I (251) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM
+I (257) spi_flash: detected chip: boya
+I (260) spi_flash: flash io: dio
+W (263) spi_flash: Detected size(16384k) larger than the size in the binary image header(8192k). Using the size in the binary image header.
+I (275) sleep_gpio: Configure to isolate all GPIO pins in sleep state
+I (281) sleep_gpio: Enable automatic switching of GPIO sleep configuration
+I (288) main_task: Started on CPU0
+I (298) main_task: Calling app_main()
+I (10298) MAIN: === Diagnostico de falhas em motores (TinyML) ===
+I (10298) MAIN: ESP32-S3 | 2 nucleos | IDF 6.0.1
+I (10298) MAIN: Heap livre: 383320 bytes
+I (10298) I2C_BUS: Barramento I2C inicializado
+I (10298) I2C_BUS: SDA: GPIO 8
+I (10298) I2C_BUS: SCL: GPIO 9
+I (10308) MAIN: ADXL345 respondeu em 0x53
+I (10308) MAIN: INA219 respondeu em 0x40
+I (10318) STORAGE: LittleFS montado em /storage: 16384 de 1048576 bytes usados
+I (10328) MODEL_MGR: Modelo lido de /storage/model_a.tflite (3776 bytes)
+I (10328) MODEL_MGR: Pronto: entrada 52 valores (int8, scale=0.685444, zp=-124), saida 3 classes
+I (10338) INFER: Tarefa de inferencia em execucao (nucleo 0)
+I (10338) INA219: OK (endereco 0x40, config 0x399F, shunt 0.100 ohm)
+I (10348) ADXL345: OK (endereco 0x53, 100 Hz, +-16 g)
+I (10348) ACQ: Tarefa de aquisicao em execucao (nucleo 1)
+I (10348) MAIN: Sistema em execucao. Heap livre: 344248 bytes
+I (10358) main_task: Returned from app_main()
+I (11358) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=1
+I (11358) ACQ: ultima: I=159.1 mA | a=(-0.118, -18.005, 6.982) m/s2
+I (12358) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (12358) ACQ: ultima: I=138.9 mA | a=(7.845, -8.081, 15.534) m/s2
+I (12968) INFER: Desbalanceamento | DSP 58 ms, NN 1060 us
+I (12968) INFER: 1 janelas/s | amostras perdidas=0
+I (13098) INFER: Desbalanceamento | DSP 58 ms, NN 1061 us
+I (13228) INFER: Desbalanceamento | DSP 58 ms, NN 1097 us
+I (13358) INFER: Desbalanceamento | DSP 58 ms, NN 1084 us
+I (13358) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (13358) ACQ: ultima: I=175.3 mA | a=(-0.275, -12.513, 9.297) m/s2
+I (13488) INFER: Desbalanceamento | DSP 58 ms, NN 1068 us
+I (13618) INFER: Desbalanceamento | DSP 58 ms, NN 1102 us
+I (13748) INFER: Desbalanceamento | DSP 58 ms, NN 1102 us
+I (13878) INFER: Desbalanceamento | DSP 58 ms, NN 1153 us
+I (14008) INFER: Desbalanceamento | DSP 58 ms, NN 1102 us
+I (14008) INFER: 8 janelas/s | amostras perdidas=0
+I (14138) INFER: Desbalanceamento | DSP 58 ms, NN 1100 us
+I (14268) INFER: Desbalanceamento | DSP 58 ms, NN 1085 us
+I (14368) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=1
+I (14368) ACQ: ultima: I=153.4 mA | a=(-3.570, 5.884, 9.650) m/s2
+I (14398) INFER: Desbalanceamento | DSP 59 ms, NN 1018 us
+I (14528) INFER: Desbalanceamento | DSP 58 ms, NN 1001 us
+I (14658) INFER: Desbalanceamento | DSP 58 ms, NN 1080 us
+I (14788) INFER: Desbalanceamento | DSP 58 ms, NN 1100 us
+I (14918) INFER: Desbalanceamento | DSP 58 ms, NN 1151 us
+I (15048) INFER: Desbalanceamento | DSP 58 ms, NN 1139 us
+I (15048) INFER: 8 janelas/s | amostras perdidas=0
+I (15178) INFER: Desbalanceamento | DSP 58 ms, NN 1087 us
+I (15308) INFER: Desbalanceamento | DSP 58 ms, NN 1144 us
+I (15378) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (15378) ACQ: ultima: I=143.3 mA | a=(1.020, -10.748, 9.061) m/s2
+I (15438) INFER: Desbalanceamento | DSP 59 ms, NN 1013 us
+I (15568) INFER: Desbalanceamento | DSP 58 ms, NN 1147 us
+I (15698) INFER: Desbalanceamento | DSP 58 ms, NN 1148 us
+I (15828) INFER: Desbalanceamento | DSP 58 ms, NN 1041 us
+I (15958) INFER: Desbalanceamento | DSP 58 ms, NN 1100 us
+I (16088) INFER: Desbalanceamento | DSP 58 ms, NN 1141 us
+I (16088) INFER: 8 janelas/s | amostras perdidas=0
+I (16218) INFER: Desbalanceamento | DSP 58 ms, NN 1151 us
+I (16348) INFER: Desbalanceamento | DSP 58 ms, NN 1109 us
+I (16378) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (16378) ACQ: ultima: I=249.0 mA | a=(6.943, -4.433, 13.690) m/s2
+I (16478) INFER: Desbalanceamento | DSP 58 ms, NN 1136 us
+I (16608) INFER: Desbalanceamento | DSP 58 ms, NN 1153 us
+I (16738) INFER: Desbalanceamento | DSP 58 ms, NN 1155 us
+I (16868) INFER: Desbalanceamento | DSP 58 ms, NN 1153 us
+I (16998) INFER: Desbalanceamento | DSP 58 ms, NN 1161 us
+I (17128) INFER: Desbalanceamento | DSP 58 ms, NN 1162 us
+I (17128) INFER: 8 janelas/s | amostras perdidas=0
+I (17258) INFER: Desbalanceamento | DSP 58 ms, NN 1155 us
+I (17378) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (17378) ACQ: ultima: I=251.6 mA | a=(0.353, -13.572, 8.316) m/s2
+I (17388) INFER: Desbalanceamento | DSP 59 ms, NN 1158 us
+I (17518) INFER: Desbalanceamento | DSP 58 ms, NN 1091 us
+I (17648) INFER: Desbalanceamento | DSP 58 ms, NN 1114 us
+I (17778) INFER: Desbalanceamento | DSP 58 ms, NN 1082 us
+I (17908) INFER: Desbalanceamento | DSP 58 ms, NN 1076 us
+I (18038) INFER: Desbalanceamento | DSP 58 ms, NN 1115 us
+I (18168) INFER: Desbalanceamento | DSP 58 ms, NN 1111 us
+I (18168) INFER: 8 janelas/s | amostras perdidas=0
+I (18298) INFER: Desbalanceamento | DSP 58 ms, NN 1105 us
+I (18378) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (18378) ACQ: ultima: I=256.0 mA | a=(-0.353, -3.099, 11.964) m/s2
+I (18428) INFER: Desbalanceamento | DSP 59 ms, NN 1056 us
+I (18558) INFER: Desbalanceamento | DSP 58 ms, NN 1156 us
+I (18688) INFER: Desbalanceamento | DSP 58 ms, NN 1103 us
+I (18818) INFER: Desbalanceamento | DSP 58 ms, NN 1151 us
+I (18948) INFER: Desbalanceamento | DSP 58 ms, NN 1130 us
+I (19078) INFER: Desbalanceamento | DSP 58 ms, NN 1082 us
+I (19208) INFER: Desbalanceamento | DSP 58 ms, NN 1103 us
+I (19208) INFER: 8 janelas/s | amostras perdidas=0
+I (19338) INFER: Desbalanceamento | DSP 58 ms, NN 1142 us
+I (19388) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (19388) ACQ: ultima: I=141.1 mA | a=(-1.177, -2.118, 12.631) m/s2
+I (19468) INFER: Desbalanceamento | DSP 58 ms, NN 1160 us
+I (19598) INFER: Desbalanceamento | DSP 58 ms, NN 1161 us
+I (19728) INFER: Desbalanceamento | DSP 58 ms, NN 1143 us
+I (19858) INFER: Desbalanceamento | DSP 58 ms, NN 1159 us
+I (19988) INFER: Desbalanceamento | DSP 58 ms, NN 1146 us
+I (20118) INFER: Desbalanceamento | DSP 58 ms, NN 1158 us
+I (20248) INFER: Desbalanceamento | DSP 58 ms, NN 1132 us
+I (20248) INFER: 8 janelas/s | amostras perdidas=0
+I (20378) INFER: Desbalanceamento | DSP 58 ms, NN 1107 us
+I (20388) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (20388) ACQ: ultima: I=225.4 mA | a=(1.334, -11.886, 11.807) m/s2
+I (20508) INFER: Desbalanceamento | DSP 58 ms, NN 1142 us
+I (20638) INFER: Desbalanceamento | DSP 58 ms, NN 1148 us
+I (20768) INFER: Desbalanceamento | DSP 58 ms, NN 1148 us
+I (20898) INFER: Desbalanceamento | DSP 58 ms, NN 1164 us
+I (21028) INFER: Desbalanceamento | DSP 58 ms, NN 1170 us
+I (21158) INFER: Desbalanceamento | DSP 58 ms, NN 1151 us
+I (21288) INFER: Desbalanceamento | DSP 58 ms, NN 1136 us
+I (21288) INFER: 8 janelas/s | amostras perdidas=0
+I (21388) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (21388) ACQ: ultima: I=156.9 mA | a=(-2.864, 8.120, 12.827) m/s2
+I (21418) INFER: Desbalanceamento | DSP 59 ms, NN 1010 us
+I (21548) INFER: Desbalanceamento | DSP 58 ms, NN 1159 us
+I (21678) INFER: Desbalanceamento | DSP 58 ms, NN 1156 us
+I (21808) INFER: Desbalanceamento | DSP 58 ms, NN 1144 us
+I (21938) INFER: Desbalanceamento | DSP 58 ms, NN 1161 us
+I (22068) INFER: Desbalanceamento | DSP 58 ms, NN 1096 us
+I (22198) INFER: Desbalanceamento | DSP 58 ms, NN 1093 us
+I (22328) INFER: Desbalanceamento | DSP 58 ms, NN 1149 us
+I (22328) INFER: 8 janelas/s | amostras perdidas=0
+I (22398) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (22398) ACQ: ultima: I=253.8 mA | a=(2.785, -12.278, 10.983) m/s2
+I (22458) INFER: Desbalanceamento | DSP 59 ms, NN 951 us
+I (22588) INFER: Desbalanceamento | DSP 58 ms, NN 1175 us
+I (22718) INFER: Desbalanceamento | DSP 58 ms, NN 1106 us
+I (22848) INFER: Desbalanceamento | DSP 58 ms, NN 1118 us
+I (22978) INFER: Desbalanceamento | DSP 58 ms, NN 1150 us
+I (23108) INFER: Desbalanceamento | DSP 58 ms, NN 1117 us
+I (23238) INFER: Desbalanceamento | DSP 58 ms, NN 1155 us
+I (23368) INFER: Desbalanceamento | DSP 58 ms, NN 1145 us
+I (23368) INFER: 8 janelas/s | amostras perdidas=0
+I (23398) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (23398) ACQ: ultima: I=182.2 mA | a=(1.098, 8.512, 13.651) m/s2
+I (23498) INFER: Desbalanceamento | DSP 58 ms, NN 1133 us
+I (23628) INFER: Desbalanceamento | DSP 58 ms, NN 1142 us
+I (23758) INFER: Desbalanceamento | DSP 58 ms, NN 1149 us
+I (23888) INFER: Desbalanceamento | DSP 58 ms, NN 1194 us
+I (24018) INFER: Desbalanceamento | DSP 58 ms, NN 1178 us
+I (24148) INFER: Desbalanceamento | DSP 58 ms, NN 1155 us
+I (24278) INFER: Desbalanceamento | DSP 58 ms, NN 1197 us
+I (24398) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (24398) ACQ: ultima: I=219.9 mA | a=(1.334, -14.239, 10.003) m/s2
+I (24408) INFER: Desbalanceamento | DSP 59 ms, NN 1172 us
+I (24408) INFER: 8 janelas/s | amostras perdidas=0
+I (24538) INFER: Desbalanceamento | DSP 58 ms, NN 1162 us
+I (24668) INFER: Desbalanceamento | DSP 58 ms, NN 1162 us
+I (24798) INFER: Desbalanceamento | DSP 58 ms, NN 1135 us
+I (24928) INFER: Desbalanceamento | DSP 58 ms, NN 1206 us
+I (25058) INFER: Desbalanceamento | DSP 58 ms, NN 1199 us
+I (25188) INFER: Desbalanceamento | DSP 58 ms, NN 1206 us
+I (25318) INFER: Desbalanceamento | DSP 58 ms, NN 1201 us
+I (25398) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (25398) ACQ: ultima: I=147.5 mA | a=(4.158, 6.433, 14.357) m/s2
+I (25448) INFER: Desbalanceamento | DSP 59 ms, NN 1115 us
+I (25448) INFER: 8 janelas/s | amostras perdidas=0
+I (25578) INFER: Desbalanceamento | DSP 58 ms, NN 1150 us
+I (25708) INFER: Desbalanceamento | DSP 58 ms, NN 1211 us
+I (25838) INFER: Desbalanceamento | DSP 58 ms, NN 1206 us
+I (25968) INFER: Desbalanceamento | DSP 58 ms, NN 1172 us
+I (26098) INFER: Desbalanceamento | DSP 58 ms, NN 1155 us
+I (26228) INFER: Desbalanceamento | DSP 58 ms, NN 1178 us
+I (26358) INFER: Desbalanceamento | DSP 58 ms, NN 1130 us
+I (26408) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (26408) ACQ: ultima: I=145.7 mA | a=(3.099, -10.944, 9.728) m/s2
+I (26488) INFER: Desbalanceamento | DSP 58 ms, NN 1138 us
+I (26488) INFER: 8 janelas/s | amostras perdidas=0
+I (26618) INFER: Desbalanceamento | DSP 58 ms, NN 1104 us
+I (26748) INFER: Desbalanceamento | DSP 58 ms, NN 1139 us
+I (26878) INFER: Desbalanceamento | DSP 58 ms, NN 1008 us
+I (27008) INFER: Desbalanceamento | DSP 58 ms, NN 1136 us
+I (27138) INFER: Desbalanceamento | DSP 58 ms, NN 1052 us
+I (27268) INFER: Desbalanceamento | DSP 58 ms, NN 1144 us
+I (27398) INFER: Desbalanceamento | DSP 58 ms, NN 1107 us
+I (27408) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (27408) ACQ: ultima: I=120.8 mA | a=(-0.824, -6.551, 8.198) m/s2
+I (27528) INFER: Desbalanceamento | DSP 58 ms, NN 1151 us
+I (27528) INFER: 8 janelas/s | amostras perdidas=0
+I (27658) INFER: Desbalanceamento | DSP 58 ms, NN 1158 us
+I (27788) INFER: Desbalanceamento | DSP 58 ms, NN 1157 us
+I (27918) INFER: Desbalanceamento | DSP 58 ms, NN 1147 us
+I (28048) INFER: Desbalanceamento | DSP 58 ms, NN 1169 us
+I (28178) INFER: Desbalanceamento | DSP 58 ms, NN 1155 us
+I (28308) INFER: Desbalanceamento | DSP 58 ms, NN 1144 us
+I (28408) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (28408) ACQ: ultima: I=160.1 mA | a=(-0.981, 3.334, 12.396) m/s2
+I (28438) INFER: Desbalanceamento | DSP 59 ms, NN 964 us
+I (28568) INFER: Desbalanceamento | DSP 58 ms, NN 1050 us
+I (28568) INFER: 8 janelas/s | amostras perdidas=0
+I (28698) INFER: Desbalanceamento | DSP 58 ms, NN 1145 us
+I (28828) INFER: Desbalanceamento | DSP 58 ms, NN 1155 us
+I (28958) INFER: Desbalanceamento | DSP 58 ms, NN 1130 us
+I (29088) INFER: Desbalanceamento | DSP 58 ms, NN 1155 us
+I (29218) INFER: Desbalanceamento | DSP 58 ms, NN 1150 us
+I (29348) INFER: Desbalanceamento | DSP 58 ms, NN 1147 us
+I (29418) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (29418) ACQ: ultima: I=217.9 mA | a=(-3.177, -3.648, 6.669) m/s2
+I (29478) INFER: Desbalanceamento | DSP 59 ms, NN 1004 us
+I (29608) INFER: Desbalanceamento | DSP 58 ms, NN 1111 us
+I (29608) INFER: 8 janelas/s | amostras perdidas=0
+I (29738) INFER: Desbalanceamento | DSP 58 ms, NN 1109 us
+I (29868) INFER: Desbalanceamento | DSP 58 ms, NN 1212 us
+I (29998) INFER: Desbalanceamento | DSP 58 ms, NN 1144 us
+I (30128) INFER: Desbalanceamento | DSP 58 ms, NN 1118 us
+I (30258) INFER: Desbalanceamento | DSP 58 ms, NN 1090 us
+I (30388) INFER: Desbalanceamento | DSP 58 ms, NN 1105 us
+I (30418) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (30418) ACQ: ultima: I=134.3 mA | a=(0.981, 7.492, 13.651) m/s2
+I (30518) INFER: Desbalanceamento | DSP 58 ms, NN 1067 us
+I (30648) INFER: Desbalanceamento | DSP 58 ms, NN 1103 us
+I (30648) INFER: 8 janelas/s | amostras perdidas=0
+I (30778) INFER: Desbalanceamento | DSP 58 ms, NN 1145 us
+I (30908) INFER: Desbalanceamento | DSP 58 ms, NN 1093 us
+I (31038) INFER: Desbalanceamento | DSP 58 ms, NN 1150 us
+I (31168) INFER: Desbalanceamento | DSP 58 ms, NN 1120 us
+I (31298) INFER: Desbalanceamento | DSP 58 ms, NN 1152 us
+I (31418) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (31418) ACQ: ultima: I=240.2 mA | a=(2.471, 5.806, 13.259) m/s2
+I (31428) INFER: Desbalanceamento | DSP 59 ms, NN 1002 us
+I (31558) INFER: Desbalanceamento | DSP 58 ms, NN 1100 us
+I (31688) INFER: Desbalanceamento | DSP 58 ms, NN 1076 us
+I (31688) INFER: 8 janelas/s | amostras perdidas=0
+I (31818) INFER: Desbalanceamento | DSP 58 ms, NN 1039 us
+I (31948) INFER: Desbalanceamento | DSP 58 ms, NN 1133 us
+I (32078) INFER: Desbalanceamento | DSP 58 ms, NN 1164 us
+I (32208) INFER: Desbalanceamento | DSP 58 ms, NN 1114 us
+I (32338) INFER: Desbalanceamento | DSP 58 ms, NN 1101 us
+I (32418) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (32418) ACQ: ultima: I=227.6 mA | a=(-1.334, -3.138, 10.003) m/s2
+I (32468) INFER: Desbalanceamento | DSP 59 ms, NN 1124 us
+I (32598) INFER: Desbalanceamento | DSP 58 ms, NN 1154 us
+I (32728) INFER: Desbalanceamento | DSP 58 ms, NN 1137 us
+I (32728) INFER: 8 janelas/s | amostras perdidas=0
+I (32858) INFER: Desbalanceamento | DSP 58 ms, NN 1162 us
+I (32988) INFER: Desbalanceamento | DSP 58 ms, NN 1159 us
+I (33118) INFER: Desbalanceamento | DSP 58 ms, NN 1144 us
+I (33248) INFER: Desbalanceamento | DSP 58 ms, NN 1057 us
+I (33378) INFER: Desbalanceamento | DSP 58 ms, NN 1120 us
+I (33428) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (33428) ACQ: ultima: I=131.3 mA | a=(-1.059, 7.100, 13.062) m/s2
+I (33508) INFER: Desbalanceamento | DSP 58 ms, NN 1204 us
+I (33638) INFER: Desbalanceamento | DSP 58 ms, NN 1155 us
+I (33768) INFER: Desbalanceamento | DSP 58 ms, NN 1127 us
+I (33768) INFER: 8 janelas/s | amostras perdidas=0
+I (33898) INFER: Desbalanceamento | DSP 58 ms, NN 1169 us
+I (34028) INFER: Desbalanceamento | DSP 58 ms, NN 1196 us
+I (34158) INFER: Desbalanceamento | DSP 58 ms, NN 1081 us
+I (34288) INFER: Desbalanceamento | DSP 58 ms, NN 1176 us
+I (34418) INFER: Desbalanceamento | DSP 58 ms, NN 1105 us
+I (34428) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (34428) ACQ: ultima: I=169.6 mA | a=(-0.667, -13.651, 11.690) m/s2
+I (34548) INFER: Desbalanceamento | DSP 58 ms, NN 1191 us
+I (34678) INFER: Desbalanceamento | DSP 58 ms, NN 1206 us
+I (34808) INFER: Desbalanceamento | DSP 58 ms, NN 1187 us
+I (34808) INFER: 8 janelas/s | amostras perdidas=0
+I (34938) INFER: Desbalanceamento | DSP 58 ms, NN 1210 us
+I (35068) INFER: Desbalanceamento | DSP 58 ms, NN 1156 us
+I (35198) INFER: Desbalanceamento | DSP 58 ms, NN 1150 us
+I (35328) INFER: Desbalanceamento | DSP 58 ms, NN 1208 us
+I (35428) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (35428) ACQ: ultima: I=210.9 mA | a=(1.177, -1.687, 11.650) m/s2
+I (35458) INFER: Desbalanceamento | DSP 59 ms, NN 1054 us
+I (35588) INFER: Desbalanceamento | DSP 58 ms, NN 1193 us
+I (35718) INFER: Desbalanceamento | DSP 58 ms, NN 1202 us
+I (35848) INFER: Desbalanceamento | DSP 58 ms, NN 1154 us
+I (35848) INFER: 8 janelas/s | amostras perdidas=0
+I (35978) INFER: Desbalanceamento | DSP 58 ms, NN 1161 us
+I (36108) INFER: Desbalanceamento | DSP 58 ms, NN 1203 us
+I (36238) INFER: Desbalanceamento | DSP 58 ms, NN 1165 us
+I (36368) INFER: Desbalanceamento | DSP 58 ms, NN 1121 us
+I (36438) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (36438) ACQ: ultima: I=164.8 mA | a=(1.804, -4.903, 11.650) m/s2
+I (36498) INFER: Desbalanceamento | DSP 59 ms, NN 1001 us
+I (36628) INFER: Desbalanceamento | DSP 58 ms, NN 1154 us
+I (36758) INFER: Desbalanceamento | DSP 58 ms, NN 1127 us
+I (36888) INFER: Desbalanceamento | DSP 58 ms, NN 1205 us
+I (36888) INFER: 8 janelas/s | amostras perdidas=0
+I (37018) INFER: Desbalanceamento | DSP 58 ms, NN 1150 us
+I (37148) INFER: Desbalanceamento | DSP 58 ms, NN 1174 us
+I (37278) INFER: Desbalanceamento | DSP 58 ms, NN 1101 us
+I (37408) INFER: Desbalanceamento | DSP 58 ms, NN 1138 us
+I (37438) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (37438) ACQ: ultima: I=167.8 mA | a=(-0.628, -2.628, 10.120) m/s2
+I (37538) INFER: Desbalanceamento | DSP 58 ms, NN 1152 us
+I (37668) INFER: Desbalanceamento | DSP 58 ms, NN 1167 us
+I (37798) INFER: Desbalanceamento | DSP 58 ms, NN 1158 us
+I (37928) INFER: Desbalanceamento | DSP 58 ms, NN 1161 us
+I (37928) INFER: 8 janelas/s | amostras perdidas=0
+I (38058) INFER: Desbalanceamento | DSP 58 ms, NN 1167 us
+I (38188) INFER: Desbalanceamento | DSP 58 ms, NN 1161 us
+I (38318) INFER: Desbalanceamento | DSP 58 ms, NN 1137 us
+I (38438) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (38438) ACQ: ultima: I=124.9 mA | a=(1.491, 13.925, 13.023) m/s2
+I (38448) INFER: Desbalanceamento | DSP 59 ms, NN 1035 us
+I (38578) INFER: Desbalanceamento | DSP 58 ms, NN 1145 us
+I (38708) INFER: Desbalanceamento | DSP 58 ms, NN 1151 us
+I (38838) INFER: Desbalanceamento | DSP 58 ms, NN 1030 us
+I (38968) INFER: Desbalanceamento | DSP 58 ms, NN 1092 us
+I (38968) INFER: 8 janelas/s | amostras perdidas=0
+I (39098) INFER: Desbalanceamento | DSP 58 ms, NN 1150 us
+I (39228) INFER: Desbalanceamento | DSP 58 ms, NN 1005 us
+I (39358) INFER: Desbalanceamento | DSP 58 ms, NN 1093 us
+I (39438) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (39438) ACQ: ultima: I=131.0 mA | a=(3.295, -6.159, 13.141) m/s2
+I (39488) INFER: Desbalanceamento | DSP 59 ms, NN 1119 us
+I (39618) INFER: Desbalanceamento | DSP 58 ms, NN 1107 us
+I (39748) INFER: Desbalanceamento | DSP 58 ms, NN 1167 us
+I (39878) INFER: Desbalanceamento | DSP 58 ms, NN 1097 us
+I (40008) INFER: Desbalanceamento | DSP 58 ms, NN 1183 us
+I (40008) INFER: 8 janelas/s | amostras perdidas=0
+I (40138) INFER: Desbalanceamento | DSP 58 ms, NN 1131 us
+I (40268) INFER: Desbalanceamento | DSP 58 ms, NN 1078 us
+I (40398) INFER: Desbalanceamento | DSP 58 ms, NN 1146 us
+I (40448) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (40448) ACQ: ultima: I=129.3 mA | a=(1.216, 0.588, 9.375) m/s2
+I (40528) INFER: Desbalanceamento | DSP 58 ms, NN 1095 us
+I (40658) INFER: Desbalanceamento | DSP 58 ms, NN 1217 us
+I (40788) INFER: Desbalanceamento | DSP 58 ms, NN 1154 us
+I (40918) INFER: Desbalanceamento | DSP 58 ms, NN 1116 us
+I (41048) INFER: Desbalanceamento | DSP 58 ms, NN 1152 us
+I (41048) INFER: 8 janelas/s | amostras perdidas=0
+I (41178) INFER: Desbalanceamento | DSP 58 ms, NN 1120 us
+I (41308) INFER: Desbalanceamento | DSP 58 ms, NN 1150 us
+I (41438) INFER: Desbalanceamento | DSP 58 ms, NN 1105 us
+I (41448) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (41448) ACQ: ultima: I=173.5 mA | a=(-2.001, 4.707, 10.552) m/s2
+I (41568) INFER: Desbalanceamento | DSP 58 ms, NN 1100 us
+I (41698) INFER: Desbalanceamento | DSP 58 ms, NN 1197 us
+I (41828) INFER: Desbalanceamento | DSP 58 ms, NN 1165 us
+I (41958) INFER: Desbalanceamento | DSP 58 ms, NN 1150 us
+I (42088) INFER: Desbalanceamento | DSP 58 ms, NN 1179 us
+I (42088) INFER: 8 janelas/s | amostras perdidas=0
+I (42218) INFER: Desbalanceamento | DSP 58 ms, NN 1126 us
+I (42348) INFER: Desbalanceamento | DSP 58 ms, NN 1128 us
+I (42448) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (42448) ACQ: ultima: I=206.3 mA | a=(1.491, -7.178, 10.474) m/s2
+I (42478) INFER: Desbalanceamento | DSP 59 ms, NN 1118 us
+I (42608) INFER: Desbalanceamento | DSP 58 ms, NN 949 us
+I (42738) INFER: Desbalanceamento | DSP 58 ms, NN 1174 us
+I (42868) INFER: Desbalanceamento | DSP 58 ms, NN 1082 us
+I (42998) INFER: Desbalanceamento | DSP 58 ms, NN 1077 us
+I (43128) INFER: Desbalanceamento | DSP 58 ms, NN 1142 us
+I (43128) INFER: 8 janelas/s | amostras perdidas=0
+I (43258) INFER: Desbalanceamento | DSP 58 ms, NN 1160 us
+I (43388) INFER: Desbalanceamento | DSP 58 ms, NN 1096 us
+I (43458) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (43458) ACQ: ultima: I=206.5 mA | a=(-0.628, 4.707, 10.513) m/s2
+I (43518) INFER: Desbalanceamento | DSP 59 ms, NN 1005 us
+I (43648) INFER: Desbalanceamento | DSP 58 ms, NN 1099 us
+I (43778) INFER: Desbalanceamento | DSP 58 ms, NN 1132 us
+I (43908) INFER: Desbalanceamento | DSP 58 ms, NN 1003 us
+I (44038) INFER: Desbalanceamento | DSP 58 ms, NN 1125 us
+I (44168) INFER: Desbalanceamento | DSP 58 ms, NN 1105 us
+I (44168) INFER: 8 janelas/s | amostras perdidas=0
+I (44298) INFER: Desbalanceamento | DSP 58 ms, NN 1153 us
+I (44428) INFER: Desbalanceamento | DSP 58 ms, NN 1109 us
+I (44458) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (44458) ACQ: ultima: I=247.0 mA | a=(1.569, -5.296, 9.846) m/s2
+I (44558) INFER: Desbalanceamento | DSP 58 ms, NN 1138 us
+I (44688) INFER: Desbalanceamento | DSP 58 ms, NN 1083 us
+I (44818) INFER: Desbalanceamento | DSP 58 ms, NN 1146 us
+I (44948) INFER: Desbalanceamento | DSP 58 ms, NN 1152 us
+I (45078) INFER: Desbalanceamento | DSP 58 ms, NN 1151 us
+I (45208) INFER: Desbalanceamento | DSP 58 ms, NN 1156 us
+I (45208) INFER: 8 janelas/s | amostras perdidas=0
+I (45338) INFER: Desbalanceamento | DSP 58 ms, NN 1105 us
+I (45458) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (45458) ACQ: ultima: I=153.1 mA | a=(0.314, 6.198, 12.239) m/s2
+I (45468) INFER: Desbalanceamento | DSP 59 ms, NN 1156 us
+I (45598) INFER: Desbalanceamento | DSP 58 ms, NN 1049 us
+I (45728) INFER: Desbalanceamento | DSP 58 ms, NN 1162 us
+I (45858) INFER: Desbalanceamento | DSP 58 ms, NN 1211 us
+I (45988) INFER: Desbalanceamento | DSP 58 ms, NN 1108 us
+I (46118) INFER: Desbalanceamento | DSP 58 ms, NN 1159 us
+I (46248) INFER: Desbalanceamento | DSP 58 ms, NN 1108 us
+I (46248) INFER: 8 janelas/s | amostras perdidas=0
+I (46378) INFER: Desbalanceamento | DSP 58 ms, NN 1153 us
+I (46458) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (46458) ACQ: ultima: I=95.0 mA | a=(0.941, -13.259, 8.787) m/s2
+I (46508) INFER: Desbalanceamento | DSP 59 ms, NN 1180 us
+I (46638) INFER: Desbalanceamento | DSP 58 ms, NN 1163 us
+I (46768) INFER: Desbalanceamento | DSP 58 ms, NN 1131 us
+I (46898) INFER: Desbalanceamento | DSP 58 ms, NN 1085 us
+I (47028) INFER: Desbalanceamento | DSP 58 ms, NN 1051 us
+I (47158) INFER: Desbalanceamento | DSP 58 ms, NN 1112 us
+I (47288) INFER: Desbalanceamento | DSP 58 ms, NN 1158 us
+I (47288) INFER: 8 janelas/s | amostras perdidas=0
+I (47418) INFER: Desbalanceamento | DSP 58 ms, NN 1131 us
+I (47468) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (47468) ACQ: ultima: I=255.8 mA | a=(0.706, 8.512, 14.200) m/s2
+I (47548) INFER: Desbalanceamento | DSP 58 ms, NN 1060 us
+I (47678) INFER: Desbalanceamento | DSP 58 ms, NN 1154 us
+I (47808) INFER: Desbalanceamento | DSP 58 ms, NN 1204 us
+I (47938) INFER: Desbalanceamento | DSP 58 ms, NN 1082 us
+I (48068) INFER: Desbalanceamento | DSP 58 ms, NN 1146 us
+I (48198) INFER: Desbalanceamento | DSP 58 ms, NN 1210 us
+I (48328) INFER: Desbalanceamento | DSP 58 ms, NN 1154 us
+I (48328) INFER: 8 janelas/s | amostras perdidas=0
+I (48458) INFER: Desbalanceamento | DSP 58 ms, NN 1190 us
+I (48468) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (48468) ACQ: ultima: I=229.9 mA | a=(0.941, -12.317, 8.630) m/s2
+I (48588) INFER: Desbalanceamento | DSP 58 ms, NN 1191 us
+I (48718) INFER: Desbalanceamento | DSP 58 ms, NN 1150 us
+I (48848) INFER: Desbalanceamento | DSP 58 ms, NN 1203 us
+I (48978) INFER: Desbalanceamento | DSP 58 ms, NN 1155 us
+I (49108) INFER: Desbalanceamento | DSP 58 ms, NN 1152 us
+I (49238) INFER: Desbalanceamento | DSP 58 ms, NN 1150 us
+I (49368) INFER: Desbalanceamento | DSP 58 ms, NN 1148 us
+I (49368) INFER: 8 janelas/s | amostras perdidas=0
+I (49468) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (49468) ACQ: ultima: I=109.8 mA | a=(-1.138, 4.590, 11.454) m/s2
+I (49498) INFER: Desbalanceamento | DSP 59 ms, NN 1052 us
+I (49628) INFER: Desbalanceamento | DSP 58 ms, NN 1196 us
+I (49758) INFER: Desbalanceamento | DSP 58 ms, NN 1139 us
+I (49888) INFER: Desbalanceamento | DSP 58 ms, NN 1184 us
+I (50018) INFER: Desbalanceamento | DSP 58 ms, NN 1190 us
+I (50148) INFER: Desbalanceamento | DSP 58 ms, NN 1132 us
+I (50278) INFER: Desbalanceamento | DSP 58 ms, NN 1143 us
+I (50408) INFER: Desbalanceamento | DSP 58 ms, NN 1177 us
+I (50408) INFER: 8 janelas/s | amostras perdidas=0
+I (50478) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (50478) ACQ: ultima: I=142.9 mA | a=(-1.216, -4.315, 10.434) m/s2
+I (50538) INFER: Desbalanceamento | DSP 59 ms, NN 1117 us
+I (50668) INFER: Desbalanceamento | DSP 58 ms, NN 1210 us
+I (50798) INFER: Desbalanceamento | DSP 58 ms, NN 1214 us
+I (50928) INFER: Desbalanceamento | DSP 58 ms, NN 1169 us
+I (51058) INFER: Desbalanceamento | DSP 58 ms, NN 1196 us
+I (51188) INFER: Desbalanceamento | DSP 58 ms, NN 1218 us
+I (51318) INFER: Desbalanceamento | DSP 58 ms, NN 1152 us
+I (51448) INFER: Desbalanceamento | DSP 58 ms, NN 1117 us
+I (51448) INFER: 8 janelas/s | amostras perdidas=0
+I (51478) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (51478) ACQ: ultima: I=209.4 mA | a=(-0.785, 10.944, 10.748) m/s2
+I (51578) INFER: Desbalanceamento | DSP 58 ms, NN 1138 us
+I (51708) INFER: Desbalanceamento | DSP 58 ms, NN 1155 us
+I (51838) INFER: Desbalanceamento | DSP 58 ms, NN 1203 us
+I (51968) INFER: Desbalanceamento | DSP 58 ms, NN 1183 us
+I (52098) INFER: Desbalanceamento | DSP 58 ms, NN 1192 us
+I (52228) INFER: Desbalanceamento | DSP 58 ms, NN 1181 us
+I (52358) INFER: Desbalanceamento | DSP 58 ms, NN 1192 us
+I (52478) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (52478) ACQ: ultima: I=218.4 mA | a=(-0.745, 7.022, 12.356) m/s2
+I (52488) INFER: Desbalanceamento | DSP 59 ms, NN 1209 us
+I (52488) INFER: 8 janelas/s | amostras perdidas=0
+I (52618) INFER: Desbalanceamento | DSP 58 ms, NN 1196 us
+I (52748) INFER: Desbalanceamento | DSP 58 ms, NN 1198 us
+I (52878) INFER: Desbalanceamento | DSP 58 ms, NN 1200 us
+I (53008) INFER: Desbalanceamento | DSP 58 ms, NN 1209 us
+I (53138) INFER: Desbalanceamento | DSP 58 ms, NN 1142 us
+I (53268) INFER: Desbalanceamento | DSP 58 ms, NN 1067 us
+I (53398) INFER: Desbalanceamento | DSP 58 ms, NN 1148 us
+I (53478) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (53478) ACQ: ultima: I=224.7 mA | a=(-0.431, -7.296, 11.690) m/s2
+I (53528) INFER: Desbalanceamento | DSP 59 ms, NN 1108 us
+I (53528) INFER: 8 janelas/s | amostras perdidas=0
+I (53658) INFER: Desbalanceamento | DSP 58 ms, NN 1149 us
+I (53788) INFER: Desbalanceamento | DSP 58 ms, NN 1152 us
+I (53918) INFER: Desbalanceamento | DSP 58 ms, NN 1168 us
+I (54048) INFER: Desbalanceamento | DSP 58 ms, NN 1113 us
+I (54178) INFER: Desbalanceamento | DSP 58 ms, NN 1195 us
+I (54308) INFER: Desbalanceamento | DSP 58 ms, NN 1202 us
+I (54438) INFER: Desbalanceamento | DSP 58 ms, NN 1146 us
+I (54488) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (54488) ACQ: ultima: I=259.3 mA | a=(3.883, 4.707, 13.219) m/s2
+I (54568) INFER: Desbalanceamento | DSP 58 ms, NN 1087 us
+I (54568) INFER: 8 janelas/s | amostras perdidas=0
+I (54698) INFER: Desbalanceamento | DSP 58 ms, NN 1198 us
+I (54828) INFER: Desbalanceamento | DSP 58 ms, NN 1126 us
+I (54958) INFER: Desbalanceamento | DSP 58 ms, NN 1191 us
+I (55088) INFER: Desbalanceamento | DSP 58 ms, NN 1140 us
+I (55218) INFER: Desbalanceamento | DSP 58 ms, NN 1173 us
+I (55348) INFER: Desbalanceamento | DSP 58 ms, NN 1134 us
+I (55478) INFER: Desbalanceamento | DSP 58 ms, NN 1160 us
+I (55488) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (55488) ACQ: ultima: I=120.3 mA | a=(2.981, -10.356, 13.808) m/s2
+I (55608) INFER: Desbalanceamento | DSP 58 ms, NN 1153 us
+I (55608) INFER: 8 janelas/s | amostras perdidas=0
+I (55738) INFER: Desbalanceamento | DSP 58 ms, NN 1155 us
+I (55868) INFER: Desbalanceamento | DSP 58 ms, NN 1145 us
+I (55998) INFER: Desbalanceamento | DSP 58 ms, NN 1200 us
+I (56128) INFER: Desbalanceamento | DSP 58 ms, NN 1150 us
+I (56258) INFER: Desbalanceamento | DSP 58 ms, NN 1158 us
+I (56388) INFER: Desbalanceamento | DSP 58 ms, NN 1143 us
+I (56488) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (56488) ACQ: ultima: I=160.4 mA | a=(-2.157, 1.059, 10.317) m/s2
+I (56518) INFER: Desbalanceamento | DSP 59 ms, NN 1134 us
+I (56648) INFER: Desbalanceamento | DSP 58 ms, NN 1148 us
+I (56648) INFER: 8 janelas/s | amostras perdidas=0
+I (56778) INFER: Desbalanceamento | DSP 58 ms, NN 1150 us
+I (56908) INFER: Desbalanceamento | DSP 58 ms, NN 1142 us
+I (57038) INFER: Desbalanceamento | DSP 58 ms, NN 1208 us
+I (57168) INFER: Desbalanceamento | DSP 58 ms, NN 1152 us
+I (57298) INFER: Desbalanceamento | DSP 58 ms, NN 1214 us
+I (57428) INFER: Desbalanceamento | DSP 58 ms, NN 1207 us
+I (57498) ACQ: 101 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (57498) ACQ: ultima: I=203.7 mA | a=(-1.569, 15.024, 12.043) m/s2
+I (57558) INFER: Desbalanceamento | DSP 59 ms, NN 1078 us
+I (57688) INFER: Desbalanceamento | DSP 58 ms, NN 1157 us
+I (57688) INFER: 8 janelas/s | amostras perdidas=0
+I (57818) INFER: Desbalanceamento | DSP 58 ms, NN 1173 us
+I (57948) INFER: Desbalanceamento | DSP 58 ms, NN 1155 us
+I (58078) INFER: Desbalanceamento | DSP 58 ms, NN 1144 us
+I (58208) INFER: Desbalanceamento | DSP 58 ms, NN 1161 us
+I (58338) INFER: Desbalanceamento | DSP 58 ms, NN 1189 us
+I (58468) INFER: Falha de Engrenagem | DSP 58 ms, NN 1198 us
+I (58498) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (58498) ACQ: ultima: I=221.8 mA | a=(1.451, 9.532, 9.650) m/s2
+I (58598) INFER: Desbalanceamento | DSP 58 ms, NN 1164 us
+I (58728) INFER: Desbalanceamento | DSP 58 ms, NN 1156 us
+I (58728) INFER: 8 janelas/s | amostras perdidas=0
+I (58858) INFER: Desbalanceamento | DSP 58 ms, NN 1175 us
+I (58988) INFER: Desbalanceamento | DSP 58 ms, NN 1066 us
+I (59118) INFER: Desbalanceamento | DSP 58 ms, NN 1112 us
+I (59248) INFER: Desbalanceamento | DSP 58 ms, NN 1206 us
+I (59378) INFER: Desbalanceamento | DSP 58 ms, NN 1159 us
+I (59498) ACQ: 100 amostras/s | erros INA=0 ADXL=0 | atrasos=0
+I (59498) ACQ: ultima: I=213.8 mA | a=(-0.196, 4.825, 10.081) m/s2
+I (59508) INFER: Desbalanceamento | DSP 59 ms, NN 1174 us
+I (59638) INFER: Desbalanceamento | DSP 58 ms, NN 1138 us
+I (59768) INFER: Desbalanceamento | DSP 58 ms, NN 1139 us
+I (59768) INFER: 8 janelas/s | amostras perdidas=0
+I (59898) INFER: Desbalanceamento | DSP 58 ms, NN 1096 us

@@ -5,6 +5,7 @@
 class INA219Adapter : public ISensor {
 public:
     bool init() override;
+    ~INA219Adapter() override;
     void readData(float* buffer) override;      // 1 float: corrente em mA
     uint32_t getSamplingRate() override;
     void calibrate();

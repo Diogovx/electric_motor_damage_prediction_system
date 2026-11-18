@@ -5,6 +5,7 @@
 class ADXL345Adapter : public ISensor {
 public:
     bool init() override;
+    ~ADXL345Adapter() override;
     void readData(float* buffer) override;      // 3 floats: ax, ay, az em m/s2
     uint32_t getSamplingRate() override;
     void setRange(uint8_t range);               // 2, 4, 8 ou 16 (g)

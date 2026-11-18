@@ -1,13 +1,11 @@
-# This file was automatically generated for projects
-# without default 'CMakeLists.txt' file.
-
 file(GLOB_RECURSE app_sources
     ${CMAKE_SOURCE_DIR}/src/*.c
     ${CMAKE_SOURCE_DIR}/src/*.cpp)
 
 idf_component_register(
     SRCS ${app_sources}
-    REQUIRES esp_timer esp_driver_i2c esp_partition esp_rom edge-impulse
+    REQUIRES esp_timer esp_driver_i2c esp_driver_gpio esp_partition esp_rom
+             esp_wifi esp_event esp_netif nvs_flash esp_http_server edge-impulse
 )
 
 target_compile_options(${COMPONENT_LIB} PRIVATE

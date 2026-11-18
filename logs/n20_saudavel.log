@@ -1,0 +1,602 @@
+SPIWP:0xee
+oad:0x3flad:0x403c8700,len:0xda0
+ontry 0x403c8900
+I (24) boot: ESP-IDF 6.0.1 2nd stage bootloader
+I (24) boot: compile time Nov 15 2026 14:23:46
+I (25) boot: Multicore bootloader
+I (26) boot: chip revision: v0.2
+I (27) boot: efuse block revision: v1.3
+I (31) boot.esp32s3: Boot SPI Speed : 80MHz
+I (35) boot.esp32s3: SPI Mode       : DIO
+I (39) boot.esp32s3: SPI Flash Size : 8MB
+I (42) boot: Enabling RNG early entropy source...
+I (47) boot: Partition Table:
+I (49) boot: ## Label            Usage          Type ST Offset   Length
+I (56) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (62) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+I (69) boot:  2 factory          factory app      00 00 00010000 00200000
+I (75) boot:  3 storage          Unknown data     01 82 00210000 00100000
+I (82) boot: End of partition table
+I (85) esp_image: segment 0: paddr=00010020 vaddr=3c0d0020 size=2afd0h (176080) map
+I (124) esp_image: segment 1: paddr=0003aff8 vaddr=3fc97e00 size=05020h ( 20512) load
+I (129) esp_image: segment 2: paddr=00040020 vaddr=42000020 size=cb364h (832356) map
+I (279) esp_image: segment 3: paddr=0010b38c vaddr=3fc9ce20 size=00258h (   600) load
+I (279) esp_image: segment 4: paddr=0010b5ec vaddr=40374000 size=13d4ch ( 81228) load
+I (300) esp_image: segment 5: paddr=0011f340 vaddr=50000000 size=00024h (    36) load
+I (309) boot: Loaded app from partition at offset 0x10000
+I (310) boot: Disabling RNG early entropy source...
+I (320) cpu_start: Multicore app
+I (328) cpu_start: GPIO 44 and 43 are used as console UART I/O pins
+I (329) cpu_start: Pro cpu start user code
+I (329) cpu_start: cpu freq: 160000000 Hz
+I (331) app_init: Application information:
+I (334) app_init: Project name:     tcc_monitoramento2
+I (339) app_init: App version:      46aafed-dirty
+I (344) app_init: Compile time:     Nov 15 2026 14:23:34
+I (349) app_init: ELF file SHA256:  8455b3841...
+I (353) app_init: ESP-IDF:          6.0.1
+I (357) efuse_init: Min chip rev:     v0.0
+I (361) efuse_init: Max chip rev:     v0.99 
+I (365) efuse_init: Chip rev:         v0.2
+I (369) heap_init: Initializing. RAM available for dynamic allocation:
+I (375) heap_init: At 3FCAA0F0 len 0003F620 (253 KiB): RAM
+I (380) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM
+I (385) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM
+I (390) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM
+I (397) spi_flash: detected chip: boya
+I (399) spi_flash: flash io: dio
+W (402) spi_flash: Detected size(16384k) larger than the size in the binary image header(8192k). Using the size in the binary image header.
+I (415) sleep_gpio: Configure to isolate all GPIO pins in sleep state
+I (421) sleep_gpio: Enable automatic switching of GPIO sleep configuration
+I (428) main_task: Started on CPU0
+I (438) main_task: Calling app_main()
+I (10438) MAIN: === Diagnostico de falhas em motores (TinyML) ===
+I (10438) MAIN: ESP32-S3 | 2 nucleos | IDF 6.0.1 | heap livre 302612
+I (10438) I2C_BUS: Barramento I2C inicializado
+I (10438) I2C_BUS: SDA: GPIO 8
+I (10438) I2C_BUS: SCL: GPIO 9
+I (10458) STORAGE: LittleFS montado em /storage: 40960 de 1048576 bytes usados
+I (10478) RECONF: ev=reconf_begin t_us=10082941
+I (10478) RECONF: ev=last_inference_old t_us=0
+I (10488) RECONF: ev=old_released t_us=10087298
+I (10488) ADXL345: OK (endereco 0x53, 100 Hz, +-16 g)
+I (10488) INA219: OK (endereco 0x40, config 0x399F, shunt 0.100 ohm)
+I (10488) RECONF: ev=sensors_ready t_us=10096146
+I (10498) MODEL_MGR: Modelo lido de /storage/model.tflite (3776 bytes)
+I (10508) MODEL_MGR: Arena: 980 de 8192 bytes usados
+I (10508) MODEL_MGR: Pronto: entrada 52 valores (int8, scale=0.184848, zp=-114), saida 3 classes
+I (10518) RECONF: ev=model_ready t_us=10119723
+I (10578) RECONF: ev=selftest_ok t_us=10185468
+I (10578) CTRL: STATUS {"state":"running","version":2,"motor":"n20","trial":0,"detail":"configuracao aplicada"}
+I (10598) RECONF: ev=first_sample t_us=10200741
+I (10608) NET: Rede: "DIOGO VELOZO" (salva no NVS) | broker mqtt://192.168.1.109:1883
+I (10608) pp: pp rom version: e7ae62f
+I (10618) net80211: net80211 rom version: e7ae62f
+I (10628) wifi:wifi driver task: 3fcbb778, prio:23, stack:6656, core=0
+I (10638) wifi:wifi firmware version: b37c951
+I (10638) wifi:wifi certification version: v7.0
+I (10638) wifi:config NVS flash: enabled
+I (10638) wifi:config nano formatting: disabled
+I (10648) wifi:Init data frame dynamic rx buffer num: 32
+I (10648) wifi:Init static rx mgmt buffer num: 5
+I (10658) wifi:Init management short buffer num: 32
+I (10658) wifi:Init dynamic tx buffer num: 32
+I (10668) wifi:Init static tx FG buffer num: 2
+I (10668) wifi:Init static rx buffer size: 1600
+I (10668) wifi:Init static rx buffer num: 10
+I (10678) wifi:Init dynamic rx buffer num: 32
+I (10678) wifi_init: rx ba win: 6
+I (10678) wifi_init: accept mbox: 6
+I (10688) wifi_init: tcpip mbox: 32
+I (10688) wifi_init: udp mbox: 6
+I (10688) wifi_init: tcp mbox: 6
+I (10698) wifi_init: tcp tx win: 5760
+I (10698) wifi_init: tcp rx win: 5760
+I (10698) wifi_init: tcp mss: 1440
+I (10708) wifi_init: WiFi IRAM OP enabled
+I (10708) wifi_init: WiFi RX IRAM OP enabled
+I (10718) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10
+I (10758) wifi:mode : sta (1c:db:d4:ad:d3:3c)
+I (10758) wifi:enable tsf
+I (10758) wifi:Set ps type: 0, coexist: 0
+
+I (10758) main_task: Returned from app_main()
+I (10768) wifi:new:<5,0>, old:<1,0>, ap:<255,255>, sta:<5,0>, prof:1, snd_ch_cfg:0x0
+I (10768) wifi:state: init -> auth (0xb0)
+I (10778) wifi:state: auth -> assoc (0x0)
+I (10788) wifi:state: assoc -> run (0x10)
+I (10998) wifi:connected with DIOGO VELOZO, aid = 8, channel 5, BW20, bssid = c0:25:2f:0b:54:dd
+I (10998) wifi:security: WPA2-PSK, phy: bgn, rssi: -29, cipher(pairwise:0x3, group:0x3), pmf:0
+I (11008) wifi:pm start, type: 0
+
+I (11008) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (11018) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (11028) wifi:<ba-add>idx:0 (ifx:0, c0:25:2f:0b:54:dd), tid:0, ssn:2, winSize:64
+I (11098) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+I (11588) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (12058) esp_netif_handlers: sta ip: 192.168.1.107, mask: 255.255.255.0, gw: 192.168.1.1
+I (12058) NET: IP obtido: 192.168.1.107
+I (12078) NET: MQTT conectado
+I (12588) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=1
+I (13208) RECONF: ev=first_inference_valid t_us=12816064
+I (13208) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (13208) INFER: 1 janelas/s
+I (13328) INFER: Saudavel | DSP 61 ms, NN 1028 us
+I (13448) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (13578) INFER: Saudavel | DSP 63 ms, NN 1022 us
+I (13598) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (13698) INFER: Saudavel | DSP 62 ms, NN 1035 us
+I (13818) INFER: Saudavel | DSP 62 ms, NN 1038 us
+I (13928) INFER: Saudavel | DSP 61 ms, NN 1030 us
+I (14048) INFER: Saudavel | DSP 61 ms, NN 1027 us
+I (14168) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (14288) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (14288) INFER: 9 janelas/s
+I (14408) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (14538) INFER: Saudavel | DSP 63 ms, NN 1035 us
+I (14598) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (14658) INFER: Saudavel | DSP 63 ms, NN 1037 us
+I (14768) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (14898) INFER: Saudavel | DSP 61 ms, NN 2562 us
+I (15008) INFER: Saudavel | DSP 61 ms, NN 1028 us
+I (15138) INFER: Saudavel | DSP 63 ms, NN 1026 us
+I (15248) INFER: Saudavel | DSP 61 ms, NN 1027 us
+I (15368) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (15368) INFER: 9 janelas/s
+I (15488) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (15608) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (15618) INFER: Saudavel | DSP 65 ms, NN 1022 us
+I (15728) INFER: Saudavel | DSP 61 ms, NN 1020 us
+I (15848) INFER: Saudavel | DSP 62 ms, NN 1026 us
+I (15968) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (16088) INFER: Saudavel | DSP 61 ms, NN 1028 us
+I (16208) INFER: Saudavel | DSP 60 ms, NN 1025 us
+I (16328) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (16448) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (16448) INFER: 9 janelas/s
+I (16568) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (16618) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (16698) INFER: Saudavel | DSP 62 ms, NN 1033 us
+I (16808) INFER: Saudavel | DSP 62 ms, NN 1029 us
+I (16928) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (17048) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (17178) INFER: Saudavel | DSP 63 ms, NN 1027 us
+I (17288) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (17408) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (17528) INFER: Saudavel | DSP 61 ms, NN 1022 us
+I (17528) INFER: 9 janelas/s
+I (17618) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (17658) INFER: Saudavel | DSP 62 ms, NN 1025 us
+I (17768) INFER: Saudavel | DSP 62 ms, NN 1022 us
+I (17888) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (18008) INFER: Saudavel | DSP 61 ms, NN 1019 us
+I (18128) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (18248) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (18368) INFER: Saudavel | DSP 61 ms, NN 1028 us
+I (18488) INFER: Saudavel | DSP 61 ms, NN 1022 us
+I (18618) INFER: Saudavel | DSP 62 ms, NN 1040 us
+I (18618) INFER: 9 janelas/s
+I (18618) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (18728) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (18848) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (18968) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (19088) INFER: Saudavel | DSP 62 ms, NN 1025 us
+I (19218) INFER: Saudavel | DSP 66 ms, NN 1024 us
+I (19338) INFER: Saudavel | DSP 66 ms, NN 1023 us
+I (19448) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (19568) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (19628) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (19688) INFER: Saudavel | DSP 61 ms, NN 1028 us
+I (19688) INFER: 9 janelas/s
+I (19818) INFER: Saudavel | DSP 62 ms, NN 1036 us
+I (19928) INFER: Saudavel | DSP 61 ms, NN 1022 us
+I (20048) INFER: Saudavel | DSP 61 ms, NN 1020 us
+I (20178) INFER: Saudavel | DSP 65 ms, NN 1028 us
+I (20288) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (20408) INFER: Saudavel | DSP 60 ms, NN 1204 us
+I (20538) INFER: Saudavel | DSP 63 ms, NN 1024 us
+I (20628) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (20658) INFER: Saudavel | DSP 62 ms, NN 1038 us
+I (20768) INFER: Saudavel | DSP 62 ms, NN 1025 us
+I (20778) INFER: 9 janelas/s
+I (20888) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (21008) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (21128) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (21258) INFER: Saudavel | DSP 63 ms, NN 1752 us
+I (21368) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (21488) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (21618) INFER: Saudavel | DSP 62 ms, NN 1037 us
+I (21638) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (21728) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (21848) INFER: Saudavel | DSP 61 ms, NN 1028 us
+I (21858) INFER: 9 janelas/s
+I (21978) INFER: Saudavel | DSP 65 ms, NN 1275 us
+I (22088) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (22218) INFER: Saudavel | DSP 66 ms, NN 1027 us
+I (22338) INFER: Saudavel | DSP 64 ms, NN 1028 us
+I (22448) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (22568) INFER: Saudavel | DSP 62 ms, NN 1122 us
+I (22638) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (22688) INFER: Saudavel | DSP 62 ms, NN 1022 us
+I (22818) INFER: Saudavel | DSP 62 ms, NN 1037 us
+I (22928) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (22928) INFER: 9 janelas/s
+I (23048) INFER: Saudavel | DSP 61 ms, NN 1028 us
+I (23168) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (23298) INFER: Saudavel | DSP 62 ms, NN 1035 us
+I (23408) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (23538) INFER: Saudavel | DSP 63 ms, NN 1023 us
+I (23648) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (23658) INFER: Saudavel | DSP 64 ms, NN 1025 us
+I (23768) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (23888) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (24008) INFER: Saudavel | DSP 61 ms, NN 1022 us
+I (24008) INFER: 9 janelas/s
+I (24138) INFER: Saudavel | DSP 63 ms, NN 1026 us
+I (24258) INFER: Saudavel | DSP 63 ms, NN 1025 us
+I (24368) INFER: Saudavel | DSP 61 ms, NN 1021 us
+I (24488) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (24618) INFER: Saudavel | DSP 63 ms, NN 1037 us
+I (24658) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (24728) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (24848) INFER: Saudavel | DSP 62 ms, NN 1023 us
+I (24978) INFER: Saudavel | DSP 63 ms, NN 1033 us
+I (25088) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (25088) INFER: 9 janelas/s
+I (25208) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (25328) INFER: Saudavel | DSP 61 ms, NN 1253 us
+I (25448) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (25578) INFER: Saudavel | DSP 63 ms, NN 1024 us
+I (25658) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (25688) INFER: Saudavel | DSP 62 ms, NN 1031 us
+I (25808) INFER: Saudavel | DSP 62 ms, NN 1026 us
+I (25928) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (26048) INFER: Saudavel | DSP 61 ms, NN 1027 us
+I (26168) INFER: Saudavel | DSP 61 ms, NN 1021 us
+I (26168) INFER: 9 janelas/s
+I (26288) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (26408) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (26528) INFER: Saudavel | DSP 60 ms, NN 1201 us
+I (26648) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (26658) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (26768) INFER: Saudavel | DSP 62 ms, NN 1022 us
+I (26898) INFER: Saudavel | DSP 62 ms, NN 1037 us
+I (27008) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (27128) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (27258) INFER: Saudavel | DSP 69 ms, NN 1221 us
+I (27258) INFER: 9 janelas/s
+I (27368) INFER: Saudavel | DSP 60 ms, NN 1024 us
+I (27488) INFER: Saudavel | DSP 61 ms, NN 1021 us
+I (27618) INFER: Saudavel | DSP 64 ms, NN 1027 us
+I (27668) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (27728) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (27848) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (27968) INFER: Saudavel | DSP 60 ms, NN 1027 us
+I (28088) INFER: Saudavel | DSP 61 ms, NN 1027 us
+I (28218) INFER: Saudavel | DSP 63 ms, NN 1038 us
+I (28328) INFER: Saudavel | DSP 62 ms, NN 1023 us
+I (28338) INFER: 9 janelas/s
+I (28448) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (28568) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (28668) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (28688) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (28808) INFER: Saudavel | DSP 62 ms, NN 1029 us
+I (28928) INFER: Saudavel | DSP 61 ms, NN 1022 us
+I (29048) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (29168) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (29298) INFER: Saudavel | DSP 63 ms, NN 1040 us
+I (29408) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (29408) INFER: 9 janelas/s
+I (29528) INFER: Saudavel | DSP 61 ms, NN 1022 us
+I (29648) INFER: Saudavel | DSP 62 ms, NN 1024 us
+I (29678) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (29768) INFER: Saudavel | DSP 62 ms, NN 1025 us
+I (29888) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (30008) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (30128) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (30248) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (30368) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (30488) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (30488) INFER: 9 janelas/s
+I (30618) INFER: Saudavel | DSP 62 ms, NN 1038 us
+I (30678) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (30728) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (30848) INFER: Saudavel | DSP 61 ms, NN 1027 us
+I (30968) INFER: Saudavel | DSP 61 ms, NN 1022 us
+I (31088) INFER: Saudavel | DSP 62 ms, NN 1024 us
+I (31208) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (31338) INFER: Saudavel | DSP 64 ms, NN 1029 us
+I (31448) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (31568) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (31568) INFER: 9 janelas/s
+I (31688) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (31688) INFER: Saudavel | DSP 62 ms, NN 1027 us
+I (31818) INFER: Saudavel | DSP 62 ms, NN 1037 us
+I (31928) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (32058) INFER: Saudavel | DSP 62 ms, NN 1315 us
+I (32168) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (32298) INFER: Saudavel | DSP 63 ms, NN 1035 us
+I (32408) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (32538) INFER: Saudavel | DSP 63 ms, NN 1033 us
+I (32648) INFER: Saudavel | DSP 62 ms, NN 1028 us
+I (32658) INFER: 9 janelas/s
+I (32698) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (32768) INFER: Saudavel | DSP 61 ms, NN 1028 us
+I (32888) INFER: Saudavel | DSP 61 ms, NN 1021 us
+I (33008) INFER: Saudavel | DSP 61 ms, NN 1278 us
+I (33138) INFER: Saudavel | DSP 63 ms, NN 1024 us
+I (33248) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (33368) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (33488) INFER: Saudavel | DSP 61 ms, NN 1027 us
+I (33608) INFER: Saudavel | DSP 61 ms, NN 1027 us
+I (33698) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (33728) INFER: Saudavel | DSP 62 ms, NN 1025 us
+I (33738) INFER: 9 janelas/s
+I (33848) INFER: Saudavel | DSP 62 ms, NN 1025 us
+I (33978) INFER: Saudavel | DSP 63 ms, NN 1039 us
+I (34088) INFER: Saudavel | DSP 62 ms, NN 1026 us
+I (34208) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (34338) INFER: Saudavel | DSP 63 ms, NN 1034 us
+I (34448) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (34568) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (34688) INFER: Saudavel | DSP 61 ms, NN 1028 us
+I (34698) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (34818) INFER: Saudavel | DSP 62 ms, NN 1037 us
+I (34818) INFER: 9 janelas/s
+I (34928) INFER: Saudavel | DSP 61 ms, NN 1028 us
+I (35048) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (35168) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (35288) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (35408) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (35538) INFER: Saudavel | DSP 63 ms, NN 1033 us
+I (35648) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (35708) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (35768) INFER: Saudavel | DSP 61 ms, NN 1027 us
+I (35898) INFER: Saudavel | DSP 63 ms, NN 1033 us
+I (35898) INFER: 9 janelas/s
+I (36008) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (36138) INFER: Saudavel | DSP 63 ms, NN 1037 us
+I (36248) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (36378) INFER: Saudavel | DSP 63 ms, NN 1037 us
+I (36488) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (36618) INFER: Saudavel | DSP 62 ms, NN 1041 us
+I (36708) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (36728) INFER: Saudavel | DSP 62 ms, NN 1023 us
+I (36848) INFER: Saudavel | DSP 62 ms, NN 1026 us
+I (36968) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (36968) INFER: 9 janelas/s
+I (37088) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (37208) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (37338) INFER: Saudavel | DSP 63 ms, NN 2764 us
+I (37448) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (37568) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (37688) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (37718) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (37808) INFER: Saudavel | DSP 62 ms, NN 1025 us
+I (37928) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (38058) INFER: Saudavel | DSP 63 ms, NN 1031 us
+I (38058) INFER: 9 janelas/s
+I (38168) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (38288) INFER: Saudavel | DSP 61 ms, NN 1028 us
+I (38408) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (38528) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (38648) INFER: Saudavel | DSP 62 ms, NN 1024 us
+I (38718) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (38778) INFER: Saudavel | DSP 65 ms, NN 1028 us
+I (38888) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (39018) INFER: Saudavel | DSP 63 ms, NN 1035 us
+I (39128) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (39128) INFER: 9 janelas/s
+I (39248) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (39378) INFER: Saudavel | DSP 63 ms, NN 1029 us
+I (39488) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (39618) INFER: Saudavel | DSP 64 ms, NN 1027 us
+I (39718) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (39728) INFER: Saudavel | DSP 61 ms, NN 1034 us
+I (39848) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (39968) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (40098) INFER: Saudavel | DSP 62 ms, NN 1037 us
+I (40218) INFER: Saudavel | DSP 63 ms, NN 1023 us
+I (40218) INFER: 9 janelas/s
+I (40338) INFER: Saudavel | DSP 66 ms, NN 1024 us
+I (40448) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (40568) INFER: Saudavel | DSP 61 ms, NN 1022 us
+I (40688) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (40728) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (40818) INFER: Saudavel | DSP 62 ms, NN 1035 us
+I (40928) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (41048) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (41168) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (41288) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (41288) INFER: 9 janelas/s
+I (41418) INFER: Saudavel | DSP 63 ms, NN 1027 us
+I (41538) INFER: Saudavel | DSP 63 ms, NN 1038 us
+I (41658) INFER: Saudavel | DSP 64 ms, NN 1027 us
+I (41728) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (41778) INFER: Saudavel | DSP 62 ms, NN 1041 us
+I (41888) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (42008) INFER: Saudavel | DSP 61 ms, NN 1027 us
+I (42128) INFER: Saudavel | DSP 61 ms, NN 1117 us
+I (42258) INFER: Saudavel | DSP 64 ms, NN 1029 us
+I (42378) INFER: Saudavel | DSP 65 ms, NN 1025 us
+I (42378) INFER: 9 janelas/s
+I (42488) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (42618) INFER: Saudavel | DSP 63 ms, NN 1026 us
+I (42728) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (42738) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (42848) INFER: Saudavel | DSP 62 ms, NN 1024 us
+I (42968) INFER: Saudavel | DSP 61 ms, NN 1022 us
+I (43098) INFER: Saudavel | DSP 63 ms, NN 1024 us
+I (43208) INFER: Saudavel | DSP 61 ms, NN 1027 us
+I (43328) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (43448) INFER: Saudavel | DSP 63 ms, NN 1028 us
+I (43448) INFER: 9 janelas/s
+I (43578) INFER: Saudavel | DSP 63 ms, NN 1024 us
+I (43688) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (43748) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (43818) INFER: Saudavel | DSP 62 ms, NN 1035 us
+I (43928) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (44048) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (44168) INFER: Saudavel | DSP 61 ms, NN 1028 us
+I (44288) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (44418) INFER: Saudavel | DSP 63 ms, NN 1023 us
+I (44538) INFER: Saudavel | DSP 63 ms, NN 1028 us
+I (44538) INFER: 9 janelas/s
+I (44648) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (44748) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (44768) INFER: Saudavel | DSP 61 ms, NN 1028 us
+I (44888) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (45008) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (45128) INFER: Saudavel | DSP 61 ms, NN 1029 us
+I (45248) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (45368) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (45488) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (45608) INFER: Saudavel | DSP 62 ms, NN 1023 us
+I (45618) INFER: 9 janelas/s
+I (45728) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (45758) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (45848) INFER: Saudavel | DSP 62 ms, NN 1028 us
+I (45978) INFER: Saudavel | DSP 63 ms, NN 1037 us
+I (46088) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (46208) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (46328) INFER: Saudavel | DSP 62 ms, NN 1022 us
+I (46458) INFER: Saudavel | DSP 63 ms, NN 1026 us
+I (46568) INFER: Saudavel | DSP 62 ms, NN 1022 us
+I (46688) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (46688) INFER: 9 janelas/s
+I (46758) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (46818) INFER: Saudavel | DSP 62 ms, NN 1040 us
+I (46928) INFER: Saudavel | DSP 61 ms, NN 1022 us
+I (47058) INFER: Saudavel | DSP 62 ms, NN 1311 us
+I (47168) INFER: Saudavel | DSP 61 ms, NN 1022 us
+I (47288) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (47408) INFER: Saudavel | DSP 61 ms, NN 1022 us
+I (47528) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (47648) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (47758) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (47768) INFER: Saudavel | DSP 62 ms, NN 1022 us
+I (47778) INFER: 9 janelas/s
+I (47888) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (48008) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (48138) INFER: Saudavel | DSP 62 ms, NN 1036 us
+I (48248) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (48368) INFER: Saudavel | DSP 61 ms, NN 1021 us
+I (48498) INFER: Saudavel | DSP 63 ms, NN 1028 us
+I (48618) INFER: Saudavel | DSP 62 ms, NN 1040 us
+I (48728) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (48768) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (48848) INFER: Saudavel | DSP 61 ms, NN 1028 us
+I (48848) INFER: 9 janelas/s
+I (48968) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (49088) INFER: Saudavel | DSP 61 ms, NN 1027 us
+I (49208) INFER: Saudavel | DSP 61 ms, NN 1022 us
+I (49338) INFER: Saudavel | DSP 63 ms, NN 1035 us
+I (49448) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (49568) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (49688) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (49768) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (49818) INFER: Saudavel | DSP 62 ms, NN 1033 us
+I (49938) INFER: Saudavel | DSP 64 ms, NN 1024 us
+I (49938) INFER: 9 janelas/s
+I (50048) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (50168) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (50288) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (50408) INFER: Saudavel | DSP 61 ms, NN 1020 us
+I (50538) INFER: Saudavel | DSP 63 ms, NN 1025 us
+I (50648) INFER: Saudavel | DSP 62 ms, NN 1026 us
+I (50768) INFER: Saudavel | DSP 62 ms, NN 1029 us
+I (50778) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (50888) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (51008) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (51008) INFER: 9 janelas/s
+I (51128) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (51248) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (51368) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (51498) INFER: Saudavel | DSP 63 ms, NN 1025 us
+I (51618) INFER: Saudavel | DSP 62 ms, NN 1035 us
+I (51728) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (51788) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (51848) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (51968) INFER: Saudavel | DSP 61 ms, NN 1021 us
+I (52098) INFER: Saudavel | DSP 63 ms, NN 1038 us
+I (52098) INFER: 9 janelas/s
+I (52218) INFER: Saudavel | DSP 63 ms, NN 1037 us
+I (52328) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (52448) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (52568) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (52688) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (52788) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (52818) INFER: Saudavel | DSP 62 ms, NN 1040 us
+I (52928) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (53048) INFER: Saudavel | DSP 61 ms, NN 1028 us
+I (53168) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (53168) INFER: 9 janelas/s
+I (53288) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (53408) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (53538) INFER: Saudavel | DSP 65 ms, NN 1024 us
+I (53658) INFER: Saudavel | DSP 63 ms, NN 1021 us
+I (53768) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (53798) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (53888) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (54008) INFER: Saudavel | DSP 61 ms, NN 1022 us
+I (54128) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (54248) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (54248) INFER: 9 janelas/s
+I (54368) INFER: Saudavel | DSP 61 ms, NN 1022 us
+I (54488) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (54608) INFER: Saudavel | DSP 61 ms, NN 1028 us
+I (54738) INFER: Saudavel | DSP 62 ms, NN 1034 us
+I (54798) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (54858) INFER: Saudavel | DSP 62 ms, NN 1036 us
+I (54968) INFER: Saudavel | DSP 61 ms, NN 1022 us
+I (55088) INFER: Saudavel | DSP 61 ms, NN 1030 us
+I (55208) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (55328) INFER: Saudavel | DSP 61 ms, NN 1029 us
+I (55328) INFER: 9 janelas/s
+I (55448) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (55578) INFER: Saudavel | DSP 64 ms, NN 1025 us
+I (55698) INFER: Saudavel | DSP 63 ms, NN 1026 us
+I (55808) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (55818) INFER: Saudavel | DSP 64 ms, NN 1022 us
+I (55928) INFER: Saudavel | DSP 61 ms, NN 1022 us
+I (56048) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (56178) INFER: Saudavel | DSP 63 ms, NN 1022 us
+I (56288) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (56408) INFER: Saudavel | DSP 61 ms, NN 1027 us
+I (56408) INFER: 9 janelas/s
+I (56538) INFER: Saudavel | DSP 63 ms, NN 1035 us
+I (56648) INFER: Saudavel | DSP 61 ms, NN 1028 us
+I (56768) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (56818) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (56888) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (57008) INFER: Saudavel | DSP 61 ms, NN 1022 us
+I (57128) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (57248) INFER: Saudavel | DSP 61 ms, NN 1025 us
+I (57368) INFER: Saudavel | DSP 61 ms, NN 1021 us
+I (57488) INFER: Saudavel | DSP 61 ms, NN 1139 us
+I (57488) INFER: 9 janelas/s
+I (57618) INFER: Saudavel | DSP 66 ms, NN 1025 us
+I (57728) INFER: Saudavel | DSP 61 ms, NN 1021 us
+I (57818) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (57858) INFER: Saudavel | DSP 62 ms, NN 1039 us
+I (57968) INFER: Saudavel | DSP 60 ms, NN 1024 us
+I (58088) INFER: Saudavel | DSP 61 ms, NN 1027 us
+I (58208) INFER: Saudavel | DSP 61 ms, NN 1028 us
+I (58328) INFER: Saudavel | DSP 62 ms, NN 1024 us
+I (58448) INFER: Saudavel | DSP 61 ms, NN 1023 us
+I (58578) INFER: Saudavel | DSP 63 ms, NN 1029 us
+I (58578) INFER: 9 janelas/s
+I (58688) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (58808) INFER: Saudavel | DSP 62 ms, NN 1026 us
+I (58818) ACQ: 100 amostras/s | leituras invalidas=0 | atrasos=0
+I (58928) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (59048) INFER: Saudavel | DSP 61 ms, NN 1024 us
+I (59168) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (59298) INFER: Saudavel | DSP 63 ms, NN 1028 us
+I (59418) INFER: Saudavel | DSP 62 ms, NN 1039 us
+I (59528) INFER: Saudavel | DSP 61 ms, NN 1026 us
+I (59658) INFER: Saudavel | DSP 64 ms, NN 1023 us
+I (59658) INFER: 9 janelas/s
+I (59768) INFER: Saudavel | DSP 62 ms, NN 1025 us
+I (59828) ACQ: 101 amostras/s | leituras invalidas=0 | atrasos=0
+I (59888) INFER: Saudavel | DSP 61 ms, NN 1027 us

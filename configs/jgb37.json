@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "motor": "jgb37-520",
+  "sensors": [
+    { "type": "ADXL345", "channels": 3, "range_g": 16 },
+    { "type": "INA219",  "channels": 1 }
+  ],
+  "window": { "sampling_hz": 100, "size_ms": 2560, "stride_ms": 128 },
+  "dsp": {
+    "fft_length": 16, "peaks": 3, "peaks_threshold": 0.1,
+    "power_edges": "0.1, 0.5, 1.0, 2.0, 5.0", "do_log": true, "fft_overlap": true,
+    "filter_type": "none", "filter_cutoff": 3.0, "filter_order": 6,
+    "scale_axes": 1.0, "decimation": 1
+  },
+  "model": {
+    "arena_bytes": 8192,
+    "features": 52,
+    "labels": ["Falha de engrenagem", "Saudavel", "Subtensao"]
+  }
+}

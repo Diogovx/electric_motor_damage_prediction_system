@@ -12,7 +12,7 @@ public:
     ModelManager& operator=(const ModelManager&) = delete;
 
     bool loadModelFromFS(const char* path);
-    void reconfigureArena(size_t size);
+    bool reconfigureArena(size_t size);
     int  runInterference(float* input);     // indice da classe; -1 em erro
 
 private:

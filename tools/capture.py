@@ -24,8 +24,8 @@ ser.dtr = False      # evita resetar a placa ao abrir a porta
 ser.rts = False
 ser.open()
 
-pat = re.compile(r"INFER: (Saudavel|Desbalanceamento|Falha de Engrenagem) \|")
-classes = ["Saudavel", "Desbalanceamento", "Falha de Engrenagem"]
+pat = re.compile(r"INFER: (Falha de engrenagem|Saudavel|Subtensao) \|")
+classes = ["Falha de engrenagem", "Saudavel", "Subtensao"]
 counts = collections.Counter()
 
 t0 = time.time()
